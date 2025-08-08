@@ -20,10 +20,11 @@ return new class extends Migration
             $table->string('hiragana')->nullable();
             $table->string('romaji')->nullable();
             $table->string('pinyin')->nullable();
+            $table->json('part_of_speech');
 
             // JSON arrays 
             $table->json('meanings');
-            $table->json('sentences_examples');
+            $table->json('sentence_examples');
             $table->json('dialogue_examples');
 
             // Stats & metadata

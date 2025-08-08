@@ -34,6 +34,9 @@ firebase-service-account.json
 /database/backups/
 .deployment-config
 
+# Vocabulary data files
+/database/seeders/*.json
+
 # IDE and OS files
 .vscode/settings.json
 *.swp

@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('vocabulary_entries', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('vocabulary_set_id')->constrained();
             $table->foreignId('language_id')->constrained();
 
             // Core word data

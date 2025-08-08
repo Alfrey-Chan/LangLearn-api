@@ -14,11 +14,11 @@ return new class extends Migration
         Schema::create('user_notes', function (Blueprint $table) {
             $table->string('user_id'); // Firebase UID
             $table->unsignedBigInteger('item_id');
-            $table->enum('note_type', ['vocabulary_set', 'vocabulary_entry']);
+            $table->enum('item_type', ['vocabulary_set', 'vocabulary_entry']);
             $table->enum('save_type', ['save', 'favourite']);
             $table->timestamps();
 
-            $table->primary(['user_id', 'note_type', 'item_id']);
+            $table->primary(['user_id', 'item_type', 'item_id']);
         });
     }
 

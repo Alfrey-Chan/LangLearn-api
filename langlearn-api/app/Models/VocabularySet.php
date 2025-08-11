@@ -25,6 +25,11 @@ class VocabularySet extends Model
 
     public function tags() 
     {
-        return $this->belongsToMany(Tag::class);
+        return $this->belongsToMany(Tag::class, 'vocabulary_set_tag');
+    }
+
+    public function ratings()
+    {
+        return $this->hasMany(Rating::class);
     }
 }

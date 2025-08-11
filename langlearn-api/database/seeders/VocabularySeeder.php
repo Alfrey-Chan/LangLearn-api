@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\VocabularySet;
 use App\Models\VocabularyEntry;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class VocabularySeeder extends Seeder
@@ -14,7 +15,7 @@ class VocabularySeeder extends Seeder
      */
     public function run(): void
     {
-        $jsonString = file_get_contents(database_path('seeders/coffee_shop_vocab.json'));
+        $jsonString = file_get_contents(database_path('seeders/sample.json'));
         $data = json_decode($jsonString, true);
 
         // Create vocabulary set 
@@ -45,5 +46,6 @@ class VocabularySeeder extends Seeder
             // ~ "This set contains this specific word entry"
             $set->vocabularyEntries()->attach($entry->id); 
         }
+        $set->tags()->attach([1, 3]); // 'daily conversation', 'restaurant' 
     }
 }

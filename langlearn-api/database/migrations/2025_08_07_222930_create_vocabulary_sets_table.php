@@ -20,7 +20,7 @@ return new class extends Migration
             $table->integer('views')->default(0);
             $table->double('rating')->default(0.0);
             $table->string('title');
-            $table->string('description');
+            $table->string('description')->nullable();
             $table->boolean('is_active')->default(true);
             $table->timestamps();
         });

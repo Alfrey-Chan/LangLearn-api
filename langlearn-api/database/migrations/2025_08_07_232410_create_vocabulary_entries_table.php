@@ -24,14 +24,13 @@ return new class extends Migration
 
             // JSON arrays 
             $table->json('meanings');
-            $table->json('sentence_examples');
-            $table->json('dialogue_examples');
 
             // Stats & metadata
             $table->integer('upvotes')->default(0);
             $table->integer('downvotes')->default(0);
             $table->integer('views')->default(0);
             $table->string('additional_notes')->nullable();
+            $table->json('related_words');
 
             $table->timestamps();
         });

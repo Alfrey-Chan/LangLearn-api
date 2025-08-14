@@ -13,8 +13,6 @@ class VocabularyEntry extends Model
         'romaji', 
         'pinyin', 
         'meanings', 
-        'sentence_examples', 
-        'dialogue_examples', 
         'additional_notes'
     ];
 
@@ -26,5 +24,15 @@ class VocabularyEntry extends Model
     public function vocabularySets()
     {
         return $this->belongsToMany(VocabularySet::class);
+    }
+
+    public function sentenceExamples()
+    {
+        return $this->hasMany(SentenceExample::class);
+    }
+
+    public function dialogueExamples()
+    {
+        return $this->hasMany(DialogueExample::class);
     }
 }

@@ -14,7 +14,7 @@ class VocabularySetController extends Controller
      */
     public function index()
     {
-        return VocabularySet::all();
+        return VocabularySet::withCount('vocabularyEntries')->get();
     }
 
     /**
@@ -40,7 +40,7 @@ class VocabularySetController extends Controller
      */
     public function show(string $id)
     {
-        return VocabularySet::findOrFail($id);
+        return VocabularySet::with('vocabularyEntries')->findOrFail($id);
     }
 
     /**

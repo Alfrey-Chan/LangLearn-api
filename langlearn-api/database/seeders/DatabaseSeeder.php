@@ -20,6 +20,6 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-        $this->call([LanguageSeeder::class, TagSeeder::class, VocabularySeeder::class]);
+        $this->call([LanguageSeeder::class, CategorySeeder::class, VocabularySeeder::class]);
     }
 }

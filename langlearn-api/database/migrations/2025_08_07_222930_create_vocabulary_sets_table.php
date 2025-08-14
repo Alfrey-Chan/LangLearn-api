@@ -21,6 +21,7 @@ return new class extends Migration
             $table->double('rating')->default(0.0);
             $table->string('title');
             $table->string('description')->nullable();
+            $table->string('image_url')->nullable();
             $table->boolean('is_active')->default(true);
             $table->timestamps();
         });

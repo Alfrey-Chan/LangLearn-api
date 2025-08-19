@@ -18,9 +18,8 @@ class User extends Authenticatable
      * @var list<string>
      */
     protected $fillable = [
-        'name',
+        'firebase_uid',
         'email',
-        'password',
     ];
 
     /**
@@ -29,7 +28,6 @@ class User extends Authenticatable
      * @var list<string>
      */
     protected $hidden = [
-        'password',
         'remember_token',
     ];
 
@@ -42,7 +40,24 @@ class User extends Authenticatable
     {
         return [
             'email_verified_at' => 'datetime',
-            'password' => 'hashed',
         ];
+    }
+
+    /**
+     * Find or create a user by Firebase UID
+     */
+    public static function findOrCreateByFirebaseUid(string $uid, array $userData = []): User
+    {
+        $user = static::where('firebase_uid', $uid)->first();
+        
+        if (!$user) {
+            $user = static::create([
+                'firebase_uid' => $uid,
+                'name' => $userData['name'] ?? '',
+                'email' => $userData['email'] ?? '',
+            ]);
+        }
+        
+        return $user;
     }
 }

@@ -40,7 +40,7 @@ class VocabularySetController extends Controller
      */
     public function show(string $id)
     {
-        return VocabularySet::with('vocabularyEntries')->findOrFail($id);
+        return VocabularySet::with(['vocabularyEntries', 'tags'])->findOrFail($id);
     }
 
     /**

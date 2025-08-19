@@ -15,8 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('language_id')->constrained();
             $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete(); 
-            $table->enum('type', ['premade', 'custom']);
-            $table->enum('difficulty', ['beginner', 'intermediate', 'advanced']);
+            $table->enum('difficulty', ['A1', 'A2', 'B1', 'B2', 'C1']);
             $table->integer('views')->default(0);
             $table->double('rating')->default(0.0);
             $table->string('title');

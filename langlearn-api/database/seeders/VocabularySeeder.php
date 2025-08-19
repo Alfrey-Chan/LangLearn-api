@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Tag;
+use App\Models\VocabularySet;
 use App\Models\DialogueExample;
 use App\Models\SentenceExample;
-use App\Models\VocabularySet;
 use App\Models\VocabularyEntry;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Log;
@@ -28,15 +29,16 @@ class VocabularySeeder extends Seeder
                 'language_id' => $setData['language_id'],
                 'title' => $setData['title'],
                 'description' => $setData['description'],
-                'type' => $setData['type'],
                 'difficulty' => $setData['difficulty'],
                 'image_url' => $setData['image_url'],
             ]);
+            $tagIds = Tag::whereIn('tag', $setData['tags'])->pluck('id')->toArray();
+            $set->tags()->sync($tagIds);
 
             // Create entries
             foreach($data['entries'] as $entryData) {
                 $entry = VocabularyEntry::create([
-                    'language_id' => 1,
+                    'language_id' => 2,
                     'word' => $entryData['word'],
                     'hiragana' => $entryData['hiragana'],
                     'romaji' => $entryData['romaji'],
@@ -66,7 +68,6 @@ class VocabularySeeder extends Seeder
                 // ~ "This set contains this specific word entry"
                 $set->vocabularyEntries()->attach($entry->id); 
             }
-            $set->tags()->attach([1, 3]); // 'daily conversation', 'restaurant' 
         }
         
     }

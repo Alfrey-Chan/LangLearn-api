@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rating extends Model
 {   
-    protected $fillable = ['user_id', 'rating'];
+    protected $fillable = ['user_id', 'rating', 'vocabulary_set_id'];
 
     public function VocabularySet() 
     {

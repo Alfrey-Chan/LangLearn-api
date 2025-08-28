@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Exception;
 use App\Models\User;
+use App\Models\UserStatistic;
 use Illuminate\Http\Request;
 use Kreait\Firebase\Factory;
 use Illuminate\Support\Facades\Log;
@@ -39,9 +40,12 @@ class AuthController extends Controller
                 ['email' => $email]
             );
 
+            $userStats = UserStatistic::where('firebase_uid', $uid);
+            
             return response()->json([
                 'message' => 'Login successful',
                 'user' => $user,
+                'user_stats' => $userStats,
             ], 200);
 
         } catch (Exception $e) {

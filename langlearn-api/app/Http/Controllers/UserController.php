@@ -2,12 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function profile()
+    public function profile(Request $request)
     {
-        Log::Info(auth()->user());
+        $firebaseUid = $request->attributes->get('firebase_uid');
+
+        $user = User::where('firebase_uid', $firebaseUid)->first();
+        $stats = $user->userStats;
+        
+        return response()->json([
+            'user_stats' => $stats,
+        ]);
     }
 }

@@ -3,9 +3,10 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
@@ -59,5 +60,85 @@ class User extends Authenticatable
         }
         
         return $user;
+    }
+
+    public function userStats() 
+    {
+        return $this->hasOne(UserStatistic::class, 'firebase_uid', 'firebase_uid');
+    }
+
+    // Relationship to get user's favorites
+    public function favourites()
+    {
+        return $this->hasMany(UserFavourite::class, 'firebase_uid', 'firebase_uid');
+    }
+
+    // Get user's favorited vocabulary entries
+    public function favouritedVocabularyEntries()
+    {
+        return $this->belongsToMany(VocabularyEntry::class, 'user_favourites', 'firebase_uid', 'vocabulary_entry_id', 'firebase_uid', 'id')
+            ->whereNotNull('user_favourites.vocabulary_entry_id');
+    }
+
+    // Get user's favorited vocabulary sets
+    public function favouritedVocabularySets()
+    {
+        return $this->belongsToMany(VocabularySet::class, 'user_favourites', 'firebase_uid', 'vocabulary_set_id', 'firebase_uid', 'id')
+            ->whereNotNull('user_favourites.vocabulary_set_id');
+    }
+
+    // Get user's quiz results with quiz info
+    public function quizResults()
+    {
+        return $this->hasMany(QuizResult::class, 'firebase_uid', 'firebase_uid');
+    }
+
+    // Get last quiz score for a specific quiz
+    public function getLastQuizScore($quizId)
+    {
+        return $this->quizResults()
+            ->where('quiz_id', $quizId)
+            ->latest()
+            ->first()?->score_percent;
+    }
+
+    // Get average score for a specific quiz
+    public function getAverageQuizScore($quizId)
+    {
+        return $this->quizResults()
+            ->where('quiz_id', $quizId)
+            ->avg('score_percent');
+    }
+
+    // Get all quizzes user has taken with their stats
+    public function getUserQuizStats()
+    {
+        return $this->quizResults()
+            ->with('quiz')
+            ->selectRaw('quiz_id, AVG(score_percent) as avg_score, MAX(score_percent) as best_score, COUNT(*) as attempts, MAX(created_at) as last_attempt, 
+            (SELECT score_percent FROM quiz_results qr2 WHERE qr2.firebase_uid = quiz_results.firebase_uid 
+            AND qr2.quiz_id = quiz_results.quiz_id ORDER BY qr2.created_at DESC LIMIT 1) as last_score')
+            ->groupBy('quiz_id')
+            ->get();
+    }
+
+    // Update user statistics after completing a quiz
+    public function updateUserStatistics()
+    {
+        $totalQuizzes = $this->quizResults()->count();
+        $averageScore = $this->quizResults()->avg('score_percent') ?? 0.00;
+        Log::Info("Total quizzes: " . $totalQuizzes);
+        Log::Info("Average score: " . $averageScore);
+        Log::Info("Firebase UID: " . $this->firebase_uid);
+        
+        $result = $this->userStats()->updateOrCreate(
+            ['firebase_uid' => $this->firebase_uid],
+            [
+                'total_quizzes' => $totalQuizzes,
+                'average_score' => round($averageScore, 2)
+            ]
+        );
+        
+        Log::Info("Update result - Firebase UID: " . $result->firebase_uid . ", Total quizzes: " . $result->total_quizzes . ", Average: " . $result->average_score);
     }
 }

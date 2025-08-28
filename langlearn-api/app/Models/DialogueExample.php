@@ -7,6 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class DialogueExample extends Model
 {
     protected $fillable = ['vocabulary_entry_id', 'dialogue_data', 'upvotes', 'downvotes'];
+    
+    protected $casts = [
+        'dialogue_data' => 'array',
+    ];
 
     public function vocabularyEntry()
     {

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class VocabularySet extends Model
 {
-    protected $fillable = ['language_id', 'user_id', 'type', 'difficulty', 'title', 'description', 'is_active', 'image_url'];
+    protected $fillable = ['language_id', 'user_id', 'type', 'difficulty', 'title', 'description', 'is_active', 'image_url', 'rating'];
 
     public function vocabularyEntries() 
     {

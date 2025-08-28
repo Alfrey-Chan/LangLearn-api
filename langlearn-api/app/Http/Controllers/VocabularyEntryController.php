@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\UserFavourite;
 use App\Models\DialogueExample;
 use App\Models\SentenceExample;
 use App\Models\VocabularyEntry;
@@ -61,11 +62,21 @@ class VocabularyEntryController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
-    {
-        $entry = VocabularyEntry::with(['sentenceExamples', 'dialogueExamples'])->findOrFail($id);
-        return response()->json($entry, 200);
-    }
+    public function show(Request $request, string $id)
+  {
+      $entry = VocabularyEntry::with(['sentenceExamples', 'dialogueExamples'])->findOrFail($id);
+
+      $firebaseUid = $request->attributes->get('firebase_uid');
+      if ($firebaseUid) {
+          // Check if entry is favorited
+          $entryFavorited = UserFavourite::where('firebase_uid', $firebaseUid)
+              ->where('vocabulary_entry_id', $id)
+              ->exists();
+          $entry->isFavourited = $entryFavorited;
+      }
+
+      return response()->json($entry, 200);
+  }
 
     /**
      * Update the specified resource in storage.
@@ -88,7 +99,7 @@ class VocabularyEntryController extends Controller
     public function voteExample(Request $request)
     {
         $validated = $request->validate([
-            'user_id' => 'required|string',
+            'firebase_uid' => 'required|string',
             'example_id' => 'required|integer',
             'is_upvote' => 'required|boolean',
             'example_type' => ['required', Rule::in('sentence', 'dialogue')],
@@ -99,7 +110,7 @@ class VocabularyEntryController extends Controller
             : DialogueExample::findOrFail($validated['example_id']);
         
         $voteType = $validated['is_upvote'] === true ? 'upvote' : 'downvote';
-        $example->addVote($validated['user_id'], $voteType);
+        $example->addVote($validated['firebase_uid'], $voteType);
 
         return response()->json(['message' => 'Vote recorded', 'example' => $example], 200);
     }

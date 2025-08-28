@@ -8,6 +8,10 @@ class SentenceExample extends Model
 {
     protected $fillable = ['vocabulary_entry_id', 'sentence_data', 'upvotes', 'downvotes'];
 
+    protected $casts = [
+        'sentence_data' => 'array',
+    ];
+
     public function vocabularyEntry() 
     {
         return $this->belongsTo(VocabularyEntry::class);

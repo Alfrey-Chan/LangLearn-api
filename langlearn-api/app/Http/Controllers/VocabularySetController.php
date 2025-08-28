@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\Rating;
 use Illuminate\Http\Request;
+use App\Models\UserFavourite;
 use App\Models\VocabularySet;
 use Illuminate\Validation\Rule;
+use Illuminate\Support\Facades\Log;
 
 class VocabularySetController extends Controller
 {
@@ -38,9 +40,38 @@ class VocabularySetController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Request $request, string $id)
     {
-        return VocabularySet::with(['vocabularyEntries', 'tags'])->findOrFail($id);
+        $set = VocabularySet::with(['vocabularyEntries', 'tags'])->findOrFail($id);
+        $set->total_ratings = $set->ratings()->count();
+
+        $firebaseUid = $request->attributes->get('firebase_uid');
+        if ($firebaseUid) {
+            // User's rating for this set
+            $userRating = $set->ratings()
+                ->where('user_id', $firebaseUid)
+                ->first();
+            $set->user_rating = $userRating ? $userRating->rating : null;
+
+            // Check if set is favorited
+            $setFavorited = UserFavourite::where('firebase_uid', $firebaseUid)
+                ->where('vocabulary_set_id', $id)
+                ->exists();
+            $set->isFavourited = $setFavorited;
+
+            // Get favorited vocabulary entry IDs for this user
+            $favoritedEntryIds = UserFavourite::where('firebase_uid', $firebaseUid)
+                ->whereNotNull('vocabulary_entry_id')
+                ->pluck('vocabulary_entry_id')
+                ->toArray();
+
+            // Add isFavourited to each vocabulary entry
+            $set->vocabularyEntries->transform(function ($entry) use ($favoritedEntryIds) {
+                $entry->isFavourited = in_array($entry->id, $favoritedEntryIds);
+                return $entry;
+            });
+        }
+        return $set;
     }
 
     /**
@@ -74,21 +105,21 @@ class VocabularySetController extends Controller
     {
         $set = VocabularySet::findOrFail($id);
         $set->increment('views');
-        return response()->json($set, 200);
+        return response()->json(['views' => $set->views], 200);
     }
 
     public function rate(Request $request, string $id)
     {   
         $request->validate([
             'rating' => 'required|integer|min:1|max:5',
-            'user_id' => 'required|string'
+            'firebase_uid' => 'required|string'
         ]);
 
         $set = VocabularySet::findOrFail($id);
 
         $rating = Rating::updateOrCreate(
             [
-                'user_id' => $request->user_id,
+                'user_id' => $request->firebase_uid,
                 'vocabulary_set_id' => $id
             ],
             [
@@ -100,7 +131,8 @@ class VocabularySetController extends Controller
         $set->update(['rating' => round($avgRating, 2)]);
 
         return response()->json([
-            'average_rating' => $set->fresh()->rating
+            'average_rating' => $set->fresh()->rating,
+            'total_ratings' => $set->ratings()->count()
         ], 200);
     }
 

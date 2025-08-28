@@ -16,6 +16,12 @@ class VocabularyEntry extends Model
         'additional_notes'
     ];
 
+    protected $casts = [
+      'part_of_speech' => 'array',
+      'meanings' => 'array',
+      'related_words' => 'array',
+    ];
+
     public function language()
     {
         return $this->belongsTo(Language::class);

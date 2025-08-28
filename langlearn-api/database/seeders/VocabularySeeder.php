@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Tag;
+use App\Models\Quiz;
+use App\Models\Question;
 use App\Models\VocabularySet;
 use App\Models\DialogueExample;
 use App\Models\SentenceExample;
@@ -18,7 +20,7 @@ class VocabularySeeder extends Seeder
      */
     public function run(): void
     {   
-        $jsonFiles = glob(database_path('seeders/data/*.json'));
+        $jsonFiles = glob(database_path('seeders/data/vocab_sets/*.json'));
         foreach ($jsonFiles as $filePath) {
             $jsonString = file_get_contents($filePath);
             $data = json_decode($jsonString, true); 
@@ -34,6 +36,7 @@ class VocabularySeeder extends Seeder
             ]);
             $tagIds = Tag::whereIn('tag', $setData['tags'])->pluck('id')->toArray();
             $set->tags()->sync($tagIds);
+            $this->seedQuizzes($set->id, $filePath);
 
             // Create entries
             foreach($data['entries'] as $entryData) {
@@ -42,17 +45,17 @@ class VocabularySeeder extends Seeder
                     'word' => $entryData['word'],
                     'hiragana' => $entryData['hiragana'],
                     'romaji' => $entryData['romaji'],
-                    'part_of_speech' => json_encode($entryData['part_of_speech']),
-                    'meanings' => json_encode($entryData['meanings']),
+                    'part_of_speech' => $entryData['part_of_speech'],
+                    'meanings' => $entryData['meanings'],
                     'additional_notes' => $entryData['additional_notes'],
-                    'related_words' => json_encode($entryData['related_words']),
+                    'related_words' => $entryData['related_words'],
                 ]);
 
                 // Create sentence examples
                 foreach($entryData['sentence_examples'] as $sentenceExample) {
                     $sentenceExample = SentenceExample::create([
                         'vocabulary_entry_id' => $entry->id,
-                        'sentence_data' => json_encode($sentenceExample),
+                        'sentence_data' => $sentenceExample,
                     ]);
                 }
 
@@ -60,7 +63,7 @@ class VocabularySeeder extends Seeder
                 foreach($entryData['dialogue_examples'] as $dialogueExample) {
                     DialogueExample::create([
                         'vocabulary_entry_id' => $entry->id,
-                        'dialogue_data' => json_encode($dialogueExample['example']), // Access the 'example' key
+                        'dialogue_data' => $dialogueExample['example'], // Access the 'example' key
                     ]);
                 }
 
@@ -69,6 +72,32 @@ class VocabularySeeder extends Seeder
                 $set->vocabularyEntries()->attach($entry->id); 
             }
         }
-        
+    }
+
+    protected function seedQuizzes($vocabSetId, $vocabSetFilePath)
+    {
+        $baseName = pathinfo($vocabSetFilePath, PATHINFO_FILENAME);
+        $quizFilePath = database_path("seeders/data/quizzes/{$baseName}_quiz.json");
+
+        if (!file_exists($quizFilePath)) {
+            Log::warning("Quiz file not found: {$quizFilePath}");
+            return;
+        }
+
+        $jsonString = file_get_contents($quizFilePath);
+        $data = json_decode($jsonString, true);
+
+        $quiz = Quiz::create([
+            "vocabulary_set_id" => $vocabSetId,
+            "title" => $data["title"],
+            "version" => $data["version"],
+        ]);
+
+        foreach ($data["items"] as $item) {
+            Question::create([
+                "quiz_id" => $quiz->id,
+                "items" => $item,
+            ]);
+        }
     }
 }

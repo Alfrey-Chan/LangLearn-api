@@ -3,10 +3,13 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Http\Request;
-use Symfony\Component\HttpFoundation\Response;
-use Kreait\Firebase\Auth;
 use Exception;
+use App\Models\User;
+use Kreait\Firebase\Auth;
+use Illuminate\Http\Request;
+use App\Models\UserStatistic;
+use Illuminate\Support\Facades\Log;
+use Symfony\Component\HttpFoundation\Response;
 
 class FirebaseAuth
 {
@@ -19,7 +22,7 @@ class FirebaseAuth
     {
         // Get the Bearer token
         $token = $request->bearerToken();
-        
+
         if (!$token) {
             return response()->json(['error' => 'Authorization token required'], 401);
         }
@@ -40,10 +43,58 @@ class FirebaseAuth
             $request->attributes->set('firebase_email', $email);
             $request->attributes->set('firebase_user', $verifiedIdToken->claims()->all());
 
+            // Create user if doesn't exist
+            User::updateOrCreate(
+                ['firebase_uid' => $uid],
+                ['email' => $email]
+            );
+            
+            // Update streak on any activity
+            $this->updateUserStreak($uid);
+           
+
             return $next($request);
 
         } catch (Exception $e) {
-            return response()->json(['error' => 'Invalid or expired token'], 401);
+            Log::error('Firebase Auth Error: ' . $e->getMessage());
+            return response()->json(['error' => 'Invalid or expired token', 'debug' => $e->getMessage()], 401);
+        }
+    }
+
+    private function updateUserStreak($uid)
+    {
+        $stats = UserStatistic::updateOrCreate(['firebase_uid' => $uid], ['firebase_uid' => $uid]);
+        $today = now()->toDateString();
+        
+        // Only run once per day per user
+        if ($stats->last_activity_date === $today) {
+            return; // Already processed today
+        }
+        
+        $lastActivity = $stats->last_activity_date;
+        
+        if (!$lastActivity) {
+            // First time user
+            $stats->update([
+                'last_activity_date' => $today,
+                'current_streak' => 1,
+                'longest_streak' => 1
+            ]);
+        } elseif ($lastActivity === now()->subDay()->toDateString()) {
+            // Consecutive day - increment streak
+            $newStreak = $stats->current_streak + 1;
+            $stats->update([
+                'last_activity_date' => $today,
+                'current_streak' => $newStreak,
+                'longest_streak' => max($stats->longest_streak, $newStreak)
+            ]);
+        } else {
+            // Missed a day - reset streak
+            $stats->update([
+                'last_activity_date' => $today,
+                'current_streak' => 1,
+                'longest_streak' => max($stats->longest_streak, 1)
+            ]);
         }
     }
 }

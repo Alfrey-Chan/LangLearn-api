@@ -6,8 +6,6 @@ use Exception;
 use App\Models\User;
 use App\Models\UserStatistic;
 use Illuminate\Http\Request;
-use Kreait\Firebase\Factory;
-use Illuminate\Support\Facades\Log;
 use Kreait\Firebase\Auth as FirebaseAuth;
 
 class AuthController extends Controller
@@ -40,7 +38,7 @@ class AuthController extends Controller
                 ['email' => $email]
             );
 
-            $userStats = UserStatistic::where('firebase_uid', $uid);
+            $userStats = UserStatistic::where('firebase_uid', $uid)->first();
             
             return response()->json([
                 'message' => 'Login successful',

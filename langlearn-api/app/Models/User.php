@@ -127,9 +127,6 @@ class User extends Authenticatable
     {
         $totalQuizzes = $this->quizResults()->count();
         $averageScore = $this->quizResults()->avg('score_percent') ?? 0.00;
-        Log::Info("Total quizzes: " . $totalQuizzes);
-        Log::Info("Average score: " . $averageScore);
-        Log::Info("Firebase UID: " . $this->firebase_uid);
         
         $result = $this->userStats()->updateOrCreate(
             ['firebase_uid' => $this->firebase_uid],
@@ -138,7 +135,5 @@ class User extends Authenticatable
                 'average_score' => round($averageScore, 2)
             ]
         );
-        
-        Log::Info("Update result - Firebase UID: " . $result->firebase_uid . ", Total quizzes: " . $result->total_quizzes . ", Average: " . $result->average_score);
     }
 }

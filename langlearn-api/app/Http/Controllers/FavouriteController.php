@@ -78,9 +78,6 @@ class FavouriteController extends Controller
             ->where('vocabulary_entry_id', $request->vocabulary_entry_id ?? null)
             ->where('vocabulary_set_id', $request->vocabulary_set_id ?? null)
             ->delete();
-
-        Log::Info('Deleted count: ' . $deletedCount);
-
-        return response()->json(['message' => 'Removed from favorites'], 200);
+        return response()->json(['message' => 'Removed from favourites'], 200);
     }
 }

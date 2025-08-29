@@ -6,6 +6,7 @@ cmds = [
   "rm -rf bootstrap/cache/*.php",
   "composer install --no-dev --optimize-autoloader --no-scripts",
   "cp .env.example .env",
+  "mkdir -p database",
   "touch database/database.sqlite"
 ]
 

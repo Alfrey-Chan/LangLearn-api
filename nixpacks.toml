@@ -12,4 +12,4 @@ cmds = [
 ]
 
 [phases.start]
-cmd = "cd langlearn-api && mkdir -p storage/firebase && echo \"$FIREBASE_CREDENTIALS_JSON\" > storage/firebase/firebase_credentials.json && php artisan key:generate --force && php artisan migrate --force && php artisan db:seed --force && php artisan serve --host=0.0.0.0 --port=$PORT"
+cmd = "bash start.sh"

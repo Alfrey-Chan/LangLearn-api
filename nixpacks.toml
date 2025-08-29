@@ -6,12 +6,11 @@ nixPkgs = ["php82", "php82Packages.composer"]
 
 [phases.build]
 cmds = [
-  "cd langlearn-api",
-  "composer install --no-dev --optimize-autoloader",
-  "touch database/database.sqlite",
-  "php artisan key:generate --force",
-  "php artisan migrate --force",
-  "php artisan db:seed --force"
+  "cd langlearn-api && composer install --no-dev --optimize-autoloader",
+  "cd langlearn-api && touch database/database.sqlite",
+  "cd langlearn-api && php artisan key:generate --force",
+  "cd langlearn-api && php artisan migrate --force",
+  "cd langlearn-api && php artisan db:seed --force"
 ]
 
 [start]

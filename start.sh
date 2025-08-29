@@ -11,9 +11,11 @@ echo "$FIREBASE_CREDENTIALS_JSON" > storage/firebase/firebase_credentials.json
 echo "Generating application key..."
 php artisan key:generate --force
 
-# Clear and cache configuration
-echo "Clearing configuration cache..."
+# Clear all caches and regenerate service providers
+echo "Clearing all caches..."
 php artisan config:clear
+php artisan cache:clear
+php artisan optimize:clear
 php artisan config:cache
 
 # Run database migrations

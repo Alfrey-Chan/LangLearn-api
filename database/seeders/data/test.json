@@ -1,0 +1,1274 @@
+{
+  "vocabulary_set": {
+    "title": "Restaurant Dining Basics",
+    "description": "Essential polite expressions and nouns for ordering, asking for help, and paying at restaurants. Examples also show everyday uses beyond dining.",
+    "difficulty": "A2",
+    "language_id": 2,
+    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+    "category": "Daily Life",
+    "tags": [
+      "A2",
+      "polite",
+      "restaurant",
+      "dining",
+      "daily life"
+    ]
+  },
+  "entries": [
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "verb",
+        "transitive"
+      ],
+      "word": "予約する",
+      "hiragana": "よやくする",
+      "romaji": "yoyaku suru",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "to reserve",
+          "long": "To make a booking for a table, seat, or service in advance. Common at restaurants, salons, and clinics; can also mean to secure a slot or item."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "明日の七時にテーブルを予約します。",
+          "translation": {
+            "translation": "I'll reserve a table for seven o'clock tomorrow.",
+            "hiragana": "あしたのしちじにてーぶるをよやくします。",
+            "romaji": "Ashita no shichiji ni tēburu o yoyaku shimasu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "病院でもオンラインで予約できます。",
+          "translation": {
+            "translation": "You can make a reservation online even for the hospital.",
+            "hiragana": "びょういんでもおんらいんでよやくできます。",
+            "romaji": "Byōin demo onrain de yoyaku dekimasu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "友だちのために席を予約しておきました。",
+          "translation": {
+            "translation": "I went ahead and reserved seats for my friends.",
+            "hiragana": "ともだちのためにせきをよやくしておきました。",
+            "romaji": "Tomodachi no tame ni seki o yoyaku shite okimashita.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "予約は必要ですか。",
+              "translation": {
+                "translation": "Do we need a reservation?",
+                "hiragana": "よやくはひつようですか。",
+                "romaji": "Yoyaku wa hitsuyō desu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "土日は混むので、していただくと安心です。",
+              "translation": {
+                "translation": "Weekends get crowded, so it's safer if you make one.",
+                "hiragana": "どにちはこむので、していただくとあんしんです。",
+                "romaji": "Donichi wa komu node, shite itadaku to anshin desu.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "今夜、二名で七時に予約したチャンです。",
+              "translation": {
+                "translation": "I'm Chan; I reserved for two at seven tonight.",
+                "hiragana": "こんや、にめいでしちじによやくしたちゃんです。",
+                "romaji": "Kon'ya, nimei de shichiji ni yoyaku shita Chan desu.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "お待ちしておりました。こちらへどうぞ。",
+              "translation": {
+                "translation": "We've been expecting you. This way, please.",
+                "hiragana": "おまちしておりました。こちらへどうぞ。",
+                "romaji": "Omachi shite orimashita. Kochira e dōzo.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "席",
+          "hiragana": "せき",
+          "definition": "seat"
+        },
+        {
+          "word": "人数",
+          "hiragana": "にんずう",
+          "definition": "number of people"
+        },
+        {
+          "word": "テーブル",
+          "hiragana": "てーぶる",
+          "definition": "table"
+        },
+        {
+          "word": "空き",
+          "hiragana": "あき",
+          "definition": "vacancy"
+        },
+        {
+          "word": "変更する",
+          "hiragana": "へんこうする",
+          "definition": "to change"
+        }
+      ],
+      "additional_notes": "Use を when reserving an item/seat (席を予約する) and で when specifying the place/method (電話で予約する). ‘予約を取る/取れた' is common in speech."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "noun"
+      ],
+      "word": "メニュー",
+      "hiragana": "めにゅー",
+      "romaji": "menyū",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "menu",
+          "long": "A list of dishes and drinks offered. Also used for a list of options in apps or devices."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "メニューを見せていただけますか。",
+          "translation": {
+            "translation": "May I see the menu?",
+            "hiragana": "めにゅーをみせていただけますか。",
+            "romaji": "Menyū o misete itadakemasu ka.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "このアプリの設定メニューはどこですか。",
+          "translation": {
+            "translation": "Where is the settings menu in this app?",
+            "hiragana": "このあぷりのせっていめにゅーはどこですか。",
+            "romaji": "Kono apuri no settei menyū wa doko desu ka.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "今日のランチメニューはカレーです。",
+          "translation": {
+            "translation": "Today's lunch menu is curry.",
+            "hiragana": "きょうのらんちめにゅーはかれーです。",
+            "romaji": "Kyō no ranchi menyū wa karē desu.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "英語のメニューはありますか。",
+              "translation": {
+                "translation": "Do you have an English menu?",
+                "hiragana": "えいごのめにゅーはありますか。",
+                "romaji": "Eigo no menyū wa arimasu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "はい、こちらです。",
+              "translation": {
+                "translation": "Yes, here you are.",
+                "hiragana": "はい、こちらです。",
+                "romaji": "Hai, kochira desu.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "おすすめはどれですか。",
+              "translation": {
+                "translation": "Which do you recommend?",
+                "hiragana": "おすすめはどれですか。",
+                "romaji": "Osusume wa dore desu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "人気のメニューは日替わり定食です。",
+              "translation": {
+                "translation": "The popular menu item is the daily special set.",
+                "hiragana": "にんきのめにゅーはひがわりていしょくです。",
+                "romaji": "Ninki no menyū wa higawari teishoku desu.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "料理",
+          "hiragana": "りょうり",
+          "definition": "dish"
+        },
+        {
+          "word": "飲み物",
+          "hiragana": "のみもの",
+          "definition": "drink"
+        },
+        {
+          "word": "日替わり",
+          "hiragana": "ひがわり",
+          "definition": "daily special"
+        },
+        {
+          "word": "おすすめ",
+          "hiragana": "おすすめ",
+          "definition": "recommendation"
+        },
+        {
+          "word": "価格",
+          "hiragana": "かかく",
+          "definition": "price"
+        }
+      ],
+      "additional_notes": "Saying 『メニューをお願いします』 is a natural polite request. ‘グランドメニュー' = full regular menu; ‘期間限定' = limited-time items."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "verb",
+        "transitive"
+      ],
+      "word": "注文する",
+      "hiragana": "ちゅうもんする",
+      "romaji": "chūmon suru",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "to order",
+          "long": "To request food, drinks, or goods; also used for online shopping and custom requests."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "ラーメンを一つ注文します。",
+          "translation": {
+            "translation": "I'll order one ramen.",
+            "hiragana": "らーめんをひとつちゅうもんします。",
+            "romaji": "Rāmen o hitotsu chūmon shimasu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "ネットで本を注文しました。",
+          "translation": {
+            "translation": "I ordered a book online.",
+            "hiragana": "ねっとでほんをちゅうもんしました。",
+            "romaji": "Netto de hon o chūmon shimashita.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "追加で餃子も注文していいですか。",
+          "translation": {
+            "translation": "May I also order dumplings additionally?",
+            "hiragana": "ついかでぎょうざもちゅうもんしていいですか。",
+            "romaji": "Tsui ka de gyōza mo chūmon shite ii desu ka.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "ご注文よろしいですか。",
+              "translation": {
+                "translation": "Are you ready to order?",
+                "hiragana": "ごちゅうもんよろしいですか。",
+                "romaji": "Gochūmon yoroshii desu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "はい、定食をお願いします。",
+              "translation": {
+                "translation": "Yes, the set meal please.",
+                "hiragana": "はい、ていしょくをおねがいします。",
+                "romaji": "Hai, teishoku o onegai shimasu.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "A",
+              "line": "以上でよろしいですか。",
+              "translation": {
+                "translation": "Will that be all?",
+                "hiragana": "いじょうでよろしいですか。",
+                "romaji": "Ijō de yoroshii desu ka.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "B",
+              "line": "すみません、飲み物を先に注文してもいいですか。",
+              "translation": {
+                "translation": "Excuse me, may I order drinks first?",
+                "hiragana": "すみません、のみものをさきにちゅうもんしてもいいですか。",
+                "romaji": "Sumimasen, nomimono o saki ni chūmon shite mo ii desu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "A",
+              "line": "はい、どうぞ。",
+              "translation": {
+                "translation": "Yes, go ahead.",
+                "hiragana": "はい、どうぞ。",
+                "romaji": "Hai, dōzo.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "追加",
+          "hiragana": "ついか",
+          "definition": "add-on"
+        },
+        {
+          "word": "お願いします",
+          "hiragana": "おねがいします",
+          "definition": "please"
+        },
+        {
+          "word": "ください",
+          "hiragana": "ください",
+          "definition": "please"
+        },
+        {
+          "word": "メニュー",
+          "hiragana": "めにゅー",
+          "definition": "menu"
+        },
+        {
+          "word": "確認する",
+          "hiragana": "かくにんする",
+          "definition": "to confirm"
+        }
+      ],
+      "additional_notes": "Use counters naturally (一つ・二つ or ～人前). ‘お願いします' sounds slightly softer than simply saying the item + ください when ordering full dishes."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "noun",
+        "polite prefix"
+      ],
+      "word": "お水",
+      "hiragana": "おみず",
+      "romaji": "omizu",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "water",
+          "long": "Drinking water; the polite prefix お adds softness. Often offered free at casual Japanese restaurants."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "お水をもう一杯いただけますか。",
+          "translation": {
+            "translation": "May I have one more glass of water?",
+            "hiragana": "おみずをもういっぱいいただけますか。",
+            "romaji": "Omizu o mō ippai itadakemasu ka.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "山ではお水がとても冷たいです。",
+          "translation": {
+            "translation": "In the mountains, the water is very cold.",
+            "hiragana": "やまではおみずがとてもつめたいです。",
+            "romaji": "Yama de wa omizu ga totemo tsumetai desu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "薬はお水で飲んでください。",
+          "translation": {
+            "translation": "Please take the medicine with water.",
+            "hiragana": "くすりはおみずでのんでください。",
+            "romaji": "Kusuri wa omizu de nonde kudasai.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "すみません、お水はセルフですか。",
+              "translation": {
+                "translation": "Excuse me, is the water self-serve?",
+                "hiragana": "すみません、おみずはせるふですか。",
+                "romaji": "Sumimasen, omizu wa serufu desu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "はい、あちらからどうぞ。",
+              "translation": {
+                "translation": "Yes, please help yourself over there.",
+                "hiragana": "はい、あちらからどうぞ。",
+                "romaji": "Hai, achira kara dōzo.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "お水を二つお願いします。",
+              "translation": {
+                "translation": "Two waters, please.",
+                "hiragana": "おみずをふたつおねがいします。",
+                "romaji": "Omizu o futatsu onegai shimasu.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "かしこまりました。",
+              "translation": {
+                "translation": "Certainly.",
+                "hiragana": "かしこまりました。",
+                "romaji": "Kashikomarimashita.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "お茶",
+          "hiragana": "おちゃ",
+          "definition": "tea"
+        },
+        {
+          "word": "氷",
+          "hiragana": "こおり",
+          "definition": "ice"
+        },
+        {
+          "word": "グラス",
+          "hiragana": "ぐらす",
+          "definition": "glass"
+        },
+        {
+          "word": "お冷や",
+          "hiragana": "おひや",
+          "definition": "cold water"
+        },
+        {
+          "word": "ピッチャー",
+          "hiragana": "ぴっちゃー",
+          "definition": "pitcher"
+        }
+      ],
+      "additional_notes": "In casual eateries, cold water is often called 『お冷(ひや)』. Using お makes it polite; plain 水 is fine in neutral contexts."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "noun"
+      ],
+      "word": "お会計",
+      "hiragana": "おかいけい",
+      "romaji": "okaikei",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "bill; checkout",
+          "long": "The act or total of payment at a restaurant or store. Often used in the set phrase お会計をお願いします。"
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "お会計をお願いします。",
+          "translation": {
+            "translation": "The bill, please.",
+            "hiragana": "おかいけいをおねがいします。",
+            "romaji": "Okaikei o onegai shimasu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "お会計はレジでお願いします。",
+          "translation": {
+            "translation": "Please pay at the register.",
+            "hiragana": "おかいけいはれじでおねがいします。",
+            "romaji": "Okaikei wa reji de onegai shimasu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "昨日の飲み会のお会計はいくらでしたか。",
+          "translation": {
+            "translation": "How much was the bill for last night's party?",
+            "hiragana": "きのうののみかいのおかいけいはいくらでしたか。",
+            "romaji": "Kinō no nomikai no okaikei wa ikura deshita ka.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "お会計はご一緒でよろしいですか。",
+              "translation": {
+                "translation": "Will this be on one bill?",
+                "hiragana": "おかいけいはごいっしょでよろしいですか。",
+                "romaji": "Okaikei wa goissho de yoroshii desu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "はい、一緒でお願いします。",
+              "translation": {
+                "translation": "Yes, together please.",
+                "hiragana": "はい、いっしょでおねがいします。",
+                "romaji": "Hai, issho de onegai shimasu.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "B",
+              "line": "現金とカード、どちらにしますか。",
+              "translation": {
+                "translation": "Cash or card?",
+                "hiragana": "げんきんとかーど、どちらにしますか。",
+                "romaji": "Genkin to kādo, dochira ni shimasu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "A",
+              "line": "カードでお願いします。",
+              "translation": {
+                "translation": "Card, please.",
+                "hiragana": "かーどでおねがいします。",
+                "romaji": "Kādo de onegai shimasu.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "伝票",
+          "hiragana": "でんぴょう",
+          "definition": "bill slip"
+        },
+        {
+          "word": "レジ",
+          "hiragana": "れじ",
+          "definition": "cash register"
+        },
+        {
+          "word": "支払い",
+          "hiragana": "しはらい",
+          "definition": "payment"
+        },
+        {
+          "word": "領収書",
+          "hiragana": "りょうしゅうしょ",
+          "definition": "receipt"
+        },
+        {
+          "word": "別々",
+          "hiragana": "べつべつ",
+          "definition": "separately"
+        }
+      ],
+      "additional_notes": "At some restaurants, you bring the 小さな伝票 to the register. Saying 『ごちそうさまでした』 when leaving is a polite custom."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "noun"
+      ],
+      "word": "おすすめ",
+      "hiragana": "おすすめ",
+      "romaji": "osusume",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "recommendation",
+          "long": "Something recommended by someone; frequently used to ask staff for a popular or suitable item."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "今日のおすすめは何ですか。",
+          "translation": {
+            "translation": "What's today's recommendation?",
+            "hiragana": "きょうのおすすめはなんですか。",
+            "romaji": "Kyō no osusume wa nan desu ka.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "映画のおすすめがあれば教えてください。",
+          "translation": {
+            "translation": "If you have any movie recommendations, please tell me.",
+            "hiragana": "えいがのおすすめがあればおしえてください。",
+            "romaji": "Eiga no osusume ga areba oshiete kudasai.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "友人おすすめの本を読みました。",
+          "translation": {
+            "translation": "I read a book my friend recommended.",
+            "hiragana": "ゆうじんおすすめのほんをよみました。",
+            "romaji": "Yūjin osusume no hon o yomimashita.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "辛いのが苦手ですが、おすすめはありますか。",
+              "translation": {
+                "translation": "I'm not good with spicy food; do you have any recommendations?",
+                "hiragana": "からいのがにがてですが、おすすめはありますか。",
+                "romaji": "Karai no ga nigate desu ga, osusume wa arimasu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "こちらのチキンは辛くありません。",
+              "translation": {
+                "translation": "This chicken isn't spicy.",
+                "hiragana": "こちらのちきんはからくありません。",
+                "romaji": "Kochira no chikin wa karaku arimasen.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "B",
+              "line": "迷ったら店員のおすすめにします。",
+              "translation": {
+                "translation": "If you can't decide, go with the staff's recommendation.",
+                "hiragana": "まよったらてんいんのおすすめにします。",
+                "romaji": "Mayottara ten'in no osusume ni shimasu.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "A",
+              "line": "では、季節のパスタはいかがでしょうか。",
+              "translation": {
+                "translation": "In that case, how about the seasonal pasta?",
+                "hiragana": "では、きせつのぱすたはいかがでしょうか。",
+                "romaji": "Dewa, kisetsu no pasuta wa ikaga deshō ka.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "人気",
+          "hiragana": "にんき",
+          "definition": "popularity"
+        },
+        {
+          "word": "名物",
+          "hiragana": "めいぶつ",
+          "definition": "specialty"
+        },
+        {
+          "word": "日替わり",
+          "hiragana": "ひがわり",
+          "definition": "daily special"
+        },
+        {
+          "word": "特製",
+          "hiragana": "とくせい",
+          "definition": "house special"
+        },
+        {
+          "word": "旬",
+          "hiragana": "しゅん",
+          "definition": "in season"
+        }
+      ],
+      "additional_notes": "As a noun, おすすめ pairs with は/を. The verb is 勧める (すすめる). Staff may also say 『本日のイチオシ』 (today's top pick)."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "expression",
+        "polite request"
+      ],
+      "word": "〜をください",
+      "hiragana": "〜をください",
+      "romaji": "~ o kudasai",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "… please",
+          "long": "A polite way to request an item or service. Often used after a noun to ask for what you want."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "水をください。",
+          "translation": {
+            "translation": "Water, please.",
+            "hiragana": "みずをください。",
+            "romaji": "Mizu o kudasai.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "駅までの地図をください。",
+          "translation": {
+            "translation": "Please give me a map to the station.",
+            "hiragana": "えきまでのちずをください。",
+            "romaji": "Eki made no chizu o kudasai.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "その青いシャツをください。",
+          "translation": {
+            "translation": "I'll take that blue shirt, please.",
+            "hiragana": "そのあおいしゃつをください。",
+            "romaji": "Sono aoi shatsu o kudasai.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "メニューをください。",
+              "translation": {
+                "translation": "The menu, please.",
+                "hiragana": "めにゅーをください。",
+                "romaji": "Menyū o kudasai.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "どうぞ。",
+              "translation": {
+                "translation": "Here you are.",
+                "hiragana": "どうぞ。",
+                "romaji": "Dōzo.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "B",
+              "line": "テイクアウト用の袋をください。",
+              "translation": {
+                "translation": "Please give me a bag for takeout.",
+                "hiragana": "ていくあうとようのふくろをください。",
+                "romaji": "Teikuauto-yō no fukuro o kudasai.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "A",
+              "line": "有料ですがよろしいですか。",
+              "translation": {
+                "translation": "It's a paid bag; is that okay?",
+                "hiragana": "ゆうりょうですがよろしいですか。",
+                "romaji": "Yūryō desu ga yoroshii desu ka.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "お願いします",
+          "hiragana": "おねがいします",
+          "definition": "please"
+        },
+        {
+          "word": "～をお願いします",
+          "hiragana": "～をおねがいします",
+          "definition": "… please"
+        },
+        {
+          "word": "くださいませんか",
+          "hiragana": "くださいませんか",
+          "definition": "could you please"
+        },
+        {
+          "word": "頂けますか",
+          "hiragana": "いただけますか",
+          "definition": "may I receive?/could I have?"
+        },
+        {
+          "word": "くださいな",
+          "hiragana": "くださいな",
+          "definition": "please (soft)"
+        }
+      ],
+      "additional_notes": "『～をください』 is direct but polite. 『～をお願いします』 can feel a touch softer or service-oriented. For actions, prefer ～てください (e.g., 座ってください)."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "noun"
+      ],
+      "word": "持ち帰り",
+      "hiragana": "もちかえり",
+      "romaji": "mochikaeri",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "takeout",
+          "long": "Food or drink to go; also used more generally for taking something home."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "このピザは持ち帰りできますか。",
+          "translation": {
+            "translation": "Can I get this pizza to go?",
+            "hiragana": "このぴざはもちかえりできますか。",
+            "romaji": "Kono piza wa mochikaeri dekimasu ka.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "会議用に資料を持ち帰って読みます。",
+          "translation": {
+            "translation": "I'll take the materials home and read them for the meeting.",
+            "hiragana": "かいぎようにしりょうをもちかえってよみます。",
+            "romaji": "Kaigi-yō ni shiryō o mochikaette yomimasu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "雨なので、飲み物は持ち帰りにします。",
+          "translation": {
+            "translation": "Since it's raining, I'll get my drink to go.",
+            "hiragana": "あめなので、のみものはもちかえりにします。",
+            "romaji": "Ame na no de, nomimono wa mochikaeri ni shimasu.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "店内と持ち帰り、どちらにしますか。",
+              "translation": {
+                "translation": "For here or to go?",
+                "hiragana": "てんないともちかえり、どちらにしますか。",
+                "romaji": "Tennai to mochikaeri, dochira ni shimasu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "持ち帰りでお願いします。",
+              "translation": {
+                "translation": "To go, please.",
+                "hiragana": "もちかえりでおねがいします。",
+                "romaji": "Mochikaeri de onegai shimasu.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "B",
+              "line": "袋はご利用ですか。",
+              "translation": {
+                "translation": "Would you like a bag?",
+                "hiragana": "ふくろはごりようですか。",
+                "romaji": "Fukuro wa goriyō desu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "A",
+              "line": "いえ、大丈夫です。",
+              "translation": {
+                "translation": "No, I'm fine.",
+                "hiragana": "いえ、だいじょうぶです。",
+                "romaji": "Ie, daijōbu desu.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "テイクアウト",
+          "hiragana": "ていくあうと",
+          "definition": "takeout"
+        },
+        {
+          "word": "店内",
+          "hiragana": "てんない",
+          "definition": "for here/inside"
+        },
+        {
+          "word": "包む",
+          "hiragana": "つつむ",
+          "definition": "to wrap"
+        },
+        {
+          "word": "袋",
+          "hiragana": "ふくろ",
+          "definition": "bag"
+        },
+        {
+          "word": "受け取り",
+          "hiragana": "うけとり",
+          "definition": "pickup/receipt"
+        }
+      ],
+      "additional_notes": "Both 持ち帰り and テイクアウト are common; many shops charge for plastic bags, so you may hear 『袋は有料です』."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "noun"
+      ],
+      "word": "席",
+      "hiragana": "せき",
+      "romaji": "seki",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "seat",
+          "long": "A place to sit in a restaurant, train, classroom, etc. Often used when asking for available seats."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "空いている席はありますか。",
+          "translation": {
+            "translation": "Do you have any open seats?",
+            "hiragana": "あいているせきはありますか。",
+            "romaji": "Aite iru seki wa arimasu ka.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "電車でお年寄りに席をゆずりました。",
+          "translation": {
+            "translation": "I gave my seat to an elderly person on the train.",
+            "hiragana": "でんしゃでおとしよりにせきをゆずりました。",
+            "romaji": "Densha de otoshiyori ni seki o yuzurimashita.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "窓側の席をお願いします。",
+          "translation": {
+            "translation": "A window seat, please.",
+            "hiragana": "まどがわのせきをおねがいします。",
+            "romaji": "Madogawa no seki o onegai shimasu.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "二名ですが、席はありますか。",
+              "translation": {
+                "translation": "We're two people; do you have seats?",
+                "hiragana": "にめいですが、せきはありますか。",
+                "romaji": "Nimei desu ga, seki wa arimasu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "少々お待ちください。ご案内します。",
+              "translation": {
+                "translation": "One moment please. I'll show you to your seats.",
+                "hiragana": "しょうしょうおまちください。ごあんないします。",
+                "romaji": "Shōshō omachi kudasai. Go-annai shimasu.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "B",
+              "line": "禁煙席と喫煙席、どちらになさいますか。",
+              "translation": {
+                "translation": "Non-smoking or smoking?",
+                "hiragana": "きんえんせきときつえんせき、どちらになさいますか。",
+                "romaji": "Kin'en seki to kitsuen seki, dochira ni nasaimasu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "A",
+              "line": "禁煙席でお願いします。",
+              "translation": {
+                "translation": "Non-smoking, please.",
+                "hiragana": "きんえんせきでおねがいします。",
+                "romaji": "Kin'en seki de onegai shimasu.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "窓側",
+          "hiragana": "まどがわ",
+          "definition": "window side"
+        },
+        {
+          "word": "通路側",
+          "hiragana": "つうろがわ",
+          "definition": "aisle side"
+        },
+        {
+          "word": "予約する",
+          "hiragana": "よやくする",
+          "definition": "to reserve"
+        },
+        {
+          "word": "人数",
+          "hiragana": "にんずう",
+          "definition": "number of people"
+        },
+        {
+          "word": "案内",
+          "hiragana": "あんない",
+          "definition": "guidance"
+        }
+      ],
+      "additional_notes": "To specify a preference, use 『窓側／通路側の席』. In many places in Japan, indoor smoking is restricted; ‘禁煙席' is standard."
+    },
+    {
+      "language_id": 1,
+      "part_of_speech": [
+        "expression",
+        "polite request"
+      ],
+      "word": "別々でお願いします",
+      "hiragana": "べつべつでおねがいします",
+      "romaji": "betsu-betsu de onegai shimasu",
+      "pinyin": null,
+      "meanings": [
+        {
+          "short": "separate checks",
+          "long": "A polite phrase to ask the cashier/server to split the bill. Useful when paying individually."
+        }
+      ],
+      "sentence_examples": [
+        {
+          "example": "お会計は別々でお願いします。",
+          "translation": {
+            "translation": "We'd like to pay separately, please.",
+            "hiragana": "おかいけいはべつべつでおねがいします。",
+            "romaji": "Okaikei wa betsubetsu de onegai shimasu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "習い事の費用は兄弟で別々に払います。",
+          "translation": {
+            "translation": "We siblings pay the lesson fees separately.",
+            "hiragana": "ならいごとのひようはきょうだいでべつべつにはらいます。",
+            "romaji": "Naraigoto no hiyō wa kyōdai de betsubetsu ni haraimasu.",
+            "pinyin": null
+          }
+        },
+        {
+          "example": "席は友だちと別々でも大丈夫です。",
+          "translation": {
+            "translation": "It's fine if my friend and I sit separately.",
+            "hiragana": "せきはともだちとべつべつでもだいじょうぶです。",
+            "romaji": "Seki wa tomodachi to betsubetsu demo daijōbu desu.",
+            "pinyin": null
+          }
+        }
+      ],
+      "dialogue_examples": [
+        {
+          "example": [
+            {
+              "speaker": "B",
+              "line": "お支払いはご一緒でよろしいですか。",
+              "translation": {
+                "translation": "Will you be paying together?",
+                "hiragana": "おしはらいはごいっしょでよろしいですか。",
+                "romaji": "Oshiharai wa goissho de yoroshii desu ka.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "A",
+              "line": "いいえ、別々でお願いします。",
+              "translation": {
+                "translation": "No, separately please.",
+                "hiragana": "いいえ、べつべつでおねがいします。",
+                "romaji": "Iie, betsubetsu de onegai shimasu.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "承知しました。",
+              "translation": {
+                "translation": "Understood.",
+                "hiragana": "しょうちしました。",
+                "romaji": "Shōchi shimashita.",
+                "pinyin": null
+              }
+            }
+          ]
+        },
+        {
+          "example": [
+            {
+              "speaker": "A",
+              "line": "こちらは現金で、こちらはカードでお願いします。",
+              "translation": {
+                "translation": "This one in cash, and this one by card, please.",
+                "hiragana": "こちらはげんきんで、こちらはかーどでおねがいします。",
+                "romaji": "Kochira wa genkin de, kochira wa kādo de onegai shimasu.",
+                "pinyin": null
+              }
+            },
+            {
+              "speaker": "B",
+              "line": "かしこまりました。レシートは分けてお渡しします。",
+              "translation": {
+                "translation": "Certainly. I'll give you separate receipts.",
+                "hiragana": "かしこまりました。れしーとはわけておわたしします。",
+                "romaji": "Kashikomarimashita. Reshīto wa wakete owatashi shimasu.",
+                "pinyin": null
+              }
+            }
+          ]
+        }
+      ],
+      "related_words": [
+        {
+          "word": "割り勘",
+          "hiragana": "わりかん",
+          "definition": "split the bill"
+        },
+        {
+          "word": "一緒に",
+          "hiragana": "いっしょに",
+          "definition": "together"
+        },
+        {
+          "word": "お会計",
+          "hiragana": "おかいけい",
+          "definition": "bill/checkout"
+        },
+        {
+          "word": "支払い",
+          "hiragana": "しはらい",
+          "definition": "payment"
+        },
+        {
+          "word": "レシート",
+          "hiragana": "れしーと",
+          "definition": "receipt"
+        }
+      ],
+      "additional_notes": "『別々で』 is the most straightforward split request. 『割り勘で』 means ‘split evenly.' You can add 人数 to clarify who pays for what."
+    }
+  ]
+}

@@ -1,0 +1,790 @@
+{
+    "title": "現在形と過去形の基本表現",
+    "version": 1.0,
+    "items": [
+        {
+            "target_word": "right now",
+            "question_type": "Dialogue Completion",
+            "question": "Friend A: \"Can you talk on the phone?\"\nFriend B: \"Sorry, I can't. I'm busy ___.\"",
+            "question_translated": "友達A:「今電話できますか？」\n友達B:「ごめんなさい、___忙しいんです。」",
+            "options": [
+                {
+                    "text": "right now",
+                    "explanation": "正解。「今電話できますか？」という現在の状況に対して、right now が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "yesterday",
+                    "explanation": "時間軸不一致：yesterday は過去。",
+                    "is_correct": false
+                },
+                {
+                    "text": "last week",
+                    "explanation": "時間軸不一致：last week は過去。",
+                    "is_correct": false
+                },
+                {
+                    "text": "ago",
+                    "explanation": "機能不一致：ago は文中で「○○前に」と使われ、単独で応答にはならない。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "these days",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "People use smartphones a lot ___, more than 10 years ago.",
+            "question_translated": "人々は___、10年前よりもスマートフォンをよく使っています。",
+            "options": [
+                {
+                    "text": "these days",
+                    "explanation": "正解。比較対象「10 years ago」から、現在の傾向を表す these days が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "yesterday",
+                    "explanation": "時間軸不一致：yesterday は1日だけ。",
+                    "is_correct": false
+                },
+                {
+                    "text": "last year",
+                    "explanation": "時間軸不一致：last year は特定の過去の年。",
+                    "is_correct": false
+                },
+                {
+                    "text": "ago",
+                    "explanation": "機能不一致：ago は「～前」で使う。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "usually",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Do you drink coffee in the morning?\"\nB: \"Yes, I ___ have coffee with breakfast.\"",
+            "question_translated": "A:「朝コーヒーを飲みますか？」\nB:「はい、___朝食と一緒にコーヒーを飲みます。」",
+            "options": [
+                {
+                    "text": "usually",
+                    "explanation": "正解。習慣的な行動を表す usually が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "yesterday",
+                    "explanation": "時間軸不一致：yesterday は1日前のみ。",
+                    "is_correct": false
+                },
+                {
+                    "text": "right now",
+                    "explanation": "時間軸不一致：right now は今この瞬間。",
+                    "is_correct": false
+                },
+                {
+                    "text": "still",
+                    "explanation": "意味不一致：still は「まだ」で継続を表す。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "yesterday",
+            "question_type": "Inference from Context",
+            "question": "Tom: \"I'm so tired today.\" \nLisa: \"Why? What happened?\"\nTom: \"I stayed up late ___ watching movies.\"",
+            "question_translated": "トム:「今日はとても疲れています。」\nリサ:「どうしたのですか？何があったのですか？」\nトム:「___夜遅くまで映画を見ていました。」",
+            "options": [
+                {
+                    "text": "today",
+                    "explanation": "時間軸不一致：today だと現在も見ている意味になる。",
+                    "is_correct": false
+                },
+                {
+                    "text": "tomorrow",
+                    "explanation": "時間軸不一致：tomorrow は未来。",
+                    "is_correct": false
+                },
+                {
+                    "text": "yesterday",
+                    "explanation": "正解。今日疲れている原因は昨日の行動。",
+                    "is_correct": true
+                },
+                {
+                    "text": "next week",
+                    "explanation": "時間軸不一致：next week は未来。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "last week",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"When did you meet her?\"\nB: \"I met her ___ at the party.\"",
+            "question_translated": "A:「彼女にいつ会ったのですか？」\nB:「___パーティーで会いました。」",
+            "options": [
+                {
+                    "text": "last week",
+                    "explanation": "正解。「When did you…?」の過去質問に対して過去時制の last week が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "right now",
+                    "explanation": "時間軸不一致：right now は現在。",
+                    "is_correct": false
+                },
+                {
+                    "text": "usually",
+                    "explanation": "機能不一致：usually は習慣で特定の日付ではない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "still",
+                    "explanation": "意味不一致：still は「まだ」。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "ago",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"When did you start learning English?\"\nB: \"I started three years ___.\"",
+            "question_translated": "A:「いつ英語を習い始めたのですか？」\nB:「3年___始めました。」",
+            "options": [
+                {
+                    "text": "since",
+                    "explanation": "意味不一致：since は現在完了で使用。",
+                    "is_correct": false
+                },
+                {
+                    "text": "for",
+                    "explanation": "意味不一致：for は期間を表す。",
+                    "is_correct": false
+                },
+                {
+                    "text": "ago",
+                    "explanation": "正解。「3年前」を表す ago が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "before",
+                    "explanation": "語順不一致：before は通常「3 years before」とは言わない。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "already",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Do you want dinner?\"\nB: \"No thanks, I've ___ eaten.\"",
+            "question_translated": "A:「夕食はいかがですか？」\nB:「いいえありがとう、もう___食べました。」",
+            "options": [
+                {
+                    "text": "already",
+                    "explanation": "正解。「No thanks, I've ___ eaten」で「もう食べた」の already が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "still",
+                    "explanation": "意味不一致：still は「まだ」で逆の意味。",
+                    "is_correct": false
+                },
+                {
+                    "text": "ago",
+                    "explanation": "機能不一致：ago は「～前」。",
+                    "is_correct": false
+                },
+                {
+                    "text": "yesterday",
+                    "explanation": "時間軸不一致：yesterday は特定日。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "just",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"When did you arrive?\"\nB: \"I've ___ arrived, a minute ago.\"",
+            "question_translated": "A:「いつ着いたのですか？」\nB:「ほんの1分前に___着いたところです。」",
+            "options": [
+                {
+                    "text": "just",
+                    "explanation": "正解。「a minute ago」に対応して「たった今」の just が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "still",
+                    "explanation": "意味不一致：still は「まだ」。",
+                    "is_correct": false
+                },
+                {
+                    "text": "last week",
+                    "explanation": "時間軸不一致：last week は過去すぎる。",
+                    "is_correct": false
+                },
+                {
+                    "text": "usually",
+                    "explanation": "機能不一致：usually は習慣。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "still",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "He is ___ waiting for the bus. It hasn't come yet.",
+            "question_translated": "バスがまだ来ていないので、彼は___待っています。",
+            "options": [
+                {
+                    "text": "still",
+                    "explanation": "正解。「hasn't come yet」から「まだ待っている＝still」が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "already",
+                    "explanation": "意味不一致：already は「すでに」。",
+                    "is_correct": false
+                },
+                {
+                    "text": "ago",
+                    "explanation": "機能不一致：ago は「～前」。",
+                    "is_correct": false
+                },
+                {
+                    "text": "yesterday",
+                    "explanation": "時間軸不一致：yesterday は昨日。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "I'm working",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Can you come to the park?\"\nB: \"Sorry, I can't. ___ right now.\"",
+            "question_translated": "A:「公園に来られますか？」\nB:「ごめんなさい、無理です。今___んです。」",
+            "options": [
+                {
+                    "text": "I'm working",
+                    "explanation": "正解。「right now」の手がかりで現在進行形が唯一自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I work",
+                    "explanation": "時間軸不一致：I work は習慣。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I worked",
+                    "explanation": "時間軸不一致：I worked は過去。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I used to work",
+                    "explanation": "時間軸不一致：I used to work は過去の習慣。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "I work",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "\"___ at a bank. It's my regular job.\"",
+            "question_translated": "「私は銀行で___。それが私の普段の仕事です。」",
+            "options": [
+                {
+                    "text": "I work",
+                    "explanation": "正解。普段の仕事＝習慣なので現在形 I work が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I'm working",
+                    "explanation": "時間軸不一致：I'm working は一時的。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I worked",
+                    "explanation": "時間軸不一致：I worked は過去。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I used to work",
+                    "explanation": "時間軸不一致：I used to work は「以前は」。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "Do you…?",
+            "question_type": "Dialogue Completion",
+            "question": "Teacher: \"___ understand this grammar point? It's quite difficult.\"\nStudent: \"Yes, I think so.\"",
+            "question_translated": "先生:「この文法のポイントは___わかりますか？結構難しいですよね。」\n生徒:「はい、わかると思います。」",
+            "options": [
+                {
+                    "text": "Do you",
+                    "explanation": "正解。現在の理解状態を尋ねるので Do you…? が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "Are you",
+                    "explanation": "機能不一致：Are you は進行中の動作を尋ねる。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Did you",
+                    "explanation": "時間軸不一致：Did you は過去。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Were you",
+                    "explanation": "時間軸不一致：Were you は過去の状態。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "Are you…?",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"___ studying for the test right now?\"\nB: \"Yes, I am.\"",
+            "question_translated": "A:「今テストの勉強を___していますか？」\nB:「はい、しています。」",
+            "options": [
+                {
+                    "text": "Are you",
+                    "explanation": "正解。「right now」の手がかりで進行形の Are you…? が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "Do you",
+                    "explanation": "時間軸不一致：Do you は習慣。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Did you",
+                    "explanation": "時間軸不一致：Did you は過去。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Were you",
+                    "explanation": "時間軸不一致：Were you は過去。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "doesn't",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "My brother ___ like vegetables, so he never eats salad.",
+            "question_translated": "兄は野菜が___ので、サラダを食べません。",
+            "options": [
+                {
+                    "text": "doesn't",
+                    "explanation": "正解。三人称単数「兄は」に対して doesn't が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "don't",
+                    "explanation": "主語不一致：don't は複数や I/you 用。",
+                    "is_correct": false
+                },
+                {
+                    "text": "isn't",
+                    "explanation": "機能不一致：isn't は「be動詞＋形容詞」用。",
+                    "is_correct": false
+                },
+                {
+                    "text": "wasn't",
+                    "explanation": "時間軸不一致：wasn't は過去。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "isn't",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Is the weather nice today?\"\nB: \"No, it ___ nice. It's raining again.\"",
+            "question_translated": "A:「今日は天気がいいですか？」\nB:「いいえ、___よくないです。また雨が降っています。」",
+            "options": [
+                {
+                    "text": "isn't",
+                    "explanation": "正解。「it isn't nice」=「よくない」が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "aren't",
+                    "explanation": "主語不一致：aren't は複数用。",
+                    "is_correct": false
+                },
+                {
+                    "text": "doesn't",
+                    "explanation": "機能不一致：doesn't は一般動詞用。",
+                    "is_correct": false
+                },
+                {
+                    "text": "don't",
+                    "explanation": "機能不一致：don't は複数や I/you 用。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "I worked",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Why were you so tired yesterday?\"\nB: \"Because ___ until midnight.\"",
+            "question_translated": "A:「昨日はなぜそんなに疲れていたのですか？」\nB:「真夜中まで___ので疲れました。」",
+            "options": [
+                {
+                    "text": "I worked",
+                    "explanation": "正解。「yesterday」に合う過去形 I worked。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I work",
+                    "explanation": "時間軸不一致：I work は習慣。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I'm working",
+                    "explanation": "時間軸不一致：I'm working は現在。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I had worked",
+                    "explanation": "複雑すぎる：I had worked は過去完了でA2レベル超過。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "I went",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"How was your weekend?\"\nB: \"It was nice. ___ to the beach.\"",
+            "question_translated": "A:「週末はどうでしたか？」\nB:「よかったです。ビーチに___。」",
+            "options": [
+                {
+                    "text": "I went",
+                    "explanation": "正解。「How was…?」の過去質問に過去形 I went が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I go",
+                    "explanation": "時間軸不一致：I go は習慣。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I'm going",
+                    "explanation": "時間軸不一致：I'm going は現在進行。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I have gone",
+                    "explanation": "複雑すぎる：I have gone は現在完了でA2レベル超過。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "Did you…?",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"___ finish the homework yesterday?\"\nB: \"Yes, I did.\"",
+            "question_translated": "A:「昨日宿題を___終えましたか？」\nB:「はい、終えました。」",
+            "options": [
+                {
+                    "text": "Did you",
+                    "explanation": "正解。「yesterday」の手がかりで Did you…? が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "Do you",
+                    "explanation": "時間軸不一致：Do you は現在。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Are you",
+                    "explanation": "機能不一致：Are you は進行形。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Were you",
+                    "explanation": "機能不一致：Were you は存在状態を尋ねる。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "Were you…?",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"___ at the concert last week?\"\nB: \"Yes, I was.\"",
+            "question_translated": "A:「先週のコンサートに___いましたか？」\nB:「はい、いました。」",
+            "options": [
+                {
+                    "text": "Were you",
+                    "explanation": "正解。「last week」の過去の存在を尋ねるので Were you…? が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "Are you",
+                    "explanation": "時間軸不一致：Are you は現在。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Do you",
+                    "explanation": "機能不一致：Do you は習慣。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Did you",
+                    "explanation": "意味不一致：Did you は行動を尋ねる。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "didn't",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Did you see Mary at the party yesterday?\"\nB: \"No, I ___ see her. Maybe she went home early.\"",
+            "question_translated": "A:「昨日のパーティーでメアリーに会いましたか？」\nB:「いいえ、___会いませんでした。たぶん早く帰ったのでしょう。」",
+            "options": [
+                {
+                    "text": "didn't",
+                    "explanation": "正解。過去の否定「didn't see her」が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "don't",
+                    "explanation": "時間軸不一致：don't は現在。",
+                    "is_correct": false
+                },
+                {
+                    "text": "wasn't",
+                    "explanation": "機能不一致：wasn't は「be動詞」用。",
+                    "is_correct": false
+                },
+                {
+                    "text": "haven't",
+                    "explanation": "時間軸不一致：haven't は現在完了。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "wasn't",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Why didn't you join the game?\"\nB: \"Because I ___ ready when it started.\"",
+            "question_translated": "A:「なぜ試合に参加しなかったのですか？」\nB:「始まった時に準備ができて___なかったからです。」",
+            "options": [
+                {
+                    "text": "wasn't",
+                    "explanation": "正解。主語「I」に対して wasn't が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "weren't",
+                    "explanation": "主語不一致：weren't は複数用。",
+                    "is_correct": false
+                },
+                {
+                    "text": "didn't",
+                    "explanation": "機能不一致：didn't は一般動詞用。",
+                    "is_correct": false
+                },
+                {
+                    "text": "isn't",
+                    "explanation": "時間軸不一致：isn't は現在。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "What are you doing?",
+            "question_type": "Dialogue Completion",
+            "question": "Mother: \"___ in the kitchen? Are you cooking?\"",
+            "question_translated": "母:「台所で___の？料理をしているの？」",
+            "options": [
+                {
+                    "text": "What are you doing",
+                    "explanation": "正解。現在の行動を尋ねる文脈。",
+                    "is_correct": true
+                },
+                {
+                    "text": "What did you do",
+                    "explanation": "時間軸不一致：What did you do は過去。",
+                    "is_correct": false
+                },
+                {
+                    "text": "How was it",
+                    "explanation": "機能不一致：How was it は感想を聞く。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Do you work",
+                    "explanation": "意味不一致：Do you work は習慣の話。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "What did you do?",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"I didn't see you at school yesterday afternoon.\"\nB: \"___ I went to the library to study.\"",
+            "question_translated": "A:「昨日の午後、学校で会いませんでしたね。」\nB:「___図書館に勉強をしに行きました。」",
+            "options": [
+                {
+                    "text": "What did you do?",
+                    "explanation": "質問不適切：Aが理由を求めている文脈ではない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "What are you doing?",
+                    "explanation": "時間軸不一致：What are you doing は現在。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Oh, I see.",
+                    "explanation": "正解。相手の疑問に対する説明の前置き。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I was busy.",
+                    "explanation": "説明不十分：「忙しい」だけでは具体的でない。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "How was…?",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"___ the movie last night?\"\nB: \"It was great!\"",
+            "question_translated": "A:「昨夜の映画___どうでしたか？」\nB:「とてもよかったです！」",
+            "options": [
+                {
+                    "text": "How was",
+                    "explanation": "正解。過去の出来事の感想を聞く定型表現。",
+                    "is_correct": true
+                },
+                {
+                    "text": "What are you doing",
+                    "explanation": "時間軸不一致：What are you doing は現在。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Do you like",
+                    "explanation": "時間軸不一致：Do you like は一般的好み。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Were you",
+                    "explanation": "意味不一致：Were you は存在を問う。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "I used to",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Do you play soccer?\"\nB: \"Not now, but ___ play it when I was young.\"",
+            "question_translated": "A:「サッカーをやりますか？」\nB:「今はしていませんが、若い頃は___やっていました。」",
+            "options": [
+                {
+                    "text": "I used to",
+                    "explanation": "正解。過去の習慣を表す I used to が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I work",
+                    "explanation": "意味不一致：I work は仕事の話。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I'm working",
+                    "explanation": "時間軸不一致：I'm working は現在進行。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I will",
+                    "explanation": "時間軸不一致：I will は未来。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "I've never",
+            "question_type": "Dialogue Completion",
+            "question": "A: \"Have you ever been to Canada?\"\nB: \"No, ___ been there.\"",
+            "question_translated": "A:「カナダに行ったことがありますか？」\nB:「いいえ、行ったこと___ありません。」",
+            "options": [
+                {
+                    "text": "I've never",
+                    "explanation": "正解。「have you ever…?」への否定は I've never。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I worked",
+                    "explanation": "時間軸不一致：I worked は過去行動。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I used to",
+                    "explanation": "意味不一致：I used to は過去習慣。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I don't",
+                    "explanation": "機能不一致：I don't は現在の習慣否定。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "since",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "She has lived in Tokyo ___ 2015.",
+            "question_translated": "彼女は2015年___東京に住んでいます。",
+            "options": [
+                {
+                    "text": "since",
+                    "explanation": "正解。開始時点「2015年」には since。",
+                    "is_correct": true
+                },
+                {
+                    "text": "for",
+                    "explanation": "意味不一致：for は期間を表す。",
+                    "is_correct": false
+                },
+                {
+                    "text": "from",
+                    "explanation": "時制不一致：from は現在完了では使わない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "ago",
+                    "explanation": "機能不一致：ago は過去時制で使用。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "target_word": "for",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "He has lived in London ___ three years.",
+            "question_translated": "彼は3年間___ロンドンに住んでいます。",
+            "options": [
+                {
+                    "text": "for",
+                    "explanation": "正解。期間「three years」には for が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "since",
+                    "explanation": "意味不一致：since は開始時点に使う。",
+                    "is_correct": false
+                },
+                {
+                    "text": "from",
+                    "explanation": "時制不一致：from は現在完了では使わない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "ago",
+                    "explanation": "機能不一致：ago は過去時制で使用。",
+                    "is_correct": false
+                }
+            ]
+        }
+    ]
+}

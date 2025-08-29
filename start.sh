@@ -2,9 +2,6 @@
 
 echo "=== LangLearn API Startup ==="
 
-# Change to Laravel directory
-cd langlearn-api
-
 # Create Firebase credentials from environment variable
 echo "Creating Firebase credentials..."
 mkdir -p storage/firebase

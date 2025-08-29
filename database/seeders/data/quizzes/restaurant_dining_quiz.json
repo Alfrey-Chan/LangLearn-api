@@ -1,0 +1,734 @@
+{
+    "title": "Restaurant Dining",
+    "version": 1.0,
+    "items": [
+        {
+            "word": "tip",
+            "question_type": "Dialogue Completion",
+            "question": "Customer: \"The service was excellent. We should leave a ___ for the waiter.\"",
+            "question_translated": "客:「サービスがとても良かったね。ウェイターに___を置こう。」",
+            "options": [
+                {
+                    "text": "tip",
+                    "explanation": "正解。「サービスが良かった」へのお礼として tip（チップ）が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "menu",
+                    "explanation": "領域不一致：menu は料理リストで支払いとは関係ない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "dessert",
+                    "explanation": "対象不一致：dessert は料理で、お礼ではない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "table",
+                    "explanation": "機能不一致：table は座る場所で、支払いに関係しない。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "cash or card?",
+            "question_type": "Situational Appropriateness",
+            "question": "At the end of the meal, what would a waiter most likely ask when presenting the bill?",
+            "question_translated": "食事の終わりに、ウェイターが会計のとき最もよく尋ねるのはどれですか。",
+            "options": [
+                {
+                    "text": "Cash or card?",
+                    "explanation": "正解。「会計のとき」という手がかりに合致。支払い方法の確認は自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "How was the soup?",
+                    "explanation": "時間軸不一致：食後に味を聞くのは遅い。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Would you like a bigger table?",
+                    "explanation": "機能不一致：会計時に席を変えるのは不自然。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Do you want today's special?",
+                    "explanation": "時間軸不一致：今日のおすすめは注文前に聞く内容。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "ready to order",
+            "question_type": "Function/Purpose",
+            "question": "Waiter: \"Are you ___, or do you need more time?\"",
+            "question_translated": "ウェイター:「ご注文の___ですか、それとももう少しお時間が必要ですか。」",
+            "options": [
+                {
+                    "text": "ready to order",
+                    "explanation": "正解。「ご注文」という手がかりにより ready to order が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "allergic to anything",
+                    "explanation": "機能不一致：allergic はアレルギーの話で、注文確認ではない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "splitting the bill",
+                    "explanation": "時間軸不一致：splitting the bill は会計時に使う。",
+                    "is_correct": false
+                },
+                {
+                    "text": "enjoying the meal",
+                    "explanation": "時間軸不一致：enjoying は食事中の評価で、注文前ではない。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "What do you recommend?",
+            "question_type": "Register/Formality",
+            "question": "Which is the most polite way to ask a waiter for advice about food?",
+            "question_translated": "ウェイターに料理のおすすめを丁寧に聞く最も自然な表現はどれですか。",
+            "options": [
+                {
+                    "text": "What do you recommend?",
+                    "explanation": "正解。丁寧かつ自然におすすめを尋ねる表現。",
+                    "is_correct": true
+                },
+                {
+                    "text": "What's good?",
+                    "explanation": "レジスター不一致：ややカジュアルすぎる。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Tell me the best food.",
+                    "explanation": "機能不一致：命令的で丁寧さが欠ける。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Give me something tasty.",
+                    "explanation": "レジスター不一致：乱暴な命令形。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "rare/medium/well-done",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "When ordering steak, customers often say how they want it cooked. \"Rare\" means almost raw, \"medium\" means partly pink, and \"___\" means fully cooked.",
+            "question_translated": "ステーキを注文するとき、焼き加減を言うことがよくあります。「rare」はほとんど生、「medium」は少し赤い部分がある、そして「___」は完全に焼いたという意味です。",
+            "options": [
+                {
+                    "text": "well-done",
+                    "explanation": "正解。「完全に焼いた」という手がかりに一致。",
+                    "is_correct": true
+                },
+                {
+                    "text": "starter",
+                    "explanation": "領域不一致：starter は前菜で焼き加減ではない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "beverage",
+                    "explanation": "領域不一致：beverage は飲み物。",
+                    "is_correct": false
+                },
+                {
+                    "text": "appetizer",
+                    "explanation": "領域不一致：appetizer は前菜。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "vegetarian",
+            "question_type": "Inference from Context",
+            "question": "A customer says, \"I don't eat meat. Do you have any ___ dishes?\"",
+            "question_translated": "客:「私は肉を食べません。___料理はありますか。」",
+            "options": [
+                {
+                    "text": "vegetarian",
+                    "explanation": "正解。「肉を食べません」という手がかりにより vegetarian が自然。",
+                    "is_correct": true
+                },
+                {
+                    "text": "spicy",
+                    "explanation": "機能不一致：spicy は辛さで、肉の有無ではない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "large portion",
+                    "explanation": "領域不一致：large portion は量のこと。",
+                    "is_correct": false
+                },
+                {
+                    "text": "takeaway",
+                    "explanation": "領域不一致：takeaway は持ち帰りの形式。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "gluten-free",
+            "question_type": "Definition/Best Meaning",
+            "question": "Which word describes food that does not contain wheat or similar grains?",
+            "question_translated": "小麦などの穀物を含まない食品を表す言葉はどれですか。",
+            "options": [
+                {
+                    "text": "gluten-free",
+                    "explanation": "正解。「小麦を含まない」という定義に一致。",
+                    "is_correct": true
+                },
+                {
+                    "text": "spicy",
+                    "explanation": "意味不一致：spicy は辛い味。",
+                    "is_correct": false
+                },
+                {
+                    "text": "portion",
+                    "explanation": "意味不一致：portion は量のこと。",
+                    "is_correct": false
+                },
+                {
+                    "text": "main course",
+                    "explanation": "領域不一致：main course は食事のメイン。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "allergic to…",
+            "question_type": "Collocation/Pattern",
+            "question": "Complete the phrase: \"I am ___ peanuts, so I can't eat this cake.\"",
+            "question_translated": "フレーズを完成させてください。「私はピーナッツに___ので、このケーキは食べられません。」",
+            "options": [
+                {
+                    "text": "allergic to",
+                    "explanation": "正解。「アレルギーがある」という決まり表現。",
+                    "is_correct": true
+                },
+                {
+                    "text": "ready to order",
+                    "explanation": "機能不一致：ready to order は注文確認。",
+                    "is_correct": false
+                },
+                {
+                    "text": "splitting the bill",
+                    "explanation": "領域不一致：splitting the bill は会計の表現。",
+                    "is_correct": false
+                },
+                {
+                    "text": "recommending",
+                    "explanation": "文法不一致：recommending は文法的に合わない。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "menu",
+            "question_type": "Inference from Context",
+            "question": "The waiter handed us a ___ so we could see the food choices.",
+            "question_translated": "ウェイターは私たちに___を渡して、料理の選択肢を見られるようにしました。",
+            "options": [
+                {
+                    "text": "menu",
+                    "explanation": "正解。「料理の選択肢を見るため」という手がかりで menu。",
+                    "is_correct": true
+                },
+                {
+                    "text": "tip",
+                    "explanation": "機能不一致：tip は支払いの一部。",
+                    "is_correct": false
+                },
+                {
+                    "text": "portion",
+                    "explanation": "領域不一致：portion は量のこと。",
+                    "is_correct": false
+                },
+                {
+                    "text": "dessert",
+                    "explanation": "領域不一致：dessert は食後の料理。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "table for…",
+            "question_type": "Dialogue Completion",
+            "question": "Host: \"Good evening. How many people?\" Guest: \"A ___ two, please.\"",
+            "question_translated": "ホスト:「こんばんは。何名様ですか？」 客:「___2人でお願いします。」",
+            "options": [
+                {
+                    "text": "table for",
+                    "explanation": "正解。「人数を伝える」という手がかりに合致。",
+                    "is_correct": true
+                },
+                {
+                    "text": "ready to order",
+                    "explanation": "時間軸不一致：ready to order は注文時。",
+                    "is_correct": false
+                },
+                {
+                    "text": "split the bill",
+                    "explanation": "時間軸不一致：split the bill は会計時。",
+                    "is_correct": false
+                },
+                {
+                    "text": "beverages",
+                    "explanation": "領域不一致：beverages は飲み物。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "reservation",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "Many busy restaurants require a ___ in advance, especially on weekends.",
+            "question_translated": "多くの混雑したレストランでは、特に週末は事前に___が必要です。",
+            "options": [
+                {
+                    "text": "reservation",
+                    "explanation": "正解。「事前に必要」という手がかりで reservation。",
+                    "is_correct": true
+                },
+                {
+                    "text": "bill",
+                    "explanation": "時間軸不一致：bill は食後。",
+                    "is_correct": false
+                },
+                {
+                    "text": "dessert",
+                    "explanation": "領域不一致：dessert は食後の料理。",
+                    "is_correct": false
+                },
+                {
+                    "text": "tip",
+                    "explanation": "機能不一致：tip はお礼。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "waiter/waitress",
+            "question_type": "Inference from Context",
+            "question": "The ___ brought us water and wrote down our order.",
+            "question_translated": "___は私たちに水を持ってきて、注文を書き取りました。",
+            "options": [
+                {
+                    "text": "waiter/waitress",
+                    "explanation": "正解。水を運び注文を取る役割は waiter/waitress。",
+                    "is_correct": true
+                },
+                {
+                    "text": "chef",
+                    "explanation": "機能不一致：chef は調理する人。",
+                    "is_correct": false
+                },
+                {
+                    "text": "customer",
+                    "explanation": "対象不一致：customer は客。",
+                    "is_correct": false
+                },
+                {
+                    "text": "cashier",
+                    "explanation": "機能不一致：cashier は会計担当。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "order",
+            "question_type": "Dialogue Completion",
+            "question": "Waiter: \"Are you ready to ___?\" Customer: \"Yes, I'd like the chicken soup.\"",
+            "question_translated": "ウェイター:「ご___の準備はできましたか？」 客:「はい、チキンスープをお願いします。」",
+            "options": [
+                {
+                    "text": "order",
+                    "explanation": "正解。「チキンスープをお願いします」という返答に合う。",
+                    "is_correct": true
+                },
+                {
+                    "text": "menu",
+                    "explanation": "対象不一致：menu は一覧表。",
+                    "is_correct": false
+                },
+                {
+                    "text": "beverage",
+                    "explanation": "対象不一致：beverage は飲み物。",
+                    "is_correct": false
+                },
+                {
+                    "text": "portion",
+                    "explanation": "領域不一致：portion は量。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "I'll have…",
+            "question_type": "Function/Purpose",
+            "question": "At a restaurant, which phrase is natural when telling the waiter your choice?",
+            "question_translated": "レストランで、ウェイターに自分の料理を伝える自然なフレーズはどれですか。",
+            "options": [
+                {
+                    "text": "I'll have the pasta.",
+                    "explanation": "正解。注文時の定型表現。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I'm delicious pasta.",
+                    "explanation": "意味不一致：自分が美味しい人になってしまう。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Pasta is good for me.",
+                    "explanation": "機能不一致：感想で注文ではない。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Menu pasta, please.",
+                    "explanation": "機能不一致：menu は一覧表。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "starter/appetizer",
+            "question_type": "Reading Passage + Vocabulary",
+            "question": "In a three-course meal, the first small dish is usually called a ___.",
+            "question_translated": "3コースの食事では、最初の小皿料理は通常___と呼ばれます。",
+            "options": [
+                {
+                    "text": "starter/appetizer",
+                    "explanation": "正解。最初の料理＝starter。",
+                    "is_correct": true
+                },
+                {
+                    "text": "dessert",
+                    "explanation": "時間軸不一致：dessert は最後。",
+                    "is_correct": false
+                },
+                {
+                    "text": "bill",
+                    "explanation": "領域不一致：bill は支払い。",
+                    "is_correct": false
+                },
+                {
+                    "text": "beverage",
+                    "explanation": "領域不一致：beverage は飲み物。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "main course",
+            "question_type": "Definition/Best Meaning",
+            "question": "Which word means \"the central and largest part of a meal\"?",
+            "question_translated": "「食事の中心となる一番大きな料理」を意味する語はどれですか。",
+            "options": [
+                {
+                    "text": "main course",
+                    "explanation": "正解。中心の料理を表す。",
+                    "is_correct": true
+                },
+                {
+                    "text": "dessert",
+                    "explanation": "時間軸不一致：dessert は最後。",
+                    "is_correct": false
+                },
+                {
+                    "text": "tip",
+                    "explanation": "領域不一致：tip は支払い。",
+                    "is_correct": false
+                },
+                {
+                    "text": "portion",
+                    "explanation": "対象不一致：portion は量。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "dessert",
+            "question_type": "Dialogue Completion",
+            "question": "Waiter: \"Would you like any ___ after your meal?\"",
+            "question_translated": "ウェイター:「お食事の後に___はいかがですか。」",
+            "options": [
+                {
+                    "text": "dessert",
+                    "explanation": "正解。「after your meal」という手がかりで dessert。",
+                    "is_correct": true
+                },
+                {
+                    "text": "reservation",
+                    "explanation": "時間軸不一致：reservation は食事前。",
+                    "is_correct": false
+                },
+                {
+                    "text": "tip",
+                    "explanation": "機能不一致：tip はお礼。",
+                    "is_correct": false
+                },
+                {
+                    "text": "menu",
+                    "explanation": "領域不一致：menu は一覧表。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "beverages",
+            "question_type": "Collocation/Pattern",
+            "question": "Complete the phrase: \"Food and ___ are not included in the price.\"",
+            "question_translated": "フレーズを完成させてください。「料理と___は料金に含まれていません。」",
+            "options": [
+                {
+                    "text": "beverages",
+                    "explanation": "正解。「Food and beverages」という定番コロケーション。",
+                    "is_correct": true
+                },
+                {
+                    "text": "dessert",
+                    "explanation": "強度不一致：dessert は一部の料理。",
+                    "is_correct": false
+                },
+                {
+                    "text": "reservation",
+                    "explanation": "機能不一致：reservation は予約。",
+                    "is_correct": false
+                },
+                {
+                    "text": "bill",
+                    "explanation": "機能不一致：bill は請求書。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "bill/check",
+            "question_type": "Situational Appropriateness",
+            "question": "What would a customer say at the end of a meal when asking to pay?",
+            "question_translated": "食事の終わりに、会計をお願いするときに客が言う自然な表現はどれですか。",
+            "options": [
+                {
+                    "text": "Could I have the bill, please?",
+                    "explanation": "正解。「会計をお願いする」場面にぴったり。",
+                    "is_correct": true
+                },
+                {
+                    "text": "I'll have the bill as my main course.",
+                    "explanation": "機能不一致：bill を料理扱いにして不自然。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Give me the reservation.",
+                    "explanation": "対象不一致：reservation は予約。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I want the beverages now.",
+                    "explanation": "時間軸不一致：beverages now は注文時の表現。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "Could I have…?",
+            "question_type": "Register/Formality",
+            "question": "Which is the most polite way to ask for food at a restaurant?",
+            "question_translated": "レストランで料理を頼むとき、最も丁寧な表現はどれですか。",
+            "options": [
+                {
+                    "text": "Could I have the soup, please?",
+                    "explanation": "正解。丁寧な依頼表現。",
+                    "is_correct": true
+                },
+                {
+                    "text": "Give me soup!",
+                    "explanation": "レジスター不一致：命令的で無礼。",
+                    "is_correct": false
+                },
+                {
+                    "text": "I take soup.",
+                    "explanation": "機能不一致：不自然な英語。",
+                    "is_correct": false
+                },
+                {
+                    "text": "Soup now!",
+                    "explanation": "レジスター不一致：乱暴な命令。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "today's special",
+            "question_type": "Inference from Context",
+            "question": "The waiter said, \"The grilled salmon is ___, only available today.\"",
+            "question_translated": "ウェイター:「本日の特別メニューはグリルサーモンです。」",
+            "options": [
+                {
+                    "text": "today's special",
+                    "explanation": "正解。「only available today」という手がかり。",
+                    "is_correct": true
+                },
+                {
+                    "text": "dessert",
+                    "explanation": "領域不一致：dessert は別枠。",
+                    "is_correct": false
+                },
+                {
+                    "text": "portion",
+                    "explanation": "領域不一致：portion は量。",
+                    "is_correct": false
+                },
+                {
+                    "text": "reservation",
+                    "explanation": "機能不一致：reservation は予約。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "delicious",
+            "question_type": "Synonym/Similar Meaning",
+            "question": "Which word is closest in meaning to \"tasty\"?",
+            "question_translated": "「tasty」と最も意味が近い語はどれですか。",
+            "options": [
+                {
+                    "text": "delicious",
+                    "explanation": "正解。delicious＝おいしい。",
+                    "is_correct": true
+                },
+                {
+                    "text": "spicy",
+                    "explanation": "意味不一致：spicy＝辛い。",
+                    "is_correct": false
+                },
+                {
+                    "text": "portion",
+                    "explanation": "意味不一致：portion＝量。",
+                    "is_correct": false
+                },
+                {
+                    "text": "bill",
+                    "explanation": "領域不一致：bill＝会計。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "spicy",
+            "question_type": "Contextual Usage",
+            "question": "\"Be careful with this curry. It's very spicy.\" What does this sentence tell us about the food?",
+            "question_translated": "「このカレーには気をつけて。とてもspicyです。」この文は料理について何を伝えていますか。",
+            "options": [
+                {
+                    "text": "It tastes hot with strong chili flavor.",
+                    "explanation": "正解。spicy＝辛い味。",
+                    "is_correct": true
+                },
+                {
+                    "text": "It is very sweet.",
+                    "explanation": "意味不一致：sweet＝甘い。",
+                    "is_correct": false
+                },
+                {
+                    "text": "It is very cold.",
+                    "explanation": "意味不一致：cold＝冷たい。",
+                    "is_correct": false
+                },
+                {
+                    "text": "It is very cheap.",
+                    "explanation": "領域不一致：cheap＝値段。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "portion",
+            "question_type": "Definition/Best Meaning",
+            "question": "Which word means \"the amount of food served to one person\"?",
+            "question_translated": "「1人分として出される料理の量」を表す語はどれですか。",
+            "options": [
+                {
+                    "text": "portion",
+                    "explanation": "正解。量の意味に一致。",
+                    "is_correct": true
+                },
+                {
+                    "text": "beverage",
+                    "explanation": "領域不一致：beverage は飲み物。",
+                    "is_correct": false
+                },
+                {
+                    "text": "menu",
+                    "explanation": "領域不一致：menu はリスト。",
+                    "is_correct": false
+                },
+                {
+                    "text": "tip",
+                    "explanation": "領域不一致：tip は支払い。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "to-go box",
+            "question_type": "Dialogue Completion",
+            "question": "Customer: \"I can't finish my meal. Could you give me a ___?\"",
+            "question_translated": "客:「食事を食べきれません。___をいただけますか。」",
+            "options": [
+                {
+                    "text": "to-go box",
+                    "explanation": "正解。「食べきれない→持ち帰る」場面に一致。",
+                    "is_correct": true
+                },
+                {
+                    "text": "bill",
+                    "explanation": "時間軸不一致：bill は会計。",
+                    "is_correct": false
+                },
+                {
+                    "text": "portion",
+                    "explanation": "領域不一致：portion は量。",
+                    "is_correct": false
+                },
+                {
+                    "text": "menu",
+                    "explanation": "領域不一致：menu はリスト。",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "word": "split the bill",
+            "question_type": "Collocation/Pattern",
+            "question": "Complete the phrase: \"Let's ___ so each person pays for their part.\"",
+            "question_translated": "フレーズを完成させてください。「みんなで___して、それぞれ自分の分を払おう。」",
+            "options": [
+                {
+                    "text": "split the bill",
+                    "explanation": "正解。「それぞれ払う」＝split the bill。",
+                    "is_correct": true
+                },
+                {
+                    "text": "order the menu",
+                    "explanation": "機能不一致：menu はリスト。",
+                    "is_correct": false
+                },
+                {
+                    "text": "cook the dessert",
+                    "explanation": "領域不一致：dessert を作るのは調理。",
+                    "is_correct": false
+                },
+                {
+                    "text": "carry the beverages",
+                    "explanation": "領域不一致：beverages を運ぶのは店員の仕事。",
+                    "is_correct": false
+                }
+            ]
+        }
+    ]
+}

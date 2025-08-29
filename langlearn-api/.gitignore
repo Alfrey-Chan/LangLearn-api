@@ -28,10 +28,14 @@ Thumbs.db
 # Project-specific files to ignore
 CLAUDE.md
 /storage/app/private/
+/storage/firebase/
 *.pem
 *.p12
 firebase-service-account.json
+firebase_credentials.json
 /database/backups/
+/database/*.sqlite
+/database/*.db
 .deployment-config
 
 # Vocabulary data files

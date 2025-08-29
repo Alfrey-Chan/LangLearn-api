@@ -7,6 +7,7 @@ nixPkgs = ["php82", "php82Packages.composer"]
 [phases.build]
 cmds = [
   "cd langlearn-api && composer install --no-dev --optimize-autoloader",
+  "cd langlearn-api && cp .env.example .env",
   "cd langlearn-api && touch database/database.sqlite",
   "cd langlearn-api && php artisan key:generate --force",
   "cd langlearn-api && php artisan migrate --force",
@@ -14,4 +15,4 @@ cmds = [
 ]
 
 [start]
-cmd = "cd langlearn-api && php artisan serve --host=0.0.0.0 --port=$PORT"
+cmd = "cd langlearn-api && mkdir -p storage/firebase && echo \"$FIREBASE_CREDENTIALS_JSON\" > storage/firebase/firebase_credentials.json && php artisan serve --host=0.0.0.0 --port=$PORT"

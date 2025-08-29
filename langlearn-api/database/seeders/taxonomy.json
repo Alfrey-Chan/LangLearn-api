@@ -1,0 +1,125 @@
+{
+    "categories": [
+        {
+            "name": "Daily Life Fundamentals",
+            "subcategories": [
+                "Home & Family",
+                "Food & Dining",
+                "Shopping",
+                "Transportation",
+                "Personal Care",
+                "Time & Weather",
+                "Numbers & Quantities"
+            ]
+        },
+        {
+            "name": "Communication & Social",
+            "subcategories": [
+                "Greetings & Politeness",
+                "Emotions & Feelings",
+                "Opinions & Beliefs",
+                "Small Talk",
+                "Phone & Digital",
+                "Dating & Relationships",
+                "Conflict Resolution"
+            ]
+        },
+        {
+            "name": "Work & Career",
+            "subcategories": [
+                "Job Interviews",
+                "Office Culture",
+                "Business & Formal",
+                "Customer Service",
+                "Industry Specific",
+                "Entrepreneurship"
+            ]
+        },
+        {
+            "name": "Travel & Transit",
+            "subcategories": [
+                "Airports & Flights",
+                "Hotels & Accommodation",
+                "Navigation & Directions",
+                "Tourism & Sightseeing",
+                "Border & Immigration",
+                "Transportation Modes"
+            ]
+        },
+        {
+            "name": "Learning & Academia",
+            "subcategories": [
+                "School & University",
+                "Study Methods",
+                "Presentations & Reports",
+                "Language Learning",
+                "Research & Writing",
+                "Study Abroad"
+            ]
+        },
+        {
+            "name": "Health & Services",
+            "subcategories": [
+                "Medical Visits",
+                "Pharmacy & Medicine",
+                "Emergency Services",
+                "Government Offices",
+                "Banking & Finance",
+                "Legal Services"
+            ]
+        },
+        {
+            "name": "Entertainment & Culture",
+            "subcategories": [
+                "Movies & TV",
+                "Music & Concerts",
+                "Sports & Fitness",
+                "Festivals & Celebrations",
+                "Arts & Crafts",
+                "Hobbies & Interests",
+                "Nightlife & Social"
+            ]
+        },
+        {
+            "name": "Grammar & Structure",
+            "subcategories": [
+                "Verb Tenses",
+                "Particles & Connectors",
+                "Question Formation",
+                "Conditionals & Hypotheticals",
+                "Honorific & Humble",
+                "Sentence Patterns"
+            ]
+        }
+    ],
+    "tags": {
+        "proficiency_level": [
+            "A1",
+            "A2",
+            "B1",
+            "B2",
+            "C1"
+        ],
+        "formality_level": ["Casual", "Polite", "Formal", "Mixed"],
+        "word_types": [
+            "Nouns",
+            "Verbs",
+            "Adjectives",
+            "Phrases",
+            "Expressions",
+            "Grammar Points"
+        ],
+        "communication_context": [
+            "Spoken",
+            "Written",
+            "Service Industry",
+            "Formal Workplace"
+        ],
+        "learning_focus": [
+            "Conversational",
+            "Professional",
+            "Academic",
+            "Cultural"
+        ]
+    }
+}

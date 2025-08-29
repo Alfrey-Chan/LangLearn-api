@@ -38,8 +38,9 @@ firebase_credentials.json
 /database/*.db
 .deployment-config
 
-# Vocabulary data files
+# Vocabulary data files (but keep taxonomy.json)
 /database/seeders/*.json
+!/database/seeders/taxonomy.json
 
 # IDE and OS files
 .vscode/settings.json

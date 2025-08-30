@@ -48,9 +48,9 @@ echo "Clearing configuration cache..."
 php artisan config:clear
 php artisan config:cache
 
-# Run database migrations
+# Run database migrations (fresh to clear user conflicts)
 echo "Running migrations..."
-php artisan migrate --force
+php artisan migrate:fresh --force
 
 # Now clear all caches after database tables exist
 echo "Clearing all caches after migration..."

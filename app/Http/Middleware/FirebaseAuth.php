@@ -43,11 +43,18 @@ class FirebaseAuth
             $request->attributes->set('firebase_email', $email);
             $request->attributes->set('firebase_user', $verifiedIdToken->claims()->all());
 
-            // Create user if doesn't exist
-            User::updateOrCreate(
-                ['firebase_uid' => $uid],
-                ['email' => $email]
-            );
+            // Find or create user by Firebase UID only
+            $user = User::where('firebase_uid', $uid)->first();
+            if (!$user) {
+                // Create new user with this Firebase UID
+                $user = User::create([
+                    'firebase_uid' => $uid,
+                    'email' => $email
+                ]);
+            } else if ($user->email !== $email) {
+                // Update email if it changed in Firebase
+                $user->update(['email' => $email]);
+            }
             
             // Update streak on any activity
             $this->updateUserStreak($uid);

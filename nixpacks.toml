@@ -5,7 +5,7 @@ nixPkgs = ["php82", "php82Packages.composer"]
 cmds = [
   "rm -rf bootstrap/cache/*.php",
   "composer install --no-dev --optimize-autoloader --no-scripts",
-  "cp .env.example .env",
+  "cp .env.example .env || echo 'No .env.example found'",
   "mkdir -p database",
   "touch database/database.sqlite"
 ]

@@ -33,6 +33,11 @@ FIREBASE_CREDENTIALS=/app/storage/firebase/firebase_credentials.json
 EOF
 fi
 
+# Ensure database file exists FIRST
+echo "Ensuring database file exists..."
+mkdir -p database
+touch database/database.sqlite
+
 # Generate application key
 echo "Generating application key..."
 php artisan key:generate --force
@@ -43,11 +48,6 @@ php artisan config:clear
 php artisan cache:clear
 php artisan optimize:clear
 php artisan config:cache
-
-# Ensure database file exists
-echo "Ensuring database file exists..."
-mkdir -p database
-touch database/database.sqlite
 
 # Run database migrations
 echo "Running migrations..."

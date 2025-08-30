@@ -28,6 +28,7 @@ APP_DEBUG=false
 LOG_LEVEL=error
 DB_CONNECTION=sqlite
 DB_DATABASE=/app/database/database.sqlite
+CACHE_DRIVER=file
 FIREBASE_PROJECT_ID=langlearn-a53cd
 FIREBASE_CREDENTIALS=/app/storage/firebase/firebase_credentials.json
 EOF
@@ -42,16 +43,19 @@ touch database/database.sqlite
 echo "Generating application key..."
 php artisan key:generate --force
 
-# Clear all caches and regenerate service providers
-echo "Clearing all caches..."
+# Clear configuration cache only (avoid database cache)
+echo "Clearing configuration cache..."
 php artisan config:clear
-php artisan cache:clear
-php artisan optimize:clear
 php artisan config:cache
 
 # Run database migrations
 echo "Running migrations..."
 php artisan migrate --force
+
+# Now clear all caches after database tables exist
+echo "Clearing all caches after migration..."
+php artisan cache:clear
+php artisan optimize:clear
 
 # Seed database
 echo "Seeding database..."

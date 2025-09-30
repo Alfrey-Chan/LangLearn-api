@@ -68,19 +68,36 @@ class QuizController extends Controller
     }
 
     public function submitAnswers(Request $request)
-    {   
+    {
         $firebaseUid = $request->attributes->get('firebase_uid');
 
         $questions = $request->input('questions', []);
-        $quizId = $questions[0]['quiz_id'];
+
+        if (empty($questions)) {
+            return response()->json(['error' => 'No questions provided'], 400);
+        }
+
+        $quizId = $questions[0]['quiz_id'] ?? null;
+        if (!$quizId) {
+            return response()->json(['error' => 'Quiz ID not found in questions'], 400);
+        }
+
         $fillQuestions = collect($questions)->whereIn('type', ['translation', 'sentence_creation'])->toArray();
-        
-        $feedbacks = $this->openaiService->submitQuizAnswers($fillQuestions);
+
+        $feedbacks = [];
+        if (!empty($fillQuestions)) {
+            try {
+                $feedbacks = $this->openaiService->submitQuizAnswers($fillQuestions);
+            } catch (\Exception $e) {
+                Log::error('OpenAI service error: ' . $e->getMessage());
+                return response()->json(['error' => 'Failed to process AI feedback'], 500);
+            }
+        }
 
         foreach ($questions as &$question) {
             if (in_array($question['type'], ['translation', 'sentence_creation'])) {
-                $aiFeedback = collect($feedbacks['result'])->firstWhere('id', $question['id']);
-                $question['feedback'] = $aiFeedback;
+                $aiFeedback = collect($feedbacks['result'] ?? [])->firstWhere('id', $question['id']);
+                $question['feedback'] = $aiFeedback ?? ['points_awarded' => 0, 'feedback' => 'AI feedback unavailable'];
             }
         }
 

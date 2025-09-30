@@ -1,0 +1,27 @@
+{
+    "title": "基礎文法１",
+    "description": "「This is」「There is」「I have」など基本的な文型パターンと名詞、動詞、形容詞の使い方を学習できます。",
+    "difficulty": "初級",
+    "language_code": "en",
+    "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "category": "学習",
+    "tags": ["初級", "文法", "必須", "基本", "表現"],
+    "entries": [
+        "This is",
+        "That is",
+        "There is",
+        "There are",
+        "I have",
+        "I don't have",
+        "Do you have",
+        "How many",
+        "How much",
+        "I like",
+        "I want",
+        "I need",
+        "Can you",
+        "Could you",
+        "Would you like",
+        "Let's"
+    ]
+}

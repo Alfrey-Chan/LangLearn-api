@@ -13,7 +13,7 @@ class LanguageSeeder extends Seeder
      */
     public function run(): void
     {
-        Language::create(['code' => 'ja', 'name' => 'Japanese', 'native_name' => '日本語', 'is_active' => true]);
+        Language::create(['code' => 'jp', 'name' => 'Japanese', 'native_name' => '日本語', 'is_active' => true]);
         Language::create(['code' => 'en', 'name' => 'English', 'native_name' => 'English', 'is_active' => true]);
         Language::create(['code' => 'zh', 'name' => 'Chinese', 'native_name' => '中文', 'is_active' => true]);
     }

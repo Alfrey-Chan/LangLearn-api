@@ -14,9 +14,29 @@ class VocabularySetController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
-    {
-        return VocabularySet::withCount('vocabularyEntries')->get();
+    public function index(Request $request)
+    {   
+        $vocabularySets = VocabularySet::withCount('vocabularyEntries')->get();
+
+        // current user firebase uid
+        $firebaseUid = $request->attributes->get('firebase_uid');
+        
+        if ($firebaseUid) {
+            $favouritedSetIds = UserFavourite::where('firebase_uid', $firebaseUid)
+                ->whereNotNull('vocabulary_set_id')
+                ->pluck('vocabulary_set_id')
+                ->toArray();
+
+            $vocabularySets->transform(function ($set) use ($favouritedSetIds) {
+                $set->is_favourited = in_array($set->id, $favouritedSetIds);
+                return $set;
+            });
+        } else {
+            // no user logged in - mark all as not favourited (safety net)
+            $vocabularySets->transform(fn($set) => $set->is_favourited = false);
+        } 
+
+        return $vocabularySets;
     }
 
     /**
@@ -110,20 +130,20 @@ class VocabularySetController extends Controller
 
     public function rate(Request $request, string $id)
     {   
-        $request->validate([
+        $validated = $request->validate([
             'rating' => 'required|integer|min:1|max:5',
-            'firebase_uid' => 'required|string'
         ]);
 
         $set = VocabularySet::findOrFail($id);
+        $firebaseUid = $request->attributes->get('firebase_uid');
 
         $rating = Rating::updateOrCreate(
             [
-                'user_id' => $request->firebase_uid,
+                'user_id' => $firebaseUid,
                 'vocabulary_set_id' => $id
             ],
             [
-                'rating' => $request->rating
+                'rating' => $validated['rating']
             ]
         );
 

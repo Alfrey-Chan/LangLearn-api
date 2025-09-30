@@ -6,6 +6,7 @@ use Exception;
 use App\Models\User;
 use App\Models\UserStatistic;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Kreait\Firebase\Auth as FirebaseAuth;
 
 class AuthController extends Controller
@@ -35,7 +36,7 @@ class AuthController extends Controller
             // Find or create user in our database
             $user = User::updateOrCreate(
                 ['firebase_uid' => $uid],
-                ['email' => $email]
+                ['email' => $email],
             );
 
             $userStats = UserStatistic::where('firebase_uid', $uid)->first();

@@ -39,45 +39,42 @@ class FavouriteController extends Controller
      * Add to favorites
      */
     public function store(Request $request)
-    {
-        $firebaseUid = $request->attributes->get('firebase_uid');
-        
-        $request->validate([
-            'vocabulary_entry_id' => 'nullable|exists:vocabulary_entries,id',
-            'vocabulary_set_id' => 'nullable|exists:vocabulary_sets,id'
+    {     
+        $validated = $request->validate([
+            'id' => 'required|integer',
+            'type' => 'required|in:vocabulary_set,vocabulary_entry'
         ]);
+        $id = $validated["id"];
+        $type = $validated["type"];
+        $firebaseUid = $request->attributes->get('firebase_uid');
+        $column = $type . "_id";
 
-        // Ensure only one of entry_id or set_id is provided
-        if ((!$request->vocabulary_entry_id && !$request->vocabulary_set_id) ||
-            ($request->vocabulary_entry_id && $request->vocabulary_set_id)) {
-            return response()->json(['error' => 'Provide either vocabulary_entry_id OR vocabulary_set_id, not both'], 400);
-        }
-
-        $favourite = UserFavourite::updateOrCreate([
+        $favourite = UserFavourite::create([
             'firebase_uid' => $firebaseUid,
-            'vocabulary_entry_id' => $request->vocabulary_entry_id ?? null,
-            'vocabulary_set_id' => $request->vocabulary_set_id ?? null
+            $column => $id,
         ]);
 
         return response()->json($favourite, 201);
     }
 
     /**
-     * Remove from favorites
+     * Remove from favourites
      */
-    public function destroy(Request $request)
-    {
-        $firebaseUid = $request->attributes->get('firebase_uid');
-        
-        $request->validate([
-            'vocabulary_entry_id' => 'nullable|exists:vocabulary_entries,id',
-            'vocabulary_set_id' => 'nullable|exists:vocabulary_sets,id'
+    public function destroy(Request $request) 
+    {   
+        $validated = $request->validate([
+            "id" => "required|integer",
+            "type" => "in:vocabulary_set,vocabulary_entry|required|string",
         ]);
-        
-        $deletedCount = UserFavourite::where('firebase_uid', $firebaseUid)
-            ->where('vocabulary_entry_id', $request->vocabulary_entry_id ?? null)
-            ->where('vocabulary_set_id', $request->vocabulary_set_id ?? null)
+        $id = $validated["id"];
+        $type = $validated["type"];
+        $firebaseUid = $request->attributes->get('firebase_uid');
+        $column = $type === "vocabulary_set" ? "vocabulary_set_id" : "vocabulary_entry_id";
+
+        UserFavourite::where('firebase_uid', $firebaseUid)
+            ->where($column, $id)
             ->delete();
-        return response()->json(['message' => 'Removed from favourites'], 200);
+
+        return response()->json(['message' => "$type removed from favourites"], 200);
     }
 }

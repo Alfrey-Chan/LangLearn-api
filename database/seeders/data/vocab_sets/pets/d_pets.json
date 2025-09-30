@@ -1,0 +1,552 @@
+{
+    "pet": [
+        {
+            "original": "I have a pet rabbit at home.",
+            "translated": "家でペットのウサギを飼っています。"
+        },
+        {
+            "original": "What kind of pet do you want?",
+            "translated": "どんなペットが欲しいですか？"
+        },
+        {
+            "original": "My pet loves to play outside.",
+            "translated": "私のペットは外で遊ぶのが大好きです。"
+        },
+        {
+            "original": "Taking care of a pet is a big responsibility.",
+            "translated": "ペットの世話は大きな責任です。"
+        },
+        {
+            "original": "This apartment doesn't allow pets.",
+            "translated": "このアパートはペット禁止です。"
+        }
+    ],
+    "dog": [
+        {
+            "original": "My dog is very friendly with children.",
+            "translated": "私の犬は子供たちにとても優しいです。"
+        },
+        {
+            "original": "The dog barks when someone comes to the door.",
+            "translated": "誰かがドアに来ると犬が吠えます。"
+        },
+        {
+            "original": "I walk my dog every morning.",
+            "translated": "毎朝犬の散歩をします。"
+        },
+        {
+            "original": "That's a beautiful dog! What breed is it?",
+            "translated": "美しい犬ですね！何の種類ですか？"
+        },
+        {
+            "original": "The dog is sleeping on the sofa.",
+            "translated": "犬がソファで寝ています。"
+        }
+    ],
+    "cat": [
+        {
+            "original": "My cat likes to sit by the window.",
+            "translated": "私の猫は窓のそばに座るのが好きです。"
+        },
+        {
+            "original": "The cat is hiding under the bed.",
+            "translated": "猫がベッドの下に隠れています。"
+        },
+        {
+            "original": "Cats are very independent animals.",
+            "translated": "猫はとても独立心の強い動物です。"
+        },
+        {
+            "original": "I found a lost cat in the park.",
+            "translated": "公園で迷子の猫を見つけました。"
+        },
+        {
+            "original": "The cat purrs when I pet it.",
+            "translated": "撫でると猫がゴロゴロ言います。"
+        }
+    ],
+    "puppy": [
+        {
+            "original": "The puppy is only three months old.",
+            "translated": "その子犬はまだ生後3ヶ月です。"
+        },
+        {
+            "original": "Puppies need a lot of sleep and food.",
+            "translated": "子犬はたくさんの睡眠と食事が必要です。"
+        },
+        {
+            "original": "The puppy chewed my favorite shoes.",
+            "translated": "子犬が私のお気に入りの靴を噛みました。"
+        },
+        {
+            "original": "I want to get a puppy for my birthday.",
+            "translated": "誕生日に子犬が欲しいです。"
+        },
+        {
+            "original": "The puppy follows me everywhere I go.",
+            "translated": "子犬はどこに行っても私について来ます。"
+        }
+    ],
+    "kitten": [
+        {
+            "original": "The kitten is so small and cute.",
+            "translated": "その子猫はとても小さくて可愛いです。"
+        },
+        {
+            "original": "My kitten loves to play with yarn.",
+            "translated": "私の子猫は毛糸で遊ぶのが大好きです。"
+        },
+        {
+            "original": "The mother cat has four kittens.",
+            "translated": "母猫には4匹の子猫がいます。"
+        },
+        {
+            "original": "I found this kitten outside my house.",
+            "translated": "この子猫を家の外で見つけました。"
+        },
+        {
+            "original": "The kitten drinks milk from a small bowl.",
+            "translated": "子猫は小さなお皿からミルクを飲みます。"
+        }
+    ],
+    "walk the dog": [
+        {
+            "original": "I walk the dog twice a day.",
+            "translated": "1日2回犬の散歩をします。"
+        },
+        {
+            "original": "Can you walk the dog while I'm at work?",
+            "translated": "私が仕事中に犬の散歩をしてもらえますか？"
+        },
+        {
+            "original": "It's time to walk the dog.",
+            "translated": "犬の散歩の時間です。"
+        },
+        {
+            "original": "I always walk the dog in the park.",
+            "translated": "いつも公園で犬の散歩をします。"
+        },
+        {
+            "original": "Walking the dog is good exercise for both of us.",
+            "translated": "犬の散歩は私たち両方にとって良い運動です。"
+        }
+    ],
+    "feed the pet": [
+        {
+            "original": "I feed the pet at 7 AM every day.",
+            "translated": "毎日午前7時にペットに餌をあげます。"
+        },
+        {
+            "original": "Don't forget to feed the pet before you leave.",
+            "translated": "出かける前にペットに餌をあげるのを忘れないで。"
+        },
+        {
+            "original": "How often do you feed the pet?",
+            "translated": "どのくらいの頻度でペットに餌をあげますか？"
+        },
+        {
+            "original": "My children help me feed the pet.",
+            "translated": "子供たちがペットに餌をあげるのを手伝ってくれます。"
+        },
+        {
+            "original": "I need to feed the pet more vegetables.",
+            "translated": "ペットにもっと野菜をあげる必要があります。"
+        }
+    ],
+    "pet food": [
+        {
+            "original": "I buy pet food at the supermarket.",
+            "translated": "スーパーマーケットでペットフードを買います。"
+        },
+        {
+            "original": "This pet food is very expensive.",
+            "translated": "このペットフードはとても高いです。"
+        },
+        {
+            "original": "What brand of pet food do you use?",
+            "translated": "どのブランドのペットフードを使っていますか？"
+        },
+        {
+            "original": "Good pet food keeps animals healthy.",
+            "translated": "良いペットフードは動物を健康に保ちます。"
+        },
+        {
+            "original": "I ran out of pet food yesterday.",
+            "translated": "昨日ペットフードが切れました。"
+        }
+    ],
+    "water bowl": [
+        {
+            "original": "Please fill the water bowl for the dog.",
+            "translated": "犬の水入れに水を入れてください。"
+        },
+        {
+            "original": "The cat knocked over its water bowl.",
+            "translated": "猫が水入れをひっくり返しました。"
+        },
+        {
+            "original": "I clean the water bowl every day.",
+            "translated": "毎日水入れを洗います。"
+        },
+        {
+            "original": "The water bowl is empty again.",
+            "translated": "水入れがまた空になっています。"
+        },
+        {
+            "original": "My pet has a blue water bowl.",
+            "translated": "私のペットには青い水入れがあります。"
+        }
+    ],
+    "collar": [
+        {
+            "original": "My dog wears a red collar with his name on it.",
+            "translated": "私の犬は名前が書かれた赤い首輪をしています。"
+        },
+        {
+            "original": "The collar is too tight for the puppy.",
+            "translated": "その首輪は子犬にはきつすぎます。"
+        },
+        {
+            "original": "I need to buy a new collar for my cat.",
+            "translated": "猫の新しい首輪を買う必要があります。"
+        },
+        {
+            "original": "The collar has a bell that makes noise.",
+            "translated": "その首輪には音のなる鈴が付いています。"
+        },
+        {
+            "original": "Take off the collar before giving the dog a bath.",
+            "translated": "犬をお風呂に入れる前に首輪を外してください。"
+        }
+    ],
+    "leash": [
+        {
+            "original": "Always use a leash when walking your dog.",
+            "translated": "犬の散歩の時は必ずリードを使ってください。"
+        },
+        {
+            "original": "The leash broke during our walk.",
+            "translated": "散歩中にリードが壊れました。"
+        },
+        {
+            "original": "My dog pulls hard on the leash.",
+            "translated": "私の犬はリードを強く引っ張ります。"
+        },
+        {
+            "original": "I forgot to bring the leash today.",
+            "translated": "今日はリードを持ってくるのを忘れました。"
+        },
+        {
+            "original": "This park requires all dogs to be on a leash.",
+            "translated": "この公園では全ての犬にリードが必要です。"
+        }
+    ],
+    "veterinarian": [
+        {
+            "original": "The veterinarian examined my sick cat.",
+            "translated": "獣医師が私の病気の猫を診察しました。"
+        },
+        {
+            "original": "My veterinarian is very kind to animals.",
+            "translated": "私の獣医師は動物にとても優しいです。"
+        },
+        {
+            "original": "I need to find a good veterinarian in this area.",
+            "translated": "この地域で良い獣医師を見つける必要があります。"
+        },
+        {
+            "original": "The veterinarian said my dog is healthy.",
+            "translated": "獣医師は私の犬が健康だと言いました。"
+        },
+        {
+            "original": "I want to become a veterinarian when I grow up.",
+            "translated": "大きくなったら獣医師になりたいです。"
+        }
+    ],
+    "vet appointment": [
+        {
+            "original": "I have a vet appointment at 3 PM today.",
+            "translated": "今日午後3時に獣医の予約があります。"
+        },
+        {
+            "original": "Can you make a vet appointment for my dog?",
+            "translated": "私の犬の獣医の予約を取ってもらえますか？"
+        },
+        {
+            "original": "The vet appointment took longer than expected.",
+            "translated": "獣医の予約は予想より長くかかりました。"
+        },
+        {
+            "original": "I need to cancel my vet appointment.",
+            "translated": "獣医の予約をキャンセルする必要があります。"
+        },
+        {
+            "original": "Regular vet appointments keep pets healthy.",
+            "translated": "定期的な獣医の診察がペットを健康に保ちます。"
+        }
+    ],
+    "grooming": [
+        {
+            "original": "My dog needs grooming every month.",
+            "translated": "私の犬は毎月グルーミングが必要です。"
+        },
+        {
+            "original": "The grooming salon is very popular.",
+            "translated": "そのグルーミングサロンはとても人気です。"
+        },
+        {
+            "original": "Grooming helps keep pets clean and healthy.",
+            "translated": "グルーミングはペットを清潔で健康に保つのに役立ちます。"
+        },
+        {
+            "original": "I learned how to do basic grooming at home.",
+            "translated": "家で基本的なグルーミングをする方法を学びました。"
+        },
+        {
+            "original": "After grooming, my cat looks beautiful.",
+            "translated": "グルーミングの後、私の猫は美しく見えます。"
+        }
+    ],
+    "bath time": [
+        {
+            "original": "My dog hates bath time.",
+            "translated": "私の犬はお風呂の時間が嫌いです。"
+        },
+        {
+            "original": "Bath time is once a week for our pets.",
+            "translated": "私たちのペットのお風呂は週に1回です。"
+        },
+        {
+            "original": "I use special shampoo during bath time.",
+            "translated": "お風呂の時間には特別なシャンプーを使います。"
+        },
+        {
+            "original": "The cat runs away when it's bath time.",
+            "translated": "お風呂の時間になると猫は逃げます。"
+        },
+        {
+            "original": "After bath time, I dry my pet with a towel.",
+            "translated": "お風呂の後、タオルでペットを乾かします。"
+        }
+    ],
+    "play fetch": [
+        {
+            "original": "My dog loves to play fetch in the yard.",
+            "translated": "私の犬は庭でボール遊びをするのが大好きです。"
+        },
+        {
+            "original": "We play fetch every afternoon.",
+            "translated": "毎日午後にボール遊びをします。"
+        },
+        {
+            "original": "The puppy is learning how to play fetch.",
+            "translated": "子犬はボール遊びの仕方を覚えています。"
+        },
+        {
+            "original": "I throw the ball and my dog brings it back.",
+            "translated": "ボールを投げると犬が持って戻ってきます。"
+        },
+        {
+            "original": "Playing fetch is good exercise for dogs.",
+            "translated": "ボール遊びは犬にとって良い運動です。"
+        }
+    ],
+    "litter box": [
+        {
+            "original": "I clean the litter box every day.",
+            "translated": "毎日猫のトイレを掃除します。"
+        },
+        {
+            "original": "The cat uses the litter box in the bathroom.",
+            "translated": "猫はバスルームのトイレボックスを使います。"
+        },
+        {
+            "original": "We need to buy more litter for the litter box.",
+            "translated": "猫のトイレのために砂をもっと買う必要があります。"
+        },
+        {
+            "original": "My kitten learned to use the litter box quickly.",
+            "translated": "私の子猫はすぐに猫トイレの使い方を覚えました。"
+        },
+        {
+            "original": "The litter box smells bad today.",
+            "translated": "今日猫のトイレが臭います。"
+        }
+    ],
+    "pet toy": [
+        {
+            "original": "My cat has many pet toys to play with.",
+            "translated": "私の猫には遊ぶためのペット用おもちゃがたくさんあります。"
+        },
+        {
+            "original": "This pet toy makes noise when you squeeze it.",
+            "translated": "このペット用おもちゃは押すと音がします。"
+        },
+        {
+            "original": "I bought a new pet toy for my dog's birthday.",
+            "translated": "犬の誕生日に新しいペット用おもちゃを買いました。"
+        },
+        {
+            "original": "The puppy destroyed its pet toy in one day.",
+            "translated": "子犬は1日でペット用おもちゃを壊しました。"
+        },
+        {
+            "original": "Pet toys help keep animals entertained.",
+            "translated": "ペット用おもちゃは動物を楽しませるのに役立ちます。"
+        }
+    ],
+    "treat": [
+        {
+            "original": "I give my dog a treat when he's good.",
+            "translated": "犬がいい子にしている時におやつをあげます。"
+        },
+        {
+            "original": "These treats are made with real chicken.",
+            "translated": "これらのおやつは本物のチキンで作られています。"
+        },
+        {
+            "original": "My cat sits and waits for a treat.",
+            "translated": "私の猫は座っておやつを待ちます。"
+        },
+        {
+            "original": "Don't give too many treats to your pet.",
+            "translated": "ペットにおやつをあげすぎないでください。"
+        },
+        {
+            "original": "The vet said healthy treats are important.",
+            "translated": "獣医師は健康的なおやつが重要だと言いました。"
+        }
+    ],
+    "vaccination": [
+        {
+            "original": "My puppy needs its first vaccination next week.",
+            "translated": "私の子犬は来週初回のワクチン接種が必要です。"
+        },
+        {
+            "original": "All pets should get regular vaccinations.",
+            "translated": "全てのペットは定期的にワクチン接種を受けるべきです。"
+        },
+        {
+            "original": "The vaccination protects pets from diseases.",
+            "translated": "ワクチン接種はペットを病気から守ります。"
+        },
+        {
+            "original": "I keep my pet's vaccination records safe.",
+            "translated": "ペットのワクチン接種記録を安全に保管しています。"
+        },
+        {
+            "original": "The vaccination appointment is tomorrow morning.",
+            "translated": "ワクチン接種の予約は明日の朝です。"
+        }
+    ],
+    "pet carrier": [
+        {
+            "original": "I put my cat in the pet carrier for the vet visit.",
+            "translated": "獣医への訪問のために猫をペット用キャリーに入れました。"
+        },
+        {
+            "original": "This pet carrier is too small for my dog.",
+            "translated": "このペット用キャリーは私の犬には小さすぎます。"
+        },
+        {
+            "original": "I need to buy a pet carrier for air travel.",
+            "translated": "飛行機旅行のためにペット用キャリーを買う必要があります。"
+        },
+        {
+            "original": "The pet carrier has good ventilation.",
+            "translated": "そのペット用キャリーは通気性が良いです。"
+        },
+        {
+            "original": "My pet feels safe in its carrier.",
+            "translated": "私のペットはキャリーの中で安心感を感じます。"
+        }
+    ],
+    "well-behaved": [
+        {
+            "original": "My dog is very well-behaved around children.",
+            "translated": "私の犬は子供たちの周りでとてもお行儀が良いです。"
+        },
+        {
+            "original": "Well-behaved pets are welcome in this store.",
+            "translated": "お行儀の良いペットはこの店で歓迎されます。"
+        },
+        {
+            "original": "She trained her cat to be well-behaved.",
+            "translated": "彼女は猫をお行儀良くなるように訓練しました。"
+        },
+        {
+            "original": "The puppy is learning to be well-behaved.",
+            "translated": "子犬はお行儀良くなることを学んでいます。"
+        },
+        {
+            "original": "Well-behaved animals get more treats.",
+            "translated": "お行儀の良い動物はより多くのおやつをもらえます。"
+        }
+    ],
+    "naughty": [
+        {
+            "original": "My kitten is very naughty today.",
+            "translated": "私の子猫は今日とてもいたずらです。"
+        },
+        {
+            "original": "The naughty puppy chewed the furniture.",
+            "translated": "いたずらな子犬が家具を噛みました。"
+        },
+        {
+            "original": "Sometimes pets are naughty when they're bored.",
+            "translated": "時々ペットは退屈な時にいたずらをします。"
+        },
+        {
+            "original": "Don't be naughty during dinner time.",
+            "translated": "夕食の時間にいたずらをしてはいけません。"
+        },
+        {
+            "original": "The naughty cat knocked over my coffee.",
+            "translated": "いたずらな猫が私のコーヒーをこぼしました。"
+        }
+    ],
+    "house-trained": [
+        {
+            "original": "My dog is fully house-trained now.",
+            "translated": "私の犬は今完全にトイレのしつけができています。"
+        },
+        {
+            "original": "It took three months to get the puppy house-trained.",
+            "translated": "子犬のトイレのしつけには3ヶ月かかりました。"
+        },
+        {
+            "original": "House-trained pets don't have accidents inside.",
+            "translated": "トイレのしつけができたペットは室内で粗相をしません。"
+        },
+        {
+            "original": "I'm looking for a house-trained cat to adopt.",
+            "translated": "トイレのしつけができた猫を引き取りたいと思っています。"
+        },
+        {
+            "original": "Getting a pet house-trained requires patience.",
+            "translated": "ペットのトイレのしつけには忍耐が必要です。"
+        }
+    ],
+    "pet owner": [
+        {
+            "original": "As a responsible pet owner, I take my dog to the vet regularly.",
+            "translated": "責任感のあるペットオーナーとして、定期的に犬を獣医に連れて行きます。"
+        },
+        {
+            "original": "Every pet owner should train their animals properly.",
+            "translated": "全てのペットオーナーは動物を適切に訓練するべきです。"
+        },
+        {
+            "original": "The pet owner forgot to bring food for the dog.",
+            "translated": "ペットオーナーは犬の餌を持ってくるのを忘れました。"
+        },
+        {
+            "original": "New pet owners often ask for advice.",
+            "translated": "新しいペットオーナーはよくアドバイスを求めます。"
+        },
+        {
+            "original": "Being a pet owner is a big commitment.",
+            "translated": "ペットオーナーになることは大きな責任です。"
+        }
+    ]
+}

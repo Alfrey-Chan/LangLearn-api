@@ -1,0 +1,379 @@
+{
+    "entries": [
+        {
+            "language_code": "en",
+            "word": "hotel",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ホテル",
+                    "long": "旅行者や出張者が宿泊するための有料の宿泊施設。"
+                }
+            ],
+            "additional_notes": "「motel」（モーテル）は主に車での旅行者向け、「inn」（宿）はより小規模で家庭的な宿泊施設を指す。星の数でグレードを表すことが多い。"
+        },
+        {
+            "language_code": "en",
+            "word": "reservation",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "予約",
+                    "long": "事前にホテルの部屋を確保すること、またはその予約記録。"
+                }
+            ],
+            "additional_notes": "「make a reservation」（予約を取る）、「cancel a reservation」（予約をキャンセルする）の形で使用。「booking」とほぼ同義だが、「reservation」がより正式。"
+        },
+        {
+            "language_code": "en",
+            "word": "booking",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "予約",
+                    "long": "ホテルやレストランなどの席や部屋を事前に確保すること。"
+                }
+            ],
+            "additional_notes": "「book a room」（部屋を予約する）の動詞「book」から派生。オンライン予約サイトでは「booking」が頻繁に使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "front desk",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "フロント",
+                    "long": "ホテルのロビーにある受付カウンター。チェックインや各種サービスを提供する場所。"
+                }
+            ],
+            "additional_notes": "「reception desk」とも呼ばれる。ホテルの顔となる重要な場所で、24時間対応している場合が多い。"
+        },
+        {
+            "language_code": "en",
+            "word": "reception",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "受付",
+                    "long": "ホテルの入り口付近にある来客対応や手続きを行う場所。"
+                }
+            ],
+            "additional_notes": "「front desk」とほぼ同義だが、「reception」は場所だけでなく受付サービス全般を指すことも多い。「at reception」（受付で）として使用。"
+        },
+        {
+            "language_code": "en",
+            "word": "check in",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["phrasal verb", "noun"],
+            "meanings": [
+                {
+                    "short": "チェックイン",
+                    "long": "ホテル到着時に受付手続きを行い、部屋の鍵を受け取ること。"
+                }
+            ],
+            "additional_notes": "動詞として「check in」、名詞として「check-in」（ハイフン付き）。通常は午後2時や3時以降に可能。「early check-in」（早めのチェックイン）もある。"
+        },
+        {
+            "language_code": "en",
+            "word": "check out",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["phrasal verb", "noun"],
+            "meanings": [
+                {
+                    "short": "チェックアウト",
+                    "long": "ホテル出発時に鍵を返却し、料金を清算して退室すること。"
+                }
+            ],
+            "additional_notes": "動詞として「check out」、名詞として「check-out」。通常は午前10時や11時までに行う。「late check-out」（遅めのチェックアウト）は追加料金がかかることが多い。"
+        },
+        {
+            "language_code": "en",
+            "word": "room key",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "部屋の鍵",
+                    "long": "ホテルの客室に入るための鍵。従来の金属製の鍵を指すことが多い。"
+                }
+            ],
+            "additional_notes": "現在は多くのホテルで電子カード式の「key card」に置き換わっているが、小規模なホテルでは伝統的な鍵が使用されることもある。"
+        },
+        {
+            "language_code": "en",
+            "word": "key card",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "キーカード",
+                    "long": "磁気ストライプやICチップが埋め込まれた電子式の部屋の鍵。"
+                }
+            ],
+            "additional_notes": "現代のホテルで主流の鍵システム。紛失時の再発行が容易で、セキュリティが高い。「swipe the key card」（カードをスワイプする）として使用。"
+        },
+        {
+            "language_code": "en",
+            "word": "single room",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "シングルルーム",
+                    "long": "一人用のベッドが一台ある一人宿泊用の部屋。"
+                }
+            ],
+            "additional_notes": "「single bed」（シングルベッド）が一台配置された部屋。最もコンパクトで料金が安い部屋タイプ。ビジネス出張でよく利用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "double room",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ダブルルーム",
+                    "long": "二人用の大きなベッドが一台ある部屋。主にカップルや夫婦向け。"
+                }
+            ],
+            "additional_notes": "「double bed」（ダブルベッド）が一台配置された部屋。「queen bed」や「king bed」などサイズの違いもある。"
+        },
+        {
+            "language_code": "en",
+            "word": "twin room",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ツインルーム",
+                    "long": "シングルベッドが二台並んで配置された二人用の部屋。"
+                }
+            ],
+            "additional_notes": "友人同士や同僚との出張でよく利用される。「twin beds」（ツインベッド）が特徴。ダブルルームより友人関係に適している。"
+        },
+        {
+            "language_code": "en",
+            "word": "suite",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "スイート",
+                    "long": "寝室とリビングルームが分かれた高級で広い客室。"
+                }
+            ],
+            "additional_notes": "「suite room」とも呼ばれる。最高級のホテル客室で、VIPや特別な機会に利用される。「presidential suite」（プレジデンシャルスイート）が最上級。"
+        },
+        {
+            "language_code": "en",
+            "word": "room service",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ルームサービス",
+                    "long": "ホテルの客室まで食事や飲み物を届けるサービス。"
+                }
+            ],
+            "additional_notes": "「call room service」（ルームサービスを呼ぶ）の形で使用。24時間対応のホテルも多いが、追加料金やサービス料がかかることが一般的。"
+        },
+        {
+            "language_code": "en",
+            "word": "housekeeping",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ハウスキーピング",
+                    "long": "ホテルの客室清掃やベッドメイキング、アメニティ補充を行う部署。"
+                }
+            ],
+            "additional_notes": "「call housekeeping」でタオル交換や追加の清掃を依頼できる。「maid service」とも呼ばれるが、「housekeeping」がより一般的で丁寧な表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "elevator",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "エレベーター",
+                    "long": "ホテルの上下階を移動するための昇降機。"
+                }
+            ],
+            "additional_notes": "アメリカ英語では「elevator」、イギリス英語では「lift」。「take the elevator to the 5th floor」（エレベーターで5階へ）の形で使用。"
+        },
+        {
+            "language_code": "en",
+            "word": "lobby",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ロビー",
+                    "long": "ホテルの玄関ホール。受付や待合スペースがある開放的な空間。"
+                }
+            ],
+            "additional_notes": "「hotel lobby」として使用。待ち合わせ場所としても利用され、WiFiが無料で使える場合が多い。「meet in the lobby」（ロビーで会う）など。"
+        },
+        {
+            "language_code": "en",
+            "word": "concierge",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "コンシェルジュ",
+                    "long": "宿泊客の様々な要望に応える専門スタッフ。観光案内や予約代行を行う。"
+                }
+            ],
+            "additional_notes": "フランス語由来の単語。レストラン予約、観光地案内、交通手配など幅広いサービスを提供。高級ホテルに配置されることが多い。"
+        },
+        {
+            "language_code": "en",
+            "word": "wake-up call",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "モーニングコール",
+                    "long": "指定した時刻に電話で起こしてくれるホテルのサービス。"
+                }
+            ],
+            "additional_notes": "「request a wake-up call」（モーニングコールを依頼する）の形で使用。スマートフォンの普及で利用頻度は減っているが、確実な目覚ましとして重宝される。"
+        },
+        {
+            "language_code": "en",
+            "word": "do not disturb",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "起こさないで",
+                    "long": "客室のドアにかける札で、清掃や訪問を遠慮してもらうための表示。"
+                }
+            ],
+            "additional_notes": "「DND」と略される場合もある。休息中や会議中に使用する。反対は「please make up room」（清掃をお願いします）の札。"
+        },
+        {
+            "language_code": "en",
+            "word": "towels",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "タオル",
+                    "long": "客室のバスルームに備え付けられている吸水性の布。大小様々なサイズがある。"
+                }
+            ],
+            "additional_notes": "「bath towel」（バスタオル）、「hand towel」（ハンドタオル）、「face towel」（フェイスタオル）などサイズ別に名称がある。毎日交換される。"
+        },
+        {
+            "language_code": "en",
+            "word": "amenities",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "アメニティ",
+                    "long": "ホテルが無料で提供するシャンプーや石鹸などの備品や設備。"
+                }
+            ],
+            "additional_notes": "複数形で使用される。「bathroom amenities」（バスアメニティ）、「hotel amenities」（ホテル設備）など。プールやジムなどの施設も含む概念。"
+        },
+        {
+            "language_code": "en",
+            "word": "Wi-Fi password",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "WiFiパスワード",
+                    "long": "ホテルの無線インターネットに接続するために必要な暗号。"
+                }
+            ],
+            "additional_notes": "「WiFi code」とも呼ばれる。チェックイン時に提供されることが多く、部屋の案内書に記載されている場合もある。現在は無料WiFiが標準的。"
+        },
+        {
+            "language_code": "en",
+            "word": "bill",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "請求書",
+                    "long": "宿泊料金や追加サービスの利用料金を詳細に記載した会計書。"
+                }
+            ],
+            "additional_notes": "「hotel bill」「invoice」とも呼ばれる。チェックアウト時に提示される。「settle the bill」（会計を済ませる）、「split the bill」（割り勘する）など。"
+        },
+        {
+            "language_code": "en",
+            "word": "extra charge",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "追加料金",
+                    "long": "基本宿泊料金に加えて発生する追加サービスや設備利用の料金。"
+                }
+            ],
+            "additional_notes": "「additional fee」「surcharge」とも表現される。ルームサービス、ミニバー、駐車場、早朝チェックインなどで発生することが多い。"
+        }
+    ]
+}

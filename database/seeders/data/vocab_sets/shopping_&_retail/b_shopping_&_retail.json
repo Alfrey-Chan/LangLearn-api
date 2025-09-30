@@ -1,0 +1,377 @@
+{
+    "entries": [
+        {
+            "language_code": "en",
+            "word": "customer service",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "顧客対応",
+                    "long": "購入前後の問い合わせ、苦情対応、アフターサービスなど顧客を支援する業務。"
+                }
+            ],
+            "additional_notes": "略して「CS」とも呼ばれる。「customer support」とほぼ同義だが、「service」の方が一般的。"
+        },
+        {
+            "language_code": "en",
+            "word": "return policy",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "返品規定",
+                    "long": "返品や返金・交換の可否や条件・期限を定めた店舗や企業のルール。"
+                }
+            ],
+            "additional_notes": "「returns policy」とも表記される。オンラインショッピングでは特に重要な情報として明記される。"
+        },
+        {
+            "language_code": "en",
+            "word": "exchange",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun", "verb"],
+            "meanings": [
+                {
+                    "short": "交換",
+                    "long": "購入した商品を別の商品や同一商品の別サイズ等に取り替えること。"
+                },
+                {
+                    "short": "両替",
+                    "long": "通貨や金銭を別の通貨・紙幣・硬貨に換えること。"
+                },
+                {
+                    "short": "交換する",
+                    "long": "商品を別の商品に取り替える動作。"
+                }
+            ],
+            "additional_notes": "文脈により意味が大きく変わる多義語。「stock exchange」（証券取引所）、「exchange rate」（為替レート）など金融用語としても重要。"
+        },
+        {
+            "language_code": "en",
+            "word": "refund",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun", "verb"],
+            "meanings": [
+                {
+                    "short": "返金",
+                    "long": "返品・不良や契約解除に伴い支払済みの代金を顧客へ戻すこと。"
+                },
+                {
+                    "short": "返金する",
+                    "long": "代金を顧客に払い戻す動作。店側が購入者に金銭を返却すること。"
+                }
+            ],
+            "additional_notes": "動詞として使う場合、「refund someone」（人に返金する）または「refund something」（何かを返金する）の形で使用。"
+        },
+        {
+            "language_code": "en",
+            "word": "warranty",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "保証",
+                    "long": "一定期間、製品の欠陥に対する無償修理・交換などを約束する制度や証書。"
+                }
+            ],
+            "additional_notes": "「guarantee」との違い：warrantyは通常メーカーが提供する正式な保証書、guaranteeはより広い約束や確約を指す。"
+        },
+        {
+            "language_code": "en",
+            "word": "barcode",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "バーコード",
+                    "long": "商品識別のための縞模様コード。価格照会や在庫管理・レジ精算に使用。"
+                }
+            ],
+            "additional_notes": "「bar code」と2語で書くこともある。QRコードの普及により「code」だけで表現されることも増えている。"
+        },
+        {
+            "language_code": "en",
+            "word": "product",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "商品",
+                    "long": "店舗で販売される品物や製品の総称。購入対象となる具体的な品目。"
+                }
+            ],
+            "additional_notes": "「goods」より具体的で個別性があり、「merchandise」より消費者視点の用語。マーケティングでは「product line」「product range」としてよく使用。"
+        },
+        {
+            "language_code": "en",
+            "word": "brand",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "ブランド",
+                    "long": "企業や製品を識別する名称・ロゴ・イメージの集合。信頼や価値を示す指標。"
+                }
+            ],
+            "additional_notes": "動詞として「brand something」（ブランド化する）の使い方もある。「trademark」は法的な商標、「brand」はマーケティング概念として区別される。"
+        },
+        {
+            "language_code": "en",
+            "word": "quality",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "品質",
+                    "long": "製品やサービスの性能・耐久性・仕上がりなどの優劣や一貫性の度合い。"
+                }
+            ],
+            "additional_notes": "形容詞「qualitative」（質的な）と「quantitative」（量的な）の使い分けが重要。「high quality」「poor quality」など形容詞と組み合わせて使用。"
+        },
+        {
+            "language_code": "en",
+            "word": "department",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "売り場",
+                    "long": "百貨店や大型店舗のカテゴリ別エリア。衣料品売り場などの区分。"
+                },
+                {
+                    "short": "部門",
+                    "long": "会社や組織内の機能別・専門別に分けられた部署や担当区分。"
+                }
+            ],
+            "additional_notes": "「department store」（百貨店）は固有の表現。政府機関では「Department of Defense」のように大文字で始まる。"
+        },
+        {
+            "language_code": "en",
+            "word": "aisle",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "通路",
+                    "long": "棚と棚の間の歩行スペース。商品へアクセスするための通り道。"
+                }
+            ],
+            "additional_notes": "発音注意：「island」の「isle」と同じで、「s」は無音（/aɪl/）。飛行機や結婚式場の通路も「aisle」を使う。"
+        },
+        {
+            "language_code": "en",
+            "word": "shelf",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "棚",
+                    "long": "商品を陳列・保管するための段状の設備。"
+                }
+            ],
+            "additional_notes": "複数形は「shelves」（/ʃelvz/）。「shelf life」（賞味期限）という熟語も重要。動詞「shelve」（棚に置く、保留する）もある。"
+        },
+        {
+            "language_code": "en",
+            "word": "display",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "陳列",
+                    "long": "商品を見やすく魅力的に見せるための配置・演出。ディスプレイ全般。"
+                },
+                {
+                    "short": "表示",
+                    "long": "情報やデータを画面や看板などに映し出すこと。"
+                }
+            ],
+            "additional_notes": "動詞としても頻繁に使用（display products）。IT用語としてのディスプレイ（モニター）との混同に注意。"
+        },
+        {
+            "language_code": "en",
+            "word": "promotion",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "販促",
+                    "long": "売上拡大のための広告・割引・イベント等の販売促進活動。"
+                },
+                {
+                    "short": "昇進",
+                    "long": "職場でより高い地位や役職に上がること。"
+                }
+            ],
+            "additional_notes": "文脈で意味が大きく変わる。小売業では「sales promotion」、人事では「job promotion」として明確化されることが多い。"
+        },
+        {
+            "language_code": "en",
+            "word": "clearance",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "在庫一掃",
+                    "long": "季節終わりや型落ち品を大幅値下げで売り切るセール。"
+                },
+                {
+                    "short": "通関",
+                    "long": "税関での輸出入手続きや許可。"
+                }
+            ],
+            "additional_notes": "「clearance sale」として使用することが多い。建築では「clearance」（隙間、余裕）の意味もある。"
+        },
+        {
+            "language_code": "en",
+            "word": "credit card",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "クレジットカード",
+                    "long": "後払い方式で決済できるカード。分割やポイント特典などがある。"
+                }
+            ],
+            "additional_notes": "「credit」は信用の意味。「charge card」とは厳密には異なるが、一般的には同義として使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "debit card",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "デビットカード",
+                    "long": "支払い時に即時で銀行口座から引き落とされる決済カード。"
+                }
+            ],
+            "additional_notes": "「debit」は借方・引き落としの意味。「PIN」（暗証番号）と組み合わせて使用することが多い。"
+        },
+        {
+            "language_code": "en",
+            "word": "instalments",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "分割払い",
+                    "long": "購入代金を複数回に分けて支払う方法。手数料が発生する場合がある。"
+                }
+            ],
+            "additional_notes": "アメリカ英語では「installments」。「pay in instalments」「monthly instalments」の形で使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "store hours",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "営業時間",
+                    "long": "店舗が営業する開始時刻と終了時刻。定休日を含む案内。"
+                }
+            ],
+            "additional_notes": "「opening hours」「business hours」とも表現される。複数形で使用されることに注意。"
+        },
+        {
+            "language_code": "en",
+            "word": "retail",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "小売",
+                    "long": "消費者に対して少量単位で商品を販売する事業形態や業界。"
+                }
+            ],
+            "additional_notes": "形容詞として「retail price」（小売価格）、動詞として「retail goods」（小売りする）の使い方もある。"
+        },
+        {
+            "language_code": "en",
+            "word": "out of stock",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "expression",
+            "meanings": [
+                {
+                    "short": "在庫切れ",
+                    "long": "商品が一時的に品切れで、店舗や倉庫に在庫がない状態。"
+                }
+            ],
+            "additional_notes": "「sold out」とほぼ同義だが、「out of stock」は一時的、「sold out」は完売のニュアンスがある。"
+        },
+        {
+            "language_code": "en",
+            "word": "in stock",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "expression",
+            "meanings": [
+                {
+                    "short": "在庫あり",
+                    "long": "商品が現在入手可能で、店舗や倉庫に十分な数量がある状態。"
+                }
+            ],
+            "additional_notes": "「available」「in store」とも表現される。オンラインショッピングでは在庫状況を示す重要な表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "special offer",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": "noun",
+            "meanings": [
+                {
+                    "short": "特別割引",
+                    "long": "期間限定の値引き・セット価格・特典など、通常よりお得な販売条件。"
+                }
+            ],
+            "additional_notes": "「special deal」「promotional offer」とも表現される。マーケティングでよく使用される消費者向け用語。"
+        }
+    ]
+}

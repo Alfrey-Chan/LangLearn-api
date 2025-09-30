@@ -1,0 +1,508 @@
+{
+    "customer service": [
+        {
+            "original": "I need to call customer service about my order.",
+            "translated": "注文について、カスタマーサービスに電話する必要があります。"
+        },
+        {
+            "original": "The customer service desk is near the entrance.",
+            "translated": "カスタマーサービスのカウンターは入口の近くにあります。"
+        },
+        {
+            "original": "Customer service helped me find the right product.",
+            "translated": "カスタマーサービスが適切な商品を見つけるのを手伝ってくれました。"
+        },
+        {
+            "original": "Please contact customer service if you have problems.",
+            "translated": "問題がある場合は、カスタマーサービスにご連絡ください。"
+        },
+        {
+            "original": "The customer service team was very friendly.",
+            "translated": "カスタマーサービスのスタッフはとても親切でした。"
+        }
+    ],
+    "return policy": [
+        {
+            "original": "What is your return policy for this item?",
+            "translated": "この商品の返品ポリシーはどうなっていますか？"
+        },
+        {
+            "original": "The return policy allows 30 days for returns.",
+            "translated": "返品ポリシーでは30日以内の返品が認められています。"
+        },
+        {
+            "original": "I read the return policy before buying.",
+            "translated": "購入前に返品ポリシーを読みました。"
+        },
+        {
+            "original": "Their return policy is very fair to customers.",
+            "translated": "彼らの返品ポリシーはお客様にとても公正です。"
+        },
+        {
+            "original": "The return policy is printed on the receipt.",
+            "translated": "返品ポリシーはレシートに印刷されています。"
+        }
+    ],
+    "exchange": [
+        {
+            "original": "Can I exchange this shirt for a different size?",
+            "translated": "このシャツを違うサイズに交換できますか？"
+        },
+        {
+            "original": "I want to exchange these shoes for black ones.",
+            "translated": "この靴を黒いものに交換したいです。"
+        },
+        {
+            "original": "The store allows exchanges within 14 days.",
+            "translated": "お店では14日以内の交換を認めています。"
+        },
+        {
+            "original": "I need to exchange this broken phone.",
+            "translated": "この壊れた電話を交換する必要があります。"
+        },
+        {
+            "original": "They let me exchange the gift without a receipt.",
+            "translated": "レシートなしでプレゼントを交換させてくれました。"
+        }
+    ],
+    "refund": [
+        {
+            "original": "Can I get a refund for this broken item?",
+            "translated": "この壊れた商品の返金をもらえますか？"
+        },
+        {
+            "original": "The refund will take 3-5 business days.",
+            "translated": "返金には営業日で3〜5日かかります。"
+        },
+        {
+            "original": "I got a full refund for my cancelled order.",
+            "translated": "キャンセルした注文の全額返金を受けました。"
+        },
+        {
+            "original": "They gave me a refund without any problems.",
+            "translated": "問題なく返金してくれました。"
+        },
+        {
+            "original": "The refund went back to my credit card.",
+            "translated": "返金はクレジットカードに戻されました。"
+        }
+    ],
+    "warranty": [
+        {
+            "original": "This phone comes with a two-year warranty.",
+            "translated": "この電話には2年間の保証が付いています。"
+        },
+        {
+            "original": "The warranty covers repairs and replacement.",
+            "translated": "保証は修理と交換をカバーしています。"
+        },
+        {
+            "original": "Is this product still under warranty?",
+            "translated": "この製品はまだ保証期間内ですか？"
+        },
+        {
+            "original": "I lost my warranty card for this laptop.",
+            "translated": "このノートパソコンの保証書を紛失しました。"
+        },
+        {
+            "original": "The warranty expired last month.",
+            "translated": "保証は先月切れました。"
+        }
+    ],
+    "barcode": [
+        {
+            "original": "Please scan the barcode to check the price.",
+            "translated": "価格を確認するためにバーコードをスキャンしてください。"
+        },
+        {
+            "original": "The barcode is damaged and won't scan.",
+            "translated": "バーコードが破損していてスキャンできません。"
+        },
+        {
+            "original": "Each product has a unique barcode.",
+            "translated": "各製品には固有のバーコードがあります。"
+        },
+        {
+            "original": "I can't find the barcode on this package.",
+            "translated": "このパッケージのバーコードが見つかりません。"
+        },
+        {
+            "original": "The cashier scanned the barcode quickly.",
+            "translated": "レジ係がバーコードを素早くスキャンしました。"
+        }
+    ],
+    "product": [
+        {
+            "original": "This product is very popular with customers.",
+            "translated": "この製品はお客様にとても人気があります。"
+        },
+        {
+            "original": "What products do you sell in this store?",
+            "translated": "この店ではどんな商品を売っていますか？"
+        },
+        {
+            "original": "I'm looking for a new beauty product.",
+            "translated": "新しい美容製品を探しています。"
+        },
+        {
+            "original": "This product is made in Italy.",
+            "translated": "この製品はイタリア製です。"
+        },
+        {
+            "original": "The product quality is excellent.",
+            "translated": "製品の品質は優秀です。"
+        }
+    ],
+    "brand": [
+        {
+            "original": "What brand of shoes do you prefer?",
+            "translated": "どのブランドの靴がお好みですか？"
+        },
+        {
+            "original": "This brand makes good quality clothes.",
+            "translated": "このブランドは高品質の服を作っています。"
+        },
+        {
+            "original": "I always buy the same brand of coffee.",
+            "translated": "いつも同じブランドのコーヒーを買います。"
+        },
+        {
+            "original": "That brand is more expensive than others.",
+            "translated": "そのブランドは他より高価です。"
+        },
+        {
+            "original": "Do you sell any other brands?",
+            "translated": "他のブランドも売っていますか？"
+        }
+    ],
+    "quality": [
+        {
+            "original": "The quality of this jacket is very good.",
+            "translated": "このジャケットの品質はとても良いです。"
+        },
+        {
+            "original": "I want good quality for a fair price.",
+            "translated": "適正価格で良い品質のものが欲しいです。"
+        },
+        {
+            "original": "This store is known for high quality products.",
+            "translated": "この店は高品質な製品で知られています。"
+        },
+        {
+            "original": "The quality is not as good as I expected.",
+            "translated": "品質は期待していたほど良くありません。"
+        },
+        {
+            "original": "Better quality usually costs more money.",
+            "translated": "より良い品質は通常もっとお金がかかります。"
+        }
+    ],
+    "department": [
+        {
+            "original": "Where is the shoe department?",
+            "translated": "靴売り場はどこですか？"
+        },
+        {
+            "original": "The toy department is on the second floor.",
+            "translated": "おもちゃ売り場は2階にあります。"
+        },
+        {
+            "original": "I work in the electronics department.",
+            "translated": "私は電化製品売り場で働いています。"
+        },
+        {
+            "original": "Each department has different products.",
+            "translated": "各売り場には異なる商品があります。"
+        },
+        {
+            "original": "The men's clothing department is over there.",
+            "translated": "紳士服売り場はあちらにあります。"
+        }
+    ],
+    "aisle": [
+        {
+            "original": "The milk is in aisle 3.",
+            "translated": "牛乳は3番通路にあります。"
+        },
+        {
+            "original": "I'm looking for the cereal aisle.",
+            "translated": "シリアルの通路を探しています。"
+        },
+        {
+            "original": "Please clean up the spill in aisle 5.",
+            "translated": "5番通路のこぼれたものを片付けてください。"
+        },
+        {
+            "original": "The aisles are clearly marked with numbers.",
+            "translated": "通路は番号で明確に表示されています。"
+        },
+        {
+            "original": "I got lost trying to find the right aisle.",
+            "translated": "正しい通路を見つけようとして迷子になりました。"
+        }
+    ],
+    "shelf": [
+        {
+            "original": "Put the books back on the shelf.",
+            "translated": "本を棚に戻してください。"
+        },
+        {
+            "original": "The top shelf is too high for me to reach.",
+            "translated": "上の棚は私には高すぎて届きません。"
+        },
+        {
+            "original": "This shelf is empty - we need more products.",
+            "translated": "この棚は空です。もっと商品が必要です。"
+        },
+        {
+            "original": "I found the item on the bottom shelf.",
+            "translated": "下の棚でその商品を見つけました。"
+        },
+        {
+            "original": "The shelves are restocked every morning.",
+            "translated": "棚は毎朝補充されます。"
+        }
+    ],
+    "display": [
+        {
+            "original": "There's a nice display of summer clothes.",
+            "translated": "夏服の素敵なディスプレイがあります。"
+        },
+        {
+            "original": "The window display looks very attractive.",
+            "translated": "ショーウィンドウのディスプレイがとても魅力的に見えます。"
+        },
+        {
+            "original": "They have a special display for new products.",
+            "translated": "新製品の特別なディスプレイがあります。"
+        },
+        {
+            "original": "The chocolate display is near the checkout.",
+            "translated": "チョコレートのディスプレイはレジの近くにあります。"
+        },
+        {
+            "original": "I saw that product in the front display.",
+            "translated": "その製品を正面のディスプレイで見ました。"
+        }
+    ],
+    "promotion": [
+        {
+            "original": "There's a special promotion on shoes this week.",
+            "translated": "今週は靴の特別プロモーションがあります。"
+        },
+        {
+            "original": "The promotion ends on Sunday.",
+            "translated": "プロモーションは日曜日に終わります。"
+        },
+        {
+            "original": "I bought this during a promotion and saved money.",
+            "translated": "プロモーション中にこれを買って、お金を節約しました。"
+        },
+        {
+            "original": "What promotions do you have right now?",
+            "translated": "現在どんなプロモーションがありますか？"
+        },
+        {
+            "original": "The promotion offers 20% off all items.",
+            "translated": "このプロモーションは全商品20%オフを提供しています。"
+        }
+    ],
+    "clearance": [
+        {
+            "original": "All clearance items are 50% off.",
+            "translated": "全てのクリアランス商品は50%オフです。"
+        },
+        {
+            "original": "I found great deals in the clearance section.",
+            "translated": "クリアランスコーナーで良い取引を見つけました。"
+        },
+        {
+            "original": "These clothes are on clearance because it's end of season.",
+            "translated": "これらの服はシーズン終わりなのでクリアランスセールになっています。"
+        },
+        {
+            "original": "The clearance sale starts tomorrow.",
+            "translated": "クリアランスセールは明日から始まります。"
+        },
+        {
+            "original": "Clearance items cannot be returned.",
+            "translated": "クリアランス商品は返品できません。"
+        }
+    ],
+    "credit card": [
+        {
+            "original": "Do you accept credit cards?",
+            "translated": "クレジットカードは使えますか？"
+        },
+        {
+            "original": "I'll pay with my credit card.",
+            "translated": "クレジットカードで支払います。"
+        },
+        {
+            "original": "My credit card was declined.",
+            "translated": "クレジットカードが拒否されました。"
+        },
+        {
+            "original": "I forgot my credit card at home.",
+            "translated": "クレジットカードを家に忘れました。"
+        },
+        {
+            "original": "Credit card payments are processed quickly.",
+            "translated": "クレジットカード決済は迅速に処理されます。"
+        }
+    ],
+    "debit card": [
+        {
+            "original": "I prefer to use my debit card instead of cash.",
+            "translated": "現金よりもデビットカードを使う方が好きです。"
+        },
+        {
+            "original": "Can I pay with a debit card?",
+            "translated": "デビットカードで支払えますか？"
+        },
+        {
+            "original": "My debit card PIN is four numbers.",
+            "translated": "私のデビットカードのPINは4桁です。"
+        },
+        {
+            "original": "Debit card payments come directly from your bank account.",
+            "translated": "デビットカード決済は銀行口座から直接引き落とされます。"
+        },
+        {
+            "original": "I lost my debit card yesterday.",
+            "translated": "昨日デビットカードを紛失しました。"
+        }
+    ],
+    "instalments": [
+        {
+            "original": "Can I pay for this in monthly instalments?",
+            "translated": "これを月々の分割払いで支払えますか？"
+        },
+        {
+            "original": "The TV costs $600 in 12 instalments.",
+            "translated": "そのテレビは12回の分割払いで600ドルです。"
+        },
+        {
+            "original": "I paid for my car in instalments over 3 years.",
+            "translated": "3年間の分割払いで車を購入しました。"
+        },
+        {
+            "original": "The first instalment is due next week.",
+            "translated": "最初の分割払いは来週が期限です。"
+        },
+        {
+            "original": "Paying in instalments helps me manage my budget.",
+            "translated": "分割払いは予算管理に役立ちます。"
+        }
+    ],
+    "store hours": [
+        {
+            "original": "What are your store hours today?",
+            "translated": "今日の営業時間は何時ですか？"
+        },
+        {
+            "original": "The store hours are 9 AM to 9 PM.",
+            "translated": "営業時間は午前9時から午後9時までです。"
+        },
+        {
+            "original": "Store hours are different on Sundays.",
+            "translated": "日曜日は営業時間が異なります。"
+        },
+        {
+            "original": "I checked the store hours online.",
+            "translated": "オンラインで営業時間を確認しました。"
+        },
+        {
+            "original": "The store hours changed during the holiday season.",
+            "translated": "ホリデーシーズン中は営業時間が変更されました。"
+        }
+    ],
+    "retail": [
+        {
+            "original": "I work in retail at a clothing store.",
+            "translated": "洋服店で小売業の仕事をしています。"
+        },
+        {
+            "original": "Retail prices are higher than wholesale prices.",
+            "translated": "小売価格は卸売価格より高いです。"
+        },
+        {
+            "original": "The retail business is very competitive.",
+            "translated": "小売業界は非常に競争が激しいです。"
+        },
+        {
+            "original": "She has 10 years of experience in retail.",
+            "translated": "彼女は小売業で10年の経験があります。"
+        },
+        {
+            "original": "Retail stores need good customer service.",
+            "translated": "小売店には良いカスタマーサービスが必要です。"
+        }
+    ],
+    "out of stock": [
+        {
+            "original": "Sorry, that item is currently out of stock.",
+            "translated": "申し訳ありませんが、その商品は現在在庫切れです。"
+        },
+        {
+            "original": "The popular shoes are out of stock in my size.",
+            "translated": "人気の靴は私のサイズが在庫切れです。"
+        },
+        {
+            "original": "When will this product be back if it's out of stock?",
+            "translated": "この製品が在庫切れの場合、いつ入荷しますか？"
+        },
+        {
+            "original": "The website shows this item is out of stock.",
+            "translated": "ウェブサイトではこの商品が在庫切れと表示されています。"
+        },
+        {
+            "original": "We're out of stock, but we can order it for you.",
+            "translated": "在庫切れですが、お取り寄せできます。"
+        }
+    ],
+    "in stock": [
+        {
+            "original": "Yes, we have that item in stock.",
+            "translated": "はい、その商品は在庫があります。"
+        },
+        {
+            "original": "Is this product in stock in size medium?",
+            "translated": "この製品はMサイズの在庫がありますか？"
+        },
+        {
+            "original": "All colors are currently in stock.",
+            "translated": "全ての色が現在在庫にあります。"
+        },
+        {
+            "original": "I'm happy this is in stock - I really need it.",
+            "translated": "これが在庫にあって嬉しいです。本当に必要だったので。"
+        },
+        {
+            "original": "We keep popular items in stock all year.",
+            "translated": "人気商品は一年中在庫を確保しています。"
+        }
+    ],
+    "special offer": [
+        {
+            "original": "There's a special offer on laptops this month.",
+            "translated": "今月はノートパソコンの特別オファーがあります。"
+        },
+        {
+            "original": "I bought this jacket because of the special offer.",
+            "translated": "特別オファーがあったのでこのジャケットを買いました。"
+        },
+        {
+            "original": "The special offer is buy two, get one free.",
+            "translated": "特別オファーは2つ買うと1つ無料です。"
+        },
+        {
+            "original": "Special offers are advertised in the newspaper.",
+            "translated": "特別オファーは新聞で宣伝されています。"
+        },
+        {
+            "original": "This special offer is only available online.",
+            "translated": "この特別オファーはオンラインでのみ利用可能です。"
+        }
+    ]
+}

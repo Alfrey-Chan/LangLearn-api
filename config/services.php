@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'openai' => [
+        'api_key' => env('OPENAI_API_KEY'),
+        'url' => env('OPEN_AI_URL', 'https://api.openai.com/v1/responses'),
+        'prompt_id' => env('OPENAI_PROMPT_ID'),
+        'prompt_version' => env('OPENAI_PROMPT_VERSION'),
+    ],
 ];

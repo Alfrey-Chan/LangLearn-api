@@ -1,0 +1,3739 @@
+[
+    {
+        "type": "multiple_choice",
+        "question": "宿泊施設を表す単語は何ですか？",
+        "target_word": "hotel",
+        "options": ["hotel", "restaurant", "hospital", "school"],
+        "word_bank": [],
+        "correct_answer": "hotel",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「私はホテルに泊まります」を英語で言うとき、何と言いますか？",
+        "target_word": "hotel",
+        "options": [
+            "I stay at a hotel.",
+            "I go to a hotel.",
+            "I visit a hotel.",
+            "I work at a hotel."
+        ],
+        "word_bank": [],
+        "correct_answer": "I stay at a hotel.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "旅行で泊まる場所を英語で何と言いますか？",
+        "target_word": "hotel",
+        "options": ["hotel", "office", "library", "market"],
+        "word_bank": [],
+        "correct_answer": "hotel",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "旅行でどこに泊まるか説明するとき：「I will stay at a _______.」",
+        "target_word": "hotel",
+        "options": ["hotel", "restaurant", "hospital", "school"],
+        "word_bank": [],
+        "correct_answer": "hotel",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "宿泊場所を探しているとき：「I'm looking for a good _______.」",
+        "target_word": "hotel",
+        "options": ["hotel", "restaurant", "hospital", "office"],
+        "word_bank": [],
+        "correct_answer": "hotel",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "予約について話すとき：「I made a reservation at the _______.」",
+        "target_word": "hotel",
+        "options": ["hotel", "restaurant", "hospital", "airport"],
+        "word_bank": [],
+        "correct_answer": "hotel",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "このホテルはとても綺麗です。",
+        "target_word": "hotel",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "This hotel is very clean.",
+            "This hotel is very beautiful.",
+            "This hotel is very nice."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "私たちは駅の近くのホテルに泊まりました。",
+        "target_word": "hotel",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "We stayed at a hotel near the station.",
+            "We stayed at a hotel near the train station."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "そのホテルは値段が高いです。",
+        "target_word": "hotel",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "That hotel is expensive.",
+            "The hotel is expensive.",
+            "That hotel costs a lot."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：hotel, comfortable",
+        "target_word": "hotel",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：hotel, breakfast",
+        "target_word": "hotel",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "hotel",
+        "options": [],
+        "word_bank": ["The", "hotel", "has", "a", "swimming", "pool"],
+        "correct_answer": "The hotel has a swimming pool.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの部屋を事前に取ることを英語で何と言いますか？",
+        "target_word": "reservation",
+        "options": ["reservation", "registration", "invitation", "application"],
+        "word_bank": [],
+        "correct_answer": "reservation",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「予約をします」を英語で言うとき、何と言いますか？",
+        "target_word": "reservation",
+        "options": [
+            "I make a reservation.",
+            "I do a reservation.",
+            "I take a reservation.",
+            "I get a reservation."
+        ],
+        "word_bank": [],
+        "correct_answer": "I make a reservation.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルに泊まるために事前にすることは何ですか？",
+        "target_word": "reservation",
+        "options": ["reservation", "registration", "application", "invitation"],
+        "word_bank": [],
+        "correct_answer": "reservation",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ホテルの部屋を予約したことを説明するとき：「I have a _______ for tonight.」",
+        "target_word": "reservation",
+        "options": ["reservation", "registration", "invitation", "application"],
+        "word_bank": [],
+        "correct_answer": "reservation",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "予約をキャンセルするとき：「I want to cancel my _______.」",
+        "target_word": "reservation",
+        "options": ["reservation", "registration", "invitation", "application"],
+        "word_bank": [],
+        "correct_answer": "reservation",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "予約を確認するとき：「I'd like to confirm my _______.」",
+        "target_word": "reservation",
+        "options": ["reservation", "registration", "invitation", "application"],
+        "word_bank": [],
+        "correct_answer": "reservation",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "私は来週のための予約があります。",
+        "target_word": "reservation",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I have a reservation for next week.",
+            "I have reservations for next week."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "予約を取りたいのですが。",
+        "target_word": "reservation",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I would like to make a reservation.",
+            "I want to make a reservation.",
+            "I'd like to make a reservation."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "あなたの予約は明日からです。",
+        "target_word": "reservation",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Your reservation is from tomorrow.",
+            "Your reservation starts tomorrow."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：reservation, dinner",
+        "target_word": "reservation",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：reservation, phone",
+        "target_word": "reservation",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "reservation",
+        "options": [],
+        "word_bank": ["Do", "you", "have", "a", "reservation"],
+        "correct_answer": "Do you have a reservation?",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの予約を取ることを別の言い方で何と言いますか？",
+        "target_word": "booking",
+        "options": ["booking", "looking", "cooking", "working"],
+        "word_bank": [],
+        "correct_answer": "booking",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「予約を取る」を英語で言うとき、何と言いますか？",
+        "target_word": "booking",
+        "options": [
+            "I made a booking.",
+            "I did a booking.",
+            "I took a booking.",
+            "I got a booking."
+        ],
+        "word_bank": [],
+        "correct_answer": "I made a booking.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "旅行の手配をすることを英語で何と言いますか？",
+        "target_word": "booking",
+        "options": ["booking", "looking", "cooking", "checking"],
+        "word_bank": [],
+        "correct_answer": "booking",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "オンラインで予約したことを説明するとき：「I made an online _______.」",
+        "target_word": "booking",
+        "options": ["booking", "looking", "cooking", "checking"],
+        "word_bank": [],
+        "correct_answer": "booking",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "予約番号を確認するとき：「What is your _______ number?」",
+        "target_word": "booking",
+        "options": ["booking", "looking", "cooking", "working"],
+        "word_bank": [],
+        "correct_answer": "booking",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "予約を変更したいとき：「I want to change my _______.」",
+        "target_word": "booking",
+        "options": ["booking", "looking", "cooking", "working"],
+        "word_bank": [],
+        "correct_answer": "booking",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "私のオンライン予約を確認してください。",
+        "target_word": "booking",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please confirm my online booking.",
+            "Please check my online booking."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "この予約は今日からです。",
+        "target_word": "booking",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "This booking is from today.",
+            "This booking starts today."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "予約はキャンセルできますか？",
+        "target_word": "booking",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Can I cancel the booking?",
+            "Can the booking be cancelled?",
+            "Is it possible to cancel the booking?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：booking, website",
+        "target_word": "booking",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：booking, confirmation",
+        "target_word": "booking",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "booking",
+        "options": [],
+        "word_bank": ["The", "booking", "is", "for", "two", "nights"],
+        "correct_answer": "The booking is for two nights.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの受付カウンターを英語で何と言いますか？",
+        "target_word": "front desk",
+        "options": ["front desk", "back desk", "side desk", "top desk"],
+        "word_bank": [],
+        "correct_answer": "front desk",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "チェックインをする場所はどこですか？",
+        "target_word": "front desk",
+        "options": ["front desk", "elevator", "restaurant", "room"],
+        "word_bank": [],
+        "correct_answer": "front desk",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルで質問があるとき、どこに行きますか？",
+        "target_word": "front desk",
+        "options": ["front desk", "elevator", "restaurant", "bathroom"],
+        "word_bank": [],
+        "correct_answer": "front desk",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "チェックインするとき：「Please go to the _______.」",
+        "target_word": "front desk",
+        "options": ["front desk", "back desk", "elevator", "restaurant"],
+        "word_bank": [],
+        "correct_answer": "front desk",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "鍵をもらうとき：「You can get your key at the _______.」",
+        "target_word": "front desk",
+        "options": ["front desk", "back desk", "elevator", "room"],
+        "word_bank": [],
+        "correct_answer": "front desk",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "質問があるとき：「If you have questions, please ask at the _______.」",
+        "target_word": "front desk",
+        "options": ["front desk", "back desk", "elevator", "restaurant"],
+        "word_bank": [],
+        "correct_answer": "front desk",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "フロントデスクはどこですか？",
+        "target_word": "front desk",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Where is the front desk?",
+            "Where is front desk?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "フロントデスクで待っています。",
+        "target_word": "front desk",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I am waiting at the front desk.",
+            "I'm waiting at the front desk.",
+            "I am waiting at front desk."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "フロントデスクに電話してください。",
+        "target_word": "front desk",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please call the front desk.",
+            "Please phone the front desk.",
+            "Call the front desk."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：front desk, staff",
+        "target_word": "front desk",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：front desk, busy",
+        "target_word": "front desk",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "front desk",
+        "options": [],
+        "word_bank": ["The", "front", "desk", "is", "very", "helpful"],
+        "correct_answer": "The front desk is very helpful.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの受付エリアを別の言い方で何と言いますか？",
+        "target_word": "reception",
+        "options": ["reception", "restaurant", "elevator", "bathroom"],
+        "word_bank": [],
+        "correct_answer": "reception",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "チェックインする場所を別の表現で何と言いますか？",
+        "target_word": "reception",
+        "options": ["reception", "restaurant", "elevator", "room"],
+        "word_bank": [],
+        "correct_answer": "reception",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの入り口近くにある受付を英語で何と言いますか？",
+        "target_word": "reception",
+        "options": ["reception", "restaurant", "elevator", "bathroom"],
+        "word_bank": [],
+        "correct_answer": "reception",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "受付で待つとき：「Please wait at the _______.」",
+        "target_word": "reception",
+        "options": ["reception", "restaurant", "elevator", "bathroom"],
+        "word_bank": [],
+        "correct_answer": "reception",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "受付スタッフと話すとき：「I spoke to the _______ staff.」",
+        "target_word": "reception",
+        "options": ["reception", "restaurant", "elevator", "cleaning"],
+        "word_bank": [],
+        "correct_answer": "reception",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "受付エリアを案内するとき：「The _______ is over there.」",
+        "target_word": "reception",
+        "options": ["reception", "restaurant", "elevator", "bathroom"],
+        "word_bank": [],
+        "correct_answer": "reception",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "受付で手続きをしました。",
+        "target_word": "reception",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I checked in at reception.",
+            "I did the procedure at reception.",
+            "I completed the process at reception."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "受付はとても親切でした。",
+        "target_word": "reception",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Reception was very kind.",
+            "The reception was very helpful.",
+            "Reception was very friendly."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "受付は１階にあります。",
+        "target_word": "reception",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Reception is on the first floor.",
+            "The reception is on the first floor.",
+            "Reception is on the ground floor."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：reception, area",
+        "target_word": "reception",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：reception, open",
+        "target_word": "reception",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "reception",
+        "options": [],
+        "word_bank": ["Please", "go", "to", "reception", "first"],
+        "correct_answer": "Please go to reception first.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルに到着して手続きをすることを英語で何と言いますか？",
+        "target_word": "check in",
+        "options": ["check in", "check out", "check up", "check off"],
+        "word_bank": [],
+        "correct_answer": "check in",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「チェックインします」を英語で言うとき、何と言いますか？",
+        "target_word": "check in",
+        "options": [
+            "I want to check in.",
+            "I want to check out.",
+            "I want to check up.",
+            "I want to check off."
+        ],
+        "word_bank": [],
+        "correct_answer": "I want to check in.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルに到着したらまず何をしますか？",
+        "target_word": "check in",
+        "options": ["check in", "check out", "eat dinner", "take a shower"],
+        "word_bank": [],
+        "correct_answer": "check in",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ホテルに到着したとき：「I'd like to _______, please.」",
+        "target_word": "check in",
+        "options": ["check in", "check out", "check up", "check off"],
+        "word_bank": [],
+        "correct_answer": "check in",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "手続きの時間を聞くとき：「What time can I _______?」",
+        "target_word": "check in",
+        "options": ["check in", "check out", "check up", "check off"],
+        "word_bank": [],
+        "correct_answer": "check in",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "到着手続きについて説明するとき：「You can _______ after 3 PM.」",
+        "target_word": "check in",
+        "options": ["check in", "check out", "check up", "check off"],
+        "word_bank": [],
+        "correct_answer": "check in",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "チェックインは午後３時からです。",
+        "target_word": "check in",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Check in is from 3 PM.",
+            "Check-in starts at 3 PM.",
+            "You can check in from 3 PM."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "私は今チェックインしたいです。",
+        "target_word": "check in",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I want to check in now.",
+            "I would like to check in now.",
+            "I'd like to check in now."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "早めにチェックインできますか？",
+        "target_word": "check in",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Can I check in early?",
+            "Is it possible to check in early?",
+            "Can I check in earlier?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：check in, passport",
+        "target_word": "check in",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：check in, time",
+        "target_word": "check in",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "check in",
+        "options": [],
+        "word_bank": ["We", "need", "to", "check", "in", "first"],
+        "correct_answer": "We need to check in first.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルを出る時の手続きを英語で何と言いますか？",
+        "target_word": "check out",
+        "options": ["check out", "check in", "check up", "check off"],
+        "word_bank": [],
+        "correct_answer": "check out",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「チェックアウトします」を英語で言うとき、何と言いますか？",
+        "target_word": "check out",
+        "options": [
+            "I want to check out.",
+            "I want to check in.",
+            "I want to check up.",
+            "I want to check off."
+        ],
+        "word_bank": [],
+        "correct_answer": "I want to check out.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルを出る前に何をしますか？",
+        "target_word": "check out",
+        "options": ["check out", "check in", "eat breakfast", "take a shower"],
+        "word_bank": [],
+        "correct_answer": "check out",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ホテルを出るとき：「I'd like to _______, please.」",
+        "target_word": "check out",
+        "options": ["check out", "check in", "check up", "check off"],
+        "word_bank": [],
+        "correct_answer": "check out",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "出発手続きの時間を聞くとき：「What time do I need to _______?」",
+        "target_word": "check out",
+        "options": ["check out", "check in", "check up", "check off"],
+        "word_bank": [],
+        "correct_answer": "check out",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "出発手続きについて説明するとき：「You must _______ by 11 AM.」",
+        "target_word": "check out",
+        "options": ["check out", "check in", "check up", "check off"],
+        "word_bank": [],
+        "correct_answer": "check out",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "チェックアウトは午前１１時までです。",
+        "target_word": "check out",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Check out is by 11 AM.",
+            "Check out is until 11 AM.",
+            "You must check out by 11 AM."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "明日の朝チェックアウトします。",
+        "target_word": "check out",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I will check out tomorrow morning.",
+            "I'm checking out tomorrow morning.",
+            "I check out tomorrow morning."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "遅めにチェックアウトできますか？",
+        "target_word": "check out",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Can I check out late?",
+            "Is it possible to check out late?",
+            "Can I have a late check out?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：check out, bill",
+        "target_word": "check out",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：check out, luggage",
+        "target_word": "check out",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "check out",
+        "options": [],
+        "word_bank": ["I", "will", "check", "out", "at", "ten"],
+        "correct_answer": "I will check out at ten.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "部屋の鍵を英語で何と言いますか？",
+        "target_word": "room key",
+        "options": ["room key", "door key", "car key", "house key"],
+        "word_bank": [],
+        "correct_answer": "room key",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの部屋を開けるものを英語で何と言いますか？",
+        "target_word": "room key",
+        "options": ["room key", "door key", "car key", "house key"],
+        "word_bank": [],
+        "correct_answer": "room key",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "チェックインの時にもらうものは何ですか？",
+        "target_word": "room key",
+        "options": ["room key", "car key", "house key", "office key"],
+        "word_bank": [],
+        "correct_answer": "room key",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "部屋の鍵をもらうとき：「Here is your _______.」",
+        "target_word": "room key",
+        "options": ["room key", "car key", "house key", "office key"],
+        "word_bank": [],
+        "correct_answer": "room key",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "鍵をなくしたとき：「I lost my _______.」",
+        "target_word": "room key",
+        "options": ["room key", "car key", "house key", "office key"],
+        "word_bank": [],
+        "correct_answer": "room key",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "鍵を返すとき：「I'd like to return my _______.」",
+        "target_word": "room key",
+        "options": ["room key", "car key", "house key", "office key"],
+        "word_bank": [],
+        "correct_answer": "room key",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ルームキーをなくしました。",
+        "target_word": "room key",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I lost my room key.",
+            "I lost the room key.",
+            "My room key is lost."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "新しいルームキーをください。",
+        "target_word": "room key",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please give me a new room key.",
+            "I need a new room key.",
+            "Can I have a new room key?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ルームキーが動きません。",
+        "target_word": "room key",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The room key doesn't work.",
+            "My room key is not working.",
+            "The room key is broken."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：room key, pocket",
+        "target_word": "room key",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：room key, number",
+        "target_word": "room key",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "room key",
+        "options": [],
+        "word_bank": ["Please", "take", "your", "room", "key"],
+        "correct_answer": "Please take your room key.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "プラスチックの電子キーを英語で何と言いますか？",
+        "target_word": "key card",
+        "options": ["key card", "room card", "door card", "hotel card"],
+        "word_bank": [],
+        "correct_answer": "key card",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "カード型の部屋の鍵を英語で何と言いますか？",
+        "target_word": "key card",
+        "options": ["key card", "room card", "door card", "hotel card"],
+        "word_bank": [],
+        "correct_answer": "key card",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "現代のホテルでよく使われる鍵の種類は何ですか？",
+        "target_word": "key card",
+        "options": ["key card", "metal key", "wooden key", "glass key"],
+        "word_bank": [],
+        "correct_answer": "key card",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "カード型の鍵をもらうとき：「Here is your _______.」",
+        "target_word": "key card",
+        "options": ["key card", "room card", "door card", "hotel card"],
+        "word_bank": [],
+        "correct_answer": "key card",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "カード型の鍵が動かないとき：「My _______ is not working.」",
+        "target_word": "key card",
+        "options": ["key card", "room card", "door card", "hotel card"],
+        "word_bank": [],
+        "correct_answer": "key card",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "電子キーを使うとき：「Please swipe your _______.」",
+        "target_word": "key card",
+        "options": ["key card", "room card", "door card", "hotel card"],
+        "word_bank": [],
+        "correct_answer": "key card",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "キーカードを机の上に置きました。",
+        "target_word": "key card",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I put the key card on the desk.",
+            "I placed the key card on the table.",
+            "The key card is on the desk."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "キーカードを磁石の近くに置かないでください。",
+        "target_word": "key card",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please don't put the key card near magnets.",
+            "Don't place the key card near magnets.",
+            "Keep the key card away from magnets."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "新しいキーカードを作ってもらえますか？",
+        "target_word": "key card",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Can you make a new key card?",
+            "Could you make a new key card?",
+            "Can I get a new key card?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：key card, wallet",
+        "target_word": "key card",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：key card, damage",
+        "target_word": "key card",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "key card",
+        "options": [],
+        "word_bank": ["The", "key", "card", "opens", "the", "door"],
+        "correct_answer": "The key card opens the door.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "一人用のベッドがある部屋を英語で何と言いますか？",
+        "target_word": "single room",
+        "options": ["single room", "double room", "twin room", "triple room"],
+        "word_bank": [],
+        "correct_answer": "single room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "一人で泊まる部屋のタイプは何ですか？",
+        "target_word": "single room",
+        "options": ["single room", "double room", "twin room", "family room"],
+        "word_bank": [],
+        "correct_answer": "single room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「シングルルーム」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "single room",
+        "options": ["single room", "one room", "alone room", "solo room"],
+        "word_bank": [],
+        "correct_answer": "single room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "一人用の部屋を予約するとき：「I'd like to book a _______.」",
+        "target_word": "single room",
+        "options": ["single room", "double room", "twin room", "family room"],
+        "word_bank": [],
+        "correct_answer": "single room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "一人で泊まることを説明するとき：「I need a _______ for one night.」",
+        "target_word": "single room",
+        "options": ["single room", "double room", "twin room", "family room"],
+        "word_bank": [],
+        "correct_answer": "single room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "部屋のタイプについて質問するとき：「Do you have a _______ available?」",
+        "target_word": "single room",
+        "options": ["single room", "double room", "twin room", "family room"],
+        "word_bank": [],
+        "correct_answer": "single room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "シングルルームはありますか？",
+        "target_word": "single room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Do you have a single room?",
+            "Is there a single room available?",
+            "Do you have single rooms?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "シングルルームを二泊予約したいです。",
+        "target_word": "single room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I want to book a single room for two nights.",
+            "I'd like to reserve a single room for two nights.",
+            "I would like a single room for two nights."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "シングルルームの値段はいくらですか？",
+        "target_word": "single room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "How much is a single room?",
+            "What is the price of a single room?",
+            "How much does a single room cost?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：single room, quiet",
+        "target_word": "single room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：single room, view",
+        "target_word": "single room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "single room",
+        "options": [],
+        "word_bank": ["The", "single", "room", "is", "very", "small"],
+        "correct_answer": "The single room is very small.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "二人用の大きなベッドがある部屋を英語で何と言いますか？",
+        "target_word": "double room",
+        "options": ["double room", "single room", "twin room", "triple room"],
+        "word_bank": [],
+        "correct_answer": "double room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "カップルが泊まる部屋のタイプは何ですか？",
+        "target_word": "double room",
+        "options": ["double room", "single room", "twin room", "family room"],
+        "word_bank": [],
+        "correct_answer": "double room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ダブルルーム」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "double room",
+        "options": ["double room", "two room", "couple room", "big room"],
+        "word_bank": [],
+        "correct_answer": "double room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "二人用の部屋を予約するとき：「I'd like to book a _______.」",
+        "target_word": "double room",
+        "options": ["double room", "single room", "twin room", "family room"],
+        "word_bank": [],
+        "correct_answer": "double room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "大きなベッドの部屋について聞くとき：「Do you have a _______ available?」",
+        "target_word": "double room",
+        "options": ["double room", "single room", "twin room", "family room"],
+        "word_bank": [],
+        "correct_answer": "double room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "二人で泊まることを説明するとき：「We need a _______ for tonight.」",
+        "target_word": "double room",
+        "options": ["double room", "single room", "twin room", "family room"],
+        "word_bank": [],
+        "correct_answer": "double room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ダブルルームに変更できますか？",
+        "target_word": "double room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Can I change to a double room?",
+            "Can you change it to a double room?",
+            "Is it possible to change to a double room?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ダブルルームは景色が良いです。",
+        "target_word": "double room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The double room has a good view.",
+            "The double room has a nice view.",
+            "The double room has a great view."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ダブルルームの方がシングルルームより広いです。",
+        "target_word": "double room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "A double room is bigger than a single room.",
+            "The double room is larger than the single room.",
+            "Double rooms are bigger than single rooms."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：double room, bathroom",
+        "target_word": "double room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：double room, balcony",
+        "target_word": "double room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "double room",
+        "options": [],
+        "word_bank": [
+            "Our",
+            "double",
+            "room",
+            "is",
+            "on",
+            "the",
+            "third",
+            "floor"
+        ],
+        "correct_answer": "Our double room is on the third floor.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "二つの単人用ベッドがある部屋を英語で何と言いますか？",
+        "target_word": "twin room",
+        "options": ["twin room", "double room", "single room", "two room"],
+        "word_bank": [],
+        "correct_answer": "twin room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "友達同士で泊まるのに適した部屋のタイプは何ですか？",
+        "target_word": "twin room",
+        "options": ["twin room", "double room", "single room", "family room"],
+        "word_bank": [],
+        "correct_answer": "twin room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ツインルーム」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "twin room",
+        "options": ["twin room", "two room", "double room", "pair room"],
+        "word_bank": [],
+        "correct_answer": "twin room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "二つのベッドがある部屋を予約するとき：「I need a _______.」",
+        "target_word": "twin room",
+        "options": ["twin room", "double room", "single room", "family room"],
+        "word_bank": [],
+        "correct_answer": "twin room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "別々のベッドを希望するとき：「We prefer a _______.」",
+        "target_word": "twin room",
+        "options": ["twin room", "double room", "single room", "family room"],
+        "word_bank": [],
+        "correct_answer": "twin room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "部屋のタイプを確認するとき：「Is this a _______?」",
+        "target_word": "twin room",
+        "options": ["twin room", "double room", "single room", "family room"],
+        "word_bank": [],
+        "correct_answer": "twin room",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ツインルームに二つのベッドがあります。",
+        "target_word": "twin room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The twin room has two beds.",
+            "There are two beds in the twin room.",
+            "A twin room has two beds."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ツインルームをダブルルームに変更してもらえますか？",
+        "target_word": "twin room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Can you change the twin room to a double room?",
+            "Could you change the twin room to a double room?",
+            "Can I change from a twin room to a double room?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "私たちはツインルームを予約しました。",
+        "target_word": "twin room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "We booked a twin room.",
+            "We reserved a twin room.",
+            "We made a reservation for a twin room."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：twin room, comfortable",
+        "target_word": "twin room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：twin room, friends",
+        "target_word": "twin room",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "twin room",
+        "options": [],
+        "word_bank": ["The", "twin", "room", "has", "separate", "beds"],
+        "correct_answer": "The twin room has separate beds.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "とても広くて豪華な部屋を英語で何と言いますか？",
+        "target_word": "suite",
+        "options": ["suite", "room", "apartment", "house"],
+        "word_bank": [],
+        "correct_answer": "suite",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "リビングルームとベッドルームが分かれた高級な部屋は何ですか？",
+        "target_word": "suite",
+        "options": ["suite", "double room", "twin room", "single room"],
+        "word_bank": [],
+        "correct_answer": "suite",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「スイート」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "suite",
+        "options": ["suite", "sweet", "suit", "seat"],
+        "word_bank": [],
+        "correct_answer": "suite",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "最高級の部屋を予約するとき：「I'd like to book a _______.」",
+        "target_word": "suite",
+        "options": ["suite", "room", "apartment", "house"],
+        "word_bank": [],
+        "correct_answer": "suite",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "豪華な部屋について聞くとき：\"Do you have a _______ available?\"",
+        "target_word": "suite",
+        "options": ["suite", "room", "apartment", "house"],
+        "word_bank": [],
+        "correct_answer": "suite",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "特別な部屋を説明するとき：\"The _______ has a living room.\"",
+        "target_word": "suite",
+        "options": ["suite", "room", "apartment", "house"],
+        "word_bank": [],
+        "correct_answer": "suite",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "スイートルームはとても高いです。",
+        "target_word": "suite",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The suite is very expensive.",
+            "A suite is very expensive.",
+            "Suites are very expensive."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "このホテルのスイートは素晴らしいです。",
+        "target_word": "suite",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The suite in this hotel is wonderful.",
+            "This hotel's suite is amazing.",
+            "The suites at this hotel are wonderful."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "スイートにはキッチンがありますか？",
+        "target_word": "suite",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Does the suite have a kitchen?",
+            "Is there a kitchen in the suite?",
+            "Do suites have kitchens?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：suite, luxury",
+        "target_word": "suite",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：suite, anniversary",
+        "target_word": "suite",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "suite",
+        "options": [],
+        "word_bank": ["The", "suite", "has", "a", "beautiful", "view"],
+        "correct_answer": "The suite has a beautiful view.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "部屋で食事を注文するサービスを英語で何と言いますか？",
+        "target_word": "room service",
+        "options": [
+            "room service",
+            "food service",
+            "meal service",
+            "kitchen service"
+        ],
+        "word_bank": [],
+        "correct_answer": "room service",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "部屋に食べ物を運んでもらうサービスは何ですか？",
+        "target_word": "room service",
+        "options": [
+            "room service",
+            "delivery service",
+            "food service",
+            "restaurant service"
+        ],
+        "word_bank": [],
+        "correct_answer": "room service",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ルームサービス」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "room service",
+        "options": [
+            "room service",
+            "service room",
+            "room delivery",
+            "food room"
+        ],
+        "word_bank": [],
+        "correct_answer": "room service",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "部屋で食事を注文するとき：\"I'd like to order _______.\"",
+        "target_word": "room service",
+        "options": [
+            "room service",
+            "food service",
+            "delivery service",
+            "restaurant service"
+        ],
+        "word_bank": [],
+        "correct_answer": "room service",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "部屋への配達について聞くとき：\"Do you have _______?\"",
+        "target_word": "room service",
+        "options": [
+            "room service",
+            "food service",
+            "delivery service",
+            "restaurant service"
+        ],
+        "word_bank": [],
+        "correct_answer": "room service",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "部屋での食事サービスを説明するとき：\"_______ is available 24 hours.\"",
+        "target_word": "room service",
+        "options": [
+            "Room service",
+            "Food service",
+            "Delivery service",
+            "Restaurant service"
+        ],
+        "word_bank": [],
+        "correct_answer": "Room service",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ルームサービスでハンバーガーを注文しました。",
+        "target_word": "room service",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I ordered a hamburger from room service.",
+            "I ordered hamburgers through room service.",
+            "I got a hamburger from room service."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ルームサービスは何時まで利用できますか？",
+        "target_word": "room service",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Until what time is room service available?",
+            "What time does room service end?",
+            "How late is room service available?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ルームサービスの料金は高いです。",
+        "target_word": "room service",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Room service is expensive.",
+            "Room service fees are high.",
+            "The price of room service is high."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：room service, menu",
+        "target_word": "room service",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：room service, breakfast",
+        "target_word": "room service",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "room service",
+        "options": [],
+        "word_bank": ["Room", "service", "will", "bring", "your", "dinner"],
+        "correct_answer": "Room service will bring your dinner.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの部屋の清掃サービスを英語で何と言いますか？",
+        "target_word": "housekeeping",
+        "options": [
+            "housekeeping",
+            "room cleaning",
+            "hotel cleaning",
+            "room keeping"
+        ],
+        "word_bank": [],
+        "correct_answer": "housekeeping",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "部屋をきれいにしてくれるサービスは何ですか？",
+        "target_word": "housekeeping",
+        "options": ["housekeeping", "room service", "front desk", "concierge"],
+        "word_bank": [],
+        "correct_answer": "housekeeping",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ハウスキーピング」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "housekeeping",
+        "options": [
+            "housekeeping",
+            "house keeping",
+            "room keeping",
+            "hotel keeping"
+        ],
+        "word_bank": [],
+        "correct_answer": "housekeeping",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "部屋の清掃を頼むとき：\"Please call _______.\"",
+        "target_word": "housekeeping",
+        "options": ["housekeeping", "room service", "front desk", "reception"],
+        "word_bank": [],
+        "correct_answer": "housekeeping",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "清掃スタッフについて話すとき：\"_______ cleaned our room.\"",
+        "target_word": "housekeeping",
+        "options": ["Housekeeping", "Room service", "Front desk", "Reception"],
+        "word_bank": [],
+        "correct_answer": "Housekeeping",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "清掃について質問するとき：\"When does _______ come?\"",
+        "target_word": "housekeeping",
+        "options": ["housekeeping", "room service", "front desk", "reception"],
+        "word_bank": [],
+        "correct_answer": "housekeeping",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ハウスキーピングに新しいタオルを持ってきてもらいました。",
+        "target_word": "housekeeping",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Housekeeping brought me new towels.",
+            "I asked housekeeping to bring new towels.",
+            "Housekeeping brought new towels to our room."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ハウスキーピングは毎日部屋を掃除します。",
+        "target_word": "housekeeping",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Housekeeping cleans the room every day.",
+            "Housekeeping cleans our room daily.",
+            "Housekeeping comes to clean every day."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ハウスキーピングに電話してください。",
+        "target_word": "housekeeping",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please call housekeeping.",
+            "Call housekeeping, please.",
+            "Please phone housekeeping."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：housekeeping, schedule",
+        "target_word": "housekeeping",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：housekeeping, friendly",
+        "target_word": "housekeeping",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "housekeeping",
+        "options": [],
+        "word_bank": ["Housekeeping", "comes", "at", "ten", "o'clock"],
+        "correct_answer": "Housekeeping comes at ten o'clock.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "上下の階に移動する機械を英語で何と言いますか？",
+        "target_word": "elevator",
+        "options": ["elevator", "escalator", "stairs", "ladder"],
+        "word_bank": [],
+        "correct_answer": "elevator",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "高い階に行くために使うものは何ですか？",
+        "target_word": "elevator",
+        "options": ["elevator", "escalator", "stairs", "ladder"],
+        "word_bank": [],
+        "correct_answer": "elevator",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「エレベーター」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "elevator",
+        "options": ["elevator", "elevater", "elevetor", "elevador"],
+        "word_bank": [],
+        "correct_answer": "elevator",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "上の階に行く方法を聞くとき：\"Where is the _______?\"",
+        "target_word": "elevator",
+        "options": ["elevator", "escalator", "stairs", "ladder"],
+        "word_bank": [],
+        "correct_answer": "elevator",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "移動手段を説明するとき：\"Take the _______ to the third floor.\"",
+        "target_word": "elevator",
+        "options": ["elevator", "escalator", "stairs", "ladder"],
+        "word_bank": [],
+        "correct_answer": "elevator",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "故障について説明するとき：\"The _______ is not working.\"",
+        "target_word": "elevator",
+        "options": ["elevator", "escalator", "stairs", "ladder"],
+        "word_bank": [],
+        "correct_answer": "elevator",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "エレベーターで５階まで行きました。",
+        "target_word": "elevator",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I went to the fifth floor by elevator.",
+            "I took the elevator to the fifth floor.",
+            "I used the elevator to go to the fifth floor."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "エレベーターが壊れています。",
+        "target_word": "elevator",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The elevator is broken.",
+            "The elevator is not working.",
+            "The elevator is out of order."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "エレベーターはロビーの近くにあります。",
+        "target_word": "elevator",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The elevator is near the lobby.",
+            "The elevators are near the lobby.",
+            "There is an elevator near the lobby."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：elevator, slow",
+        "target_word": "elevator",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：elevator, button",
+        "target_word": "elevator",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "elevator",
+        "options": [],
+        "word_bank": ["Please", "use", "the", "elevator", "carefully"],
+        "correct_answer": "Please use the elevator carefully.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの入り口にある広いスペースを英語で何と言いますか？",
+        "target_word": "lobby",
+        "options": ["lobby", "entrance", "hallway", "corridor"],
+        "word_bank": [],
+        "correct_answer": "lobby",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "フロントデスクがある広い場所は何ですか？",
+        "target_word": "lobby",
+        "options": ["lobby", "restaurant", "elevator", "room"],
+        "word_bank": [],
+        "correct_answer": "lobby",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ロビー」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "lobby",
+        "options": ["lobby", "lohby", "loby", "lobhy"],
+        "word_bank": [],
+        "correct_answer": "lobby",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "待ち合わせ場所を説明するとき：\"Let's meet in the _______.\"",
+        "target_word": "lobby",
+        "options": ["lobby", "restaurant", "elevator", "room"],
+        "word_bank": [],
+        "correct_answer": "lobby",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ホテルの入り口について話すとき：\"The _______ is very beautiful.\"",
+        "target_word": "lobby",
+        "options": ["lobby", "restaurant", "elevator", "room"],
+        "word_bank": [],
+        "correct_answer": "lobby",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "人を待つ場所について説明するとき：\"I'm waiting in the _______.\"",
+        "target_word": "lobby",
+        "options": ["lobby", "restaurant", "elevator", "room"],
+        "word_bank": [],
+        "correct_answer": "lobby",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ロビーでお待ちください。",
+        "target_word": "lobby",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please wait in the lobby.",
+            "Wait in the lobby, please.",
+            "Please wait at the lobby."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ロビーにはソファがたくさんあります。",
+        "target_word": "lobby",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "There are many sofas in the lobby.",
+            "The lobby has many sofas.",
+            "There are lots of sofas in the lobby."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "友達とロビーで会います。",
+        "target_word": "lobby",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I will meet my friend in the lobby.",
+            "I'm meeting my friend in the lobby.",
+            "I meet my friend in the lobby."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：lobby, comfortable",
+        "target_word": "lobby",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：lobby, coffee",
+        "target_word": "lobby",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "lobby",
+        "options": [],
+        "word_bank": ["The", "hotel", "lobby", "is", "always", "busy"],
+        "correct_answer": "The hotel lobby is always busy.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルで観光情報や手配をしてくれるスタッフを英語で何と言いますか？",
+        "target_word": "concierge",
+        "options": ["concierge", "reception", "housekeeping", "room service"],
+        "word_bank": [],
+        "correct_answer": "concierge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "レストランの予約やタクシーの手配をしてくれる人は誰ですか？",
+        "target_word": "concierge",
+        "options": ["concierge", "front desk", "housekeeping", "room service"],
+        "word_bank": [],
+        "correct_answer": "concierge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「コンシェルジュ」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "concierge",
+        "options": ["concierge", "consierge", "consiege", "concierje"],
+        "word_bank": [],
+        "correct_answer": "concierge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "観光の相談をするとき：\"Please ask the _______ for help.\"",
+        "target_word": "concierge",
+        "options": ["concierge", "reception", "housekeeping", "room service"],
+        "word_bank": [],
+        "correct_answer": "concierge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "レストランの予約について聞くとき：\"The _______ can make restaurant reservations.\"",
+        "target_word": "concierge",
+        "options": ["concierge", "reception", "housekeeping", "room service"],
+        "word_bank": [],
+        "correct_answer": "concierge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "案内サービスについて説明するとき：\"Our _______ speaks three languages.\"",
+        "target_word": "concierge",
+        "options": ["concierge", "reception", "housekeeping", "manager"],
+        "word_bank": [],
+        "correct_answer": "concierge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "コンシェルジュに道を聞きました。",
+        "target_word": "concierge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I asked the concierge for directions.",
+            "I asked the concierge about the way.",
+            "I got directions from the concierge."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "コンシェルジュはとても親切です。",
+        "target_word": "concierge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The concierge is very kind.",
+            "The concierge is very helpful.",
+            "Our concierge is very friendly."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "コンシェルジュに劇場のチケットを頼みました。",
+        "target_word": "concierge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I asked the concierge for theater tickets.",
+            "I requested theater tickets from the concierge.",
+            "The concierge helped me get theater tickets."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：concierge, recommend",
+        "target_word": "concierge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：concierge, tourist",
+        "target_word": "concierge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "concierge",
+        "options": [],
+        "word_bank": ["The", "concierge", "desk", "is", "in", "the", "lobby"],
+        "correct_answer": "The concierge desk is in the lobby.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルで決まった時間に電話で起こしてもらうサービスを英語で何と言いますか？",
+        "target_word": "wake-up call",
+        "options": ["wake-up call", "morning call", "phone call", "alarm call"],
+        "word_bank": [],
+        "correct_answer": "wake-up call",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "朝決まった時間に起こしてもらうサービスは何ですか？",
+        "target_word": "wake-up call",
+        "options": [
+            "wake-up call",
+            "room service",
+            "housekeeping",
+            "concierge"
+        ],
+        "word_bank": [],
+        "correct_answer": "wake-up call",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「モーニングコール」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "wake-up call",
+        "options": ["wake-up call", "morning call", "wake call", "up call"],
+        "word_bank": [],
+        "correct_answer": "wake-up call",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "朝早く起こしてもらうとき：\"I'd like a _______ at 6 AM.\"",
+        "target_word": "wake-up call",
+        "options": ["wake-up call", "morning call", "phone call", "alarm call"],
+        "word_bank": [],
+        "correct_answer": "wake-up call",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "電話で起こしてもらうサービスを頼むとき：\"Can you arrange a _______?\"",
+        "target_word": "wake-up call",
+        "options": ["wake-up call", "morning call", "phone call", "room call"],
+        "word_bank": [],
+        "correct_answer": "wake-up call",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "起床サービスについて説明するとき：\"Your _______ is set for 7 AM.\"",
+        "target_word": "wake-up call",
+        "options": ["wake-up call", "morning call", "phone call", "alarm call"],
+        "word_bank": [],
+        "correct_answer": "wake-up call",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "明日の朝６時にモーニングコールをお願いします。",
+        "target_word": "wake-up call",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please give me a wake-up call at 6 AM tomorrow.",
+            "I'd like a wake-up call at 6 tomorrow morning.",
+            "Can I have a wake-up call at 6 AM tomorrow?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "モーニングコールをキャンセルしたいです。",
+        "target_word": "wake-up call",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I want to cancel my wake-up call.",
+            "I'd like to cancel the wake-up call.",
+            "Please cancel my wake-up call."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "モーニングコールがありませんでした。",
+        "target_word": "wake-up call",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "There was no wake-up call.",
+            "I didn't receive a wake-up call.",
+            "The wake-up call didn't come."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：wake-up call, important",
+        "target_word": "wake-up call",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：wake-up call, meeting",
+        "target_word": "wake-up call",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "wake-up call",
+        "options": [],
+        "word_bank": ["I", "need", "a", "wake-up", "call", "tomorrow"],
+        "correct_answer": "I need a wake-up call tomorrow.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "部屋に入らないでほしい時にドアに掛けるサインを英語で何と言いますか？",
+        "target_word": "do not disturb",
+        "options": [
+            "do not disturb",
+            "please wait",
+            "keep out",
+            "private room"
+        ],
+        "word_bank": [],
+        "correct_answer": "do not disturb",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "休んでいる時に邪魔されたくない時に使うサインは何ですか？",
+        "target_word": "do not disturb",
+        "options": [
+            "do not disturb",
+            "please wait",
+            "keep out",
+            "room service"
+        ],
+        "word_bank": [],
+        "correct_answer": "do not disturb",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「起こさないでください」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "do not disturb",
+        "options": [
+            "do not disturb",
+            "don't wake up",
+            "please sleep",
+            "keep quiet"
+        ],
+        "word_bank": [],
+        "correct_answer": "do not disturb",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "邪魔されたくない時にドアに掛けるサイン：\"_______ sign.\"",
+        "target_word": "do not disturb",
+        "options": ["do not disturb", "please wait", "keep out", "private"],
+        "word_bank": [],
+        "correct_answer": "do not disturb",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "休息中であることを示すとき：\"Please put up the _______ sign.\"",
+        "target_word": "do not disturb",
+        "options": ["do not disturb", "please wait", "keep out", "private"],
+        "word_bank": [],
+        "correct_answer": "do not disturb",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "清掃を断る時に使うサイン：\"The _______ sign is on the door.\"",
+        "target_word": "do not disturb",
+        "options": ["do not disturb", "please wait", "keep out", "cleaning"],
+        "word_bank": [],
+        "correct_answer": "do not disturb",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "起こさないでくださいのサインをドアに掛けました。",
+        "target_word": "do not disturb",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I put the do not disturb sign on the door.",
+            "I hung the do not disturb sign on the door.",
+            "The do not disturb sign is on the door."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "起こさないでくださいのサインはどこにありますか？",
+        "target_word": "do not disturb",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Where is the do not disturb sign?",
+            "Where can I find the do not disturb sign?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "疲れているので起こさないでくださいのサインを使います。",
+        "target_word": "do not disturb",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I'm tired, so I'll use the do not disturb sign.",
+            "Because I'm tired, I will use the do not disturb sign.",
+            "I'm using the do not disturb sign because I'm tired."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：do not disturb, sleeping",
+        "target_word": "do not disturb",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：do not disturb, remove",
+        "target_word": "do not disturb",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "do not disturb",
+        "options": [],
+        "word_bank": ["Please", "do", "not", "disturb", "the", "guests"],
+        "correct_answer": "Please do not disturb the guests.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "お風呂で体を拭くものを英語で何と言いますか？",
+        "target_word": "towels",
+        "options": ["towels", "sheets", "pillows", "blankets"],
+        "word_bank": [],
+        "correct_answer": "towels",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "シャワーの後に使うものは何ですか？",
+        "target_word": "towels",
+        "options": ["towels", "sheets", "pillows", "blankets"],
+        "word_bank": [],
+        "correct_answer": "towels",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「タオル」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "towels",
+        "options": ["towels", "towles", "towells", "touels"],
+        "word_bank": [],
+        "correct_answer": "towels",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "新しいタオルを頼むとき：\"Can I have clean _______?\"",
+        "target_word": "towels",
+        "options": ["towels", "sheets", "pillows", "blankets"],
+        "word_bank": [],
+        "correct_answer": "towels",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "バスルームにあるものについて話すとき：\"There are fresh _______ in the bathroom.\"",
+        "target_word": "towels",
+        "options": ["towels", "sheets", "pillows", "blankets"],
+        "word_bank": [],
+        "correct_answer": "towels",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "汚れたタオルについて説明するとき：\"Please change these dirty _______.\"",
+        "target_word": "towels",
+        "options": ["towels", "sheets", "pillows", "blankets"],
+        "word_bank": [],
+        "correct_answer": "towels",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "きれいなタオルをください。",
+        "target_word": "towels",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please give me clean towels.",
+            "Can I have clean towels?",
+            "I need clean towels."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "バスルームにタオルがありません。",
+        "target_word": "towels",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "There are no towels in the bathroom.",
+            "There aren't any towels in the bathroom.",
+            "The bathroom has no towels."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "このタオルはとても柔らかいです。",
+        "target_word": "towels",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "These towels are very soft.",
+            "This towel is very soft.",
+            "The towels are very soft."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：towels, white",
+        "target_word": "towels",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：towels, extra",
+        "target_word": "towels",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "towels",
+        "options": [],
+        "word_bank": ["Fresh", "towels", "are", "in", "the", "closet"],
+        "correct_answer": "Fresh towels are in the closet.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルが提供する設備やサービスを英語で何と言いますか？",
+        "target_word": "amenities",
+        "options": ["amenities", "facilities", "equipment", "furniture"],
+        "word_bank": [],
+        "correct_answer": "amenities",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルの便利なサービスや設備の総称は何ですか？",
+        "target_word": "amenities",
+        "options": ["amenities", "services", "facilities", "equipment"],
+        "word_bank": [],
+        "correct_answer": "amenities",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「アメニティ」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "amenities",
+        "options": ["amenities", "amenety", "amenitis", "ameneties"],
+        "word_bank": [],
+        "correct_answer": "amenities",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ホテルの設備について聞くとき：\"What _______ does this hotel have?\"",
+        "target_word": "amenities",
+        "options": ["amenities", "services", "facilities", "equipment"],
+        "word_bank": [],
+        "correct_answer": "amenities",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ホテルのサービスを説明するとき：\"Our hotel offers many _______.\"",
+        "target_word": "amenities",
+        "options": ["amenities", "services", "facilities", "equipment"],
+        "word_bank": [],
+        "correct_answer": "amenities",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "部屋の設備について話すとき：\"The room includes basic _______.\"",
+        "target_word": "amenities",
+        "options": ["amenities", "services", "facilities", "equipment"],
+        "word_bank": [],
+        "correct_answer": "amenities",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "このホテルのアメニティはとても良いです。",
+        "target_word": "amenities",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The amenities at this hotel are very good.",
+            "This hotel's amenities are excellent.",
+            "The hotel amenities are very nice."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "部屋にはどんなアメニティがありますか？",
+        "target_word": "amenities",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "What amenities are in the room?",
+            "What kind of amenities does the room have?",
+            "What amenities are available in the room?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "私たちはアメニティの豊富なホテルを探しています。",
+        "target_word": "amenities",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "We are looking for a hotel with many amenities.",
+            "We want a hotel with good amenities.",
+            "We're searching for a hotel rich in amenities."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：amenities, modern",
+        "target_word": "amenities",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：amenities, include",
+        "target_word": "amenities",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "amenities",
+        "options": [],
+        "word_bank": ["The", "hotel", "has", "excellent", "amenities"],
+        "correct_answer": "The hotel has excellent amenities.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "インターネットに接続するための暗号を英語で何と言いますか？",
+        "target_word": "Wi-Fi password",
+        "options": [
+            "Wi-Fi password",
+            "internet code",
+            "network key",
+            "connection number"
+        ],
+        "word_bank": [],
+        "correct_answer": "Wi-Fi password",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "無線インターネットを使うために必要なものは何ですか？",
+        "target_word": "Wi-Fi password",
+        "options": [
+            "Wi-Fi password",
+            "internet cable",
+            "phone number",
+            "room key"
+        ],
+        "word_bank": [],
+        "correct_answer": "Wi-Fi password",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「Wi-Fiパスワード」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "Wi-Fi password",
+        "options": [
+            "Wi-Fi password",
+            "WiFi password",
+            "Wifi password",
+            "Wi-Fi passcode"
+        ],
+        "word_bank": [],
+        "correct_answer": "Wi-Fi password",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "インターネット接続について聞くとき：\"What's the _______?\"",
+        "target_word": "Wi-Fi password",
+        "options": [
+            "Wi-Fi password",
+            "internet code",
+            "network key",
+            "connection number"
+        ],
+        "word_bank": [],
+        "correct_answer": "Wi-Fi password",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "無線インターネットの設定について話すとき：\"I need the _______.\"",
+        "target_word": "Wi-Fi password",
+        "options": [
+            "Wi-Fi password",
+            "internet code",
+            "network key",
+            "phone number"
+        ],
+        "word_bank": [],
+        "correct_answer": "Wi-Fi password",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "接続情報を教えるとき：\"The _______ is written on this card.\"",
+        "target_word": "Wi-Fi password",
+        "options": [
+            "Wi-Fi password",
+            "internet code",
+            "network key",
+            "room number"
+        ],
+        "word_bank": [],
+        "correct_answer": "Wi-Fi password",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "Wi-Fiのパスワードを教えてください。",
+        "target_word": "Wi-Fi password",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please tell me the Wi-Fi password.",
+            "Can you give me the Wi-Fi password?",
+            "What is the Wi-Fi password?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "Wi-Fiのパスワードはどこに書いてありますか？",
+        "target_word": "Wi-Fi password",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Where is the Wi-Fi password written?",
+            "Where can I find the Wi-Fi password?",
+            "Where is the Wi-Fi password?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "Wi-Fiのパスワードが分かりません。",
+        "target_word": "Wi-Fi password",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I don't know the Wi-Fi password.",
+            "I can't find the Wi-Fi password.",
+            "I don't understand the Wi-Fi password."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：Wi-Fi password, change",
+        "target_word": "Wi-Fi password",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：Wi-Fi password, guest",
+        "target_word": "Wi-Fi password",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "Wi-Fi password",
+        "options": [],
+        "word_bank": ["The", "Wi-Fi", "password", "is", "very", "long"],
+        "correct_answer": "The Wi-Fi password is very long.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ホテルでの支払い明細書を英語で何と言いますか？",
+        "target_word": "bill",
+        "options": ["bill", "receipt", "invoice", "ticket"],
+        "word_bank": [],
+        "correct_answer": "bill",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "チェックアウト時に支払う料金の明細は何ですか？",
+        "target_word": "bill",
+        "options": ["bill", "receipt", "menu", "card"],
+        "word_bank": [],
+        "correct_answer": "bill",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「請求書」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "bill",
+        "options": ["bill", "bil", "bile", "bell"],
+        "word_bank": [],
+        "correct_answer": "bill",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "支払いについて聞くとき：\"Can I see my _______?\"",
+        "target_word": "bill",
+        "options": ["bill", "receipt", "menu", "card"],
+        "word_bank": [],
+        "correct_answer": "bill",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "チェックアウト時に確認するとき：\"I'd like to check my _______.\"",
+        "target_word": "bill",
+        "options": ["bill", "receipt", "menu", "reservation"],
+        "word_bank": [],
+        "correct_answer": "bill",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "料金について質問するとき：\"There's an error on my _______.\"",
+        "target_word": "bill",
+        "options": ["bill", "receipt", "menu", "key card"],
+        "word_bank": [],
+        "correct_answer": "bill",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "請求書を確認したいです。",
+        "target_word": "bill",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I want to check my bill.",
+            "I'd like to see my bill.",
+            "I would like to check the bill."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "請求書に間違いがあります。",
+        "target_word": "bill",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "There is a mistake on my bill.",
+            "There's an error on the bill.",
+            "My bill has a mistake."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "請求書はいくらになりますか？",
+        "target_word": "bill",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "How much is the bill?",
+            "What is the total bill?",
+            "How much will the bill be?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：bill, expensive",
+        "target_word": "bill",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：bill, payment",
+        "target_word": "bill",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "bill",
+        "options": [],
+        "word_bank": ["Please", "bring", "me", "the", "bill"],
+        "correct_answer": "Please bring me the bill.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "基本料金に加えて請求される追加費用を英語で何と言いますか？",
+        "target_word": "extra charge",
+        "options": [
+            "extra charge",
+            "basic fee",
+            "normal cost",
+            "standard price"
+        ],
+        "word_bank": [],
+        "correct_answer": "extra charge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "予定していなかった追加の料金は何ですか？",
+        "target_word": "extra charge",
+        "options": ["extra charge", "basic fee", "room rate", "tax"],
+        "word_bank": [],
+        "correct_answer": "extra charge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「追加料金」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "extra charge",
+        "options": [
+            "extra charge",
+            "extra cost",
+            "additional fee",
+            "more money"
+        ],
+        "word_bank": [],
+        "correct_answer": "extra charge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "追加費用について聞くとき：\"Is there an _______?\"",
+        "target_word": "extra charge",
+        "options": [
+            "extra charge",
+            "basic fee",
+            "normal cost",
+            "standard price"
+        ],
+        "word_bank": [],
+        "correct_answer": "extra charge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "追加料金について説明するとき：\"There is an _______ for room service.\"",
+        "target_word": "extra charge",
+        "options": [
+            "extra charge",
+            "basic fee",
+            "normal cost",
+            "standard price"
+        ],
+        "word_bank": [],
+        "correct_answer": "extra charge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "追加費用を避けたいとき：\"I don't want any _______.\"",
+        "target_word": "extra charge",
+        "options": ["extra charge", "basic fee", "room service", "amenities"],
+        "word_bank": [],
+        "correct_answer": "extra charge",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ルームサービスには追加料金がかかります。",
+        "target_word": "extra charge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Room service has an extra charge.",
+            "There is an extra charge for room service.",
+            "Room service costs extra."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "追加料金はありますか？",
+        "target_word": "extra charge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Is there an extra charge?",
+            "Are there any extra charges?",
+            "Do you have extra charges?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "この追加料金は何ですか？",
+        "target_word": "extra charge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "What is this extra charge?",
+            "What is this extra charge for?",
+            "What does this extra charge mean?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：extra charge, parking",
+        "target_word": "extra charge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：extra charge, avoid",
+        "target_word": "extra charge",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "extra charge",
+        "options": [],
+        "word_bank": ["There", "is", "no", "extra", "charge", "today"],
+        "correct_answer": "There is no extra charge today.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    }
+]

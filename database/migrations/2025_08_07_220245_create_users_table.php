@@ -14,6 +14,13 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('email')->unique();
+
+            $table->string("native_language")->default("jp");
+            $table->foreign("native_language")->references("code")->on("languages")->onDelete("set null");
+
+            $table->string("learning_language")->default("en");
+            $table->foreign("learning_language")->references("code")->on("languages")->onDelete("set null");
+
             $table->timestamps();
         });
 

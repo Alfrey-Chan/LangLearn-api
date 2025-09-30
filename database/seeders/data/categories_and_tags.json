@@ -1,0 +1,78 @@
+{
+    "categories": [
+        {
+            "english": "Daily Life & Routine",
+            "japanese": "日常生活とルーティン"
+        },
+        {
+            "english": "Going Out & Activities",
+            "japanese": "外出と活動"
+        },
+        {
+            "english": "People & Relationships",
+            "japanese": "人と人間関係"
+        },
+        {
+            "english": "Places & Travel",
+            "japanese": "場所と旅行"
+        },
+        {
+            "english": "Learning & Communication",
+            "japanese": "学習"
+        }
+    ],
+    "tags": [
+        {
+            "english": "basics",
+            "japanese": "基本"
+        },
+        {
+            "english": "common",
+            "japanese": "一般的"
+        },
+        {
+            "english": "grammar",
+            "japanese": "文法"
+        },
+        {
+            "english": "expressions",
+            "japanese": "表現"
+        },
+        {
+            "english": "slang",
+            "japanese": "スラング"
+        },
+        {
+            "english": "formal",
+            "japanese": "正式"
+        },
+        {
+            "english": "casual",
+            "japanese": "カジュアル"
+        },
+        {
+            "english": "business",
+            "japanese": "ビジネス"
+        },
+        {
+            "english": "daily conversation",
+            "japanese": "日常会話"
+        },
+        {
+            "english": "essential",
+            "japanese": "必須"
+        },
+        {
+            "english": "advanced",
+            "japanese": "上級"
+        },
+        {
+            "english": "intermediate",
+            "japanese": "中級"
+        },
+        {
+            "english": "beginner",
+            "japanese": "初級"
+        }
+    ]
+}

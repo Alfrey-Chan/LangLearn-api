@@ -15,7 +15,7 @@ class UserController extends Controller
         $stats = $user->userStats;
         
         return response()->json([
-            'user_stats' => $stats,
+            'user' => $user,
         ]);
     }
 }

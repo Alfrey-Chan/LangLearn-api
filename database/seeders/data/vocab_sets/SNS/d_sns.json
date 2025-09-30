@@ -1,0 +1,552 @@
+{
+    "post": [
+        {
+            "original": "I wrote a new post about my vacation.",
+            "translated": "休暇について新しい投稿を書きました。"
+        },
+        {
+            "original": "Did you see my post from yesterday?",
+            "translated": "昨日の私の投稿を見ましたか？"
+        },
+        {
+            "original": "This post has many likes and comments.",
+            "translated": "この投稿にはたくさんのいいねとコメントがあります。"
+        },
+        {
+            "original": "I want to post a photo of my lunch.",
+            "translated": "昼食の写真を投稿したいです。"
+        },
+        {
+            "original": "She makes a post every morning.",
+            "translated": "彼女は毎朝投稿をします。"
+        }
+    ],
+    "like": [
+        {
+            "original": "I always like my friend's photos.",
+            "translated": "いつも友達の写真にいいねをします。"
+        },
+        {
+            "original": "This post got 100 likes in one hour.",
+            "translated": "この投稿は1時間で100のいいねを獲得しました。"
+        },
+        {
+            "original": "Please like my new post if you enjoy it.",
+            "translated": "気に入ったら私の新しい投稿にいいねをしてください。"
+        },
+        {
+            "original": "I forgot to like her birthday post.",
+            "translated": "彼女の誕生日の投稿にいいねするのを忘れました。"
+        },
+        {
+            "original": "You can like or dislike posts on this app.",
+            "translated": "このアプリでは投稿にいいねまたは良くないねができます。"
+        }
+    ],
+    "share": [
+        {
+            "original": "I want to share this funny video with my friends.",
+            "translated": "この面白い動画を友達とシェアしたいです。"
+        },
+        {
+            "original": "Can you share my post on your page?",
+            "translated": "私の投稿をあなたのページでシェアしてもらえますか？"
+        },
+        {
+            "original": "This news article was shared 1000 times.",
+            "translated": "このニュース記事は1000回シェアされました。"
+        },
+        {
+            "original": "I always share interesting posts about cooking.",
+            "translated": "いつも料理に関する興味深い投稿をシェアします。"
+        },
+        {
+            "original": "Don't share personal information online.",
+            "translated": "オンラインで個人情報をシェアしないでください。"
+        }
+    ],
+    "comment": [
+        {
+            "original": "I left a nice comment on her photo.",
+            "translated": "彼女の写真に素敵なコメントを残しました。"
+        },
+        {
+            "original": "This post has 50 comments already.",
+            "translated": "この投稿にはもう50のコメントがあります。"
+        },
+        {
+            "original": "Please don't write mean comments.",
+            "translated": "意地悪なコメントは書かないでください。"
+        },
+        {
+            "original": "I read all the comments on the news post.",
+            "translated": "ニュースの投稿の全てのコメントを読みました。"
+        },
+        {
+            "original": "Her comment made me laugh.",
+            "translated": "彼女のコメントで笑いました。"
+        }
+    ],
+    "follow": [
+        {
+            "original": "I follow my favorite singer on Instagram.",
+            "translated": "インスタグラムで好きな歌手をフォローしています。"
+        },
+        {
+            "original": "Do you want to follow me on social media?",
+            "translated": "ソーシャルメディアで私をフォローしませんか？"
+        },
+        {
+            "original": "I follow 200 people but only 50 follow me.",
+            "translated": "200人をフォローしていますが、私をフォローしているのは50人だけです。"
+        },
+        {
+            "original": "She decided to follow the cooking channel.",
+            "translated": "彼女は料理チャンネルをフォローすることにしました。"
+        },
+        {
+            "original": "I only follow people I actually know.",
+            "translated": "実際に知っている人だけをフォローしています。"
+        }
+    ],
+    "unfollow": [
+        {
+            "original": "I had to unfollow him because of his rude posts.",
+            "translated": "彼の失礼な投稿のために彼をアンフォローしなければなりませんでした。"
+        },
+        {
+            "original": "Should I unfollow people who never post?",
+            "translated": "投稿をしない人をアンフォローすべきでしょうか？"
+        },
+        {
+            "original": "She will unfollow you if you don't follow back.",
+            "translated": "フォローバックしなければ彼女はあなたをアンフォローするでしょう。"
+        },
+        {
+            "original": "I want to unfollow some accounts to clean my feed.",
+            "translated": "フィードをきれいにするためにいくつかのアカウントをアンフォローしたいです。"
+        },
+        {
+            "original": "It's okay to unfollow people you don't like.",
+            "translated": "好きではない人をアンフォローするのは大丈夫です。"
+        }
+    ],
+    "follower": [
+        {
+            "original": "I have 500 followers on my account.",
+            "translated": "私のアカウントには500人のフォロワーがいます。"
+        },
+        {
+            "original": "She gained 100 new followers this week.",
+            "translated": "彼女は今週100人の新しいフォロワーを獲得しました。"
+        },
+        {
+            "original": "My follower asked me about my recipe.",
+            "translated": "私のフォロワーがレシピについて質問しました。"
+        },
+        {
+            "original": "Famous people have millions of followers.",
+            "translated": "有名人には何百万人ものフォロワーがいます。"
+        },
+        {
+            "original": "I want to thank all my followers for their support.",
+            "translated": "サポートしてくれた全てのフォロワーに感謝したいです。"
+        }
+    ],
+    "hashtag": [
+        {
+            "original": "I used the hashtag #vacation in my beach photo.",
+            "translated": "海の写真に#vacationのハッシュタグを使いました。"
+        },
+        {
+            "original": "Popular hashtags help people find your posts.",
+            "translated": "人気のハッシュタグは人々があなたの投稿を見つけるのに役立ちます。"
+        },
+        {
+            "original": "What hashtag should I use for this cooking video?",
+            "translated": "この料理動画にはどのハッシュタグを使うべきでしょうか？"
+        },
+        {
+            "original": "The hashtag #love is used millions of times.",
+            "translated": "#loveのハッシュタグは何百万回も使われています。"
+        },
+        {
+            "original": "I searched for posts using the hashtag #birthday.",
+            "translated": "#birthdayのハッシュタグを使った投稿を検索しました。"
+        }
+    ],
+    "profile picture": [
+        {
+            "original": "I changed my profile picture to a new selfie.",
+            "translated": "プロフィール写真を新しい自撮り写真に変更しました。"
+        },
+        {
+            "original": "Your profile picture looks very professional.",
+            "translated": "あなたのプロフィール写真はとてもプロフェッショナルに見えます。"
+        },
+        {
+            "original": "I can't see his face in his profile picture.",
+            "translated": "彼のプロフィール写真では顔が見えません。"
+        },
+        {
+            "original": "She uses a photo of her dog as her profile picture.",
+            "translated": "彼女は犬の写真をプロフィール写真として使っています。"
+        },
+        {
+            "original": "I need to update my profile picture soon.",
+            "translated": "近いうちにプロフィール写真を更新する必要があります。"
+        }
+    ],
+    "username": [
+        {
+            "original": "My username is the same on all social media.",
+            "translated": "私のユーザーネームは全てのソーシャルメディアで同じです。"
+        },
+        {
+            "original": "I forgot my username for this app.",
+            "translated": "このアプリのユーザーネームを忘れました。"
+        },
+        {
+            "original": "Your username should be easy to remember.",
+            "translated": "ユーザーネームは覚えやすいものにするべきです。"
+        },
+        {
+            "original": "Someone already took the username I wanted.",
+            "translated": "欲しかったユーザーネームを誰かがすでに取っていました。"
+        },
+        {
+            "original": "Can I change my username later?",
+            "translated": "後でユーザーネームを変更できますか？"
+        }
+    ],
+    "friend request": [
+        {
+            "original": "I sent you a friend request yesterday.",
+            "translated": "昨日あなたに友達申請を送りました。"
+        },
+        {
+            "original": "I have three new friend requests to accept.",
+            "translated": "承認すべき3つの新しい友達申請があります。"
+        },
+        {
+            "original": "She declined my friend request.",
+            "translated": "彼女は私の友達申請を断りました。"
+        },
+        {
+            "original": "I don't accept friend requests from strangers.",
+            "translated": "知らない人からの友達申請は受け入れません。"
+        },
+        {
+            "original": "How do I send a friend request on this app?",
+            "translated": "このアプリで友達申請はどうやって送りますか？"
+        }
+    ],
+    "direct message": [
+        {
+            "original": "She sent me a direct message about the party.",
+            "translated": "彼女がパーティーについてダイレクトメッセージを送ってくれました。"
+        },
+        {
+            "original": "I prefer direct messages for private conversations.",
+            "translated": "プライベートな会話にはダイレクトメッセージを好みます。"
+        },
+        {
+            "original": "Can you send me the details in a direct message?",
+            "translated": "詳細をダイレクトメッセージで送ってもらえますか？"
+        },
+        {
+            "original": "I got a direct message from my favorite celebrity!",
+            "translated": "好きな有名人からダイレクトメッセージをもらいました！"
+        },
+        {
+            "original": "Please don't send me random direct messages.",
+            "translated": "ランダムなダイレクトメッセージは送らないでください。"
+        }
+    ],
+    "story": [
+        {
+            "original": "I posted a story about my breakfast this morning.",
+            "translated": "今朝朝食についてのストーリーを投稿しました。"
+        },
+        {
+            "original": "Your story will disappear after 24 hours.",
+            "translated": "あなたのストーリーは24時間後に消えます。"
+        },
+        {
+            "original": "I watch all my friends' stories every day.",
+            "translated": "毎日友達のストーリーを全て見ます。"
+        },
+        {
+            "original": "She shared her vacation story with beautiful photos.",
+            "translated": "彼女は美しい写真と一緒に休暇のストーリーをシェアしました。"
+        },
+        {
+            "original": "I can see who viewed my story.",
+            "translated": "誰が私のストーリーを見たかわかります。"
+        }
+    ],
+    "timeline": [
+        {
+            "original": "My timeline is full of birthday posts today.",
+            "translated": "今日私のタイムラインは誕生日の投稿でいっぱいです。"
+        },
+        {
+            "original": "I scroll through my timeline every morning.",
+            "translated": "毎朝タイムラインをスクロールします。"
+        },
+        {
+            "original": "There are too many ads on my timeline.",
+            "translated": "私のタイムラインには広告が多すぎます。"
+        },
+        {
+            "original": "I want to clean up my timeline.",
+            "translated": "タイムラインをきれいにしたいです。"
+        },
+        {
+            "original": "Your timeline shows your recent activity.",
+            "translated": "あなたのタイムラインは最近の活動を表示します。"
+        }
+    ],
+    "notification": [
+        {
+            "original": "I got a notification that someone liked my photo.",
+            "translated": "誰かが私の写真にいいねをしたという通知を受けました。"
+        },
+        {
+            "original": "My phone is full of social media notifications.",
+            "translated": "私の電話はソーシャルメディアの通知でいっぱいです。"
+        },
+        {
+            "original": "I turned off notifications for this app.",
+            "translated": "このアプリの通知をオフにしました。"
+        },
+        {
+            "original": "The notification says I have a new message.",
+            "translated": "通知では新しいメッセージがあると言っています。"
+        },
+        {
+            "original": "I check my notifications every few minutes.",
+            "translated": "数分おきに通知をチェックします。"
+        }
+    ],
+    "tag someone": [
+        {
+            "original": "I want to tag my friends in this group photo.",
+            "translated": "このグループ写真で友達をタグ付けしたいです。"
+        },
+        {
+            "original": "She tagged me in a funny video.",
+            "translated": "彼女が面白い動画で私をタグ付けしました。"
+        },
+        {
+            "original": "Don't tag me in photos without asking first.",
+            "translated": "最初に聞かずに写真で私をタグ付けしないでください。"
+        },
+        {
+            "original": "I was tagged in 5 posts today.",
+            "translated": "今日5つの投稿でタグ付けされました。"
+        },
+        {
+            "original": "You can tag up to 10 people in one post.",
+            "translated": "1つの投稿で最大10人をタグ付けできます。"
+        }
+    ],
+    "selfie": [
+        {
+            "original": "I took a selfie with my new haircut.",
+            "translated": "新しいヘアカットで自撮りをしました。"
+        },
+        {
+            "original": "This selfie looks better with a filter.",
+            "translated": "この自撮りはフィルターがあった方が良く見えます。"
+        },
+        {
+            "original": "My grandmother learned how to take selfies.",
+            "translated": "祖母が自撮りの仕方を覚えました。"
+        },
+        {
+            "original": "We took a group selfie at the party.",
+            "translated": "パーティーでグループ自撮りをしました。"
+        },
+        {
+            "original": "I don't like taking selfies very much.",
+            "translated": "自撮りをするのはあまり好きではありません。"
+        }
+    ],
+    "go viral": [
+        {
+            "original": "My cat video went viral and got 1 million views.",
+            "translated": "私の猫の動画がバイラルになって100万回再生されました。"
+        },
+        {
+            "original": "She hopes her dance video will go viral.",
+            "translated": "彼女はダンス動画がバイラルになることを願っています。"
+        },
+        {
+            "original": "The funny meme went viral in just two hours.",
+            "translated": "その面白いミームはたった2時間でバイラルになりました。"
+        },
+        {
+            "original": "Not every post can go viral.",
+            "translated": "全ての投稿がバイラルになるわけではありません。"
+        },
+        {
+            "original": "What makes a video go viral?",
+            "translated": "何が動画をバイラルにするのでしょうか？"
+        }
+    ],
+    "trending": [
+        {
+            "original": "This hashtag is trending right now.",
+            "translated": "このハッシュタグは今トレンドです。"
+        },
+        {
+            "original": "I always check what's trending on social media.",
+            "translated": "いつもソーシャルメディアで何がトレンドかチェックします。"
+        },
+        {
+            "original": "The singer's new song is trending everywhere.",
+            "translated": "その歌手の新曲がどこでもトレンドになっています。"
+        },
+        {
+            "original": "Trending topics change very quickly.",
+            "translated": "トレンドトピックはとても早く変わります。"
+        },
+        {
+            "original": "I want to post something about the trending topic.",
+            "translated": "トレンドトピックについて何か投稿したいです。"
+        }
+    ],
+    "block": [
+        {
+            "original": "I had to block that person because they were rude.",
+            "translated": "その人が失礼だったのでブロックしなければなりませんでした。"
+        },
+        {
+            "original": "If someone bothers you, you can block them.",
+            "translated": "誰かがあなたを困らせたら、その人をブロックできます。"
+        },
+        {
+            "original": "She blocked me after our argument.",
+            "translated": "私たちの喧嘩の後、彼女は私をブロックしました。"
+        },
+        {
+            "original": "I want to block all these spam accounts.",
+            "translated": "これら全てのスパムアカウントをブロックしたいです。"
+        },
+        {
+            "original": "How do I unblock someone I blocked by mistake?",
+            "translated": "間違ってブロックした人をどうやってブロック解除しますか？"
+        }
+    ],
+    "privacy settings": [
+        {
+            "original": "I changed my privacy settings to protect my information.",
+            "translated": "情報を守るためにプライバシー設定を変更しました。"
+        },
+        {
+            "original": "Check your privacy settings regularly.",
+            "translated": "定期的にプライバシー設定をチェックしてください。"
+        },
+        {
+            "original": "My privacy settings allow only friends to see my posts.",
+            "translated": "私のプライバシー設定では友達だけが投稿を見ることができます。"
+        },
+        {
+            "original": "I don't understand these privacy settings.",
+            "translated": "これらのプライバシー設定がわかりません。"
+        },
+        {
+            "original": "Good privacy settings keep you safe online.",
+            "translated": "良いプライバシー設定はオンラインで安全を保ちます。"
+        }
+    ],
+    "social media": [
+        {
+            "original": "I spend too much time on social media.",
+            "translated": "ソーシャルメディアに時間を使いすぎています。"
+        },
+        {
+            "original": "Social media helps me stay connected with friends.",
+            "translated": "ソーシャルメディアは友達とつながりを保つのに役立ちます。"
+        },
+        {
+            "original": "My grandmother just joined social media.",
+            "translated": "祖母がちょうどソーシャルメディアに参加しました。"
+        },
+        {
+            "original": "Which social media app do you use most?",
+            "translated": "どのソーシャルメディアアプリを最も使いますか？"
+        },
+        {
+            "original": "Social media can be good and bad.",
+            "translated": "ソーシャルメディアは良いことも悪いこともあります。"
+        }
+    ],
+    "influencer": [
+        {
+            "original": "My favorite influencer posted a new makeup tutorial.",
+            "translated": "好きなインフルエンサーが新しいメイクチュートリアルを投稿しました。"
+        },
+        {
+            "original": "She became an influencer with 100,000 followers.",
+            "translated": "彼女は10万人のフォロワーでインフルエンサーになりました。"
+        },
+        {
+            "original": "Many influencers make money from their posts.",
+            "translated": "多くのインフルエンサーは投稿からお金を稼いでいます。"
+        },
+        {
+            "original": "I want to be a travel influencer someday.",
+            "translated": "いつか旅行インフルエンサーになりたいです。"
+        },
+        {
+            "original": "This influencer always recommends good products.",
+            "translated": "このインフルエンサーはいつも良い商品を推薦します。"
+        }
+    ],
+    "online friend": [
+        {
+            "original": "I have many online friends from different countries.",
+            "translated": "様々な国のオンライン友達がたくさんいます。"
+        },
+        {
+            "original": "My online friend helped me learn English.",
+            "translated": "オンライン友達が英語を学ぶのを手伝ってくれました。"
+        },
+        {
+            "original": "I finally met my online friend in person.",
+            "translated": "ついにオンライン友達と実際に会いました。"
+        },
+        {
+            "original": "Some online friends become real-life friends.",
+            "translated": "一部のオンライン友達は現実の友達になります。"
+        },
+        {
+            "original": "Be careful when meeting online friends offline.",
+            "translated": "オンライン友達とオフラインで会う時は注意してください。"
+        }
+    ],
+    "upload": [
+        {
+            "original": "I want to upload this video to my account.",
+            "translated": "この動画を自分のアカウントにアップロードしたいです。"
+        },
+        {
+            "original": "The photo is too big to upload.",
+            "translated": "写真が大きすぎてアップロードできません。"
+        },
+        {
+            "original": "How long does it take to upload a video?",
+            "translated": "動画のアップロードにはどのくらい時間がかかりますか？"
+        },
+        {
+            "original": "I upload new content every Tuesday.",
+            "translated": "毎週火曜日に新しいコンテンツをアップロードします。"
+        },
+        {
+            "original": "She uploads beautiful photos from her travels.",
+            "translated": "彼女は旅行から美しい写真をアップロードします。"
+        }
+    ]
+}

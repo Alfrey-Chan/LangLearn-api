@@ -1,0 +1,395 @@
+{
+    "entries": [
+        {
+            "language_code": "en",
+            "word": "post",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun", "verb"],
+            "meanings": [
+                {
+                    "short": "投稿",
+                    "long": "SNSに写真や文章を公開すること、またはその投稿された内容。"
+                },
+                {
+                    "short": "投稿する",
+                    "long": "SNSプラットフォームに写真、動画、文章などのコンテンツを公開すること。"
+                }
+            ],
+            "additional_notes": "名詞では「a post」、動詞では「post something」の形で使用。日本のSNSでも「ポスト」として広く使われている。"
+        },
+        {
+            "language_code": "en",
+            "word": "like",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun", "verb"],
+            "meanings": [
+                {
+                    "short": "いいね",
+                    "long": "投稿に対する好意や共感を示すボタン機能、またはその行為。"
+                },
+                {
+                    "short": "いいねする",
+                    "long": "他人の投稿に好意や共感を示すためにハートマークなどをクリックすること。"
+                }
+            ],
+            "additional_notes": "FacebookやInstagramの基本機能。「give someone a like」「like someone's post」として使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "share",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["verb", "noun"],
+            "meanings": [
+                {
+                    "short": "シェア",
+                    "long": "他人の投稿を自分のタイムラインで再投稿すること、またはその機能。"
+                },
+                {
+                    "short": "共有する",
+                    "long": "興味深い投稿を自分のフォロワーに広めるために再投稿する行為。"
+                }
+            ],
+            "additional_notes": "Twitterでは「retweet」、Instagramでは「repost」と呼ばれることもある。日本では「シェア」が一般的。"
+        },
+        {
+            "language_code": "en",
+            "word": "comment",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun", "verb"],
+            "meanings": [
+                {
+                    "short": "コメント",
+                    "long": "投稿に対する返信や感想を文字で表現したもの。"
+                },
+                {
+                    "short": "コメントする",
+                    "long": "他人の投稿に対して意見や感想を書き込むこと。"
+                }
+            ],
+            "additional_notes": "「leave a comment」「comment on someone's post」の形で使用。日本のSNSでも「コメント」として定着している。"
+        },
+        {
+            "language_code": "en",
+            "word": "follow",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["verb"],
+            "meanings": [
+                {
+                    "short": "フォロー",
+                    "long": "特定のユーザーの投稿を定期的に見るために登録すること。"
+                }
+            ],
+            "additional_notes": "「follow someone」の形で使用。フォローすると相手の投稿が自分のタイムラインに表示される。相互フォローを「follow each other」と表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "unfollow",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["verb"],
+            "meanings": [
+                {
+                    "short": "フォロー解除",
+                    "long": "フォローしていたユーザーの投稿を見るのをやめること。"
+                }
+            ],
+            "additional_notes": "「unfollow someone」の形で使用。相手に通知されない場合が多く、「block」よりも穏やかな距離の取り方。"
+        },
+        {
+            "language_code": "en",
+            "word": "follower",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "フォロワー",
+                    "long": "自分の投稿を定期的に見るために登録している人。"
+                }
+            ],
+            "additional_notes": "複数形「followers」で使用されることが多い。「gain followers」（フォロワーを増やす）、「lose followers」（フォロワーを失う）など。"
+        },
+        {
+            "language_code": "en",
+            "word": "hashtag",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ハッシュタグ",
+                    "long": "「#」マークの後にキーワードを付けて投稿を分類・検索可能にする機能。"
+                }
+            ],
+            "additional_notes": "「#love」「#food」のように使用。投稿の発見性を高め、同じ興味を持つユーザーとつながる手段として重要。"
+        },
+        {
+            "language_code": "en",
+            "word": "profile picture",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "プロフィール画像",
+                    "long": "アカウントを識別するためのアイコン画像。アバター画像。"
+                }
+            ],
+            "additional_notes": "「profile pic」「avatar」とも呼ばれる。第一印象を決める重要な要素で、定期的に変更するユーザーも多い。"
+        },
+        {
+            "language_code": "en",
+            "word": "username",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ユーザー名",
+                    "long": "アカウントを識別するための固有の名前。@マークと組み合わせて表示される。"
+                }
+            ],
+            "additional_notes": "「@username」の形で表示される。「handle」とも呼ばれ、他のユーザーがメンションする際に使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "friend request",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "友達申請",
+                    "long": "Facebook等で友達になるための申請や依頼。"
+                }
+            ],
+            "additional_notes": "「send a friend request」（友達申請を送る）、「accept/decline a friend request」（承認/拒否する）の形で使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "direct message",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ダイレクトメッセージ",
+                    "long": "他のユーザーと1対1でやり取りする非公開のメッセージ機能。"
+                }
+            ],
+            "additional_notes": "「DM」と略されることが多い。「slide into someone's DMs」は気になる人にDMを送ることを表すスラング表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "story",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ストーリー",
+                    "long": "24時間で自動的に消える短時間の投稿機能。日常の瞬間を気軽にシェアできる。"
+                }
+            ],
+            "additional_notes": "InstagramやFacebookの人気機能。通常の投稿より気軽で、視聴者が確認できる機能もある。複数形で「stories」。"
+        },
+        {
+            "language_code": "en",
+            "word": "timeline",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "タイムライン",
+                    "long": "フォローしているユーザーの投稿が時系列で表示されるメインフィード。"
+                }
+            ],
+            "additional_notes": "「feed」「home feed」とも呼ばれる。最新の投稿や人気の投稿がアルゴリズムによって順序付けされる。"
+        },
+        {
+            "language_code": "en",
+            "word": "notification",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "通知",
+                    "long": "いいね、コメント、フォローなどの活動を知らせるアラート機能。"
+                }
+            ],
+            "additional_notes": "複数形「notifications」で使用されることが多い。「turn on/off notifications」で通知の設定を変更できる。"
+        },
+        {
+            "language_code": "en",
+            "word": "tag someone",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["phrasal verb"],
+            "meanings": [
+                {
+                    "short": "タグ付け",
+                    "long": "投稿や写真で特定の人を@マークで言及すること。相手に通知が届く。"
+                }
+            ],
+            "additional_notes": "「@」マークを使って特定のユーザーを投稿に関連付ける機能。写真では人物を識別してタグ付けすることも可能。"
+        },
+        {
+            "language_code": "en",
+            "word": "selfie",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "自撮り",
+                    "long": "自分で自分を撮影した写真。スマートフォンの前面カメラを使用して撮影される。"
+                }
+            ],
+            "additional_notes": "「self-portrait」の略語として生まれた比較的新しい単語。「take a selfie」の形で使用され、SNS文化の象徴的な行為。"
+        },
+        {
+            "language_code": "en",
+            "word": "go viral",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["phrasal verb"],
+            "meanings": [
+                {
+                    "short": "バズる",
+                    "long": "投稿が急速に拡散されて大きな話題になること。ウイルスのように広がる様子から。"
+                }
+            ],
+            "additional_notes": "「viral」は形容詞としても使用（viral video）。予期せぬ人気を得ることを表し、現代のSNS文化における重要な概念。"
+        },
+        {
+            "language_code": "en",
+            "word": "trending",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["adjective", "noun"],
+            "meanings": [
+                {
+                    "short": "トレンド",
+                    "long": "現在多くの人が話題にしている人気のハッシュタグや話題。"
+                }
+            ],
+            "additional_notes": "「trending topics」「what's trending」の形で使用。Twitterの「トレンド」機能が代表的で、リアルタイムの関心事を表示する。"
+        },
+        {
+            "language_code": "en",
+            "word": "block",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["verb", "noun"],
+            "meanings": [
+                {
+                    "short": "ブロック",
+                    "long": "特定のユーザーからの連絡や投稿の閲覧を完全に遮断すること。"
+                }
+            ],
+            "additional_notes": "「block someone」の形で使用。unfollowより強い措置で、相手は自分の投稿を見ることもコンタクトを取ることもできなくなる。"
+        },
+        {
+            "language_code": "en",
+            "word": "privacy settings",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "プライバシー設定",
+                    "long": "自分の投稿や個人情報を誰が見ることができるかを制御する設定機能。"
+                }
+            ],
+            "additional_notes": "「public」（公開）、「private」（非公開）、「friends only」（友達のみ）などの選択肢がある。SNS利用において重要なセキュリティ機能。"
+        },
+        {
+            "language_code": "en",
+            "word": "social media",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "SNS",
+                    "long": "インターネット上でユーザー同士が交流できるプラットフォームの総称。"
+                }
+            ],
+            "additional_notes": "Facebook、Instagram、Twitter、TikTokなどを含む広義の概念。「social networking service」の略語「SNS」は主に日本で使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "influencer",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "インフルエンサー",
+                    "long": "SNSで多くのフォロワーを持ち、その発言や行動が他者に影響を与える人。"
+                }
+            ],
+            "additional_notes": "マーケティング業界では重要な存在。「micro-influencer」（少数だが熱心なフォロワーを持つ人）という概念もある。"
+        },
+        {
+            "language_code": "en",
+            "word": "online friend",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ネット友達",
+                    "long": "インターネットやSNSを通じて知り合い、主にオンライン上で交流している友人。"
+                }
+            ],
+            "additional_notes": "「internet friend」「cyber friend」とも表現される。現実で会ったことがない場合も多く、現代的な人間関係の形態。"
+        },
+        {
+            "language_code": "en",
+            "word": "upload",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["verb", "noun"],
+            "meanings": [
+                {
+                    "short": "アップロード",
+                    "long": "写真や動画などのファイルをSNSプラットフォームに投稿・保存すること。"
+                }
+            ],
+            "additional_notes": "「upload a photo/video」の形で使用。「post」と似ているが、「upload」はファイルをサーバーに送信する技術的な行為により焦点を当てた表現。"
+        }
+    ]
+}

@@ -13,8 +13,17 @@ return new class extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId("quiz_id")->constrained()->cascadeOnDelete();
-            $table->json("items");
+            $table->foreignId('quiz_id')->nullable()->constrained()->nullOnDelete();
+            $table->enum('type', ['multiple_choice', 'fill_blank', 'translation', 'sentence_creation', 'word_rearrangement']);
+            $table->string('question');
+            $table->string('target_word');
+            $table->string('correct_answer')->nullable();
+            $table->boolean('requires_feedback');
+            $table->integer('points');
+
+            $table->json('options')->nullable();
+            $table->json('word_bank')->nullable();
+            $table->json('acceptable_answers')->nullable();
             $table->timestamps();
         });
     }

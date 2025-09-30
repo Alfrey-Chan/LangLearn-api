@@ -14,9 +14,8 @@ return new class extends Migration
         Schema::create('sentence_examples', function (Blueprint $table) {
             $table->id();
             $table->foreignId('vocabulary_entry_id');
-            $table->json('sentence_data');
-            $table->unsignedInteger('upvotes')->default(0);
-            $table->unsignedInteger('downvotes')->default(0);
+            $table->string('sentence_original');
+            $table->string('sentence_translated');
             $table->timestamps();
         });
     }

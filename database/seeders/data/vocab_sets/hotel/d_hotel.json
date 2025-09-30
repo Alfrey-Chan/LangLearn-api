@@ -1,0 +1,552 @@
+{
+    "hotel": [
+        {
+            "original": "This hotel is very clean and comfortable.",
+            "translated": "このホテルはとても清潔で快適です。"
+        },
+        {
+            "original": "I stayed at a small hotel near the beach.",
+            "translated": "海の近くの小さなホテルに泊まりました。"
+        },
+        {
+            "original": "The hotel has a nice restaurant and pool.",
+            "translated": "そのホテルには素敵なレストランとプールがあります。"
+        },
+        {
+            "original": "How much does this hotel cost per night?",
+            "translated": "このホテルは一泊いくらですか？"
+        },
+        {
+            "original": "I need to find a hotel for my vacation.",
+            "translated": "休暇のためのホテルを見つける必要があります。"
+        }
+    ],
+    "reservation": [
+        {
+            "original": "I have a reservation under the name Smith.",
+            "translated": "スミスの名前で予約しています。"
+        },
+        {
+            "original": "I want to make a reservation for two nights.",
+            "translated": "2泊の予約を取りたいです。"
+        },
+        {
+            "original": "My reservation is for next Friday.",
+            "translated": "私の予約は来週の金曜日です。"
+        },
+        {
+            "original": "Can I change my reservation to a different date?",
+            "translated": "予約を別の日に変更できますか？"
+        },
+        {
+            "original": "I need to cancel my reservation.",
+            "translated": "予約をキャンセルする必要があります。"
+        }
+    ],
+    "booking": [
+        {
+            "original": "I made my booking online last week.",
+            "translated": "先週オンラインで予約しました。"
+        },
+        {
+            "original": "The booking includes breakfast and dinner.",
+            "translated": "その予約には朝食と夕食が含まれています。"
+        },
+        {
+            "original": "Can you confirm my booking, please?",
+            "translated": "予約を確認していただけませんか？"
+        },
+        {
+            "original": "I need help with my booking.",
+            "translated": "予約について助けが必要です。"
+        },
+        {
+            "original": "The booking was very easy on their website.",
+            "translated": "彼らのウェブサイトでの予約はとても簡単でした。"
+        }
+    ],
+    "front desk": [
+        {
+            "original": "Please go to the front desk to check in.",
+            "translated": "チェックインのためにフロントにお越しください。"
+        },
+        {
+            "original": "The front desk is open 24 hours.",
+            "translated": "フロントは24時間営業です。"
+        },
+        {
+            "original": "I asked the front desk for extra towels.",
+            "translated": "フロントでタオルの追加をお願いしました。"
+        },
+        {
+            "original": "You can get information at the front desk.",
+            "translated": "フロントで情報を得ることができます。"
+        },
+        {
+            "original": "The front desk staff speaks English.",
+            "translated": "フロントのスタッフは英語を話します。"
+        }
+    ],
+    "reception": [
+        {
+            "original": "The reception area is very beautiful.",
+            "translated": "レセプションエリアはとても美しいです。"
+        },
+        {
+            "original": "I left my key at reception this morning.",
+            "translated": "今朝レセプションに鍵を預けました。"
+        },
+        {
+            "original": "Reception can help you with restaurant bookings.",
+            "translated": "レセプションでレストランの予約を手伝ってもらえます。"
+        },
+        {
+            "original": "There are comfortable chairs in reception.",
+            "translated": "レセプションには快適な椅子があります。"
+        },
+        {
+            "original": "Call reception if you need anything.",
+            "translated": "何か必要でしたらレセプションに電話してください。"
+        }
+    ],
+    "check in": [
+        {
+            "original": "I need to check in at 3 o'clock.",
+            "translated": "3時にチェックインする必要があります。"
+        },
+        {
+            "original": "Check in time is after 2 PM.",
+            "translated": "チェックイン時間は午後2時以降です。"
+        },
+        {
+            "original": "Can I check in early today?",
+            "translated": "今日は早めにチェックインできますか？"
+        },
+        {
+            "original": "Please show your passport when you check in.",
+            "translated": "チェックインの際にパスポートをお見せください。"
+        },
+        {
+            "original": "I want to check in now, please.",
+            "translated": "今チェックインしたいのですが。"
+        }
+    ],
+    "check out": [
+        {
+            "original": "I need to check out by 11 AM.",
+            "translated": "午前11時までにチェックアウトする必要があります。"
+        },
+        {
+            "original": "What time is check out?",
+            "translated": "チェックアウトは何時ですか？"
+        },
+        {
+            "original": "Can I check out late today?",
+            "translated": "今日は遅めにチェックアウトできますか？"
+        },
+        {
+            "original": "I'm ready to check out now.",
+            "translated": "今チェックアウトする準備ができています。"
+        },
+        {
+            "original": "Don't forget to check out before you leave.",
+            "translated": "お帰りの前にチェックアウトをお忘れなく。"
+        }
+    ],
+    "room key": [
+        {
+            "original": "I lost my room key somewhere.",
+            "translated": "どこかで部屋の鍵を紛失しました。"
+        },
+        {
+            "original": "Please give me a new room key.",
+            "translated": "新しい部屋の鍵をください。"
+        },
+        {
+            "original": "My room key doesn't work.",
+            "translated": "部屋の鍵が機能しません。"
+        },
+        {
+            "original": "I left my room key at the front desk.",
+            "translated": "フロントに部屋の鍵を預けました。"
+        },
+        {
+            "original": "Here is your room key for room 205.",
+            "translated": "こちらが205号室の部屋の鍵です。"
+        }
+    ],
+    "key card": [
+        {
+            "original": "My key card stopped working this morning.",
+            "translated": "今朝キーカードが動かなくなりました。"
+        },
+        {
+            "original": "You need a key card to use the elevator.",
+            "translated": "エレベーターを使うにはキーカードが必要です。"
+        },
+        {
+            "original": "I put my key card in my wallet.",
+            "translated": "キーカードを財布に入れました。"
+        },
+        {
+            "original": "The key card also opens the gym.",
+            "translated": "キーカードはジムも開けられます。"
+        },
+        {
+            "original": "Please keep your key card with you.",
+            "translated": "キーカードをお持ちください。"
+        }
+    ],
+    "single room": [
+        {
+            "original": "I booked a single room for three nights.",
+            "translated": "3泊のシングルルームを予約しました。"
+        },
+        {
+            "original": "The single room has one small bed.",
+            "translated": "シングルルームには小さなベッドが1つあります。"
+        },
+        {
+            "original": "How much is a single room per night?",
+            "translated": "シングルルームは一泊いくらですか？"
+        },
+        {
+            "original": "I prefer a single room because I travel alone.",
+            "translated": "一人旅なのでシングルルームを好みます。"
+        },
+        {
+            "original": "The single room is on the second floor.",
+            "translated": "シングルルームは2階にあります。"
+        }
+    ],
+    "double room": [
+        {
+            "original": "We need a double room for our honeymoon.",
+            "translated": "新婚旅行のためにダブルルームが必要です。"
+        },
+        {
+            "original": "The double room has a big bed and nice view.",
+            "translated": "ダブルルームには大きなベッドと素敵な景色があります。"
+        },
+        {
+            "original": "Is the double room more expensive?",
+            "translated": "ダブルルームはもっと高いですか？"
+        },
+        {
+            "original": "I want to change to a double room.",
+            "translated": "ダブルルームに変更したいです。"
+        },
+        {
+            "original": "The double room can sleep two people.",
+            "translated": "ダブルルームは2人が寝ることができます。"
+        }
+    ],
+    "twin room": [
+        {
+            "original": "My friend and I shared a twin room.",
+            "translated": "友達と私はツインルームをシェアしました。"
+        },
+        {
+            "original": "The twin room has two separate beds.",
+            "translated": "ツインルームには2つの別々のベッドがあります。"
+        },
+        {
+            "original": "Can you change our double room to a twin room?",
+            "translated": "ダブルルームをツインルームに変更してもらえますか？"
+        },
+        {
+            "original": "I prefer a twin room when traveling with friends.",
+            "translated": "友達と旅行する時はツインルームを好みます。"
+        },
+        {
+            "original": "The twin room is perfect for business partners.",
+            "translated": "ツインルームはビジネスパートナーに最適です。"
+        }
+    ],
+    "suite": [
+        {
+            "original": "The suite has a living room and bedroom.",
+            "translated": "スイートにはリビングルームとベッドルームがあります。"
+        },
+        {
+            "original": "I stayed in a beautiful suite on my birthday.",
+            "translated": "誕生日に美しいスイートに泊まりました。"
+        },
+        {
+            "original": "The suite is much bigger than a regular room.",
+            "translated": "スイートは普通の部屋よりもずっと大きいです。"
+        },
+        {
+            "original": "How much extra does the suite cost?",
+            "translated": "スイートは追加でいくらかかりますか？"
+        },
+        {
+            "original": "The suite has a great view of the city.",
+            "translated": "スイートには街の素晴らしい景色があります。"
+        }
+    ],
+    "room service": [
+        {
+            "original": "I ordered dinner from room service.",
+            "translated": "ルームサービスで夕食を注文しました。"
+        },
+        {
+            "original": "Room service is available 24 hours.",
+            "translated": "ルームサービスは24時間利用可能です。"
+        },
+        {
+            "original": "The room service menu has many choices.",
+            "translated": "ルームサービスのメニューには多くの選択肢があります。"
+        },
+        {
+            "original": "Room service brought my breakfast at 8 AM.",
+            "translated": "ルームサービスが午前8時に朝食を持ってきました。"
+        },
+        {
+            "original": "I called room service for some coffee.",
+            "translated": "コーヒーのためにルームサービスに電話しました。"
+        }
+    ],
+    "housekeeping": [
+        {
+            "original": "Housekeeping cleaned my room this morning.",
+            "translated": "ハウスキーピングが今朝私の部屋を掃除しました。"
+        },
+        {
+            "original": "I need housekeeping to bring more towels.",
+            "translated": "ハウスキーピングにタオルをもっと持ってきてもらう必要があります。"
+        },
+        {
+            "original": "Housekeeping comes every day at 10 AM.",
+            "translated": "ハウスキーピングは毎日午前10時に来ます。"
+        },
+        {
+            "original": "Please tell housekeeping not to disturb me.",
+            "translated": "ハウスキーピングに私を邪魔しないよう伝えてください。"
+        },
+        {
+            "original": "The housekeeping staff is very friendly.",
+            "translated": "ハウスキーピングのスタッフはとても親切です。"
+        }
+    ],
+    "elevator": [
+        {
+            "original": "The elevator is broken, so we used the stairs.",
+            "translated": "エレベーターが故障しているので、階段を使いました。"
+        },
+        {
+            "original": "My room is on the 8th floor, so I take the elevator.",
+            "translated": "私の部屋は8階なので、エレベーターに乗ります。"
+        },
+        {
+            "original": "There are two elevators in this hotel.",
+            "translated": "このホテルにはエレベーターが2基あります。"
+        },
+        {
+            "original": "The elevator is very slow today.",
+            "translated": "今日エレベーターはとても遅いです。"
+        },
+        {
+            "original": "Press the elevator button to go up.",
+            "translated": "上に行くためにエレベーターのボタンを押してください。"
+        }
+    ],
+    "lobby": [
+        {
+            "original": "I'll wait for you in the lobby.",
+            "translated": "ロビーであなたを待っています。"
+        },
+        {
+            "original": "The lobby has comfortable sofas and free Wi-Fi.",
+            "translated": "ロビーには快適なソファと無料Wi-Fiがあります。"
+        },
+        {
+            "original": "Let's meet in the hotel lobby at 7 PM.",
+            "translated": "午後7時にホテルのロビーで会いましょう。"
+        },
+        {
+            "original": "The lobby is on the ground floor.",
+            "translated": "ロビーは1階にあります。"
+        },
+        {
+            "original": "Many people sit and talk in the lobby.",
+            "translated": "多くの人がロビーに座って話しています。"
+        }
+    ],
+    "concierge": [
+        {
+            "original": "The concierge helped me find a good restaurant.",
+            "translated": "コンシェルジュが良いレストランを見つけるのを手伝ってくれました。"
+        },
+        {
+            "original": "I asked the concierge about local attractions.",
+            "translated": "地元の観光地についてコンシェルジュに尋ねました。"
+        },
+        {
+            "original": "The concierge can book tickets for shows.",
+            "translated": "コンシェルジュはショーのチケットを予約できます。"
+        },
+        {
+            "original": "Our concierge speaks three languages.",
+            "translated": "私たちのコンシェルジュは3つの言語を話します。"
+        },
+        {
+            "original": "The concierge desk is near the entrance.",
+            "translated": "コンシェルジュのデスクは入口の近くにあります。"
+        }
+    ],
+    "wake-up call": [
+        {
+            "original": "I need a wake-up call at 6 AM tomorrow.",
+            "translated": "明日午前6時にモーニングコールが必要です。"
+        },
+        {
+            "original": "Did you remember to ask for a wake-up call?",
+            "translated": "モーニングコールをお願いするのを覚えていましたか？"
+        },
+        {
+            "original": "The wake-up call woke me up on time.",
+            "translated": "モーニングコールで時間通りに起きました。"
+        },
+        {
+            "original": "I forgot to cancel my wake-up call.",
+            "translated": "モーニングコールのキャンセルを忘れました。"
+        },
+        {
+            "original": "Can you arrange a wake-up call for 7:30?",
+            "translated": "7時30分のモーニングコールを手配してもらえますか？"
+        }
+    ],
+    "do not disturb": [
+        {
+            "original": "I put the 'do not disturb' sign on my door.",
+            "translated": "ドアに「起こさないでください」のサインを掛けました。"
+        },
+        {
+            "original": "Please use 'do not disturb' if you want to sleep.",
+            "translated": "眠りたい時は「起こさないでください」を使ってください。"
+        },
+        {
+            "original": "The 'do not disturb' sign is on the table.",
+            "translated": "「起こさないでください」のサインはテーブルの上にあります。"
+        },
+        {
+            "original": "Housekeeping won't come if you have 'do not disturb' up.",
+            "translated": "「起こさないでください」を出していればハウスキーピングは来ません。"
+        },
+        {
+            "original": "I forgot to take down the 'do not disturb' sign.",
+            "translated": "「起こさないでください」のサインを外すのを忘れました。"
+        }
+    ],
+    "towels": [
+        {
+            "original": "I need clean towels for my room.",
+            "translated": "部屋のためにきれいなタオルが必要です。"
+        },
+        {
+            "original": "The bathroom has two big towels.",
+            "translated": "バスルームには大きなタオルが2枚あります。"
+        },
+        {
+            "original": "Can you bring me some extra towels?",
+            "translated": "タオルを追加で持ってきてもらえますか？"
+        },
+        {
+            "original": "The towels are very soft and clean.",
+            "translated": "タオルはとても柔らかくてきれいです。"
+        },
+        {
+            "original": "I used all the towels after my shower.",
+            "translated": "シャワーの後、全てのタオルを使いました。"
+        }
+    ],
+    "amenities": [
+        {
+            "original": "This hotel has great amenities like a pool and gym.",
+            "translated": "このホテルにはプールやジムなどの素晴らしい設備があります。"
+        },
+        {
+            "original": "What amenities are included in the room?",
+            "translated": "部屋にはどんなアメニティが含まれていますか？"
+        },
+        {
+            "original": "Free breakfast is one of the best amenities.",
+            "translated": "無料朝食は最高のアメニティの一つです。"
+        },
+        {
+            "original": "The bathroom amenities include shampoo and soap.",
+            "translated": "バスルームのアメニティにはシャンプーと石鹸が含まれています。"
+        },
+        {
+            "original": "I love hotels with good amenities.",
+            "translated": "良いアメニティがあるホテルが大好きです。"
+        }
+    ],
+    "Wi-Fi password": [
+        {
+            "original": "What is the Wi-Fi password for the hotel?",
+            "translated": "ホテルのWi-Fiパスワードは何ですか？"
+        },
+        {
+            "original": "The Wi-Fi password is written on this card.",
+            "translated": "Wi-Fiパスワードはこのカードに書いてあります。"
+        },
+        {
+            "original": "I forgot the Wi-Fi password for my room.",
+            "translated": "部屋のWi-Fiパスワードを忘れました。"
+        },
+        {
+            "original": "Can you give me the Wi-Fi password again?",
+            "translated": "Wi-Fiパスワードをもう一度教えてもらえますか？"
+        },
+        {
+            "original": "The Wi-Fi password changes every week.",
+            "translated": "Wi-Fiパスワードは毎週変わります。"
+        }
+    ],
+    "bill": [
+        {
+            "original": "Can I see my bill, please?",
+            "translated": "請求書を見せていただけませんか？"
+        },
+        {
+            "original": "My bill includes the room and breakfast.",
+            "translated": "私の請求書には部屋と朝食が含まれています。"
+        },
+        {
+            "original": "I think there's a mistake on my bill.",
+            "translated": "請求書に間違いがあると思います。"
+        },
+        {
+            "original": "How much is the total bill?",
+            "translated": "請求書の合計はいくらですか？"
+        },
+        {
+            "original": "I paid my bill with a credit card.",
+            "translated": "クレジットカードで請求書を支払いました。"
+        }
+    ],
+    "extra charge": [
+        {
+            "original": "Is there an extra charge for using the pool?",
+            "translated": "プールの使用に追加料金はありますか？"
+        },
+        {
+            "original": "Room service has an extra charge of $5.",
+            "translated": "ルームサービスには5ドルの追加料金があります。"
+        },
+        {
+            "original": "I didn't know about the extra charge for Wi-Fi.",
+            "translated": "Wi-Fiの追加料金について知りませんでした。"
+        },
+        {
+            "original": "What extra charges are on my bill?",
+            "translated": "私の請求書にはどんな追加料金がありますか？"
+        },
+        {
+            "original": "Late check-out has an extra charge.",
+            "translated": "レイトチェックアウトには追加料金があります。"
+        }
+    ]
+}

@@ -49,7 +49,9 @@ class FirebaseAuth
                 // Create new user with this Firebase UID
                 $user = User::create([
                     'firebase_uid' => $uid,
-                    'email' => $email
+                    'email' => $email,
+                    'native_language' => 'jp',
+                    'learning_language' => 'en'
                 ]);
             } else if ($user->email !== $email) {
                 // Update email if it changed in Firebase

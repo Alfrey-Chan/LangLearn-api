@@ -20,6 +20,8 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'firebase_uid',
+        'native_language',
+        'learning_language',
         'email',
     ];
 
@@ -42,24 +44,6 @@ class User extends Authenticatable
         return [
             'email_verified_at' => 'datetime',
         ];
-    }
-
-    /**
-     * Find or create a user by Firebase UID
-     */
-    public static function findOrCreateByFirebaseUid(string $uid, array $userData = []): User
-    {
-        $user = static::where('firebase_uid', $uid)->first();
-        
-        if (!$user) {
-            $user = static::create([
-                'firebase_uid' => $uid,
-                'name' => $userData['name'] ?? '',
-                'email' => $userData['email'] ?? '',
-            ]);
-        }
-        
-        return $user;
     }
 
     public function userStats() 
@@ -128,7 +112,7 @@ class User extends Authenticatable
         $totalQuizzes = $this->quizResults()->count();
         $averageScore = $this->quizResults()->avg('score_percent') ?? 0.00;
         
-        $result = $this->userStats()->updateOrCreate(
+        $this->userStats()->updateOrCreate(
             ['firebase_uid' => $this->firebase_uid],
             [
                 'total_quizzes' => $totalQuizzes,

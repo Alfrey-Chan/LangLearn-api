@@ -1,0 +1,354 @@
+{
+    "This is": [
+        {
+            "original": "This is my new phone.",
+            "translated": "これは私の新しい電話です。"
+        },
+        {
+            "original": "This is a good restaurant.",
+            "translated": "これは良いレストランです。"
+        },
+        {
+            "original": "This is my friend Sarah.",
+            "translated": "こちらは私の友達のサラです。"
+        },
+        {
+            "original": "This is the way to the station.",
+            "translated": "これが駅への道です。"
+        },
+        {
+            "original": "This is very important.",
+            "translated": "これはとても重要です。"
+        }
+    ],
+    "That is": [
+        {
+            "original": "That is my car over there.",
+            "translated": "あれは向こうにある私の車です。"
+        },
+        {
+            "original": "That is a beautiful building.",
+            "translated": "あれは美しい建物です。"
+        },
+        {
+            "original": "That is not correct.",
+            "translated": "それは正しくありません。"
+        },
+        {
+            "original": "That is my teacher.",
+            "translated": "あの方は私の先生です。"
+        },
+        {
+            "original": "That is exactly what I need.",
+            "translated": "それはまさに私が必要としているものです。"
+        }
+    ],
+    "There is": [
+        {
+            "original": "There is a bank near the school.",
+            "translated": "学校の近くに銀行があります。"
+        },
+        {
+            "original": "There is milk in the fridge.",
+            "translated": "冷蔵庫に牛乳があります。"
+        },
+        {
+            "original": "There is a problem with my computer.",
+            "translated": "私のコンピューターに問題があります。"
+        },
+        {
+            "original": "There is a cat in the garden.",
+            "translated": "庭に猫がいます。"
+        },
+        {
+            "original": "There is no time to waste.",
+            "translated": "無駄にする時間はありません。"
+        }
+    ],
+    "There are": [
+        {
+            "original": "There are many people at the park.",
+            "translated": "公園にはたくさんの人がいます。"
+        },
+        {
+            "original": "There are three apples on the table.",
+            "translated": "テーブルにリンゴが3個あります。"
+        },
+        {
+            "original": "There are no tickets left.",
+            "translated": "チケットは残っていません。"
+        },
+        {
+            "original": "There are two restaurants on this street.",
+            "translated": "この通りにはレストランが2軒あります。"
+        },
+        {
+            "original": "There are some books in my bag.",
+            "translated": "私のバッグに本が何冊かあります。"
+        }
+    ],
+    "I have": [
+        {
+            "original": "I have a big family.",
+            "translated": "私には大きな家族がいます。"
+        },
+        {
+            "original": "I have two cats and one dog.",
+            "translated": "私は猫を2匹と犬を1匹飼っています。"
+        },
+        {
+            "original": "I have a meeting at 3 o'clock.",
+            "translated": "3時に会議があります。"
+        },
+        {
+            "original": "I have enough money to buy lunch.",
+            "translated": "昼食を買うのに十分なお金があります。"
+        },
+        {
+            "original": "I have lived here for five years.",
+            "translated": "ここに5年間住んでいます。"
+        }
+    ],
+    "I don't have": [
+        {
+            "original": "I don't have a car, so I take the bus.",
+            "translated": "車を持っていないので、バスに乗ります。"
+        },
+        {
+            "original": "I don't have time to watch TV today.",
+            "translated": "今日はテレビを見る時間がありません。"
+        },
+        {
+            "original": "I don't have your phone number.",
+            "translated": "あなたの電話番号を知りません。"
+        },
+        {
+            "original": "I don't have any brothers or sisters.",
+            "translated": "兄弟姉妹はいません。"
+        },
+        {
+            "original": "I don't have enough experience for this job.",
+            "translated": "この仕事には十分な経験がありません。"
+        }
+    ],
+    "Do you have": [
+        {
+            "original": "Do you have a pen I can borrow?",
+            "translated": "借りられるペンはありますか？"
+        },
+        {
+            "original": "Do you have any plans for the weekend?",
+            "translated": "週末の予定はありますか？"
+        },
+        {
+            "original": "Do you have children?",
+            "translated": "お子さんはいらっしゃいますか？"
+        },
+        {
+            "original": "Do you have this shirt in blue?",
+            "translated": "このシャツの青色はありますか？"
+        },
+        {
+            "original": "Do you have a minute to talk?",
+            "translated": "ちょっと話す時間はありますか？"
+        }
+    ],
+    "How many": [
+        {
+            "original": "How many students are in your class?",
+            "translated": "あなたのクラスには何人の生徒がいますか？"
+        },
+        {
+            "original": "How many languages can you speak?",
+            "translated": "何か国語話せますか？"
+        },
+        {
+            "original": "How many hours do you work per day?",
+            "translated": "1日何時間働きますか？"
+        },
+        {
+            "original": "How many cookies do you want?",
+            "translated": "クッキーをいくつ欲しいですか？"
+        },
+        {
+            "original": "How many people live in your city?",
+            "translated": "あなたの街には何人住んでいますか？"
+        }
+    ],
+    "How much": [
+        {
+            "original": "How much does this coffee cost?",
+            "translated": "このコーヒーはいくらですか？"
+        },
+        {
+            "original": "How much time do we have?",
+            "translated": "どのくらい時間がありますか？"
+        },
+        {
+            "original": "How much sugar do you want in your tea?",
+            "translated": "紅茶にどのくらい砂糖を入れますか？"
+        },
+        {
+            "original": "How much money did you spend?",
+            "translated": "いくらお金を使いましたか？"
+        },
+        {
+            "original": "How much do you know about Japan?",
+            "translated": "日本についてどのくらい知っていますか？"
+        }
+    ],
+    "I like": [
+        {
+            "original": "I like pizza and pasta.",
+            "translated": "ピザとパスタが好きです。"
+        },
+        {
+            "original": "I like reading books in my free time.",
+            "translated": "自由時間に本を読むのが好きです。"
+        },
+        {
+            "original": "I like your new haircut.",
+            "translated": "あなたの新しい髪型が好きです。"
+        },
+        {
+            "original": "I like to walk in the park.",
+            "translated": "公園を歩くのが好きです。"
+        },
+        {
+            "original": "I like this song very much.",
+            "translated": "この歌がとても好きです。"
+        }
+    ],
+    "I want": [
+        {
+            "original": "I want to learn Spanish.",
+            "translated": "スペイン語を学びたいです。"
+        },
+        {
+            "original": "I want a cup of coffee, please.",
+            "translated": "コーヒーを一杯お願いします。"
+        },
+        {
+            "original": "I want to visit my grandmother this weekend.",
+            "translated": "今週末におばあちゃんに会いに行きたいです。"
+        },
+        {
+            "original": "I want to buy a new bicycle.",
+            "translated": "新しい自転車を買いたいです。"
+        },
+        {
+            "original": "I want to go home early today.",
+            "translated": "今日は早く家に帰りたいです。"
+        }
+    ],
+    "I need": [
+        {
+            "original": "I need to go to the doctor.",
+            "translated": "医者に行く必要があります。"
+        },
+        {
+            "original": "I need some help with my homework.",
+            "translated": "宿題で少し手伝いが必要です。"
+        },
+        {
+            "original": "I need to buy groceries for dinner.",
+            "translated": "夕食のために食料品を買う必要があります。"
+        },
+        {
+            "original": "I need a new phone because mine is broken.",
+            "translated": "携帯が壊れたので新しいものが必要です。"
+        },
+        {
+            "original": "I need to practice English more.",
+            "translated": "もっと英語を練習する必要があります。"
+        }
+    ],
+    "Can you": [
+        {
+            "original": "Can you help me carry this box?",
+            "translated": "この箱を運ぶのを手伝ってもらえますか？"
+        },
+        {
+            "original": "Can you speak English?",
+            "translated": "英語を話せますか？"
+        },
+        {
+            "original": "Can you tell me the time?",
+            "translated": "時間を教えてもらえますか？"
+        },
+        {
+            "original": "Can you come to my party on Saturday?",
+            "translated": "土曜日の私のパーティーに来られますか？"
+        },
+        {
+            "original": "Can you show me the way to the station?",
+            "translated": "駅への道を教えてもらえますか？"
+        }
+    ],
+    "Could you": [
+        {
+            "original": "Could you please close the window?",
+            "translated": "窓を閉めていただけませんか？"
+        },
+        {
+            "original": "Could you speak more slowly?",
+            "translated": "もう少しゆっくり話していただけませんか？"
+        },
+        {
+            "original": "Could you repeat that, please?",
+            "translated": "もう一度言っていただけませんか？"
+        },
+        {
+            "original": "Could you give me your email address?",
+            "translated": "メールアドレスを教えていただけませんか？"
+        },
+        {
+            "original": "Could you wait here for a moment?",
+            "translated": "ちょっとここで待っていただけませんか？"
+        }
+    ],
+    "Would you like": [
+        {
+            "original": "Would you like some tea or coffee?",
+            "translated": "お茶かコーヒーはいかがですか？"
+        },
+        {
+            "original": "Would you like to come with us?",
+            "translated": "私たちと一緒に来ませんか？"
+        },
+        {
+            "original": "Would you like more rice?",
+            "translated": "ご飯をもっといかがですか？"
+        },
+        {
+            "original": "Would you like to sit down?",
+            "translated": "座りませんか？"
+        },
+        {
+            "original": "Would you like me to help you?",
+            "translated": "お手伝いしましょうか？"
+        }
+    ],
+    "Let's": [
+        {
+            "original": "Let's go to the movies tonight.",
+            "translated": "今夜映画を見に行きましょう。"
+        },
+        {
+            "original": "Let's have lunch together.",
+            "translated": "一緒に昼食を取りましょう。"
+        },
+        {
+            "original": "Let's study for the test.",
+            "translated": "テストの勉強をしましょう。"
+        },
+        {
+            "original": "Let's meet at the coffee shop.",
+            "translated": "喫茶店で会いましょう。"
+        },
+        {
+            "original": "Let's take a break.",
+            "translated": "休憩しましょう。"
+        }
+    ]
+}

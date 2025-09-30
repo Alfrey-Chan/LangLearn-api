@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('vocabulary_entries', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('language_id')->constrained();
+            $table->string('language_code');
+            $table->foreign('language_code')->references('code')->on('languages')->cascadeOnDelete();
 
             // Core word data
             $table->string('word');
@@ -21,16 +22,8 @@ return new class extends Migration
             $table->string('romaji')->nullable();
             $table->string('pinyin')->nullable();
             $table->json('part_of_speech');
-
-            // JSON arrays 
             $table->json('meanings');
-
-            // Stats & metadata
-            $table->integer('upvotes')->default(0);
-            $table->integer('downvotes')->default(0);
-            $table->integer('views')->default(0);
             $table->string('additional_notes')->nullable();
-            $table->json('related_words');
 
             $table->timestamps();
         });

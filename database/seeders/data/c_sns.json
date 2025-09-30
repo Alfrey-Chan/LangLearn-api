@@ -1,0 +1,3971 @@
+[
+    {
+        "type": "multiple_choice",
+        "question": "SNSで写真や文章を投稿することを英語で何と言いますか？",
+        "target_word": "post",
+        "options": ["post", "send", "mail", "call"],
+        "word_bank": [],
+        "correct_answer": "post",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「写真を投稿します」を英語で言うとき、何と言いますか？",
+        "target_word": "post",
+        "options": [
+            "I post a photo.",
+            "I send a photo.",
+            "I mail a photo.",
+            "I call a photo."
+        ],
+        "word_bank": [],
+        "correct_answer": "I post a photo.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSでコンテンツを共有する基本的な行動は何ですか？",
+        "target_word": "post",
+        "options": ["post", "email", "text", "phone"],
+        "word_bank": [],
+        "correct_answer": "post",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSで写真を共有するとき：\"I will _______ this picture.\"",
+        "target_word": "post",
+        "options": ["post", "send", "mail", "give"],
+        "word_bank": [],
+        "correct_answer": "post",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "毎日の習慣について話すとき：\"I _______ on Instagram every day.\"",
+        "target_word": "post",
+        "options": ["post", "send", "write", "call"],
+        "word_bank": [],
+        "correct_answer": "post",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの使い方について説明するとき：\"You can _______ photos and videos.\"",
+        "target_word": "post",
+        "options": ["post", "email", "print", "copy"],
+        "word_bank": [],
+        "correct_answer": "post",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "昨日新しい写真を投稿しました。",
+        "target_word": "post",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I posted a new photo yesterday.",
+            "I posted new photos yesterday.",
+            "Yesterday I posted a new picture."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "友達がInstagramに投稿した写真を見ました。",
+        "target_word": "post",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I saw a photo my friend posted on Instagram.",
+            "I looked at my friend's Instagram post.",
+            "I saw the photo that my friend posted."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "毎日何かを投稿するのは大変です。",
+        "target_word": "post",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "It's hard to post something every day.",
+            "Posting something daily is difficult.",
+            "It's difficult to post every day."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：post, vacation",
+        "target_word": "post",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：post, funny",
+        "target_word": "post",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "post",
+        "options": [],
+        "word_bank": ["I", "always", "post", "photos", "of", "my", "food"],
+        "correct_answer": "I always post photos of my food.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで投稿に好感を示すボタンを英語で何と言いますか？",
+        "target_word": "like",
+        "options": ["like", "love", "good", "nice"],
+        "word_bank": [],
+        "correct_answer": "like",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「いいねをしました」を英語で言うとき、何と言いますか？",
+        "target_word": "like",
+        "options": [
+            "I liked the post.",
+            "I loved the post.",
+            "I enjoyed the post.",
+            "I appreciated the post."
+        ],
+        "word_bank": [],
+        "correct_answer": "I liked the post.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで投稿を評価する一番簡単な方法は何ですか？",
+        "target_word": "like",
+        "options": ["like", "comment", "share", "follow"],
+        "word_bank": [],
+        "correct_answer": "like",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの反応について話すとき：\"Please _______ my photo.\"",
+        "target_word": "like",
+        "options": ["like", "love", "enjoy", "appreciate"],
+        "word_bank": [],
+        "correct_answer": "like",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "投稿の人気について話すとき：\"This post got many _______.\"",
+        "target_word": "like",
+        "options": ["likes", "loves", "goods", "hearts"],
+        "word_bank": [],
+        "correct_answer": "likes",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "友達の投稿について話すとき：\"I always _______ her posts.\"",
+        "target_word": "like",
+        "options": ["like", "love", "enjoy", "watch"],
+        "word_bank": [],
+        "correct_answer": "like",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "私の投稿に100個のいいねがつきました。",
+        "target_word": "like",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "My post got 100 likes.",
+            "I got 100 likes on my post.",
+            "My post received 100 likes."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "友達の写真にいいねをするのを忘れました。",
+        "target_word": "like",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I forgot to like my friend's photo.",
+            "I forgot to like my friend's picture.",
+            "I didn't remember to like my friend's post."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "いいねボタンを押してください。",
+        "target_word": "like",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please press the like button.",
+            "Please click the like button.",
+            "Please hit the like button."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：like, everyone",
+        "target_word": "like",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：like, button",
+        "target_word": "like",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "like",
+        "options": [],
+        "word_bank": ["Many", "people", "liked", "my", "new", "post"],
+        "correct_answer": "Many people liked my new post.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで他の人の投稿を自分のフォロワーに見せることを英語で何と言いますか？",
+        "target_word": "share",
+        "options": ["share", "send", "copy", "move"],
+        "word_bank": [],
+        "correct_answer": "share",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「この投稿をシェアします」を英語で言うとき、何と言いますか？",
+        "target_word": "share",
+        "options": [
+            "I will share this post.",
+            "I will send this post.",
+            "I will copy this post.",
+            "I will move this post."
+        ],
+        "word_bank": [],
+        "correct_answer": "I will share this post.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "投稿を他の人に広めるSNSの機能は何ですか？",
+        "target_word": "share",
+        "options": ["share", "like", "comment", "follow"],
+        "word_bank": [],
+        "correct_answer": "share",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "投稿を広めることについて話すとき：\"Please _______ this important news.\"",
+        "target_word": "share",
+        "options": ["share", "send", "copy", "give"],
+        "word_bank": [],
+        "correct_answer": "share",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの拡散について話すとき：\"I want to _______ this funny video.\"",
+        "target_word": "share",
+        "options": ["share", "send", "show", "give"],
+        "word_bank": [],
+        "correct_answer": "share",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "友達に情報を伝えるとき：\"I will _______ your post with my friends.\"",
+        "target_word": "share",
+        "options": ["share", "send", "tell", "show"],
+        "word_bank": [],
+        "correct_answer": "share",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "面白い動画をシェアしました。",
+        "target_word": "share",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I shared a funny video.",
+            "I shared an interesting video.",
+            "I shared a fun video."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "友達の投稿をシェアしてもいいですか？",
+        "target_word": "share",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Can I share my friend's post?",
+            "May I share your post?",
+            "Is it okay to share this post?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "このニュースをみんなとシェアしてください。",
+        "target_word": "share",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please share this news with everyone.",
+            "Share this news with everyone, please.",
+            "Please share this news."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：share, story",
+        "target_word": "share",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：share, link",
+        "target_word": "share",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "share",
+        "options": [],
+        "word_bank": ["Don't", "forget", "to", "share", "the", "good", "news"],
+        "correct_answer": "Don't forget to share the good news.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSの投稿に意見や感想を書くことを英語で何と言いますか？",
+        "target_word": "comment",
+        "options": ["comment", "reply", "message", "note"],
+        "word_bank": [],
+        "correct_answer": "comment",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「コメントを書きます」を英語で言うとき、何と言いますか？",
+        "target_word": "comment",
+        "options": [
+            "I write a comment.",
+            "I write a reply.",
+            "I write a message.",
+            "I write a note."
+        ],
+        "word_bank": [],
+        "correct_answer": "I write a comment.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "投稿の下に感想を残すSNSの機能は何ですか？",
+        "target_word": "comment",
+        "options": ["comment", "like", "share", "follow"],
+        "word_bank": [],
+        "correct_answer": "comment",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "投稿への反応について話すとき：\"Please leave a _______ on my post.\"",
+        "target_word": "comment",
+        "options": ["comment", "reply", "message", "note"],
+        "word_bank": [],
+        "correct_answer": "comment",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの交流について話すとき：\"I love reading the _______ on posts.\"",
+        "target_word": "comment",
+        "options": ["comments", "replies", "messages", "notes"],
+        "word_bank": [],
+        "correct_answer": "comments",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "友達の投稿について話すとき：\"I will _______ on your photo.\"",
+        "target_word": "comment",
+        "options": ["comment", "reply", "message", "write"],
+        "word_bank": [],
+        "correct_answer": "comment",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "友達の投稿にコメントを書きました。",
+        "target_word": "comment",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I wrote a comment on my friend's post.",
+            "I commented on my friend's post.",
+            "I left a comment on the post."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "たくさんのコメントがついて嬉しいです。",
+        "target_word": "comment",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I'm happy to get many comments.",
+            "I'm glad there are lots of comments.",
+            "I'm pleased with all the comments."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "悪いコメントは削除してください。",
+        "target_word": "comment",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please delete bad comments.",
+            "Please remove negative comments.",
+            "Delete the bad comments, please."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：comment, section",
+        "target_word": "comment",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：comment, nice",
+        "target_word": "comment",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "comment",
+        "options": [],
+        "word_bank": ["The", "comment", "section", "is", "very", "active"],
+        "correct_answer": "The comment section is very active.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで他のユーザーの投稿を継続して見るために登録することを英語で何と言いますか？",
+        "target_word": "follow",
+        "options": ["follow", "watch", "see", "look"],
+        "word_bank": [],
+        "correct_answer": "follow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「友達をフォローします」を英語で言うとき、何と言いますか？",
+        "target_word": "follow",
+        "options": [
+            "I follow my friend.",
+            "I watch my friend.",
+            "I see my friend.",
+            "I look at my friend."
+        ],
+        "word_bank": [],
+        "correct_answer": "I follow my friend.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで他の人とつながる基本的な行動は何ですか？",
+        "target_word": "follow",
+        "options": ["follow", "like", "comment", "share"],
+        "word_bank": [],
+        "correct_answer": "follow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの関係について話すとき：\"I want to _______ this celebrity.\"",
+        "target_word": "follow",
+        "options": ["follow", "watch", "see", "meet"],
+        "word_bank": [],
+        "correct_answer": "follow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "新しいアカウントについて話すとき：\"Please _______ my new account.\"",
+        "target_word": "follow",
+        "options": ["follow", "watch", "visit", "check"],
+        "word_bank": [],
+        "correct_answer": "follow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの人気について話すとき：\"Many people _______ her on Instagram.\"",
+        "target_word": "follow",
+        "options": ["follow", "watch", "like", "love"],
+        "word_bank": [],
+        "correct_answer": "follow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "新しい友達をフォローしました。",
+        "target_word": "follow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I followed a new friend.",
+            "I followed my new friend.",
+            "I started following a new friend."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "有名人をフォローするのは楽しいです。",
+        "target_word": "follow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "It's fun to follow celebrities.",
+            "Following famous people is enjoyable.",
+            "It's enjoyable to follow celebrities."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "あなたをフォローしてもいいですか？",
+        "target_word": "follow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Can I follow you?",
+            "May I follow you?",
+            "Is it okay to follow you?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：follow, account",
+        "target_word": "follow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：follow, back",
+        "target_word": "follow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "follow",
+        "options": [],
+        "word_bank": ["I", "follow", "many", "interesting", "people", "online"],
+        "correct_answer": "I follow many interesting people online.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで誰かのフォローをやめることを英語で何と言いますか？",
+        "target_word": "unfollow",
+        "options": ["unfollow", "stop follow", "no follow", "remove follow"],
+        "word_bank": [],
+        "correct_answer": "unfollow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「友達のフォローを外しました」を英語で言うとき、何と言いますか？",
+        "target_word": "unfollow",
+        "options": [
+            "I unfollowed my friend.",
+            "I stopped my friend.",
+            "I removed my friend.",
+            "I deleted my friend."
+        ],
+        "word_bank": [],
+        "correct_answer": "I unfollowed my friend.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "フォローの反対の行動を英語で何と言いますか？",
+        "target_word": "unfollow",
+        "options": ["unfollow", "disfollow", "nofollow", "antifollow"],
+        "word_bank": [],
+        "correct_answer": "unfollow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの関係を断つとき：\"I decided to _______ him.\"",
+        "target_word": "unfollow",
+        "options": ["unfollow", "stop follow", "remove", "delete"],
+        "word_bank": [],
+        "correct_answer": "unfollow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "興味がなくなったアカウントについて話すとき：\"I will _______ boring accounts.\"",
+        "target_word": "unfollow",
+        "options": ["unfollow", "stop", "remove", "ignore"],
+        "word_bank": [],
+        "correct_answer": "unfollow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "フォロワー整理について話すとき：\"You can _______ people you don't know.\"",
+        "target_word": "unfollow",
+        "options": ["unfollow", "remove", "delete", "block"],
+        "word_bank": [],
+        "correct_answer": "unfollow",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "つまらない投稿をする人のフォローを外しました。",
+        "target_word": "unfollow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I unfollowed people who post boring things.",
+            "I unfollowed someone with boring posts.",
+            "I unfollowed accounts with uninteresting posts."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "フォローを外すのは簡単です。",
+        "target_word": "unfollow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "It's easy to unfollow someone.",
+            "Unfollowing is simple.",
+            "To unfollow is easy."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "なぜ私のフォローを外したのですか？",
+        "target_word": "unfollow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Why did you unfollow me?",
+            "Why did you unfollow me?",
+            "What made you unfollow me?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：unfollow, spam",
+        "target_word": "unfollow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：unfollow, decision",
+        "target_word": "unfollow",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "unfollow",
+        "options": [],
+        "word_bank": [
+            "She",
+            "decided",
+            "to",
+            "unfollow",
+            "negative",
+            "accounts"
+        ],
+        "correct_answer": "She decided to unfollow negative accounts.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで自分をフォローしている人を英語で何と言いますか？",
+        "target_word": "follower",
+        "options": ["follower", "friend", "fan", "user"],
+        "word_bank": [],
+        "correct_answer": "follower",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「私には1000人のフォロワーがいます」を英語で言うとき、何と言いますか？",
+        "target_word": "follower",
+        "options": [
+            "I have 1000 followers.",
+            "I have 1000 friends.",
+            "I have 1000 fans.",
+            "I have 1000 users."
+        ],
+        "word_bank": [],
+        "correct_answer": "I have 1000 followers.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "あなたの投稿を見る人たちを英語で何と言いますか？",
+        "target_word": "follower",
+        "options": ["follower", "viewer", "watcher", "reader"],
+        "word_bank": [],
+        "correct_answer": "follower",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの人気について話すとき：\"She has many _______ on Instagram.\"",
+        "target_word": "follower",
+        "options": ["followers", "friends", "fans", "users"],
+        "word_bank": [],
+        "correct_answer": "followers",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "新しいフォロワーについて話すとき：\"I got a new _______ today.\"",
+        "target_word": "follower",
+        "options": ["follower", "friend", "fan", "person"],
+        "word_bank": [],
+        "correct_answer": "follower",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの成長について話すとき：\"My _______ count is increasing.\"",
+        "target_word": "follower",
+        "options": ["follower", "friend", "fan", "user"],
+        "word_bank": [],
+        "correct_answer": "follower",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "新しいフォロワーを歓迎します。",
+        "target_word": "follower",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I welcome new followers.",
+            "Welcome new followers.",
+            "I'm welcoming new followers."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "フォロワーの数が増えて嬉しいです。",
+        "target_word": "follower",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I'm happy my follower count increased.",
+            "I'm glad to have more followers.",
+            "I'm pleased my followers are increasing."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "私の最初のフォロワーは友達でした。",
+        "target_word": "follower",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "My first follower was my friend.",
+            "My first follower was a friend.",
+            "A friend was my first follower."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：follower, loyal",
+        "target_word": "follower",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：follower, active",
+        "target_word": "follower",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "follower",
+        "options": [],
+        "word_bank": ["Every", "follower", "is", "important", "to", "me"],
+        "correct_answer": "Every follower is important to me.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで投稿を分類するために使う「#」記号を英語で何と言いますか？",
+        "target_word": "hashtag",
+        "options": ["hashtag", "tag mark", "sharp sign", "number sign"],
+        "word_bank": [],
+        "correct_answer": "hashtag",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ハッシュタグを使います」を英語で言うとき、何と言いますか？",
+        "target_word": "hashtag",
+        "options": [
+            "I use hashtags.",
+            "I use tag marks.",
+            "I use sharp signs.",
+            "I use number signs."
+        ],
+        "word_bank": [],
+        "correct_answer": "I use hashtags.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "投稿に「#」をつけて分類することを英語で何と言いますか？",
+        "target_word": "hashtag",
+        "options": ["hashtag", "tag system", "mark system", "label system"],
+        "word_bank": [],
+        "correct_answer": "hashtag",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "投稿を見つけやすくするとき：\"Add a _______ to your post.\"",
+        "target_word": "hashtag",
+        "options": ["hashtag", "tag mark", "label", "category"],
+        "word_bank": [],
+        "correct_answer": "hashtag",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "人気のトピックについて話すとき：\"This _______ is trending today.\"",
+        "target_word": "hashtag",
+        "options": ["hashtag", "topic", "word", "phrase"],
+        "word_bank": [],
+        "correct_answer": "hashtag",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "投稿の分類について話すとき：\"Use relevant _______ for your photos.\"",
+        "target_word": "hashtag",
+        "options": ["hashtags", "tags", "labels", "words"],
+        "word_bank": [],
+        "correct_answer": "hashtags",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "投稿に人気のハッシュタグを付けました。",
+        "target_word": "hashtag",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I added popular hashtags to my post.",
+            "I used popular hashtags in my post.",
+            "I put popular hashtags on my post."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "どのハッシュタグを使えばいいですか？",
+        "target_word": "hashtag",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Which hashtags should I use?",
+            "What hashtags should I use?",
+            "Which hashtag is good to use?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ハッシュタグを使いすぎないでください。",
+        "target_word": "hashtag",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Don't use too many hashtags.",
+            "Please don't overuse hashtags.",
+            "Don't put too many hashtags."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：hashtag, search",
+        "target_word": "hashtag",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：hashtag, popular",
+        "target_word": "hashtag",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "hashtag",
+        "options": [],
+        "word_bank": [
+            "This",
+            "hashtag",
+            "helps",
+            "people",
+            "find",
+            "my",
+            "photos"
+        ],
+        "correct_answer": "This hashtag helps people find my photos.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSアカウントのプロフィール写真を英語で何と言いますか？",
+        "target_word": "profile picture",
+        "options": [
+            "profile picture",
+            "account photo",
+            "user image",
+            "avatar photo"
+        ],
+        "word_bank": [],
+        "correct_answer": "profile picture",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「プロフィール写真を変えました」を英語で言うとき、何と言いますか？",
+        "target_word": "profile picture",
+        "options": [
+            "I changed my profile picture.",
+            "I changed my account photo.",
+            "I changed my user image.",
+            "I changed my avatar photo."
+        ],
+        "word_bank": [],
+        "correct_answer": "I changed my profile picture.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "アカウントの顔となる写真を英語で何と言いますか？",
+        "target_word": "profile picture",
+        "options": [
+            "profile picture",
+            "main photo",
+            "cover photo",
+            "header image"
+        ],
+        "word_bank": [],
+        "correct_answer": "profile picture",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "アカウント設定について話すとき：\"Please update your _______.\"",
+        "target_word": "profile picture",
+        "options": [
+            "profile picture",
+            "account photo",
+            "user image",
+            "main photo"
+        ],
+        "word_bank": [],
+        "correct_answer": "profile picture",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの印象について話すとき：\"Your _______ looks great!\"",
+        "target_word": "profile picture",
+        "options": ["profile picture", "account photo", "user photo", "avatar"],
+        "word_bank": [],
+        "correct_answer": "profile picture",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "アカウントの識別について話すとき：\"I recognize you from your _______.\"",
+        "target_word": "profile picture",
+        "options": [
+            "profile picture",
+            "account photo",
+            "user photo",
+            "main image"
+        ],
+        "word_bank": [],
+        "correct_answer": "profile picture",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "新しいプロフィール写真をアップロードしました。",
+        "target_word": "profile picture",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I uploaded a new profile picture.",
+            "I put up a new profile picture.",
+            "I added a new profile picture."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "あなたのプロフィール写真はとても素敵です。",
+        "target_word": "profile picture",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Your profile picture is very nice.",
+            "Your profile picture looks great.",
+            "Your profile picture is beautiful."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "プロフィール写真を変える時間です。",
+        "target_word": "profile picture",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "It's time to change my profile picture.",
+            "Time to update my profile picture.",
+            "I should change my profile picture."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：profile picture, selfie",
+        "target_word": "profile picture",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：profile picture, professional",
+        "target_word": "profile picture",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "profile picture",
+        "options": [],
+        "word_bank": [
+            "My",
+            "profile",
+            "picture",
+            "shows",
+            "my",
+            "happy",
+            "face"
+        ],
+        "correct_answer": "My profile picture shows my happy face.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSでのログイン名やアカウント名を英語で何と言いますか？",
+        "target_word": "username",
+        "options": ["username", "user name", "account name", "login name"],
+        "word_bank": [],
+        "correct_answer": "username",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ユーザーネームを入力してください」を英語で言うとき、何と言いますか？",
+        "target_word": "username",
+        "options": [
+            "Please enter your username.",
+            "Please enter your user name.",
+            "Please enter your account name.",
+            "Please enter your login name."
+        ],
+        "word_bank": [],
+        "correct_answer": "Please enter your username.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで他の人があなたを見つけるための名前を英語で何と言いますか？",
+        "target_word": "username",
+        "options": ["username", "real name", "full name", "display name"],
+        "word_bank": [],
+        "correct_answer": "username",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "アカウント作成について話すとき：\"Choose a good _______ for your account.\"",
+        "target_word": "username",
+        "options": ["username", "user name", "account name", "profile name"],
+        "word_bank": [],
+        "correct_answer": "username",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ログインについて話すとき：\"I forgot my _______.\"",
+        "target_word": "username",
+        "options": ["username", "user name", "login name", "account name"],
+        "word_bank": [],
+        "correct_answer": "username",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "アカウント検索について話すとき：\"What's your _______ on Instagram?\"",
+        "target_word": "username",
+        "options": ["username", "user name", "account name", "handle"],
+        "word_bank": [],
+        "correct_answer": "username",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "覚えやすいユーザーネームを選びました。",
+        "target_word": "username",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I chose an easy-to-remember username.",
+            "I picked a memorable username.",
+            "I selected a simple username."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "そのユーザーネームはもう使われています。",
+        "target_word": "username",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "That username is already taken.",
+            "That username is already used.",
+            "Someone already has that username."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "私のユーザーネームを教えてあげます。",
+        "target_word": "username",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I'll tell you my username.",
+            "Let me give you my username.",
+            "I'll share my username with you."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：username, unique",
+        "target_word": "username",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：username, change",
+        "target_word": "username",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "username",
+        "options": [],
+        "word_bank": ["My", "username", "is", "the", "same", "everywhere"],
+        "correct_answer": "My username is the same everywhere.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで誰かと友達になるために送る依頼を英語で何と言いますか？",
+        "target_word": "friend request",
+        "options": [
+            "friend request",
+            "friend invitation",
+            "friendship ask",
+            "friend message"
+        ],
+        "word_bank": [],
+        "correct_answer": "friend request",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「友達申請を送りました」を英語で言うとき、何と言いますか？",
+        "target_word": "friend request",
+        "options": [
+            "I sent a friend request.",
+            "I sent a friend invitation.",
+            "I sent a friendship ask.",
+            "I sent a friend message."
+        ],
+        "word_bank": [],
+        "correct_answer": "I sent a friend request.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで友達になるために送るものを英語で何と言いますか？",
+        "target_word": "friend request",
+        "options": [
+            "friend request",
+            "follow request",
+            "contact request",
+            "connection request"
+        ],
+        "word_bank": [],
+        "correct_answer": "friend request",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "新しい友達を作るとき：\"I will send you a _______.\"",
+        "target_word": "friend request",
+        "options": [
+            "friend request",
+            "friend invitation",
+            "friendship message",
+            "friend note"
+        ],
+        "word_bank": [],
+        "correct_answer": "friend request",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの申請について話すとき：\"I received a _______ from someone.\"",
+        "target_word": "friend request",
+        "options": [
+            "friend request",
+            "friend invitation",
+            "friendship ask",
+            "friend message"
+        ],
+        "word_bank": [],
+        "correct_answer": "friend request",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "友達申請の対応について話すとき：\"Please accept my _______.\"",
+        "target_word": "friend request",
+        "options": [
+            "friend request",
+            "friend invitation",
+            "friendship ask",
+            "friend offer"
+        ],
+        "word_bank": [],
+        "correct_answer": "friend request",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "知らない人から友達申請が来ました。",
+        "target_word": "friend request",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I got a friend request from someone I don't know.",
+            "A stranger sent me a friend request.",
+            "I received a friend request from an unknown person."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "友達申請を承認しますか？",
+        "target_word": "friend request",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Will you accept the friend request?",
+            "Do you want to accept my friend request?",
+            "Are you going to approve the friend request?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "友達申請を断りました。",
+        "target_word": "friend request",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I rejected the friend request.",
+            "I declined the friend request.",
+            "I refused the friend request."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：friend request, pending",
+        "target_word": "friend request",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：friend request, accept",
+        "target_word": "friend request",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "friend request",
+        "options": [],
+        "word_bank": [
+            "She",
+            "sent",
+            "me",
+            "a",
+            "friend",
+            "request",
+            "yesterday"
+        ],
+        "correct_answer": "She sent me a friend request yesterday.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで個人的なメッセージを送ることを英語で何と言いますか？",
+        "target_word": "direct message",
+        "options": [
+            "direct message",
+            "private message",
+            "personal message",
+            "secret message"
+        ],
+        "word_bank": [],
+        "correct_answer": "direct message",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ダイレクトメッセージを送ります」を英語で言うとき、何と言いますか？",
+        "target_word": "direct message",
+        "options": [
+            "I'll send a direct message.",
+            "I'll send a private message.",
+            "I'll send a personal message.",
+            "I'll send a secret message."
+        ],
+        "word_bank": [],
+        "correct_answer": "I'll send a direct message.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "他の人に見られない個人的なメッセージを英語で何と言いますか？",
+        "target_word": "direct message",
+        "options": [
+            "direct message",
+            "public message",
+            "group message",
+            "open message"
+        ],
+        "word_bank": [],
+        "correct_answer": "direct message",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "プライベートな連絡について話すとき：\"Please send me a _______.\"",
+        "target_word": "direct message",
+        "options": [
+            "direct message",
+            "public message",
+            "group message",
+            "open message"
+        ],
+        "word_bank": [],
+        "correct_answer": "direct message",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "個人的な相談について話すとき：\"I got a _______ from my friend.\"",
+        "target_word": "direct message",
+        "options": [
+            "direct message",
+            "public message",
+            "group message",
+            "broadcast message"
+        ],
+        "word_bank": [],
+        "correct_answer": "direct message",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの連絡方法について説明するとき：\"You can use _______ for private conversations.\"",
+        "target_word": "direct message",
+        "options": [
+            "direct messages",
+            "public messages",
+            "group messages",
+            "open messages"
+        ],
+        "word_bank": [],
+        "correct_answer": "direct messages",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ダイレクトメッセージで詳細を教えます。",
+        "target_word": "direct message",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I'll tell you the details in a direct message.",
+            "I'll send you details via direct message.",
+            "I'll message you the details directly."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ダイレクトメッセージをチェックしてください。",
+        "target_word": "direct message",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please check your direct messages.",
+            "Check your direct message, please.",
+            "Look at your direct messages."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ダイレクトメッセージの方が安全です。",
+        "target_word": "direct message",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Direct messages are safer.",
+            "Direct messaging is more secure.",
+            "Using direct messages is safer."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：direct message, important",
+        "target_word": "direct message",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：direct message, reply",
+        "target_word": "direct message",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "direct message",
+        "options": [],
+        "word_bank": [
+            "I",
+            "prefer",
+            "using",
+            "direct",
+            "messages",
+            "for",
+            "privacy"
+        ],
+        "correct_answer": "I prefer using direct messages for privacy.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで24時間で消える短い投稿を英語で何と言いますか？",
+        "target_word": "story",
+        "options": ["story", "post", "photo", "video"],
+        "word_bank": [],
+        "correct_answer": "story",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ストーリーを投稿しました」を英語で言うとき、何と言いますか？",
+        "target_word": "story",
+        "options": [
+            "I posted a story.",
+            "I posted a photo.",
+            "I posted a video.",
+            "I posted a message."
+        ],
+        "word_bank": [],
+        "correct_answer": "I posted a story.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "InstagramやFacebookの一時的な投稿機能を英語で何と言いますか？",
+        "target_word": "story",
+        "options": ["story", "timeline", "feed", "wall"],
+        "word_bank": [],
+        "correct_answer": "story",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "一時的な投稿について話すとき：\"I saw your _______ yesterday.\"",
+        "target_word": "story",
+        "options": ["story", "post", "photo", "message"],
+        "word_bank": [],
+        "correct_answer": "story",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "日常の共有について話すとき：\"I share my daily life in my _______.\"",
+        "target_word": "story",
+        "options": ["story", "posts", "photos", "videos"],
+        "word_bank": [],
+        "correct_answer": "story",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの機能について説明するとき：\"_______ disappear after 24 hours.\"",
+        "target_word": "story",
+        "options": ["Stories", "Posts", "Photos", "Videos"],
+        "word_bank": [],
+        "correct_answer": "Stories",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "毎日ストーリーを更新しています。",
+        "target_word": "story",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I update my story every day.",
+            "I post stories daily.",
+            "I share stories every day."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "友達のストーリーを見るのが好きです。",
+        "target_word": "story",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I like watching my friends' stories.",
+            "I enjoy seeing friends' stories.",
+            "I like to view my friends' stories."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ストーリーに音楽を追加できます。",
+        "target_word": "story",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "You can add music to your story.",
+            "Music can be added to stories.",
+            "It's possible to add music to your story."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：story, behind the scenes",
+        "target_word": "story",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：story, highlight",
+        "target_word": "story",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "story",
+        "options": [],
+        "word_bank": ["My", "story", "got", "many", "views", "today"],
+        "correct_answer": "My story got many views today.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで投稿が時系列で表示される場所を英語で何と言いますか？",
+        "target_word": "timeline",
+        "options": ["timeline", "newsfeed", "homepage", "dashboard"],
+        "word_bank": [],
+        "correct_answer": "timeline",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "Facebookの投稿が表示される場所を英語で何と言いますか？",
+        "target_word": "timeline",
+        "options": ["timeline", "wall", "page", "board"],
+        "word_bank": [],
+        "correct_answer": "timeline",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「タイムライン」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "timeline",
+        "options": ["timeline", "time line", "time-line", "timelines"],
+        "word_bank": [],
+        "correct_answer": "timeline",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの投稿表示について話すとき：\"Check your _______ for updates.\"",
+        "target_word": "timeline",
+        "options": ["timeline", "newsfeed", "homepage", "dashboard"],
+        "word_bank": [],
+        "correct_answer": "timeline",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの閲覧について話すとき：\"I scroll through my _______ every morning.\"",
+        "target_word": "timeline",
+        "options": ["timeline", "feed", "page", "list"],
+        "word_bank": [],
+        "correct_answer": "timeline",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "投稿の表示について話すとき：\"Your post will appear on your _______.\"",
+        "target_word": "timeline",
+        "options": ["timeline", "profile", "page", "wall"],
+        "word_bank": [],
+        "correct_answer": "timeline",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "タイムラインに面白い投稿がたくさんあります。",
+        "target_word": "timeline",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "There are many interesting posts on my timeline.",
+            "My timeline has lots of fun posts.",
+            "There are many funny posts on the timeline."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "友達のタイムラインを見ています。",
+        "target_word": "timeline",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I'm looking at my friend's timeline.",
+            "I'm checking my friend's timeline.",
+            "I'm viewing my friend's timeline."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "タイムラインをきれいに整理しました。",
+        "target_word": "timeline",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I organized my timeline nicely.",
+            "I cleaned up my timeline.",
+            "I arranged my timeline well."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：timeline, busy",
+        "target_word": "timeline",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：timeline, refresh",
+        "target_word": "timeline",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "timeline",
+        "options": [],
+        "word_bank": [
+            "My",
+            "timeline",
+            "shows",
+            "posts",
+            "from",
+            "last",
+            "week"
+        ],
+        "correct_answer": "My timeline shows posts from last week.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSからの新しい活動の知らせを英語で何と言いますか？",
+        "target_word": "notification",
+        "options": ["notification", "message", "alert", "reminder"],
+        "word_bank": [],
+        "correct_answer": "notification",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「通知を受け取りました」を英語で言うとき、何と言いますか？",
+        "target_word": "notification",
+        "options": [
+            "I received a notification.",
+            "I received a message.",
+            "I received an alert.",
+            "I received a reminder."
+        ],
+        "word_bank": [],
+        "correct_answer": "I received a notification.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSでいいねやコメントの知らせを英語で何と言いますか？",
+        "target_word": "notification",
+        "options": ["notification", "update", "news", "information"],
+        "word_bank": [],
+        "correct_answer": "notification",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの知らせについて話すとき：\"I got a _______ about your post.\"",
+        "target_word": "notification",
+        "options": ["notification", "message", "note", "signal"],
+        "word_bank": [],
+        "correct_answer": "notification",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "設定について話すとき：\"Please turn on _______ for important updates.\"",
+        "target_word": "notification",
+        "options": ["notifications", "messages", "alerts", "reminders"],
+        "word_bank": [],
+        "correct_answer": "notifications",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの活動について話すとき：\"I check my _______ every hour.\"",
+        "target_word": "notification",
+        "options": ["notifications", "messages", "updates", "news"],
+        "word_bank": [],
+        "correct_answer": "notifications",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "たくさんの通知が来て困っています。",
+        "target_word": "notification",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I'm troubled by too many notifications.",
+            "I'm annoyed by lots of notifications.",
+            "Too many notifications are bothering me."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "通知をオフにすることができます。",
+        "target_word": "notification",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "You can turn off notifications.",
+            "Notifications can be turned off.",
+            "It's possible to disable notifications."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "重要な通知だけ受け取りたいです。",
+        "target_word": "notification",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I want to receive only important notifications.",
+            "I only want important notifications.",
+            "I'd like to get just important notifications."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：notification, sound",
+        "target_word": "notification",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：notification, settings",
+        "target_word": "notification",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "notification",
+        "options": [],
+        "word_bank": ["The", "notification", "woke", "me", "up", "at", "night"],
+        "correct_answer": "The notification woke me up at night.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで誰かを投稿に関連付けることを英語で何と言いますか？",
+        "target_word": "tag someone",
+        "options": [
+            "tag someone",
+            "mention someone",
+            "name someone",
+            "call someone"
+        ],
+        "word_bank": [],
+        "correct_answer": "tag someone",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「友達をタグ付けしました」を英語で言うとき、何と言いますか？",
+        "target_word": "tag someone",
+        "options": [
+            "I tagged my friend.",
+            "I mentioned my friend.",
+            "I named my friend.",
+            "I called my friend."
+        ],
+        "word_bank": [],
+        "correct_answer": "I tagged my friend.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "写真に写っている人を特定する機能を英語で何と言いますか？",
+        "target_word": "tag someone",
+        "options": [
+            "tag someone",
+            "identify someone",
+            "recognize someone",
+            "find someone"
+        ],
+        "word_bank": [],
+        "correct_answer": "tag someone",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "写真に友達を関連付けるとき：\"I will _______ in this photo.\"",
+        "target_word": "tag someone",
+        "options": ["tag you", "mention you", "name you", "include you"],
+        "word_bank": [],
+        "correct_answer": "tag you",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "投稿で友達に注意を向けるとき：\"Please _______ in your post.\"",
+        "target_word": "tag someone",
+        "options": ["tag me", "mention me", "name me", "include me"],
+        "word_bank": [],
+        "correct_answer": "tag me",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの投稿について話すとき：\"Don't forget to _______ when you post our group photo.\"",
+        "target_word": "tag someone",
+        "options": [
+            "tag everyone",
+            "mention everyone",
+            "name everyone",
+            "include everyone"
+        ],
+        "word_bank": [],
+        "correct_answer": "tag everyone",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "この写真で友達をタグ付けしてください。",
+        "target_word": "tag someone",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please tag your friends in this photo.",
+            "Tag your friends in this picture.",
+            "Please tag friends in this photo."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "誰かが私をタグ付けしたようです。",
+        "target_word": "tag someone",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Someone seems to have tagged me.",
+            "It looks like someone tagged me.",
+            "I think someone tagged me."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "勝手にタグ付けしないでください。",
+        "target_word": "tag someone",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please don't tag me without permission.",
+            "Don't tag me randomly.",
+            "Please don't tag me without asking."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：tag someone, group photo",
+        "target_word": "tag someone",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：tag someone, wedding",
+        "target_word": "tag someone",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "tag someone",
+        "options": [],
+        "word_bank": ["I", "always", "tag", "my", "friends", "in", "photos"],
+        "correct_answer": "I always tag my friends in photos.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "自分で撮った自分の写真を英語で何と言いますか？",
+        "target_word": "selfie",
+        "options": ["selfie", "self photo", "own picture", "me picture"],
+        "word_bank": [],
+        "correct_answer": "selfie",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「セルフィーを撮りました」を英語で言うとき、何と言いますか？",
+        "target_word": "selfie",
+        "options": [
+            "I took a selfie.",
+            "I took a self photo.",
+            "I took my picture.",
+            "I took an own photo."
+        ],
+        "word_bank": [],
+        "correct_answer": "I took a selfie.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "自撮り写真を正しく英語で何と言いますか？",
+        "target_word": "selfie",
+        "options": ["selfie", "self-photo", "auto-photo", "me-photo"],
+        "word_bank": [],
+        "correct_answer": "selfie",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "写真撮影について話すとき：\"Let's take a _______ together!\"",
+        "target_word": "selfie",
+        "options": ["selfie", "photo", "picture", "shot"],
+        "word_bank": [],
+        "correct_answer": "selfie",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "自分撮りについて話すとき：\"This _______ came out really well.\"",
+        "target_word": "selfie",
+        "options": ["selfie", "photo", "picture", "image"],
+        "word_bank": [],
+        "correct_answer": "selfie",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの投稿について話すとき：\"I posted a _______ at the beach.\"",
+        "target_word": "selfie",
+        "options": ["selfie", "photo", "picture", "image"],
+        "word_bank": [],
+        "correct_answer": "selfie",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "友達とセルフィーを撮りました。",
+        "target_word": "selfie",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I took a selfie with my friends.",
+            "I took a selfie with my friend.",
+            "We took a selfie together."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "このセルフィーは完璧です。",
+        "target_word": "selfie",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "This selfie is perfect.",
+            "This selfie turned out perfect.",
+            "The selfie is perfect."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "セルフィー棒を使って写真を撮りました。",
+        "target_word": "selfie",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I took a photo using a selfie stick.",
+            "I used a selfie stick to take a selfie.",
+            "I took a selfie with a selfie stick."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：selfie, mirror",
+        "target_word": "selfie",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：selfie, camera",
+        "target_word": "selfie",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "selfie",
+        "options": [],
+        "word_bank": [
+            "Everyone",
+            "loves",
+            "taking",
+            "selfies",
+            "these",
+            "days"
+        ],
+        "correct_answer": "Everyone loves taking selfies these days.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "インターネットで急速に広まることを英語で何と言いますか？",
+        "target_word": "go viral",
+        "options": ["go viral", "go popular", "go famous", "go trending"],
+        "word_bank": [],
+        "correct_answer": "go viral",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「バイラルになりました」を英語で言うとき、何と言いますか？",
+        "target_word": "go viral",
+        "options": [
+            "It went viral.",
+            "It went popular.",
+            "It went famous.",
+            "It went trending."
+        ],
+        "word_bank": [],
+        "correct_answer": "It went viral.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで爆発的に拡散することを英語で何と言いますか？",
+        "target_word": "go viral",
+        "options": ["go viral", "become popular", "get famous", "spread fast"],
+        "word_bank": [],
+        "correct_answer": "go viral",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "投稿の拡散について話すとき：\"I hope my video will _______.\"",
+        "target_word": "go viral",
+        "options": [
+            "go viral",
+            "go popular",
+            "become famous",
+            "spread quickly"
+        ],
+        "word_bank": [],
+        "correct_answer": "go viral",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "人気コンテンツについて話すとき：\"That funny video will definitely _______.\"",
+        "target_word": "go viral",
+        "options": ["go viral", "go popular", "become famous", "get shared"],
+        "word_bank": [],
+        "correct_answer": "go viral",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの成功について話すとき：\"My post might _______ if I'm lucky.\"",
+        "target_word": "go viral",
+        "options": ["go viral", "go popular", "become famous", "get likes"],
+        "word_bank": [],
+        "correct_answer": "go viral",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "私の動画がバイラルになりました。",
+        "target_word": "go viral",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "My video went viral.",
+            "My video has gone viral.",
+            "The video I made went viral."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "バイラルになる投稿を作りたいです。",
+        "target_word": "go viral",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I want to create a post that goes viral.",
+            "I want to make a viral post.",
+            "I'd like to make something that goes viral."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "なぜその動画はバイラルになったのですか？",
+        "target_word": "go viral",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Why did that video go viral?",
+            "What made that video go viral?",
+            "How did that video go viral?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：go viral, overnight",
+        "target_word": "go viral",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：go viral, million",
+        "target_word": "go viral",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "go viral",
+        "options": [],
+        "word_bank": ["Some", "posts", "go", "viral", "for", "no", "reason"],
+        "correct_answer": "Some posts go viral for no reason.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "今人気のトピックや話題を英語で何と言いますか？",
+        "target_word": "trending",
+        "options": ["trending", "popular", "famous", "hot"],
+        "word_bank": [],
+        "correct_answer": "trending",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「今トレンドになっています」を英語で言うとき、何と言いますか？",
+        "target_word": "trending",
+        "options": [
+            "It's trending now.",
+            "It's popular now.",
+            "It's famous now.",
+            "It's hot now."
+        ],
+        "word_bank": [],
+        "correct_answer": "It's trending now.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで話題になっていることを英語で何と言いますか？",
+        "target_word": "trending",
+        "options": ["trending", "buzzing", "talking", "discussing"],
+        "word_bank": [],
+        "correct_answer": "trending",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "人気の話題について話すとき：\"This hashtag is _______ today.\"",
+        "target_word": "trending",
+        "options": ["trending", "popular", "famous", "hot"],
+        "word_bank": [],
+        "correct_answer": "trending",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "流行について話すとき：\"What's _______ on social media?\"",
+        "target_word": "trending",
+        "options": ["trending", "popular", "happening", "current"],
+        "word_bank": [],
+        "correct_answer": "trending",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの話題について話すとき：\"Check out the _______ topics.\"",
+        "target_word": "trending",
+        "options": ["trending", "popular", "current", "hot"],
+        "word_bank": [],
+        "correct_answer": "trending",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "この歌は今トレンドになっています。",
+        "target_word": "trending",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "This song is trending now.",
+            "This song is currently trending.",
+            "The song is trending right now."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "トレンドのハッシュタグを使いましょう。",
+        "target_word": "trending",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Let's use trending hashtags.",
+            "Let's use hashtags that are trending.",
+            "We should use trending hashtags."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "何がトレンドか調べてください。",
+        "target_word": "trending",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please check what's trending.",
+            "Find out what's trending.",
+            "See what's trending now."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：trending, topic",
+        "target_word": "trending",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：trending, worldwide",
+        "target_word": "trending",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "trending",
+        "options": [],
+        "word_bank": [
+            "This",
+            "meme",
+            "is",
+            "trending",
+            "on",
+            "all",
+            "platforms"
+        ],
+        "correct_answer": "This meme is trending on all platforms.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで迷惑なユーザーをシャットアウトすることを英語で何と言いますか？",
+        "target_word": "block",
+        "options": ["block", "stop", "hide", "remove"],
+        "word_bank": [],
+        "correct_answer": "block",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「その人をブロックしました」を英語で言うとき、何と言いますか？",
+        "target_word": "block",
+        "options": [
+            "I blocked that person.",
+            "I stopped that person.",
+            "I hid that person.",
+            "I removed that person."
+        ],
+        "word_bank": [],
+        "correct_answer": "I blocked that person.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "嫌がらせをするユーザーに対する対処法は何ですか？",
+        "target_word": "block",
+        "options": ["block", "ignore", "report", "delete"],
+        "word_bank": [],
+        "correct_answer": "block",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "迷惑なユーザーについて話すとき：\"I had to _______ him.\"",
+        "target_word": "block",
+        "options": ["block", "stop", "hide", "avoid"],
+        "word_bank": [],
+        "correct_answer": "block",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの安全機能について話すとき：\"You can _______ users who bother you.\"",
+        "target_word": "block",
+        "options": ["block", "stop", "hide", "remove"],
+        "word_bank": [],
+        "correct_answer": "block",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "嫌がらせ対策について話すとき：\"The _______ function is very useful.\"",
+        "target_word": "block",
+        "options": ["block", "stop", "hide", "delete"],
+        "word_bank": [],
+        "correct_answer": "block",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "スパムアカウントをブロックしました。",
+        "target_word": "block",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I blocked the spam account.",
+            "I blocked spam accounts.",
+            "The spam account was blocked."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ブロックされた人は私の投稿を見ることができません。",
+        "target_word": "block",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Blocked people cannot see my posts.",
+            "People I blocked can't see my posts.",
+            "Blocked users cannot view my posts."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "必要であれば誰でもブロックできます。",
+        "target_word": "block",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "You can block anyone if necessary.",
+            "Anyone can be blocked if needed.",
+            "It's possible to block anyone when necessary."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：block, harassment",
+        "target_word": "block",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：block, safety",
+        "target_word": "block",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "block",
+        "options": [],
+        "word_bank": ["I", "will", "block", "anyone", "who", "is", "rude"],
+        "correct_answer": "I will block anyone who is rude.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSでの個人情報の公開範囲を設定することを英語で何と言いますか？",
+        "target_word": "privacy settings",
+        "options": [
+            "privacy settings",
+            "security options",
+            "personal controls",
+            "safety features"
+        ],
+        "word_bank": [],
+        "correct_answer": "privacy settings",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「プライバシー設定を変更しました」を英語で言うとき、何と言いますか？",
+        "target_word": "privacy settings",
+        "options": [
+            "I changed my privacy settings.",
+            "I changed my security options.",
+            "I changed my personal controls.",
+            "I changed my safety features."
+        ],
+        "word_bank": [],
+        "correct_answer": "I changed my privacy settings.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "個人情報を守るための設定を英語で何と言いますか？",
+        "target_word": "privacy settings",
+        "options": [
+            "privacy settings",
+            "account settings",
+            "profile settings",
+            "user settings"
+        ],
+        "word_bank": [],
+        "correct_answer": "privacy settings",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "アカウントの安全について話すとき：\"Check your _______ regularly.\"",
+        "target_word": "privacy settings",
+        "options": [
+            "privacy settings",
+            "account settings",
+            "security options",
+            "safety features"
+        ],
+        "word_bank": [],
+        "correct_answer": "privacy settings",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "個人情報保護について話すとき：\"Make sure your _______ are secure.\"",
+        "target_word": "privacy settings",
+        "options": [
+            "privacy settings",
+            "account settings",
+            "security settings",
+            "personal settings"
+        ],
+        "word_bank": [],
+        "correct_answer": "privacy settings",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSの設定について説明するとき：\"You can control who sees your posts in _______.\"",
+        "target_word": "privacy settings",
+        "options": [
+            "privacy settings",
+            "account settings",
+            "profile settings",
+            "user settings"
+        ],
+        "word_bank": [],
+        "correct_answer": "privacy settings",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "プライバシー設定を厳しくしました。",
+        "target_word": "privacy settings",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I made my privacy settings stricter.",
+            "I tightened my privacy settings.",
+            "I strengthened my privacy settings."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "プライバシー設定の場所がわかりません。",
+        "target_word": "privacy settings",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I don't know where the privacy settings are.",
+            "I can't find the privacy settings.",
+            "I don't understand how to find privacy settings."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "良いプライバシー設定はとても重要です。",
+        "target_word": "privacy settings",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Good privacy settings are very important.",
+            "Proper privacy settings are crucial.",
+            "Having good privacy settings is essential."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：privacy settings, protect",
+        "target_word": "privacy settings",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：privacy settings, friends only",
+        "target_word": "privacy settings",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "privacy settings",
+        "options": [],
+        "word_bank": [
+            "Always",
+            "review",
+            "your",
+            "privacy",
+            "settings",
+            "carefully"
+        ],
+        "correct_answer": "Always review your privacy settings carefully.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSなどのオンラインプラットフォーム全体を指す言葉を英語で何と言いますか？",
+        "target_word": "social media",
+        "options": [
+            "social media",
+            "social network",
+            "online platform",
+            "internet service"
+        ],
+        "word_bank": [],
+        "correct_answer": "social media",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「ソーシャルメディアを使っています」を英語で言うとき、何と言いますか？",
+        "target_word": "social media",
+        "options": [
+            "I use social media.",
+            "I use social network.",
+            "I use online platform.",
+            "I use internet service."
+        ],
+        "word_bank": [],
+        "correct_answer": "I use social media.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "Facebook、Instagram、Twitterなどを総称して何と言いますか？",
+        "target_word": "social media",
+        "options": [
+            "social media",
+            "social apps",
+            "network sites",
+            "online communities"
+        ],
+        "word_bank": [],
+        "correct_answer": "social media",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "現代のコミュニケーションについて話すとき：\"_______ has changed how we communicate.\"",
+        "target_word": "social media",
+        "options": [
+            "Social media",
+            "Social network",
+            "Online platform",
+            "Internet service"
+        ],
+        "word_bank": [],
+        "correct_answer": "Social media",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "若者の習慣について話すとき：\"Young people spend a lot of time on _______.\"",
+        "target_word": "social media",
+        "options": [
+            "social media",
+            "social networks",
+            "online platforms",
+            "internet sites"
+        ],
+        "word_bank": [],
+        "correct_answer": "social media",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ビジネスについて話すとき：\"Companies use _______ for marketing.\"",
+        "target_word": "social media",
+        "options": [
+            "social media",
+            "social networks",
+            "online platforms",
+            "web services"
+        ],
+        "word_bank": [],
+        "correct_answer": "social media",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "ソーシャルメディアは便利ですが注意も必要です。",
+        "target_word": "social media",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Social media is convenient but requires caution.",
+            "Social media is useful but needs attention.",
+            "Social media is helpful but we must be careful."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ソーシャルメディアで友達とつながっています。",
+        "target_word": "social media",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I connect with friends on social media.",
+            "I stay connected with friends through social media.",
+            "Social media helps me connect with friends."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "どのソーシャルメディアが一番人気ですか？",
+        "target_word": "social media",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Which social media is most popular?",
+            "What social media is the most popular?",
+            "Which social media platform is most popular?"
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：social media, addiction",
+        "target_word": "social media",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：social media, generation",
+        "target_word": "social media",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "social media",
+        "options": [],
+        "word_bank": [
+            "Social",
+            "media",
+            "connects",
+            "people",
+            "around",
+            "the",
+            "world"
+        ],
+        "correct_answer": "Social media connects people around the world.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで人気があり多くの人に影響を与える人を英語で何と言いますか？",
+        "target_word": "influencer",
+        "options": ["influencer", "celebrity", "star", "famous person"],
+        "word_bank": [],
+        "correct_answer": "influencer",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "SNSで商品を紹介して影響力を持つ人を英語で何と言いますか？",
+        "target_word": "influencer",
+        "options": ["influencer", "advertiser", "promoter", "marketer"],
+        "word_bank": [],
+        "correct_answer": "influencer",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「インフルエンサー」を英語で正しく言うとき、何と言いますか？",
+        "target_word": "influencer",
+        "options": [
+            "influencer",
+            "influence person",
+            "influential person",
+            "social star"
+        ],
+        "word_bank": [],
+        "correct_answer": "influencer",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの人気について話すとき：\"She is a famous _______ on Instagram.\"",
+        "target_word": "influencer",
+        "options": ["influencer", "celebrity", "star", "personality"],
+        "word_bank": [],
+        "correct_answer": "influencer",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "マーケティングについて話すとき：\"Companies work with _______ to promote products.\"",
+        "target_word": "influencer",
+        "options": ["influencers", "celebrities", "stars", "personalities"],
+        "word_bank": [],
+        "correct_answer": "influencers",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの職業について話すとき：\"Being an _______ is a real job now.\"",
+        "target_word": "influencer",
+        "options": ["influencer", "advertiser", "promoter", "marketer"],
+        "word_bank": [],
+        "correct_answer": "influencer",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "私の好きなインフルエンサーが新商品を紹介しました。",
+        "target_word": "influencer",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "My favorite influencer introduced a new product.",
+            "My favorite influencer promoted a new item.",
+            "The influencer I like shared a new product."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "インフルエンサーになるのは簡単ではありません。",
+        "target_word": "influencer",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Becoming an influencer is not easy.",
+            "It's not simple to become an influencer.",
+            "Being an influencer is difficult."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "多くの若者がインフルエンサーになりたがっています。",
+        "target_word": "influencer",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Many young people want to become influencers.",
+            "Lots of youth want to be influencers.",
+            "Many young people aspire to be influencers."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：influencer, lifestyle",
+        "target_word": "influencer",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：influencer, collaboration",
+        "target_word": "influencer",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "influencer",
+        "options": [],
+        "word_bank": [
+            "This",
+            "influencer",
+            "has",
+            "millions",
+            "of",
+            "followers"
+        ],
+        "correct_answer": "This influencer has millions of followers.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "インターネットで知り合った友達を英語で何と言いますか？",
+        "target_word": "online friend",
+        "options": [
+            "online friend",
+            "internet friend",
+            "web friend",
+            "digital friend"
+        ],
+        "word_bank": [],
+        "correct_answer": "online friend",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「オンラインで友達になりました」を英語で言うとき、何と言いますか？",
+        "target_word": "online friend",
+        "options": [
+            "We became online friends.",
+            "We became internet friends.",
+            "We became web friends.",
+            "We became digital friends."
+        ],
+        "word_bank": [],
+        "correct_answer": "We became online friends.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "実際に会ったことのないネット上の友達を英語で何と言いますか？",
+        "target_word": "online friend",
+        "options": [
+            "online friend",
+            "virtual friend",
+            "cyber friend",
+            "net friend"
+        ],
+        "word_bank": [],
+        "correct_answer": "online friend",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "インターネットでの友情について話すとき：\"I have many _______ from different countries.\"",
+        "target_word": "online friend",
+        "options": [
+            "online friends",
+            "internet friends",
+            "web friends",
+            "digital friends"
+        ],
+        "word_bank": [],
+        "correct_answer": "online friends",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSでの出会いについて話すとき：\"My _______ lives in another country.\"",
+        "target_word": "online friend",
+        "options": [
+            "online friend",
+            "internet friend",
+            "web friend",
+            "cyber friend"
+        ],
+        "word_bank": [],
+        "correct_answer": "online friend",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "バーチャルな関係について話すとき：\"I chat with my _______ every day.\"",
+        "target_word": "online friend",
+        "options": [
+            "online friend",
+            "internet friend",
+            "digital friend",
+            "virtual friend"
+        ],
+        "word_bank": [],
+        "correct_answer": "online friend",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "オンラインの友達と毎日チャットしています。",
+        "target_word": "online friend",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I chat with my online friends every day.",
+            "I chat with online friends daily.",
+            "I talk to my online friend every day."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "オンラインの友達に実際に会ったことはありません。",
+        "target_word": "online friend",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "I've never met my online friends in person.",
+            "I haven't met my online friends in real life.",
+            "I've never actually met my online friend."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "オンラインの友達も本当の友達です。",
+        "target_word": "online friend",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Online friends are real friends too.",
+            "Online friends are also true friends.",
+            "An online friend is a real friend."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：online friend, gaming",
+        "target_word": "online friend",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：online friend, trust",
+        "target_word": "online friend",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "online friend",
+        "options": [],
+        "word_bank": ["My", "online", "friend", "lives", "in", "Japan"],
+        "correct_answer": "My online friend lives in Japan.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    },
+    {
+        "type": "multiple_choice",
+        "question": "ファイルや写真をインターネットに上げることを英語で何と言いますか？",
+        "target_word": "upload",
+        "options": ["upload", "download", "load", "send"],
+        "word_bank": [],
+        "correct_answer": "upload",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "「写真をアップロードしました」を英語で言うとき、何と言いますか？",
+        "target_word": "upload",
+        "options": [
+            "I uploaded the photo.",
+            "I downloaded the photo.",
+            "I loaded the photo.",
+            "I sent the photo."
+        ],
+        "word_bank": [],
+        "correct_answer": "I uploaded the photo.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "multiple_choice",
+        "question": "コンピューターからインターネットにファイルを送ることを英語で何と言いますか？",
+        "target_word": "upload",
+        "options": ["upload", "transfer", "move", "copy"],
+        "word_bank": [],
+        "correct_answer": "upload",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ファイル共有について話すとき：\"Please _______ your document to the cloud.\"",
+        "target_word": "upload",
+        "options": ["upload", "download", "transfer", "send"],
+        "word_bank": [],
+        "correct_answer": "upload",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "SNSへの投稿について話すとき：\"I will _______ this video to YouTube.\"",
+        "target_word": "upload",
+        "options": ["upload", "post", "share", "put"],
+        "word_bank": [],
+        "correct_answer": "upload",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "fill_blank",
+        "question": "ファイル管理について話すとき：\"The _______ is taking a long time.\"",
+        "target_word": "upload",
+        "options": ["upload", "download", "transfer", "process"],
+        "word_bank": [],
+        "correct_answer": "upload",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 1
+    },
+    {
+        "type": "translation",
+        "question": "大きな動画をアップロードするのに時間がかかります。",
+        "target_word": "upload",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "It takes time to upload large videos.",
+            "Uploading big videos takes a long time.",
+            "Large video uploads take time."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "ファイルのアップロードに失敗しました。",
+        "target_word": "upload",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "The file upload failed.",
+            "I failed to upload the file.",
+            "The upload was unsuccessful."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "translation",
+        "question": "写真を全部アップロードしてください。",
+        "target_word": "upload",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [
+            "Please upload all the photos.",
+            "Upload all the pictures, please.",
+            "Please upload every photo."
+        ],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：upload, speed",
+        "target_word": "upload",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "sentence_creation",
+        "question": "次の単語を使って英語の文を作成してください：upload, progress",
+        "target_word": "upload",
+        "options": [],
+        "word_bank": [],
+        "correct_answer": "",
+        "acceptable_answers": [],
+        "requires_feedback": true,
+        "points": 3
+    },
+    {
+        "type": "word_rearrangement",
+        "question": "単語を正しい順番に並べて文を完成させてください。",
+        "target_word": "upload",
+        "options": [],
+        "word_bank": ["I", "need", "to", "upload", "these", "files", "quickly"],
+        "correct_answer": "I need to upload these files quickly.",
+        "acceptable_answers": [],
+        "requires_feedback": false,
+        "points": 2
+    }
+]

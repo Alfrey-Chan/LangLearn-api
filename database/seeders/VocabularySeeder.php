@@ -6,12 +6,9 @@ use App\Models\Tag;
 use App\Models\Quiz;
 use App\Models\Question;
 use App\Models\VocabularySet;
-use App\Models\DialogueExample;
 use App\Models\SentenceExample;
 use App\Models\VocabularyEntry;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Log;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class VocabularySeeder extends Seeder
 {
@@ -20,83 +17,95 @@ class VocabularySeeder extends Seeder
      */
     public function run(): void
     {   
-        $jsonFiles = glob(database_path('seeders/data/vocab_sets/*.json'));
-        foreach ($jsonFiles as $filePath) {
-            $jsonString = file_get_contents($filePath);
-            $data = json_decode($jsonString, true); 
+        $directories = glob(database_path('./seeders/data/vocab_sets/*'), GLOB_ONLYDIR);
+        
+        foreach ($directories as $directory) {
+            $dirName = basename($directory);
+            $jsonFiles = glob($directory . '/*json');
 
-            // Create vocabulary set 
-            $setData = $data['vocabulary_set'];
-            $set = VocabularySet::create([
-                'language_id' => $setData['language_id'],
-                'title' => $setData['title'],
-                'description' => $setData['description'],
-                'difficulty' => $setData['difficulty'],
-                'image_url' => $setData['image_url'],
+            $setData = json_decode(file_get_contents($jsonFiles[0]), true);
+            $entryData = json_decode(file_get_contents($jsonFiles[1]), true);
+            $quizData = json_decode(file_get_contents($jsonFiles[2]), true);
+            $examplesData = json_decode(file_get_contents($jsonFiles[3]), true);
+
+            $set = $this->seedVocabularySet($setData);
+            $this->seedVocabularyEntries($entryData, $set);
+            $this->seedQuizzes($quizData, $set);
+            $this->seedEntryExamples($examplesData);
+        }
+    }
+
+    private function seedVocabularySet(array $data) : VocabularySet 
+    {
+        $set = VocabularySet::create([
+            'language_code' => $data['language_code'],
+            'title' => $data['title'],
+            'description' => $data['description'],
+            'difficulty' => $data['difficulty'],
+            'image_url' => $data['image_url'],
+            'category' => $data['category']
+        ]);
+
+        $tagIds = Tag::whereIn('tag_jp', $data['tags'])->pluck('id')->toArray();
+        $set->tags()->sync($tagIds);
+        return $set;
+    }
+
+    private function seedVocabularyEntries(array $data, VocabularySet $set) : void
+    {
+        $entryIds = [];
+        foreach ($data['entries'] as $entryData) {
+            $entry = VocabularyEntry::create([
+                'language_code' => $entryData['language_code'],
+                'word' => $entryData['word'],
+                'hiragana' => $entryData['hiragana'],
+                'romaji' => $entryData['romaji'],
+                'pinyin' => $entryData['pinyin'],
+                'part_of_speech' => $entryData['part_of_speech'],
+                'meanings' => $entryData['meanings'],
+                'additional_notes' => $entryData['additional_notes'] ?? null,
             ]);
-            $tagIds = Tag::whereIn('tag', $setData['tags'])->pluck('id')->toArray();
-            $set->tags()->sync($tagIds);
-            $this->seedQuizzes($set->id, $filePath);
+            $entryIds[] = $entry->id;
+        }
+        $set->vocabularyEntries()->sync($entryIds);
+    }
 
-            // Create entries
-            foreach($data['entries'] as $entryData) {
-                $entry = VocabularyEntry::create([
-                    'language_id' => 2,
-                    'word' => $entryData['word'],
-                    'hiragana' => $entryData['hiragana'],
-                    'romaji' => $entryData['romaji'],
-                    'part_of_speech' => $entryData['part_of_speech'],
-                    'meanings' => $entryData['meanings'],
-                    'additional_notes' => $entryData['additional_notes'],
-                    'related_words' => $entryData['related_words'],
-                ]);
-
-                // Create sentence examples
-                foreach($entryData['sentence_examples'] as $sentenceExample) {
-                    $sentenceExample = SentenceExample::create([
-                        'vocabulary_entry_id' => $entry->id,
-                        'sentence_data' => $sentenceExample,
+    private function seedEntryExamples(array $data) : void
+    {
+        foreach ($data as $word => $sentences) {
+            $vocabularyEntry = VocabularyEntry::where("word", $word)->first();
+            if ($vocabularyEntry) {
+                foreach ($sentences as $sentence) {
+                    SentenceExample::create([
+                        'vocabulary_entry_id' => $vocabularyEntry->id,
+                        'sentence_original' => $sentence["original"],
+                        'sentence_translated' => $sentence["translated"],
                     ]);
                 }
-
-                // Create dialogue examples
-                foreach($entryData['dialogue_examples'] as $dialogueExample) {
-                    DialogueExample::create([
-                        'vocabulary_entry_id' => $entry->id,
-                        'dialogue_data' => $dialogueExample['example'], // Access the 'example' key
-                    ]);
-                }
-
-                // Link entry to set by inserting a record in the pivot table
-                // ~ "This set contains this specific word entry"
-                $set->vocabularyEntries()->attach($entry->id); 
             }
         }
     }
 
-    protected function seedQuizzes($vocabSetId, $vocabSetFilePath)
+    private function seedQuizzes(array $data, VocabularySet $set) : void
     {
-        $baseName = pathinfo($vocabSetFilePath, PATHINFO_FILENAME);
-        $quizFilePath = database_path("seeders/data/quizzes/{$baseName}_quiz.json");
-
-        if (!file_exists($quizFilePath)) {
-            Log::warning("Quiz file not found: {$quizFilePath}");
-            return;
-        }
-
-        $jsonString = file_get_contents($quizFilePath);
-        $data = json_decode($jsonString, true);
-
         $quiz = Quiz::create([
-            "vocabulary_set_id" => $vocabSetId,
-            "title" => $data["title"],
-            "version" => $data["version"],
+            'vocabulary_set_id' => $set->id,
+            'title' => $set->title,
+            'version' => 1.0,
         ]);
 
-        foreach ($data["items"] as $item) {
+        foreach ($data as $question) {
             Question::create([
-                "quiz_id" => $quiz->id,
-                "items" => $item,
+                'quiz_id' => $quiz->id,
+                'type' => $question['type'],
+                'question' => $question['question'],
+                "target_word" => $question['target_word'],
+                "options" => $question['options'],
+                "word_bank" => $question['word_bank'],
+                "correct_answer" => strtolower($question['correct_answer']),
+                "acceptable_answers" => $question['acceptable_answers'],
+                "requires_feedback" => $question['requires_feedback'],
+                "points" => $question['points'],
             ]);
         }
     }

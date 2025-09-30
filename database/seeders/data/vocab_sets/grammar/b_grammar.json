@@ -1,0 +1,244 @@
+{
+    "entries": [
+        {
+            "language_code": "en",
+            "word": "This is",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "これは〜です",
+                    "long": "近くにあるものや人を紹介する際の基本表現。単数名詞と組み合わせて使用。"
+                }
+            ],
+            "additional_notes": "「This is a pen」「This is my friend」など。自己紹介「This is me」や電話「This is John speaking」でも使用される最重要表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "That is",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "あれは〜です",
+                    "long": "離れたところにあるものや人を指し示す表現。距離感を表す重要な表現。"
+                }
+            ],
+            "additional_notes": "「That is a building」など。「That's」と短縮されることが多い。This isとの距離の使い分けが重要なポイント。"
+        },
+        {
+            "language_code": "en",
+            "word": "There is",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "〜があります",
+                    "long": "単数のものの存在を表す表現。場所に何があるかを説明する際に使用。"
+                }
+            ],
+            "additional_notes": "「There is a book on the table」など。存在文の基本パターン。「There's」と短縮可能。場所を表す語句と組み合わせることが多い。"
+        },
+        {
+            "language_code": "en",
+            "word": "There are",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "〜があります",
+                    "long": "複数のものの存在を表す表現。There isの複数形で、数や量を強調する際に使用。"
+                }
+            ],
+            "additional_notes": "「There are many books」など。複数名詞との組み合わせが必須。疑問文「Are there any...?」、否定文「There aren't any...」も重要。"
+        },
+        {
+            "language_code": "en",
+            "word": "I have",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "私は〜を持っています",
+                    "long": "所有、保有を表す基本表現。物理的な所有だけでなく、関係や経験も表現できる。"
+                }
+            ],
+            "additional_notes": "「I have a car」「I have a sister」「I have experience」など。所有、家族関係、経験、病気など幅広く使用される重要表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "I don't have",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "私は〜を持っていません",
+                    "long": "所有していないことを表す否定表現。「I have」の否定形。"
+                }
+            ],
+            "additional_notes": "「I don't have money」など。「do not have」の短縮形。否定文の基本パターンで、日常会話で頻繁に使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "Do you have",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "〜を持っていますか",
+                    "long": "相手の所有を尋ねる疑問表現。Yes/Noで答えられる質問の基本形。"
+                }
+            ],
+            "additional_notes": "「Do you have a pen?」など。「Have you got...?」（イギリス英語）との違いもある。店での問い合わせにもよく使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "How many",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "いくつ",
+                    "long": "数えられる名詞の数量を尋ねる疑問表現。具体的な個数を知りたい時に使用。"
+                }
+            ],
+            "additional_notes": "「How many books do you have?」など。可算名詞（countable nouns）と組み合わせる。「How much」との使い分けが重要。"
+        },
+        {
+            "language_code": "en",
+            "word": "How much",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "どのくらい",
+                    "long": "数えられない名詞の量や価格を尋ねる疑問表現。量や金額を知りたい時に使用。"
+                }
+            ],
+            "additional_notes": "「How much water?」「How much is it?」など。不可算名詞や価格に使用。ショッピングでの値段確認に必須の表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "I like",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "私は〜が好きです",
+                    "long": "好み、嗜好を表現する基本的な文型。個人の感情や評価を伝える重要表現。"
+                }
+            ],
+            "additional_notes": "「I like music」「I like to read」など。名詞、動名詞、不定詞と組み合わせ可能。日常会話での自己表現に不可欠。"
+        },
+        {
+            "language_code": "en",
+            "word": "I want",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "私は〜が欲しいです",
+                    "long": "欲求、願望を表現する基本文型。物や行動への欲求を直接的に伝える表現。"
+                }
+            ],
+            "additional_notes": "「I want a coffee」「I want to go」など。直接的な表現のため、「I'd like」の方が丁寧。子供がよく使う表現でもある。"
+        },
+        {
+            "language_code": "en",
+            "word": "I need",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "私は〜が必要です",
+                    "long": "必要性、必然性を表現する文型。「want」より強い必要性を示す。"
+                }
+            ],
+            "additional_notes": "「I need help」「I need to study」など。want（欲求）とneed（必要）の使い分けが重要。ビジネスでもよく使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "Can you",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "〜できますか",
+                    "long": "能力や可能性を尋ねる表現。依頼をする際の丁寧な言い方としても使用。"
+                }
+            ],
+            "additional_notes": "「Can you swim?」「Can you help me?」など。能力の確認と依頼の両方に使える便利な表現。比較的カジュアルな依頼表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "Could you",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "〜していただけますか",
+                    "long": "丁寧な依頼表現。「Can you」より敬語的で、フォーマルな場面に適している。"
+                }
+            ],
+            "additional_notes": "「Could you please help me?」など。canの過去形だが、現在の丁寧な依頼に使用。ビジネスや初対面で重要な表現。"
+        },
+        {
+            "language_code": "en",
+            "word": "Would you like",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "〜はいかがですか",
+                    "long": "丁寧な提案や申し出の表現。相手に選択肢を与える親切な言い方。"
+                }
+            ],
+            "additional_notes": "「Would you like some tea?」「Would you like to come?」など。接客や招待の際の標準的な表現。「Do you want」より格段に丁寧。"
+        },
+        {
+            "language_code": "en",
+            "word": "Let's",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["expression"],
+            "meanings": [
+                {
+                    "short": "〜しましょう",
+                    "long": "相手を誘ったり、一緒に行動することを提案する表現。共同行動の提案。"
+                }
+            ],
+            "additional_notes": "「Let's go」「Let's eat」など。「Let us」の短縮形。友達同士や家族での提案に最適。返答は「Yes, let's!」「Good idea!」など。"
+        }
+    ]
+}

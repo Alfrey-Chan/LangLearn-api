@@ -3,9 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\UserFavourite;
-use App\Models\DialogueExample;
-use App\Models\SentenceExample;
 use App\Models\VocabularyEntry;
 use Illuminate\Validation\Rule;
 
@@ -64,17 +61,7 @@ class VocabularyEntryController extends Controller
      */
     public function show(Request $request, string $id)
   {
-      $entry = VocabularyEntry::with(['sentenceExamples', 'dialogueExamples'])->findOrFail($id);
-
-      $firebaseUid = $request->attributes->get('firebase_uid');
-      if ($firebaseUid) {
-          // Check if entry is favorited
-          $entryFavorited = UserFavourite::where('firebase_uid', $firebaseUid)
-              ->where('vocabulary_entry_id', $id)
-              ->exists();
-          $entry->isFavourited = $entryFavorited;
-      }
-
+      $entry = VocabularyEntry::with(['sentenceExamples'])->findOrFail($id);
       return response()->json($entry, 200);
   }
 
@@ -94,24 +81,5 @@ class VocabularyEntryController extends Controller
     {
         VocabularyEntry::findOrFail($id)->delete();
         return response()->json(['message', `Vocabulary entry with id $id successfully deleted`], 204);
-    }
-
-    public function voteExample(Request $request)
-    {
-        $validated = $request->validate([
-            'firebase_uid' => 'required|string',
-            'example_id' => 'required|integer',
-            'is_upvote' => 'required|boolean',
-            'example_type' => ['required', Rule::in('sentence', 'dialogue')],
-        ]);
-
-        $example = $validated['example_type'] === 'sentence' 
-            ? SentenceExample::findOrFail($validated['example_id'])
-            : DialogueExample::findOrFail($validated['example_id']);
-        
-        $voteType = $validated['is_upvote'] === true ? 'upvote' : 'downvote';
-        $example->addVote($validated['firebase_uid'], $voteType);
-
-        return response()->json(['message' => 'Vote recorded', 'example' => $example], 200);
     }
 }

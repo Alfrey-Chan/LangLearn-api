@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    protected $fillable = ['category'];
+    protected $fillable = ['category_en', 'category_jp'];
 
     public function vocabularySets()
     {

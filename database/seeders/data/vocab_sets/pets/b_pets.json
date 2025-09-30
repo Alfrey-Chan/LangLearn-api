@@ -1,0 +1,383 @@
+{
+    "entries": [
+        {
+            "language_code": "en",
+            "word": "pet",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun", "verb"],
+            "meanings": [
+                {
+                    "short": "ペット",
+                    "long": "家庭で飼われる愛玩動物。犬、猫、鳥、魚など様々な動物が含まれる。"
+                },
+                {
+                    "short": "撫でる",
+                    "long": "動物を優しく手で撫でること。愛情表現の一つ。"
+                }
+            ],
+            "additional_notes": "動詞として「pet the dog」（犬を撫でる）の形で使用。「domestic animal」（家畜）とは区別され、companionship（伴侶関係）が目的。"
+        },
+        {
+            "language_code": "en",
+            "word": "dog",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "犬",
+                    "long": "人間の最も身近なペットの一つ。忠実で愛情深い性格が特徴。"
+                }
+            ],
+            "additional_notes": "「man's best friend」（人間の最良の友）と呼ばれる。「doggy」は愛称、「hound」は狩猟犬、「mutt」は雑種犬を指すスラング。"
+        },
+        {
+            "language_code": "en",
+            "word": "cat",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "猫",
+                    "long": "独立心が強く優雅な動きが特徴的な人気の高いペット。"
+                }
+            ],
+            "additional_notes": "「kitty」「kitty cat」は愛称。「feline」は猫科動物全般を指す正式な用語。「alley cat」は野良猫、「house cat」は飼い猫。"
+        },
+        {
+            "language_code": "en",
+            "word": "puppy",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "子犬",
+                    "long": "生後数ヶ月から1歳程度までの幼い犬。活発で学習能力が高い時期。"
+                }
+            ],
+            "additional_notes": "複数形は「puppies」。「puppy dog eyes」は可愛らしい上目遣いの表現。しつけの重要な時期で「puppy training」がよく行われる。"
+        },
+        {
+            "language_code": "en",
+            "word": "kitten",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "子猫",
+                    "long": "生後数ヶ月程度の幼い猫。小さくて愛らしい外見が特徴。"
+                }
+            ],
+            "additional_notes": "複数形は「kittens」。「cute as a kitten」（子猫のように可愛い）は慣用表現。母猫から離すのは生後8-12週間が理想的とされる。"
+        },
+        {
+            "language_code": "en",
+            "word": "walk the dog",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["phrasal verb"],
+            "meanings": [
+                {
+                    "short": "犬の散歩",
+                    "long": "犬にリードを付けて屋外で運動させること。健康管理と排泄のために不可欠。"
+                }
+            ],
+            "additional_notes": "「take the dog for a walk」とも表現される。通常1日2-3回行い、犬の健康と社会化に重要な役割を果たす。"
+        },
+        {
+            "language_code": "en",
+            "word": "feed the pet",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["phrasal verb"],
+            "meanings": [
+                {
+                    "short": "餌やり",
+                    "long": "ペットに食事を与えること。定期的な給餌は飼い主の基本的な責任。"
+                }
+            ],
+            "additional_notes": "「feed the dog/cat」など具体的な動物名でも使用。「feeding time」（餌の時間）、「feeding schedule」（給餌スケジュール）も重要な概念。"
+        },
+        {
+            "language_code": "en",
+            "word": "pet food",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ペットフード",
+                    "long": "ペット専用に作られた栄養バランスの取れた食事。ドライフードやウェットフードがある。"
+                }
+            ],
+            "additional_notes": "「dog food」「cat food」など動物別に分かれる。「dry food」（ドライフード）、「wet food」「canned food」（ウェットフード）、「treats」（おやつ）に分類される。"
+        },
+        {
+            "language_code": "en",
+            "word": "water bowl",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "水入れ",
+                    "long": "ペットが水を飲むための容器。常に清潔な水を提供するために使用。"
+                }
+            ],
+            "additional_notes": "「food bowl」（餌入れ）と対になる必需品。材質は陶器、ステンレス、プラスチックなど様々。毎日の洗浄が推奨される。"
+        },
+        {
+            "language_code": "en",
+            "word": "collar",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "首輪",
+                    "long": "ペットの首に着ける識別用のバンド。名札やリードを取り付ける。"
+                }
+            ],
+            "additional_notes": "「dog collar」が一般的。「ID tag」（迷子札）を付けることが重要。「flea collar」（ノミ取り首輪）など機能性のあるものもある。"
+        },
+        {
+            "language_code": "en",
+            "word": "leash",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "リード",
+                    "long": "散歩時に犬を制御するための紐や鎖。安全確保と法的義務のために使用。"
+                }
+            ],
+            "additional_notes": "「dog lead」「lead」とも呼ばれる。「on a leash」（リードに繋いだ状態）、「off-leash」（リードなし）という表現もある。多くの地域で公共の場でのリード使用が義務付けられている。"
+        },
+        {
+            "language_code": "en",
+            "word": "veterinarian",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "獣医",
+                    "long": "動物の病気やけがを治療する専門医。ペットの健康管理に不可欠な存在。"
+                }
+            ],
+            "additional_notes": "「vet」と略されることが多い。「veterinary clinic」（動物病院）で働き、予防接種、健康診断、手術などを行う。"
+        },
+        {
+            "language_code": "en",
+            "word": "vet appointment",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "動物病院の予約",
+                    "long": "獣医での診察や治療のために事前に取る予約。定期検診や緊急時に必要。"
+                }
+            ],
+            "additional_notes": "「make a vet appointment」（予約を取る）、「cancel/reschedule an appointment」（予約をキャンセル/変更する）の形で使用される。"
+        },
+        {
+            "language_code": "en",
+            "word": "grooming",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "グルーミング",
+                    "long": "ペットの被毛や爪の手入れ。ブラッシング、カット、爪切りなどを含む。"
+                }
+            ],
+            "additional_notes": "「pet grooming」「dog grooming」として使用。「professional groomer」（プロのトリマー）に依頼することも多い。健康維持と美容の両方の目的がある。"
+        },
+        {
+            "language_code": "en",
+            "word": "bath time",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "お風呂の時間",
+                    "long": "ペットを洗う時間。清潔維持と健康管理のために定期的に行う。"
+                }
+            ],
+            "additional_notes": "「give the dog a bath」（犬をお風呂に入れる）として動詞でも使用。多くのペットは水を嫌がるため、慣れさせることが重要。"
+        },
+        {
+            "language_code": "en",
+            "word": "play fetch",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["phrasal verb"],
+            "meanings": [
+                {
+                    "short": "取ってこい",
+                    "long": "ボールや棒を投げて、ペット（特に犬）に取ってこさせる遊び。"
+                }
+            ],
+            "additional_notes": "「fetch」は「取ってくる」という意味。犬の本能的な行動を利用した代表的な遊び。運動不足解消と絆づくりに効果的。"
+        },
+        {
+            "language_code": "en",
+            "word": "litter box",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "猫砂トイレ",
+                    "long": "猫が排泄するための砂を入れた容器。室内飼いの猫に必須のアイテム。"
+                }
+            ],
+            "additional_notes": "「litter tray」とも呼ばれる。「cat litter」（猫砂）を定期的に交換し、清潔に保つことが重要。「scoop the litter box」（猫砂トイレを掃除する）。"
+        },
+        {
+            "language_code": "en",
+            "word": "pet toy",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ペット用おもちゃ",
+                    "long": "ペットが遊ぶための専用おもちゃ。ストレス発散と運動のために重要。"
+                }
+            ],
+            "additional_notes": "「dog toy」「cat toy」など動物別に分かれる。「chew toy」（噛むおもちゃ）、「squeaky toy」（音の出るおもちゃ）、「interactive toy」（知育玩具）など種類が豊富。"
+        },
+        {
+            "language_code": "en",
+            "word": "treat",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "おやつ",
+                    "long": "ペットへのご褒美として与える特別な食べ物。しつけの際にも使用される。"
+                }
+            ],
+            "additional_notes": "「dog treat」「cat treat」として使用。「give a treat」（おやつをあげる）、「training treat」（しつけ用おやつ）。適量を守ることが健康維持に重要。"
+        },
+        {
+            "language_code": "en",
+            "word": "vaccination",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "予防接種",
+                    "long": "感染症を予防するためにペットに打つワクチン。法的に義務付けられているものもある。"
+                }
+            ],
+            "additional_notes": "「vaccine」（ワクチン）、「immunization」とも呼ばれる。狂犬病ワクチンは多くの国で義務。「vaccination schedule」（予防接種スケジュール）に従って実施。"
+        },
+        {
+            "language_code": "en",
+            "word": "pet carrier",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ペットキャリー",
+                    "long": "ペットを安全に運搬するための専用ケース。動物病院への移動時などに使用。"
+                }
+            ],
+            "additional_notes": "「carrier bag」「travel carrier」とも呼ばれる。飛行機移動の場合は航空会社の規定に適合したものが必要。ペットが慣れるまで時間をかけることが重要。"
+        },
+        {
+            "language_code": "en",
+            "word": "well-behaved",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["adjective"],
+            "meanings": [
+                {
+                    "short": "お利口",
+                    "long": "しつけが良く行き届いていて、問題行動をしないペットの様子。"
+                }
+            ],
+            "additional_notes": "「well-trained」「obedient」とも表現される。「The dog is very well-behaved」（その犬はとてもお利口です）の形で使用。良いペットの理想的な状態。"
+        },
+        {
+            "language_code": "en",
+            "word": "naughty",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["adjective"],
+            "meanings": [
+                {
+                    "short": "いたずらな",
+                    "long": "問題行動をする、しつけに従わない様子。悪意はないが困った行動をするペット。"
+                }
+            ],
+            "additional_notes": "「mischievous」「bad」より軽い表現で、愛情を込めて使われることが多い。「naughty puppy」（いたずらな子犬）など。完全に悪いというより愛嬌のあるトラブルメーカーのニュアンス。"
+        },
+        {
+            "language_code": "en",
+            "word": "house-trained",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["adjective"],
+            "meanings": [
+                {
+                    "short": "トイレのしつけができた",
+                    "long": "室内で適切な場所で排泄ができるようにしつけられたペットの状態。"
+                }
+            ],
+            "additional_notes": "「housetrained」「potty-trained」とも書かれる。「housebreaking」はしつけの過程を指す。ペットを室内飼いする際の基本的な要件。"
+        },
+        {
+            "language_code": "en",
+            "word": "pet owner",
+            "hiragana": null,
+            "romaji": null,
+            "pinyin": null,
+            "part_of_speech": ["noun"],
+            "meanings": [
+                {
+                    "short": "ペットの飼い主",
+                    "long": "ペットを飼育し、その世話や責任を負う人。法的にもペットの所有者とされる。"
+                }
+            ],
+            "additional_notes": "「pet parent」という表現も近年増えている。ペットを家族の一員として扱う現代の傾向を反映。責任には医療費、食費、しつけなどが含まれる。"
+        }
+    ]
+}

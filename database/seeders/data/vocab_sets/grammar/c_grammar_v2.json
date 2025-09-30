@@ -1,0 +1,2890 @@
+[
+  {
+    "type": "multiple_choice",
+    "question": "近くにある物を指して「これは〜です」と言いたいとき、何と言いますか？",
+    "target_word": "This is",
+    "options": [
+      "This is a pen.",
+      "That is a pen.",
+      "There is a pen.",
+      "It is pen."
+    ],
+    "word_bank": [],
+    "correct_answer": "This is a pen.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "誰かを初めて紹介するとき、最も一般的な表現は何ですか？",
+    "target_word": "This is",
+    "options": [
+      "This is my friend.",
+      "That is my friend.",
+      "Here comes my friend.",
+      "My friend is here."
+    ],
+    "word_bank": [],
+    "correct_answer": "This is my friend.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「これは〜です」という文の始まりに使う正しい表現は何ですか？",
+    "target_word": "This is",
+    "options": [
+      "This is",
+      "That is",
+      "There is",
+      "It is"
+    ],
+    "word_bank": [],
+    "correct_answer": "This is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "近くにいる人を紹介するとき：「_______ Tom.」",
+    "target_word": "This is",
+    "options": [
+      "This is",
+      "That is",
+      "There is",
+      "He am"
+    ],
+    "word_bank": [],
+    "correct_answer": "This is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "手に持っている写真を説明するとき：「_______ my family.」",
+    "target_word": "This is",
+    "options": [
+      "This is",
+      "That is",
+      "This are",
+      "Here are"
+    ],
+    "word_bank": [],
+    "correct_answer": "This is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "目の前にある物を識別するとき：「_______ a book.」",
+    "target_word": "This is",
+    "options": [
+      "This is",
+      "That is",
+      "There is",
+      "It has"
+    ],
+    "word_bank": [],
+    "correct_answer": "This is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "これは私の家です。",
+    "target_word": "This is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "This is my house.",
+      "This is my home.",
+      "This is our house.",
+      "This is our home."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "これは田中先生です。",
+    "target_word": "This is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "This is Mr. Tanaka.",
+      "This is Teacher Tanaka.",
+      "This is Professor Tanaka.",
+      "This is Ms. Tanaka."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "これは私の好きな映画です。",
+    "target_word": "This is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "This is my favorite movie.",
+      "This is my favourite movie.",
+      "This is the movie I like.",
+      "This is a movie I like."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：This is, classroom",
+    "target_word": "This is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：This is, friend",
+    "target_word": "This is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "This is",
+    "options": [],
+    "word_bank": [
+      "This",
+      "is",
+      "my",
+      "car",
+      "new"
+    ],
+    "correct_answer": "This is my new car.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "遠くにある物を指して「あれは〜です」と言いたいとき、何と言いますか？",
+    "target_word": "That is",
+    "options": [
+      "That is a car.",
+      "This is a car.",
+      "There is a car.",
+      "Here comes a car."
+    ],
+    "word_bank": [],
+    "correct_answer": "That is a car.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "向こうにいる人について話すとき、何と言いますか？",
+    "target_word": "That is",
+    "options": [
+      "That is my teacher.",
+      "This is my teacher.",
+      "Here comes my teacher.",
+      "My teacher is coming."
+    ],
+    "word_bank": [],
+    "correct_answer": "That is my teacher.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「あれは〜です」という文の始まりに使う正しい表現は何ですか？",
+    "target_word": "That is",
+    "options": [
+      "That is",
+      "This is",
+      "There is",
+      "It is"
+    ],
+    "word_bank": [],
+    "correct_answer": "That is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "遠くの建物を説明するとき：「_______ a hospital.」",
+    "target_word": "That is",
+    "options": [
+      "That is",
+      "This is",
+      "There is",
+      "It has"
+    ],
+    "word_bank": [],
+    "correct_answer": "That is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "向こうにいる人を指して：「_______ my mother.」",
+    "target_word": "That is",
+    "options": [
+      "That is",
+      "This is",
+      "It is",
+      "There is"
+    ],
+    "word_bank": [],
+    "correct_answer": "That is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "離れた場所にある物を示すとき：「_______ my house.」",
+    "target_word": "That is",
+    "options": [
+      "That is",
+      "This is",
+      "There is",
+      "Here is"
+    ],
+    "word_bank": [],
+    "correct_answer": "That is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "あれは私の学校です。",
+    "target_word": "That is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "That is my school.",
+      "That is our school."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "あれは山田さんの車です。",
+    "target_word": "That is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "That is Mr. Yamada's car.",
+      "That is Ms. Yamada's car.",
+      "That is Yamada's car."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "あれは新しい店です。",
+    "target_word": "That is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "That is a new store.",
+      "That is a new shop.",
+      "That is the new store.",
+      "That is the new shop."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：That is, library",
+    "target_word": "That is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：That is, dog",
+    "target_word": "That is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "That is",
+    "options": [],
+    "word_bank": [
+      "That",
+      "is",
+      "a",
+      "big",
+      "tree"
+    ],
+    "correct_answer": "That is a big tree.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "単数の物が存在していることを表すとき、正しい表現はどれですか？",
+    "target_word": "There is",
+    "options": [
+      "There is a cat.",
+      "There are cats.",
+      "Here is a cat.",
+      "This is a cat."
+    ],
+    "word_bank": [],
+    "correct_answer": "There is a cat.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "一つの物があることを表現するとき、何と言いますか？",
+    "target_word": "There is",
+    "options": [
+      "There is a book on the table.",
+      "There are books on the table.",
+      "This is a book on the table.",
+      "That is a book on the table."
+    ],
+    "word_bank": [],
+    "correct_answer": "There is a book on the table.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「〜があります」を英語で言うとき（単数）、何と言いますか？",
+    "target_word": "There is",
+    "options": [
+      "There is",
+      "There are",
+      "Here is",
+      "This is"
+    ],
+    "word_bank": [],
+    "correct_answer": "There is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "公園に一匹の犬がいることを表すとき：「_______ a dog in the park.」",
+    "target_word": "There is",
+    "options": [
+      "There is",
+      "There are",
+      "Here is",
+      "This is"
+    ],
+    "word_bank": [],
+    "correct_answer": "There is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "机の上に一冊の本があることを表すとき：「_______ a book on the desk.」",
+    "target_word": "There is",
+    "options": [
+      "There is",
+      "There are",
+      "It is",
+      "Here is"
+    ],
+    "word_bank": [],
+    "correct_answer": "There is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "部屋に一人の人がいることを表すとき：「_______ a person in the room.」",
+    "target_word": "There is",
+    "options": [
+      "There is",
+      "There are",
+      "He is",
+      "She is"
+    ],
+    "word_bank": [],
+    "correct_answer": "There is",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "駅の近くにコンビニがあります。",
+    "target_word": "There is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "There is a convenience store near the station.",
+      "There is a convenience store near the train station.",
+      "There is a store near the station."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "冷蔵庫の中に牛乳があります。",
+    "target_word": "There is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "There is milk in the refrigerator.",
+      "There is milk in the fridge.",
+      "There is some milk in the refrigerator.",
+      "There is some milk in the fridge."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "庭に大きな木があります。",
+    "target_word": "There is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "There is a big tree in the garden.",
+      "There is a large tree in the garden.",
+      "There is a big tree in the yard.",
+      "There is a large tree in the yard."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：There is, restaurant",
+    "target_word": "There is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：There is, problem",
+    "target_word": "There is",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "There is",
+    "options": [],
+    "word_bank": [
+      "There",
+      "is",
+      "a",
+      "cat",
+      "under",
+      "the",
+      "table"
+    ],
+    "correct_answer": "There is a cat under the table.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "複数の物の存在を表すとき、何と言いますか？",
+    "target_word": "There are",
+    "options": [
+      "There are many books.",
+      "There is many books.",
+      "Here are many books.",
+      "These are many books."
+    ],
+    "word_bank": [],
+    "correct_answer": "There are many books.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "二つ以上の物があることを表現するとき、何と言いますか？",
+    "target_word": "There are",
+    "options": [
+      "There are three apples.",
+      "There is three apples.",
+      "Here are three apples.",
+      "These are three apples."
+    ],
+    "word_bank": [],
+    "correct_answer": "There are three apples.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「〜があります」を英語で言うとき（複数）、何と言いますか？",
+    "target_word": "There are",
+    "options": [
+      "There are",
+      "There is",
+      "Here are",
+      "These are"
+    ],
+    "word_bank": [],
+    "correct_answer": "There are",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "教室に多くの学生がいることを表すとき：「_______ many students in the classroom.」",
+    "target_word": "There are",
+    "options": [
+      "There are",
+      "There is",
+      "Here are",
+      "They are"
+    ],
+    "word_bank": [],
+    "correct_answer": "There are",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "箱の中に五個のりんごがあることを表すとき：「_______ five apples in the box.」",
+    "target_word": "There are",
+    "options": [
+      "There are",
+      "There is",
+      "Here are",
+      "These are"
+    ],
+    "word_bank": [],
+    "correct_answer": "There are",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "公園に何人かの子供がいることを表すとき：「_______ some children in the park.」",
+    "target_word": "There are",
+    "options": [
+      "There are",
+      "There is",
+      "Here are",
+      "They are"
+    ],
+    "word_bank": [],
+    "correct_answer": "There are",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "この街には多くのレストランがあります。",
+    "target_word": "There are",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "There are many restaurants in this city.",
+      "There are many restaurants in this town.",
+      "There are a lot of restaurants in this city.",
+      "There are lots of restaurants in this city."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "机の上に三冊の本があります。",
+    "target_word": "There are",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "There are three books on the desk.",
+      "There are three books on the table."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私の家族には四人います。",
+    "target_word": "There are",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "There are four people in my family.",
+      "There are four members in my family.",
+      "There are four of us in my family."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：There are, students",
+    "target_word": "There are",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：There are, flowers",
+    "target_word": "There are",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "There are",
+    "options": [],
+    "word_bank": [
+      "There",
+      "are",
+      "two",
+      "cars",
+      "in",
+      "the",
+      "garage"
+    ],
+    "correct_answer": "There are two cars in the garage.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "所有を表すとき、何と言いますか？",
+    "target_word": "I have",
+    "options": [
+      "I have a pen.",
+      "I am a pen.",
+      "I like a pen.",
+      "I want a pen."
+    ],
+    "word_bank": [],
+    "correct_answer": "I have a pen.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「私は〜を持っています」を英語で言うとき、何と言いますか？",
+    "target_word": "I have",
+    "options": [
+      "I have a car.",
+      "I am a car.",
+      "I like a car.",
+      "I need a car."
+    ],
+    "word_bank": [],
+    "correct_answer": "I have a car.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "所有を表現する動詞は何ですか？",
+    "target_word": "I have",
+    "options": [
+      "I have",
+      "I am",
+      "I do",
+      "I go"
+    ],
+    "word_bank": [],
+    "correct_answer": "I have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "犬を飼っていることを表すとき：「_______ a dog.」",
+    "target_word": "I have",
+    "options": [
+      "I have",
+      "I am",
+      "I like",
+      "I want"
+    ],
+    "word_bank": [],
+    "correct_answer": "I have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "兄弟がいることを表すとき：「_______ a brother.」",
+    "target_word": "I have",
+    "options": [
+      "I have",
+      "I am",
+      "I know",
+      "I see"
+    ],
+    "word_bank": [],
+    "correct_answer": "I have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "時間があることを表すとき：「_______ time.」",
+    "target_word": "I have",
+    "options": [
+      "I have",
+      "I am",
+      "I need",
+      "I want"
+    ],
+    "word_bank": [],
+    "correct_answer": "I have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "私は新しい携帯電話を持っています。",
+    "target_word": "I have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I have a new phone.",
+      "I have a new cell phone.",
+      "I have a new mobile phone.",
+      "I have a new smartphone."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は二匹の猫を飼っています。",
+    "target_word": "I have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I have two cats.",
+      "I have 2 cats."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は宿題があります。",
+    "target_word": "I have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I have homework.",
+      "I have some homework."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I have, sister",
+    "target_word": "I have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I have, question",
+    "target_word": "I have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "I have",
+    "options": [],
+    "word_bank": [
+      "I",
+      "have",
+      "a",
+      "red",
+      "bicycle"
+    ],
+    "correct_answer": "I have a red bicycle.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "否定の所有を表すとき、何と言いますか？",
+    "target_word": "I don't have",
+    "options": [
+      "I don't have money.",
+      "I not have money.",
+      "I no have money.",
+      "I am not money."
+    ],
+    "word_bank": [],
+    "correct_answer": "I don't have money.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「私は〜を持っていません」を英語で言うとき、何と言いますか？",
+    "target_word": "I don't have",
+    "options": [
+      "I don't have a car.",
+      "I not have a car.",
+      "I no have a car.",
+      "I am not a car."
+    ],
+    "word_bank": [],
+    "correct_answer": "I don't have a car.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "所有の否定形は何ですか？",
+    "target_word": "I don't have",
+    "options": [
+      "I don't have",
+      "I not have",
+      "I no have",
+      "I am not"
+    ],
+    "word_bank": [],
+    "correct_answer": "I don't have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "ペットを飼っていないことを表すとき：「_______ any pets.」",
+    "target_word": "I don't have",
+    "options": [
+      "I don't have",
+      "I not have",
+      "I no have",
+      "I am not"
+    ],
+    "word_bank": [],
+    "correct_answer": "I don't have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "時間がないことを表すとき：「_______ time.」",
+    "target_word": "I don't have",
+    "options": [
+      "I don't have",
+      "I not have",
+      "I no have",
+      "I am not"
+    ],
+    "word_bank": [],
+    "correct_answer": "I don't have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "お金がないことを表すとき：「_______ enough money.」",
+    "target_word": "I don't have",
+    "options": [
+      "I don't have",
+      "I not have",
+      "I no have",
+      "I am not"
+    ],
+    "word_bank": [],
+    "correct_answer": "I don't have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "私は車を持っていません。",
+    "target_word": "I don't have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I don't have a car.",
+      "I do not have a car."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は兄弟がいません。",
+    "target_word": "I don't have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I don't have any brothers.",
+      "I don't have a brother.",
+      "I do not have any brothers.",
+      "I do not have a brother."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は今日は時間がありません。",
+    "target_word": "I don't have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I don't have time today.",
+      "I do not have time today.",
+      "I don't have any time today.",
+      "I do not have any time today."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I don't have, computer",
+    "target_word": "I don't have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I don't have, experience",
+    "target_word": "I don't have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "I don't have",
+    "options": [],
+    "word_bank": [
+      "I",
+      "don't",
+      "have",
+      "a",
+      "smartphone"
+    ],
+    "correct_answer": "I don't have a smartphone.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "相手の所有について質問するとき、何と言いますか？",
+    "target_word": "Do you have",
+    "options": [
+      "Do you have a pen?",
+      "Are you have a pen?",
+      "Have you pen?",
+      "You have a pen?"
+    ],
+    "word_bank": [],
+    "correct_answer": "Do you have a pen?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「あなたは〜を持っていますか？」を英語で言うとき、何と言いますか？",
+    "target_word": "Do you have",
+    "options": [
+      "Do you have time?",
+      "Are you have time?",
+      "Do you have times?",
+      "You have time?"
+    ],
+    "word_bank": [],
+    "correct_answer": "Do you have time?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "所有についての疑問文の始まりは何ですか？",
+    "target_word": "Do you have",
+    "options": [
+      "Do you have",
+      "Are you have",
+      "Do you has",
+      "You have"
+    ],
+    "word_bank": [],
+    "correct_answer": "Do you have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "相手がペットを飼っているか聞くとき：「_______ any pets?」",
+    "target_word": "Do you have",
+    "options": [
+      "Do you have",
+      "Are you have",
+      "Do you has",
+      "You have"
+    ],
+    "word_bank": [],
+    "correct_answer": "Do you have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "相手が兄弟がいるか聞くとき：「_______ any brothers?」",
+    "target_word": "Do you have",
+    "options": [
+      "Do you have",
+      "Are you have",
+      "Do you has",
+      "You have"
+    ],
+    "word_bank": [],
+    "correct_answer": "Do you have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "相手が車を持っているか聞くとき：「_______ a car?」",
+    "target_word": "Do you have",
+    "options": [
+      "Do you have",
+      "Are you have",
+      "Do you has",
+      "You have"
+    ],
+    "word_bank": [],
+    "correct_answer": "Do you have",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "あなたは携帯電話を持っていますか？",
+    "target_word": "Do you have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Do you have a phone?",
+      "Do you have a cell phone?",
+      "Do you have a mobile phone?",
+      "Do you have a smartphone?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "あなたは質問がありますか？",
+    "target_word": "Do you have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Do you have any questions?",
+      "Do you have a question?",
+      "Do you have questions?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "あなたは今日時間がありますか？",
+    "target_word": "Do you have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Do you have time today?",
+      "Do you have any time today?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Do you have, homework",
+    "target_word": "Do you have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Do you have, passport",
+    "target_word": "Do you have",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "Do you have",
+    "options": [],
+    "word_bank": [
+      "Do",
+      "you",
+      "have",
+      "a",
+      "ticket"
+    ],
+    "correct_answer": "Do you have a ticket?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "数量について質問するとき、何と言いますか？",
+    "target_word": "How many",
+    "options": [
+      "How many books do you have?",
+      "How much books do you have?",
+      "How books do you have?",
+      "Many books do you have?"
+    ],
+    "word_bank": [],
+    "correct_answer": "How many books do you have?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "可算名詞の数を聞くとき、何と言いますか？",
+    "target_word": "How many",
+    "options": [
+      "How many students are there?",
+      "How much students are there?",
+      "How students are there?",
+      "Many students are there?"
+    ],
+    "word_bank": [],
+    "correct_answer": "How many students are there?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「いくつの〜」を英語で言うとき、何と言いますか？",
+    "target_word": "How many",
+    "options": [
+      "How many",
+      "How much",
+      "How some",
+      "How few"
+    ],
+    "word_bank": [],
+    "correct_answer": "How many",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "車の台数を聞くとき：「_______ cars do you have?」",
+    "target_word": "How many",
+    "options": [
+      "How many",
+      "How much",
+      "How some",
+      "How few"
+    ],
+    "word_bank": [],
+    "correct_answer": "How many",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "兄弟の人数を聞くとき：「_______ brothers do you have?」",
+    "target_word": "How many",
+    "options": [
+      "How many",
+      "How much",
+      "How some",
+      "How few"
+    ],
+    "word_bank": [],
+    "correct_answer": "How many",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "教室にある机の数を聞くとき：「_______ desks are in the classroom?」",
+    "target_word": "How many",
+    "options": [
+      "How many",
+      "How much",
+      "How some",
+      "How few"
+    ],
+    "word_bank": [],
+    "correct_answer": "How many",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "あなたは何人兄弟がいますか？",
+    "target_word": "How many",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "How many brothers do you have?",
+      "How many siblings do you have?",
+      "How many brothers and sisters do you have?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "この箱にはりんごがいくつ入っていますか？",
+    "target_word": "How many",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "How many apples are in this box?",
+      "How many apples are there in this box?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "あなたは何冊本を持っていますか？",
+    "target_word": "How many",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "How many books do you have?",
+      "How many books do you own?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：How many, people",
+    "target_word": "How many",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：How many, cats",
+    "target_word": "How many",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "How many",
+    "options": [],
+    "word_bank": [
+      "How",
+      "many",
+      "children",
+      "do",
+      "you",
+      "have"
+    ],
+    "correct_answer": "How many children do you have?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "不可算名詞の量を聞くとき、何と言いますか？",
+    "target_word": "How much",
+    "options": [
+      "How much water do you need?",
+      "How many water do you need?",
+      "How water do you need?",
+      "Much water do you need?"
+    ],
+    "word_bank": [],
+    "correct_answer": "How much water do you need?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "お金の金額を聞くとき、何と言いますか？",
+    "target_word": "How much",
+    "options": [
+      "How much does it cost?",
+      "How many does it cost?",
+      "How does it cost?",
+      "Much does it cost?"
+    ],
+    "word_bank": [],
+    "correct_answer": "How much does it cost?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「どのくらいの〜」を英語で言うとき（不可算名詞）、何と言いますか？",
+    "target_word": "How much",
+    "options": [
+      "How much",
+      "How many",
+      "How some",
+      "How little"
+    ],
+    "word_bank": [],
+    "correct_answer": "How much",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "牛乳の量を聞くとき：「_______ milk do you want?」",
+    "target_word": "How much",
+    "options": [
+      "How much",
+      "How many",
+      "How some",
+      "How little"
+    ],
+    "word_bank": [],
+    "correct_answer": "How much",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "値段を聞くとき：「_______ is this bag?」",
+    "target_word": "How much",
+    "options": [
+      "How much",
+      "How many",
+      "How heavy",
+      "How price"
+    ],
+    "word_bank": [],
+    "correct_answer": "How much",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "時間の長さを聞くとき：「_______ time do you have?」",
+    "target_word": "How much",
+    "options": [
+      "How much",
+      "How many",
+      "How long",
+      "How often"
+    ],
+    "word_bank": [],
+    "correct_answer": "How much",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "このりんごはいくらですか？",
+    "target_word": "How much",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "How much is this apple?",
+      "How much does this apple cost?",
+      "How much are these apples?",
+      "How much do these apples cost?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "どのくらいお金が必要ですか？",
+    "target_word": "How much",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "How much money do you need?",
+      "How much money is needed?",
+      "How much do you need?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "どのくらい砂糖を入れますか？",
+    "target_word": "How much",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "How much sugar do you put in?",
+      "How much sugar do you add?",
+      "How much sugar do you use?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：How much, coffee",
+    "target_word": "How much",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：How much, rice",
+    "target_word": "How much",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "How much",
+    "options": [],
+    "word_bank": [
+      "How",
+      "much",
+      "does",
+      "this",
+      "book",
+      "cost"
+    ],
+    "correct_answer": "How much does this book cost?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "好みを表すとき、何と言いますか？",
+    "target_word": "I like",
+    "options": [
+      "I like music.",
+      "I am music.",
+      "I have music.",
+      "I want music."
+    ],
+    "word_bank": [],
+    "correct_answer": "I like music.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「私は〜が好きです」を英語で言うとき、何と言いますか？",
+    "target_word": "I like",
+    "options": [
+      "I like pizza.",
+      "I am pizza.",
+      "I have pizza.",
+      "I need pizza."
+    ],
+    "word_bank": [],
+    "correct_answer": "I like pizza.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「〜が好きです」を最も基本的に表すとき、どれが適切ですか？",
+    "target_word": "I like",
+    "options": [
+      "I like",
+      "I love",
+      "I want",
+      "I need"
+    ],
+    "word_bank": [],
+    "correct_answer": "I like",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "スポーツが好きなことを表すとき：「_______ sports.」",
+    "target_word": "I like",
+    "options": [
+      "I like",
+      "I am",
+      "I have",
+      "I do"
+    ],
+    "word_bank": [],
+    "correct_answer": "I like",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "映画が好きなことを表すとき：「_______ movies.」",
+    "target_word": "I like",
+    "options": [
+      "I like",
+      "I watch",
+      "I see",
+      "I have"
+    ],
+    "word_bank": [],
+    "correct_answer": "I like",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "読書が好きなことを表すとき：「_______ reading.」",
+    "target_word": "I like",
+    "options": [
+      "I like",
+      "I am",
+      "I do",
+      "I go"
+    ],
+    "word_bank": [],
+    "correct_answer": "I like",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "私は日本料理が好きです。",
+    "target_word": "I like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I like Japanese food.",
+      "I like Japanese cuisine.",
+      "I like Japanese cooking."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は音楽を聞くのが好きです。",
+    "target_word": "I like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I like listening to music.",
+      "I like to listen to music."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私はこの公園が好きです。",
+    "target_word": "I like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I like this park.",
+      "I like this place."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I like, chocolate",
+    "target_word": "I like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I like, swimming",
+    "target_word": "I like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "I like",
+    "options": [],
+    "word_bank": [
+      "I",
+      "like",
+      "playing",
+      "tennis",
+      "very",
+      "much"
+    ],
+    "correct_answer": "I like playing tennis very much.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "欲求を表すとき、何と言いますか？",
+    "target_word": "I want",
+    "options": [
+      "I want water.",
+      "I am water.",
+      "I have water.",
+      "I like water."
+    ],
+    "word_bank": [],
+    "correct_answer": "I want water.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「私は〜が欲しいです」を英語で言うとき、何と言いますか？",
+    "target_word": "I want",
+    "options": [
+      "I want a new car.",
+      "I am a new car.",
+      "I have a new car.",
+      "I like a new car."
+    ],
+    "word_bank": [],
+    "correct_answer": "I want a new car.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "欲求を表現する動詞は何ですか？",
+    "target_word": "I want",
+    "options": [
+      "I want",
+      "I need",
+      "I like",
+      "I have"
+    ],
+    "word_bank": [],
+    "correct_answer": "I want",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "コーヒーが欲しいことを表すとき：「_______ coffee.」",
+    "target_word": "I want",
+    "options": [
+      "I want",
+      "I like",
+      "I have",
+      "I drink"
+    ],
+    "word_bank": [],
+    "correct_answer": "I want",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "休息したいことを表すとき：「_______ to rest.」",
+    "target_word": "I want",
+    "options": [
+      "I want",
+      "I need",
+      "I like",
+      "I have"
+    ],
+    "word_bank": [],
+    "correct_answer": "I want",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "買い物に行きたいことを表すとき：「_______ to go shopping.」",
+    "target_word": "I want",
+    "options": [
+      "I want",
+      "I need",
+      "I like",
+      "I have"
+    ],
+    "word_bank": [],
+    "correct_answer": "I want",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "私は新しい靴が欲しいです。",
+    "target_word": "I want",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I want new shoes.",
+      "I want a new pair of shoes.",
+      "I want some new shoes."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は英語を勉強したいです。",
+    "target_word": "I want",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I want to study English.",
+      "I want to learn English."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は今日早く帰りたいです。",
+    "target_word": "I want",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I want to go home early today.",
+      "I want to return home early today."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I want, pizza",
+    "target_word": "I want",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I want, vacation",
+    "target_word": "I want",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "I want",
+    "options": [],
+    "word_bank": [
+      "I",
+      "want",
+      "to",
+      "eat",
+      "lunch",
+      "now"
+    ],
+    "correct_answer": "I want to eat lunch now.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "必要性を表すとき、何と言いますか？",
+    "target_word": "I need",
+    "options": [
+      "I need help.",
+      "I want help.",
+      "I like help.",
+      "I have help."
+    ],
+    "word_bank": [],
+    "correct_answer": "I need help.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「私は〜が必要です」を英語で言うとき、何と言いますか？",
+    "target_word": "I need",
+    "options": [
+      "I need money.",
+      "I want money.",
+      "I like money.",
+      "I have money."
+    ],
+    "word_bank": [],
+    "correct_answer": "I need money.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "必要性を表現する動詞は何ですか？",
+    "target_word": "I need",
+    "options": [
+      "I need",
+      "I want",
+      "I like",
+      "I have"
+    ],
+    "word_bank": [],
+    "correct_answer": "I need",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "医者に診てもらう必要があることを表すとき：「_______ to see a doctor.」",
+    "target_word": "I need",
+    "options": [
+      "I need",
+      "I want",
+      "I like",
+      "I have"
+    ],
+    "word_bank": [],
+    "correct_answer": "I need",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "お金が必要なことを表すとき：「_______ money.」",
+    "target_word": "I need",
+    "options": [
+      "I need",
+      "I want",
+      "I like",
+      "I have"
+    ],
+    "word_bank": [],
+    "correct_answer": "I need",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "休む必要があることを表すとき：「_______ to rest.」",
+    "target_word": "I need",
+    "options": [
+      "I need",
+      "I want",
+      "I like",
+      "I should"
+    ],
+    "word_bank": [],
+    "correct_answer": "I need",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "私はもっと時間が必要です。",
+    "target_word": "I need",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I need more time.",
+      "I need much time.",
+      "I need a lot of time."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は新しいペンが必要です。",
+    "target_word": "I need",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I need a new pen.",
+      "I need new pens.",
+      "I need some new pens."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私は宿題を終わらせる必要があります。",
+    "target_word": "I need",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "I need to finish my homework.",
+      "I need to complete my homework.",
+      "I need to do my homework."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I need, water",
+    "target_word": "I need",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：I need, sleep",
+    "target_word": "I need",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "I need",
+    "options": [],
+    "word_bank": [
+      "I",
+      "need",
+      "to",
+      "buy",
+      "some",
+      "food"
+    ],
+    "correct_answer": "I need to buy some food.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "依頼をするとき、何と言いますか？",
+    "target_word": "Can you",
+    "options": [
+      "Can you help me?",
+      "Are you help me?",
+      "Do you help me?",
+      "Will you helping me?"
+    ],
+    "word_bank": [],
+    "correct_answer": "Can you help me?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「〜してもらえますか？」を英語で言うとき、何と言いますか？",
+    "target_word": "Can you",
+    "options": [
+      "Can you open the window?",
+      "Are you open the window?",
+      "Do you open the window?",
+      "Will you opening the window?"
+    ],
+    "word_bank": [],
+    "correct_answer": "Can you open the window?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "能力について聞くとき、何と言いますか？",
+    "target_word": "Can you",
+    "options": [
+      "Can you",
+      "Are you",
+      "Do you",
+      "Will you"
+    ],
+    "word_bank": [],
+    "correct_answer": "Can you",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "手伝いを求めるとき：「_______ help me?」",
+    "target_word": "Can you",
+    "options": [
+      "Can you",
+      "Are you",
+      "Do you",
+      "Will you"
+    ],
+    "word_bank": [],
+    "correct_answer": "Can you",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "道を教えてもらうとき：「_______ show me the way?」",
+    "target_word": "Can you",
+    "options": [
+      "Can you",
+      "Are you",
+      "Do you",
+      "Will you"
+    ],
+    "word_bank": [],
+    "correct_answer": "Can you",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "英語が話せるか聞くとき：「_______ speak English?」",
+    "target_word": "Can you",
+    "options": [
+      "Can you",
+      "Are you",
+      "Do you",
+      "Will you"
+    ],
+    "word_bank": [],
+    "correct_answer": "Can you",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "ドアを開けてもらえますか？",
+    "target_word": "Can you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Can you open the door?",
+      "Can you open the door for me?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "あなたは車を運転できますか？",
+    "target_word": "Can you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Can you drive a car?",
+      "Can you drive?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "この荷物を運んでもらえますか？",
+    "target_word": "Can you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Can you carry this bag?",
+      "Can you carry this luggage?",
+      "Can you help me carry this?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Can you, cook",
+    "target_word": "Can you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Can you, wait",
+    "target_word": "Can you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "Can you",
+    "options": [],
+    "word_bank": [
+      "Can",
+      "you",
+      "tell",
+      "me",
+      "your",
+      "name"
+    ],
+    "correct_answer": "Can you tell me your name?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "より丁寧な依頼をするとき、何と言いますか？",
+    "target_word": "Could you",
+    "options": [
+      "Could you help me?",
+      "Can you help me?",
+      "Do you help me?",
+      "Will you help me?"
+    ],
+    "word_bank": [],
+    "correct_answer": "Could you help me?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「〜していただけませんか？」を英語で言うとき、何と言いますか？",
+    "target_word": "Could you",
+    "options": [
+      "Could you close the door?",
+      "Can you close the door?",
+      "Do you close the door?",
+      "Will you close the door?"
+    ],
+    "word_bank": [],
+    "correct_answer": "Could you close the door?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "より丁寧な依頼の表現は何ですか？",
+    "target_word": "Could you",
+    "options": [
+      "Could you",
+      "Can you",
+      "Do you",
+      "Are you"
+    ],
+    "word_bank": [],
+    "correct_answer": "Could you",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "丁寧に手伝いを求めるとき：「_______ help me, please?」",
+    "target_word": "Could you",
+    "options": [
+      "Could you",
+      "Can you",
+      "Do you",
+      "Are you"
+    ],
+    "word_bank": [],
+    "correct_answer": "Could you",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "丁寧に説明を求めるとき：「_______ explain this?」",
+    "target_word": "Could you",
+    "options": [
+      "Could you",
+      "Can you",
+      "Do you",
+      "Are you"
+    ],
+    "word_bank": [],
+    "correct_answer": "Could you",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "丁寧に待ってもらうとき：「_______ wait a moment?」",
+    "target_word": "Could you",
+    "options": [
+      "Could you",
+      "Can you",
+      "Do you",
+      "Are you"
+    ],
+    "word_bank": [],
+    "correct_answer": "Could you",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "お名前を教えていただけませんか？",
+    "target_word": "Could you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Could you tell me your name?",
+      "Could you give me your name?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "もう少しゆっくり話していただけませんか？",
+    "target_word": "Could you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Could you speak a little slower?",
+      "Could you speak more slowly?",
+      "Could you talk a little slower?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "その本を取っていただけませんか？",
+    "target_word": "Could you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Could you get that book?",
+      "Could you take that book?",
+      "Could you bring me that book?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Could you, repeat",
+    "target_word": "Could you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Could you, call",
+    "target_word": "Could you",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "Could you",
+    "options": [],
+    "word_bank": [
+      "Could",
+      "you",
+      "pass",
+      "me",
+      "the",
+      "salt"
+    ],
+    "correct_answer": "Could you pass me the salt?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "相手の希望を聞くとき、何と言いますか？",
+    "target_word": "Would you like",
+    "options": [
+      "Would you like some tea?",
+      "Do you like some tea?",
+      "Can you like some tea?",
+      "Are you like some tea?"
+    ],
+    "word_bank": [],
+    "correct_answer": "Would you like some tea?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「〜はいかがですか？」を英語で言うとき、何と言いますか？",
+    "target_word": "Would you like",
+    "options": [
+      "Would you like coffee?",
+      "Do you like coffee?",
+      "Can you like coffee?",
+      "Are you like coffee?"
+    ],
+    "word_bank": [],
+    "correct_answer": "Would you like coffee?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "丁寧に提案するときの表現は何ですか？",
+    "target_word": "Would you like",
+    "options": [
+      "Would you like",
+      "Do you like",
+      "Can you like",
+      "Are you like"
+    ],
+    "word_bank": [],
+    "correct_answer": "Would you like",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "飲み物を勧めるとき：「_______ something to drink?」",
+    "target_word": "Would you like",
+    "options": [
+      "Would you like",
+      "Do you like",
+      "Can you like",
+      "Are you like"
+    ],
+    "word_bank": [],
+    "correct_answer": "Would you like",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "食事を勧めるとき：「_______ dinner with us?」",
+    "target_word": "Would you like",
+    "options": [
+      "Would you like",
+      "Do you like",
+      "Can you like",
+      "Are you like"
+    ],
+    "word_bank": [],
+    "correct_answer": "Would you like",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "映画に誘うとき：「_______ to go to the movies?」",
+    "target_word": "Would you like",
+    "options": [
+      "Would you like",
+      "Do you like",
+      "Can you like",
+      "Are you like"
+    ],
+    "word_bank": [],
+    "correct_answer": "Would you like",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "コーヒーはいかがですか？",
+    "target_word": "Would you like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Would you like some coffee?",
+      "Would you like coffee?",
+      "Would you like a cup of coffee?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "私たちと一緒に来ませんか？",
+    "target_word": "Would you like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Would you like to come with us?",
+      "Would you like to join us?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "何か食べ物はいかがですか？",
+    "target_word": "Would you like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Would you like something to eat?",
+      "Would you like some food?"
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Would you like, cake",
+    "target_word": "Would you like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Would you like, help",
+    "target_word": "Would you like",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "Would you like",
+    "options": [],
+    "word_bank": [
+      "Would",
+      "you",
+      "like",
+      "to",
+      "have",
+      "lunch"
+    ],
+    "correct_answer": "Would you like to have lunch?",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  },
+  {
+    "type": "multiple_choice",
+    "question": "提案をするとき、何と言いますか？",
+    "target_word": "Let's",
+    "options": [
+      "Let's go to the park.",
+      "We go to the park.",
+      "Going to the park.",
+      "To go to the park."
+    ],
+    "word_bank": [],
+    "correct_answer": "Let's go to the park.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "「〜しましょう」を英語で言うとき、何と言いますか？",
+    "target_word": "Let's",
+    "options": [
+      "Let's eat lunch.",
+      "We eat lunch.",
+      "Eating lunch.",
+      "To eat lunch."
+    ],
+    "word_bank": [],
+    "correct_answer": "Let's eat lunch.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "multiple_choice",
+    "question": "提案を表す表現は何ですか？",
+    "target_word": "Let's",
+    "options": [
+      "Let's",
+      "We will",
+      "We must",
+      "We can"
+    ],
+    "word_bank": [],
+    "correct_answer": "Let's",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "一緒に映画を見ることを提案するとき：「_______ watch a movie.」",
+    "target_word": "Let's",
+    "options": [
+      "Let's",
+      "We should",
+      "We must",
+      "We will"
+    ],
+    "word_bank": [],
+    "correct_answer": "Let's",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "一緒に勉強することを提案するとき：「_______ study together.」",
+    "target_word": "Let's",
+    "options": [
+      "Let's",
+      "We should",
+      "We must",
+      "We will"
+    ],
+    "word_bank": [],
+    "correct_answer": "Let's",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "fill_blank",
+    "question": "一緒に散歩することを提案するとき：「_______ take a walk.」",
+    "target_word": "Let's",
+    "options": [
+      "Let's",
+      "We should",
+      "We must",
+      "We will"
+    ],
+    "word_bank": [],
+    "correct_answer": "Let's",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 1
+  },
+  {
+    "type": "translation",
+    "question": "一緒に買い物に行きましょう。",
+    "target_word": "Let's",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Let's go shopping together.",
+      "Let's go shopping.",
+      "Let's do some shopping."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "今日は早く帰りましょう。",
+    "target_word": "Let's",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Let's go home early today.",
+      "Let's leave early today.",
+      "Let's return home early today."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "translation",
+    "question": "お昼を食べましょう。",
+    "target_word": "Let's",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [
+      "Let's have lunch.",
+      "Let's eat lunch.",
+      "Let's get lunch."
+    ],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Let's, play",
+    "target_word": "Let's",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "sentence_creation",
+    "question": "次の単語を使って英語の文を作成してください：Let's, start",
+    "target_word": "Let's",
+    "options": [],
+    "word_bank": [],
+    "correct_answer": "",
+    "acceptable_answers": [],
+    "requires_feedback": true,
+    "points": 3
+  },
+  {
+    "type": "word_rearrangement",
+    "question": "単語を正しい順番に並べて文を完成させてください。",
+    "target_word": "Let's",
+    "options": [],
+    "word_bank": [
+      "Let's",
+      "meet",
+      "at",
+      "the",
+      "station",
+      "tomorrow"
+    ],
+    "correct_answer": "Let's meet at the station tomorrow.",
+    "acceptable_answers": [],
+    "requires_feedback": false,
+    "points": 2
+  }
+]

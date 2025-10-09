@@ -101,8 +101,8 @@ class VocabularySetController extends Controller
     {   
         $set = VocabularySet::findOrFail($id);
         $validated = $request->validate([
-            'title' => 'nullable|string|max:255',           // Optional
-            'description' => 'nullable|string',             // Optional  
+            'title' => 'nullable|string|max:255',           
+            'description' => 'nullable|string',               
             'difficulty' => 'nullable|in:beginner,intermediate,advanced',
             'type' => 'nullable|in:premade,custom',
             'is_active' => 'nullable|boolean'
@@ -118,7 +118,7 @@ class VocabularySetController extends Controller
     public function destroy(string $id)
     {
         VocabularySet::findOrFail($id)->delete();
-        return response()->json(['message' => `Vocabulary set with id $id successfully deleted.`], 204);
+        return response()->json(['message' => "Vocabulary set with id $id successfully deleted."], 204);
     }
 
     public function incrementViews(string $id)

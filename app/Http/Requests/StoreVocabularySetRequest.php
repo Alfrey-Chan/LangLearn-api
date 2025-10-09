@@ -11,7 +11,7 @@ class StoreVocabularySetRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return false; 
     }
 
     /**

@@ -12,7 +12,7 @@ class QuizResultService
     protected $openaiService;
 
     public function __construct(OpenAIService $openaiService)
-    {
+    {   
         $this->openaiService = $openaiService;
     }
 

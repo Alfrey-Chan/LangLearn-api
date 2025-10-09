@@ -49,10 +49,11 @@ class UpdateVocabularySetRequest extends FormRequest
      */
     protected function prepareForValidation(): void
     {   
-        if ($this->has('difficulty')) {
-            $this->merge([
-                'difficulty' => strtolower($this->difficulty),
-            ]);
-        }
+        // TODO:: after admin dashboard is implemented
+        // if ($this->has('difficulty')) {
+        //     $this->merge([
+        //         'difficulty' => strtolower($this->difficulty),
+        //     ]);
+        // }
     }
 }

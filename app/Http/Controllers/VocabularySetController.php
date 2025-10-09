@@ -6,8 +6,8 @@ use App\Models\Rating;
 use Illuminate\Http\Request;
 use App\Models\UserFavourite;
 use App\Models\VocabularySet;
-use Illuminate\Validation\Rule;
-use Illuminate\Support\Facades\Log;
+use App\Http\Requests\UpdateVocabularySetRequest;
+use App\Http\Requests\StoreVocabularySetRequest;
 
 class VocabularySetController extends Controller
 {
@@ -42,18 +42,11 @@ class VocabularySetController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(StoreVocabularySetRequest $request)
     {
-        $validated = $request->validate([
-            'language_id' => 'required|integer',
-            'user_id' => 'nullable|integer',
-            'type' => ['required', Rule::in(['premade', 'custom'])],
-            'difficulty' => ['required', Rule::in(['beginner', 'intermediate', 'advanced'])], // alternative = 'in:beginner,intermediate,advanced'
-            'title' => 'required|string|max:50',
-            'description' => 'nullable|string',
-        ]);
+        $validatedData = $request->validated();
 
-        $set = VocabularySet::create($validated);
+        $set = VocabularySet::create($validatedData);
         return response()->json($set, 201);
     }
 
@@ -97,18 +90,13 @@ class VocabularySetController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(UpdateVocabularySetRequest $request, string $id)
     {   
         $set = VocabularySet::findOrFail($id);
-        $validated = $request->validate([
-            'title' => 'nullable|string|max:255',           
-            'description' => 'nullable|string',               
-            'difficulty' => 'nullable|in:beginner,intermediate,advanced',
-            'type' => 'nullable|in:premade,custom',
-            'is_active' => 'nullable|boolean'
-        ]);
+        $validatedData = $request->validated();
 
-        $set->update($validated);
+        $set->update($validatedData);
+
         return response()->json($set, 200);
     }
 

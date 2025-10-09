@@ -9,6 +9,7 @@ use App\Models\VocabularySet;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use App\Services\OpenAIService;
+use App\Http\Requests\StoreQuizAnswersRequest;
 
 class QuizController extends Controller
 {   
@@ -44,9 +45,9 @@ class QuizController extends Controller
             ->toArray();
 
         if (!$quiz) {
-            return response()->json(['error' => 'Quiz with ID $vocabSetId not found.'], 404);
+            return response()->json(['error' => "Quiz with ID $vocabSetId not found."], 404);
         }
-        // Log::info('Quiz Structure: ' . json_encode($quiz, JSON_PRETTY_PRINT));
+
         $restructuredQuestions = [];
 
         foreach ($quiz['questions'] as $question) {
@@ -67,23 +68,14 @@ class QuizController extends Controller
         return response()->json($restructuredQuiz, 200);
     }
 
-    public function submitAnswers(Request $request)
+    public function submitAnswers(StoreQuizAnswersRequest $request)
     {
         $firebaseUid = $request->attributes->get('firebase_uid');
 
-        $questions = $request->input('questions', []);
+        $questions = $request->validated()['questions'];
 
-        if (empty($questions)) {
-            return response()->json(['error' => 'No questions provided'], 400);
-        }
-
-        $quizId = $questions[0]['quiz_id'] ?? null;
-        if (!$quizId) {
-            return response()->json(['error' => 'Quiz ID not found in questions'], 400);
-        }
-
+        // for questions that involve users to type their answers 
         $fillQuestions = collect($questions)->whereIn('type', ['translation', 'sentence_creation'])->toArray();
-
         $feedbacks = [];
         if (!empty($fillQuestions)) {
             try {
@@ -104,7 +96,7 @@ class QuizController extends Controller
         $results = $this->calculateScore($questions);
 
         QuizResult::create([
-            'quiz_id' => $quizId,
+            'quiz_id' => $questions['quiz_id'],
             'firebase_uid' => $firebaseUid,
             'score_percent' => $results['percentage'],
         ]);

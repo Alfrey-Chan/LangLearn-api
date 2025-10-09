@@ -45,7 +45,7 @@ class QuizResultService
 
             foreach ($questions as &$question) {
                 if (in_array($question['type'], ['translation', 'sentence_creation'])) {
-                    $aiFeedback = collect($feedbacks['results'] ?? [])->firstWhere('id', $question['id']);
+                    $aiFeedback = collect($feedbacks['result'] ?? [])->firstWhere('id', $question['id']);
                     $question['feedback'] = $aiFeedback ?? $this->getDefaultFeedback();
                 }
             }

@@ -48,7 +48,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I will _____ my vacation photos to Instagram tomorrow.",
     "target_word": "post",
     "options": [
@@ -64,7 +64,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She likes to _____ funny videos on TikTok.",
     "target_word": "post",
     "options": [
@@ -80,7 +80,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Did you _____ anything on Twitter today?",
     "target_word": "post",
     "options": [
@@ -232,7 +232,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Did you _____ that funny post?",
     "target_word": "share",
     "options": [
@@ -248,7 +248,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I will _____ this news with my family.",
     "target_word": "share",
     "options": [
@@ -264,7 +264,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She wants to _____ her story on Facebook.",
     "target_word": "share",
     "options": [
@@ -416,7 +416,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please _____ and share this post!",
     "target_word": "like",
     "options": [
@@ -432,7 +432,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "My photo got 500 _____ in one hour.",
     "target_word": "like",
     "options": [
@@ -448,7 +448,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Don't forget to _____ her new video.",
     "target_word": "like",
     "options": [
@@ -600,7 +600,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please _____ me on TikTok!",
     "target_word": "follow",
     "options": [
@@ -616,7 +616,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I will _____ your new account tomorrow.",
     "target_word": "follow",
     "options": [
@@ -632,7 +632,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She wants to _____ more artists on Instagram.",
     "target_word": "follow",
     "options": [
@@ -784,7 +784,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "How many _____ do you have?",
     "target_word": "follower",
     "options": [
@@ -800,7 +800,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "My _____ really like my new photos.",
     "target_word": "follower",
     "options": [
@@ -816,7 +816,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She wants more _____ on TikTok.",
     "target_word": "follower",
     "options": [
@@ -968,7 +968,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Did you read the _____ on my post?",
     "target_word": "comment",
     "options": [
@@ -984,7 +984,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She always _____ on my photos.",
     "target_word": "comment",
     "options": [
@@ -1000,7 +1000,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please _____ and tell me what you think!",
     "target_word": "comment",
     "options": [
@@ -1153,7 +1153,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Don't forget to _____ the location!",
     "target_word": "tag",
     "options": [
@@ -1169,7 +1169,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "He _____ me in his Instagram story.",
     "target_word": "tag",
     "options": [
@@ -1185,7 +1185,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "You can _____ up to 20 people in one photo.",
     "target_word": "tag",
     "options": [
@@ -1338,7 +1338,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Search for the _____ #travel to see vacation photos.",
     "target_word": "hashtag",
     "options": [
@@ -1354,7 +1354,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "You can use up to 30 _____ on Instagram.",
     "target_word": "hashtag",
     "options": [
@@ -1370,7 +1370,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "The _____ #love is used millions of times.",
     "target_word": "hashtag",
     "options": [
@@ -1522,7 +1522,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I visited her _____ yesterday.",
     "target_word": "profile",
     "options": [
@@ -1538,7 +1538,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Your _____ looks great!",
     "target_word": "profile",
     "options": [
@@ -1554,7 +1554,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I need to change my _____ photo.",
     "target_word": "profile",
     "options": [
@@ -1706,7 +1706,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "This post appeared in my _____.",
     "target_word": "feed",
     "options": [
@@ -1722,7 +1722,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Refresh your _____ to see new content.",
     "target_word": "feed",
     "options": [
@@ -1738,7 +1738,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Her photos always show up in my _____.",
     "target_word": "feed",
     "options": [
@@ -1890,7 +1890,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I watched all her _____ today.",
     "target_word": "story",
     "options": [
@@ -1906,7 +1906,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Add this photo to your _____.",
     "target_word": "story",
     "options": [
@@ -1922,7 +1922,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "My _____ has 100 views already!",
     "target_word": "story",
     "options": [
@@ -2074,7 +2074,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I posted a new _____ on Instagram.",
     "target_word": "photo",
     "options": [
@@ -2090,7 +2090,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Can you send me that _____?",
     "target_word": "photo",
     "options": [
@@ -2106,7 +2106,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "This is my favorite _____ from the trip.",
     "target_word": "photo",
     "options": [
@@ -2259,7 +2259,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Did you watch my new _____?",
     "target_word": "video",
     "options": [
@@ -2275,7 +2275,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I'm going to make a _____ for TikTok.",
     "target_word": "video",
     "options": [
@@ -2291,7 +2291,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "That _____ was very funny!",
     "target_word": "video",
     "options": [
@@ -2443,7 +2443,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I will _____ the video later.",
     "target_word": "upload",
     "options": [
@@ -2459,7 +2459,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please _____ your documents here.",
     "target_word": "upload",
     "options": [
@@ -2475,7 +2475,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "He _____ a new profile picture yesterday.",
     "target_word": "upload",
     "options": [
@@ -2627,7 +2627,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please _____ the file from the website.",
     "target_word": "download",
     "options": [
@@ -2643,7 +2643,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I _____ the music yesterday.",
     "target_word": "download",
     "options": [
@@ -2659,7 +2659,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She wants to _____ the app.",
     "target_word": "download",
     "options": [
@@ -2811,7 +2811,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Can you _____ me later?",
     "target_word": "message",
     "options": [
@@ -2827,7 +2827,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She _____ me on Instagram yesterday.",
     "target_word": "message",
     "options": [
@@ -2843,7 +2843,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please read my _____.",
     "target_word": "message",
     "options": [
@@ -2995,7 +2995,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please _____ me if you have questions.",
     "target_word": "DM",
     "options": [
@@ -3011,7 +3011,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I got a _____ from my favorite celebrity!",
     "target_word": "DM",
     "options": [
@@ -3027,7 +3027,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She _____ me her phone number.",
     "target_word": "DM",
     "options": [
@@ -3179,7 +3179,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I have 10 new _____.",
     "target_word": "notification",
     "options": [
@@ -3195,7 +3195,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Did you get the _____ about the meeting?",
     "target_word": "notification",
     "options": [
@@ -3211,7 +3211,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please enable _____ for this app.",
     "target_word": "notification",
     "options": [
@@ -3363,7 +3363,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I will be _____ after 6 PM.",
     "target_word": "online",
     "options": [
@@ -3379,7 +3379,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "You can buy it _____.",
     "target_word": "online",
     "options": [
@@ -3395,7 +3395,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "He is always _____ late at night.",
     "target_word": "online",
     "options": [
@@ -3547,7 +3547,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "He has been _____ for three days.",
     "target_word": "offline",
     "options": [
@@ -3563,7 +3563,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I will go _____ at 10 PM.",
     "target_word": "offline",
     "options": [
@@ -3579,7 +3579,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "My phone is _____ because the battery died.",
     "target_word": "offline",
     "options": [
@@ -3731,7 +3731,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please enter your _____.",
     "target_word": "username",
     "options": [
@@ -3747,7 +3747,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I need to change my _____.",
     "target_word": "username",
     "options": [
@@ -3763,7 +3763,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "My _____ is @john_123.",
     "target_word": "username",
     "options": [
@@ -3915,7 +3915,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Please _____ to my channel!",
     "target_word": "subscriber",
     "options": [
@@ -3931,7 +3931,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "How many _____ does she have?",
     "target_word": "subscriber",
     "options": [
@@ -3947,7 +3947,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I want more _____ on my channel.",
     "target_word": "subscriber",
     "options": [
@@ -4099,7 +4099,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I will _____ this message.",
     "target_word": "delete",
     "options": [
@@ -4115,7 +4115,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Don't _____ that video!",
     "target_word": "delete",
     "options": [
@@ -4131,7 +4131,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "He _____ all his old photos.",
     "target_word": "delete",
     "options": [
@@ -4283,7 +4283,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I will _____ this account.",
     "target_word": "block",
     "options": [
@@ -4299,7 +4299,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Did he _____ you?",
     "target_word": "block",
     "options": [
@@ -4315,7 +4315,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I had to _____ that rude person.",
     "target_word": "block",
     "options": [
@@ -4467,7 +4467,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "I need to _____ this conversation.",
     "target_word": "mute",
     "options": [
@@ -4483,7 +4483,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "She _____ all notifications from that app.",
     "target_word": "mute",
     "options": [
@@ -4499,7 +4499,7 @@
     "points": 1
   },
   {
-    "type": "fill_in_blank",
+    "type": "fill_blank",
     "question": "Can I _____ this person's stories?",
     "target_word": "mute",
     "options": [

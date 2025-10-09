@@ -10,14 +10,17 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use App\Services\OpenAIService;
 use App\Http\Requests\StoreQuizAnswersRequest;
+use App\Services\QuizResultService;
 
 class QuizController extends Controller
 {   
     protected $openaiService;
+    protected $quizResultService;
 
-    public function __construct(OpenAIService $openaiService)
+    public function __construct(OpenAIService $openaiService, QuizResultService $quizResultService)
     {
         $this->openaiService = $openaiService; 
+        $this->quizResultService = $quizResultService;
     }
 
     public function retrieveUserQuizzes(Request $request)
@@ -71,79 +74,19 @@ class QuizController extends Controller
     public function submitAnswers(StoreQuizAnswersRequest $request)
     {
         $firebaseUid = $request->attributes->get('firebase_uid');
-
         $questions = $request->validated()['questions'];
 
-        // for questions that involve users to type their answers 
-        $fillQuestions = collect($questions)->whereIn('type', ['translation', 'sentence_creation'])->toArray();
-        $feedbacks = [];
-        if (!empty($fillQuestions)) {
-            try {
-                $feedbacks = $this->openaiService->submitQuizAnswers($fillQuestions);
-            } catch (\Exception $e) {
-                Log::error('OpenAI service error: ' . $e->getMessage());
-                return response()->json(['error' => 'Failed to process AI feedback'], 500);
-            }
-        }
-
-        foreach ($questions as &$question) {
-            if (in_array($question['type'], ['translation', 'sentence_creation'])) {
-                $aiFeedback = collect($feedbacks['result'] ?? [])->firstWhere('id', $question['id']);
-                $question['feedback'] = $aiFeedback ?? ['points_awarded' => 0, 'feedback' => 'AI feedback unavailable'];
-            }
-        }
-
-        $results = $this->calculateScore($questions);
-
-        QuizResult::create([
-            'quiz_id' => $questions['quiz_id'],
-            'firebase_uid' => $firebaseUid,
-            'score_percent' => $results['percentage'],
-        ]);
-
-        $user = User::where('firebase_uid', $firebaseUid)->first();
-        $user->updateUserStatistics();
-
-        return response()->json([
+        try {
+            $results = $this->quizResultService->processQuizSubmission($questions, $firebaseUid);
+            return response()->json([
                 'message' => 'Quiz results recorded successfully',
                 'results' => $results
             ], 201);
-    }
-
-    private function calculateScore($questions) {
-        $totalPossibleScore = 0;
-        $score = 0;
-
-        foreach ($questions as &$question) {
-            $points = $question['points'] ?? 0;
-            $totalPossibleScore += $points;
-            
-            $type = $question['type'];
-            $userAnswer = $question['user_answer'] ?? '';
-            $correctAnswer = $question['correct_answer'] ?? '';
-
-            if ($type === 'translation' || $type === 'sentence_creation') {
-                // AI - graded questions
-                $score += $question['feedback']['points_awarded'] ?? 0;
-            } else if (($type === "multiple_choice" || $type === 'fill_blank') && $userAnswer === $correctAnswer) {
-                // MC questions
-                $score += $points;
-                $question['is_correct'] = true;
-            } else if ($type === "word_rearrangement" && $userAnswer === implode(" ", $question['word_bank'] ?? [])) { // correct answer is word_bank joined together
-                // Word rearrangement questions
-                $score += $points;
-                $question['is_correct'] = true;
-            } else {
-                $question['is_correct'] = false;
-            }
+        } catch (\Exception $e) {
+            Log::error('Quiz submission error: ' . $e->getMessage());
+            return response()->json([
+                'error' => 'Failed to process quiz submission'
+            ], 500);
         }
-
-        $percentage = round(($score/$totalPossibleScore) * 100, 1);
-        return [
-            'score' => $score,
-            'totalPossible' => $totalPossibleScore,
-            'percentage' => $percentage,
-            'questions' => $questions
-        ];
     }
 }
